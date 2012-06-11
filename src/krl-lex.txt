@@ -1,0 +1,140 @@
+Multichar_Symbols
+
+! POS
++N +V +A 
++Adv +CC +CS +Interj +ProN +Num
+
+! Verbal MSP
++Prs +Fut +Prt +Prf +PrfIpf +HstPrf +PluPrf +HstPluPrf
++Ind +Imp +Cond +Opt
+! Subject indices
++Sx1Sg +Sx2Sg +Sx3Sg 
++Sx1Du +Sx2Du +Sx3Du 
++Sx1Pl +Sx2Pl +Sx3Pl 
+! Object indices
++Ox1Sg +Ox2Sg +Ox3Sg 
++Ox1Du +Ox2Du +Ox3Du 
++Ox1Pl +Ox2Pl +Ox3Pl 
++Sg1 +Sg2 +Sg3 +Pl1 +Pl2 +Pl3
++Inf
++Pos +Neg
+
+! Nominal MSP
+! Number
++Sg +Pl
+! Case
++Nom +Acc +Gen +Abl +Dat +Loc +Pros +Tra +Abe +Adc +Ins +Apr +Ine +Ill +Ela +Egr
++Prl +Ter1 +Ter2 +Ter3 +Add1 +Add2
++Apr1 +Apr2
++EssInst
++Ord
++PxSg1 +PxSg2 +PxSg3 +PxPl1 +PxPl2 +PxPl3
++Qst
+
++Appr
++Advc
++Ter
++Pro
++Car 
+
++Pers
++Dem
+
++PstI
++PstII
+
++Clt
+!! Derivations
++Der/Ta
++Der/Te
++Der/ma
++Der/Tu
++Der/IA
+
+%>
+! Protoletters for xfst
+%^DEVOICE
+QAQ1 QAO1 EH1 QEQ1 INE1 ZD1 ZS1 V1
+AO1 EI1 ZS1 ZD1  ! These are for developing underlying morphology rules
+D1 E1 U1 
+
+! Key lexicon
+
+LEXICON Root
+A ; 	! ../../tmp
+Abbreviation ;                          ! abbr-olo-lex.txt
+!ABBR ;                                 ! ../../tmp/out/ABBR_olo-lex.xml           !2012-03-14
+Acronym ;                               ! acro-olo-lex.txt
+!ACRON ;                                ! ../../tmp/out/ACRON_olo-lex.xml          !2012-03-14
+ADV ;
+N ;
+NUM ;
+V ;
+CONJ ;		! ../../tmp/out/CONJ_olo-lex.xml  
+SUBJUNCTION ;
+INTERJECTION ;
+NUMERAL ;
+PronRoot ;
+POSTP ;         ! ../../tmp/out/POSTP_olo-lex.xml
+PUNCTUATION ;
+
+
+
+! I INCLUDE SOME SMALL LEXICA HERE
+! WAITING FOR OWN FILES, OR PERHAPS THEY COULD STAY HERE
+
+LEXICON CcTag
++Cc: # ;
+ 
+LEXICON CsTag
++Cs: # ;
+ 
+
+LEXICON INTERJECTION 
++Interj: # ;
+
+LEXICON NUMERAL
++Num: # ;
+
+LEXICON NUMBERSUF
++Num: K;
++Num:%> CASESUF ;
++Num:%> ORDINAL ;
+
+LEXICON ORDINAL
++Ord:этӥ K;
+
+
+
+LEXICON K
++Clt:%>ki # "also" ;
++Qst:а # ;
+# ; 
+
+
+LEXICON PUNCTUATION
+#; 
+LEXICON PoTag
++Po: # ; 
+
+ 
+LEXICON AdvTag
++Adv: # ; 
+
+LEXICON MannerTag
++Adv+Manner: K ;
+
+LEXICON SpatTag
++Adv+Spat: K ;
+
+LEXICON TempTag
++Adv+Temp: K ;
+
+LEXICON CASESUF
+#; 
+LEXICON PRON
+#; 
+LEXICON DEM
+#; 
+LEXICON PERS
+#; 

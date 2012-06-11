@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<r xsi:noNamespaceSchemaLocation="../../../myv/script/dict.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+   xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:hfp="http://www.w3.org/2001/XMLSchema-hasFacetAndProperty"
+   xmlns:fn="http://www.w3.org/2005/02/xpath-functions">
+   <entry>
+      <lg>
+         <l>iäni</l>
+         <stg>
+            <st krlContlex="N-iäni">iän</st>
+         </stg>
+      </lg>
+      <pos>N</pos>
+      <e>
+         <mg>
+            <m>
+               <head/>
+            </m>
+            <tg lang="eng">
+               <t>voice</t>
+               <t>sound</t>
+            </tg>
+            <tg lang="fin">
+               <t>ääni</t>
+            </tg>
+         </mg>
+      </e>
+   </entry>
+</r>
