@@ -17,6 +17,24 @@ Documentation is scattered around on the Giellatekno and Divvun pages, e.g.:
 * http://giellatekno.uit.no/doc/tools/docu-krl-manual.html
 * http://divvun.no/doc/index.html
 
+Lexical data was taken from::
+
+    KARJALAN KIELEN SANAKIRJA, XML-VERSIO 
+    (versio 1.0, julkaistu 18.8.2015)
+    
+    JULKAISIJA
+    Kotimaisten kielten keskus
+    
+    JULKAISIJAN YHTEYSTIEDOT
+    aineistot [at] kotus.fi
+    http://www.kotus.fi
+    
+    AINEISTON SIJAINTI
+    http://kaino.kotus.fi/kks/lataa/kksxml.zip 
+    
+    LISENSSI
+    Creative Commons Nimeä 4.0
+
 Requirements
 ------------
 

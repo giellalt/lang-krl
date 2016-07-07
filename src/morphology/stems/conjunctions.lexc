@@ -1,0 +1,58 @@
+
+LEXICON conjunctions
+a	conjunction ;
+ali	conjunction ;
+apa	conjunction ;
+ašna(ka)	conjunction ;
+eli	conjunction ;
+eli – eli	conjunction ;
+elikkä	conjunction ;
+elämišt|o, -ä	conjunction ;
+hos	conjunction ;
+hot	conjunction ;
+hoti	conjunction ;
+ili	conjunction ;
+ilikkö	conjunction ;
+itše	conjunction ;
+jeeseli	conjunction ;
+jeesli	conjunction ;
+jeiseli	conjunction ;
+jeseli	conjunction ;
+jesli	conjunction ;
+jos	conjunction ;
+jotta	conjunction ;
+jotto	conjunction ;
+ka, kä	conjunction ;
+-ka, -kä	conjunction_kopulat ;
+ku	conjunction ;
+kui	conjunction ;
+kuin	conjunction ;
+kun	conjunction ;
+kuni	conjunction ;
+lipo	conjunction ;
+miku(i)	conjunction_komp ;
+muuta	conjunction ;
+se|ko, -kö	conjunction ;
+seku	conjunction ;
+sekä	conjunction ;
+sini	conjunction ;
+što	conjunction ;
+štopi	conjunction ;
+štopu	conjunction ;
+ta	conjunction_kopulat ;
+tahi	conjunction ;
+tahikka	conjunction ;
+tahikko	conjunction ;
+tai	conjunction_kopulat ;
+taiko	conjunction ;
+to	conjunction ;
+toĺko	conjunction ;
+tä	conjunction ;
+vai	conjunction ;
+vai	conjunction ;
+vaikka	conjunction ;
+vain	conjunction ;
+vain	conjunction ;
+voan	conjunction ;
+
+! vim: set ft=xfst-lexc:
