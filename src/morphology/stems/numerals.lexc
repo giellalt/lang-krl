@@ -1,0 +1,51 @@
+!! Numerals
+!  --------
+!! Numerals in UNDEFINED language are numbers.
+
+LEXICON Numerals
+numeral    Cases   ;
+
+kaheksan	cardinal ;
+kaksi	cardinal ;
+kolme	cardinal ;
+kolmi	cardinal ;
+kolmoisen	cardinal_vaill ;
+kuusi	cardinal ;
+kymmen(en)	cardinal ;
+kymmeniene	cardinal ;
+kymmenine	cardinal ;
+miljana	cardinal ;
+miljon	cardinal ;
+nelji	cardinal ;
+neljä	cardinal ;
+puoli	cardinal ;
+sata	cardinal ;
+satattšu	cardinal ;
+seittšemen	cardinal ;
+tuha	cardinal ;
+tuhannus	cardinal ;
+tuhat	cardinal ;
+tuhatta	cardinal ;
+viisi	cardinal ;
+yheksän	cardinal ;
+eisimäine	ordinal ;
+ensimäine	ordinal ;
+jesoatoi	ordinal ;
+kaheksas	ordinal ;
+kahes	ordinal ;
+kolmas	ordinal ;
+kuuves	ordinal ;
+kymmenes	ordinal ;
+neljäs	ordinal ;
+seittšemes	ordinal ;
+semnatsatoi	ordinal ;
+šes(t)natsatoi	ordinal ;
+šestoi	ordinal ;
+setmoi	ordinal ;
+tšetvertoi	ordinal ;
+tuhannes	ordinal ;
+viijes	ordinal ;
+vośmoi	ordinal ;
+yheksäs	ordinal ;
+
+! vim: set ft=xfst-lexc:

@@ -1,0 +1,26 @@
+
+LEXICON Particles
+ka(h)	particle ;
+kajon	particle ;
+-ko, -kö	particle ;
+la	particle ;
+lau	particle ;
+lausu	particle ;
+lä	particle ;
+ni	particle_vahv ;
+oimun	particle ;
+puti	particle ;
+rasi	particle ;
+rasve	particle ;
+rasvi	particle ;
+še	particle ;
+šo	particle ;
+soran	particle ;
+šö	particle ;
+vet	particle ;
+vetten	particle ;
+visan	particle ;
+vit	particle ;
+vot	particle ;
+
+! vim: set ft=xfst-lexc:
