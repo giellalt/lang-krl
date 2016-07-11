@@ -15239,7 +15239,7 @@ rietka	noun ;
 rietta	noun ;
 rihkama	noun ;
 rihla	noun ;
-rihma	noun ;
+rihm	rihm/a__noun ;
 rihmaine	noun_dem ;
 rihvi	noun ;
 rihvikkö	noun ;
@@ -23201,5 +23201,11 @@ veska:vessi noun ;
 LEXICON veska_vieska_noun
 veska noun ;
 veska:vieska noun ;
+
+LEXICON rihm/a__noun
+a+N:a  noun_sg_nom ;
+a+N:a  noun_sg_common ;
+a+N:u  noun_sg_par ;
+a+N:o  noun_pl_common ;
 
 ! vim: set ft=xfst-lexc:
