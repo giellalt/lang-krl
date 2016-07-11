@@ -2,22 +2,25 @@
 LEXICON adpositions
 alattši	preposition ;
 asumittši	preposition ;
-krom|e, -i	preposition ;
-oalettava|ssa, -h	preposition ;
+krome	preposition ;
+kromi	preposition ;
+oalettavassa	preposition ;
+oalettavah	preposition ;
 pituhuisin	preposition ;
 pituisin	preposition ;
-poikell|ah, -eh	preposition ;
+poikelleh	preposition ;
+poikellah	preposition ;
 poikin	preposition ;
 poikkeh	preposition ;
 poikkihuisin	preposition ;
 poikkisin	preposition ;
-pokattavas|sa, -ta	preposition ;
+pokattavas	sa_ta_preposition ;
 roati	preposition ;
 tajempa	preposition ;
 toamma	preposition ;
 toan	preposition ;
-tšurattava|ssa, -sta, -h	preposition ;
-tšurattšaise|ssa, -sta, -h	preposition ;
+tšurattava	ssa_sta_h_preposition ;
+tšurattšaise	ssa_sta_h_preposition ;
 ulkona	preposition ;
 ulommattši	preposition ;
 ulos	preposition ;
@@ -33,20 +36,20 @@ aloh	postposition ;
 alta	postposition ;
 asemittši	postposition ;
 as(i)mittši	postposition ;
-eill|äh, -eh	postposition ;
+eill	äh_eh_postposition ;
 eisattši	postposition ;
-eis|sä, -tä	postposition ;
+eis	sä_tä_postposition ;
 esittši	postposition ;
 eteh	postposition ;
-etyisi|ssä, -h	postposition ;
+etyisi	ssä_h_postposition ;
 halki	postposition ;
-iel|lä, -tä, -le	postposition ;
-iell|äh, -eh	postposition ;
-ies|sä, -tä	postposition ;
+iel	lä_tä_le_postposition ;
+iell	äh_eh_postposition ;
+ies	sä_tä_postposition ;
 ilmain	postposition ;
 juurittši	postposition ;
 jälemmä	postposition ;
-jälemmä|ksi, -s	postposition ;
+jälemmä	ksi_s_postposition ;
 jälemmättši	postposition ;
 jälempänä	postposition ;
 jäletšeillä	postposition ;
@@ -69,8 +72,8 @@ kerellä	postposition ;
 keroa	postposition ;
 kes	postposition ;
 keskei	postposition ;
-keskel|lä, -tä, -le	postposition ;
-keske|ssä, -stä, -h	postposition ;
+keskel	lä_tä_le_postposition ;
+keske	ssä_stä_h_postposition ;
 keskittši	postposition ;
 kohtah	postposition ;
 kohti	postposition ;
@@ -99,10 +102,10 @@ lähempänä	postposition ;
 lähen	postposition ;
 lähettävällä	postposition ;
 lähetystä	postposition ;
-lähiel|lä, -tä, -le	postposition ;
+lähiel	lä_tä_le_postposition ;
 lähimättši	postposition ;
 lähittši	postposition ;
-lässäl|lä, -tä	postposition ;
+lässäl	lä_tä_postposition ;
 lästä	postposition ;
 mukah	postposition ;
 mytten	postposition ;
@@ -112,7 +115,7 @@ myöte(n)	postposition ;
 möi	postposition ;
 nojalla	postposition ;
 nähiten	postposition ;
-oal|la, -ta, -le	postposition ;
+oal	la_ta_le_postposition ;
 otšattši	postposition ;
 otšin	postposition ;
 otšittši	postposition ;
@@ -122,40 +125,41 @@ perittši	postposition ;
 perse(j)in	postposition ;
 perättši	postposition ;
 peälittši	postposition ;
-peä|ssä, -stä, -h	postposition ;
+peä	ssä_stä_h_postposition ;
 piteän	postposition ;
-pokall|a, -e	postposition ;
-pok|assa, -asta, -kah	postposition ;
+pokalla	postposition ;
+pokalle	postposition ;
+pok	assa_asta_kah_postposition ;
 pokattši	postposition ;
 pu	postposition ;
 puo	postposition ;
 puoleh	postposition ;
 puolesta	postposition ;
 puolittši	postposition ;
-puol|la, -ta	postposition ;
+puol	la_ta_postposition ;
 päit(en)	postposition ;
 rannoittši	postposition ;
 rati	postposition ;
-reunaise|ssa, -h	postposition ;
-reuna|ssa, -sta, -h	postposition ;
+reunaise	ssa_h_postposition ;
+reuna	ssa_sta_h_postposition ;
 reunattši	postposition ;
 reunoittši	postposition ;
-rinna|lla, -lta, -lle	postposition ;
+rinna	lla_lta_lle_postposition ;
 rinnattši	postposition ;
 rinnoittši	postposition ;
 roaten	postposition ;
-seja|ssa, -sta, sekah	postposition ;
-seäme|ssä, -stä, -h	postposition ;
+seja	ssa_sta_sekah_postposition ;
+seäme	ssä_stä_h_postposition ;
 seämittši	postposition ;
 siirittši	postposition ;
 šiiškoih	postposition ;
-sija|ssa, -sta, -h	postposition ;
+sija	ssa_sta_h_postposition ;
 sirittši	postposition ;
-sisä|llä, -ltä	postposition ;
-sisä|ssä, -stä, -h	postposition ;
+sisä	llä_ltä_postposition ;
+sisä	ssä_stä_h_postposition ;
 sivuttši	postposition ;
-soalehe|lla, -ssa, -h	postposition ;
-suoja|ssa, -h	postposition ;
+soalehe	lla_ssa_h_postposition ;
+suoja	ssa_h_postposition ;
 syiten	postposition ;
 tah	postposition ;
 taittši	postposition ;
@@ -171,12 +175,12 @@ takoana	postposition ;
 takoanta	postposition ;
 takoata	postposition ;
 takoate	postposition ;
-tasa|lla, -lta, -lle	postposition ;
-tasa|ssa, -h	postposition ;
+tasa	lla_lta_lle_postposition ;
+tasa	ssa_h_postposition ;
 tautta	postposition ;
 ta(v)utta	postposition ;
 te	postposition ;
-tie|llä, -ltä	postposition ;
+tie	llä_ltä_postposition ;
 toa(h)	postposition ;
 toakse	postposition ;
 toammakse	postposition ;
@@ -187,11 +191,13 @@ tokin	postposition ;
 tokkah	postposition ;
 tokkoa	postposition ;
 totolla	postposition ;
-tšura|ssa, -sta, -h	postposition ;
+tšura	ssa_sta_h_postposition ;
 tšurattši	postposition ;
-tyvell|ä, -e	postposition ;
-tyve|ssä, -stä, -h	postposition ;
-tyvill|ä, -e	postposition ;
+tyvellä	postposition ;
+tyvelle	postposition ;
+tyve	ssä_stä_h_postposition ;
+tyvillä	postposition ;
+tyville	postposition ;
 tyvittši	postposition ;
 täh	postposition ;
 täh(en)	postposition ;
@@ -199,34 +205,122 @@ tän	postposition ;
 töin	postposition ;
 ulalla	postposition ;
 uloittši	postposition ;
-ulom|pana, -makse	postposition ;
+ulom	pana_makse_postposition ;
 ulpalla	postposition ;
 vaiheikse	postposition ;
 vailla	postposition ;
 valehelle	postposition ;
 valehuolle	postposition ;
-valla|ssa, -sta, valtah	postposition ;
+valla	ssa_sta_valtah_postposition ;
 varakse	postposition ;
-vara|lla, -lta, -lle	postposition ;
-vara|ssa, -h	postposition ;
+vara	lla_lta_lle_postposition ;
+vara	ssa_h_postposition ;
 varoin	postposition ;
 varten	postposition ;
 vas	postposition ;
-vassall|a, -e	postposition ;
-vassassa, vastah	postposition ;
+vassalla	postposition ;
+vassalle	postposition ;
+vassassa	postposition ;
+vastah	postposition ;
 vas(sen)	postposition ;
 vastaisin	postposition ;
 vaste	postposition ;
-viere|llä, -ltä, -lle	postposition ;
-viere|ssä, -stä, -h	postposition ;
-viero|ssa, -sta, -h	postposition ;
+viere	llä_ltä_lle_postposition ;
+viere	ssä_stä_h_postposition ;
+viero	ssa_sta_h_postposition ;
 vuoho	postposition ;
-välill|ä, -e	postposition ;
-väli|ssä, -stä, -h	postposition ;
+välillä	postposition ;
+välille	postposition ;
+väli	ssä_stä_h_postposition ;
 välittši	postposition ;
 yli	postposition ;
 ylittši	postposition ;
 ympäri	postposition ;
-ympäri|llä(h), -ltä, -lle	postposition ;
+ympärillä(h)    postposition ;
+ympäriltä   postposition ;
+ympärille   postposition ;
+
+LEXICON assa_asta_kah_postposition
+kah postposition ;
+asta postposition ;
+assa postposition ;
+LEXICON ksi_s_postposition
+ksi postposition ;
+s postposition ;
+LEXICON la_ta_le_postposition
+la postposition ;
+ta  postposition ;
+le postposition ;
+LEXICON la_ta_postposition
+la postposition ;
+ta postposition ;
+LEXICON lla_lta_lle_postposition
+lla postposition ;
+lta postposition ;
+lle postposition ;
+LEXICON lla_ssa_h_postposition
+lla postposition ;
+ssa postposition ;
+h postposition ;
+LEXICON llä_ltä_lle_postposition
+llä postposition ;
+ltä postposition ;
+lle postposition ;
+LEXICON llä_ltä_postposition
+llä postposition ;
+ltä postposition ;
+LEXICON lä_tä_le_postposition
+lä postposition ;
+tä postposition ;
+le postposition ;
+LEXICON lä_tä_postposition
+lä postposition ;
+tä postposition ;
+LEXICON pana_makse_postposition
+pana postposition ;
+makse postposition ;
+LEXICON sa_ta_preposition
+sa preposition ;
+ta preposition ;
+LEXICON ssa_h_postposition
+ssa postposition ;
+h postposition ;
+LEXICON ssa_sta_h_postposition
+ssa postposition ;
+sta postposition ;
+h postposition ;
+LEXICON ssa_sta_h_preposition
+ssa       preposition ;
+sta preposition ;
+h preposition ;
+LEXICON ssa_sta_sekah_postposition
+ssa           postposition ;
+sta postposition ;
+sekah postposition ;
+LEXICON ssa_sta_valtah_postposition
+ssa            postposition ;
+sta postposition ;
+valtah postposition ;
+LEXICON ssä_h_postposition
+ssä   postposition ;
+h postposition ;
+LEXICON ssä_stä_h_postposition
+ssä       postposition ;
+stä postposition ;
+h postposition ;
+LEXICON sä_tä_postposition
+sä    postposition ;
+tä postposition ;
+LEXICON äh_eh_postposition
+äh    postposition ;
+eh postposition ;
+
+
+LEXICON postposition
++Post: # ;
+
+LEXICON preposition
++Pr: # ;
+
 
 !  vim: set ft=xfst-lexc:

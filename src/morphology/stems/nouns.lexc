@@ -190,7 +190,7 @@ alli	noun ;
 alline	noun_dem ;
 allites	noun ;
 allitus	noun ;
-almakka	a_o_noun ;
+almakk	a_o_noun ;
 alme(h)	noun ;
 almoasa	noun ;
 alokeh	noun ;
@@ -239,7 +239,7 @@ ampuries	noun ;
 ampur	i(h)aine_jaine_noun ;
 ampurjas	noun ;
 ampuruhine	noun ;
-ampuurahaine	ine_s_noun ;
+ampuuraha	ine_s_noun ;
 anassus	noun ;
 ańesta	noun ;
 anheli	noun ;
@@ -510,7 +510,7 @@ avanto	noun ;
 avavunta	noun ;
 avavus	noun ;
 ava(v)utanta	noun ;
-aviesa	a_i_noun ;
+avies	a_i_noun ;
 avissuoni	noun ;
 avitsuoni	noun ;
 avoalus	noun ;
@@ -756,7 +756,7 @@ ferššala	noun ;
 ferššali	noun ;
 fikura	noun ;
 firma	noun ;
-fkuussa	a_u_noun ;
+fkuuss	a_u_noun ;
 flaku	noun ;
 flaneli	noun ;
 fliikeri	noun ;
@@ -771,7 +771,7 @@ fookusniekka	noun ;
 fookussa	noun ;
 fookusti	noun ;
 foraška	noun ;
-forma	a_u_noun ;
+form	a_u_noun ;
 formu	noun ;
 forssa	noun ;
 forssinta	noun ;
@@ -847,7 +847,7 @@ haisunta	noun ;
 haitamakki	noun ;
 haitari	noun ;
 haiti	noun ;
-haitrakka	a_o_noun_deskr ;
+haitrakk	a_o_noun_deskr ;
 haitta	noun ;
 haittoaja	noun ;
 haituva	noun ;
@@ -1089,7 +1089,7 @@ hasahus	noun ;
 hasero	noun_deskr ;
 hasertaja	noun ;
 hatajas	noun ;
-hatakka	a_o_noun ;
+hatakk	a_o_noun ;
 hatakkaine	noun_dem ;
 hatakkoine	noun_dem ;
 hatalikko	noun ;
@@ -1918,7 +1918,7 @@ hoivennus	noun ;
 hoivoanta	noun ;
 hojahus	noun ;
 hojakattava	noun_mod ;
-hojakka	a_o_noun ;
+hojakk	a_o_noun ;
 hojo	noun ;
 hojotes	noun ;
 hoju	noun ;
@@ -2394,7 +2394,7 @@ hyrhy	noun ;
 hyrineh	noun ;
 hyrinä	noun ;
 hyrky	noun ;
-hyrme	e_ä_noun ;
+hyrm	e_ä_noun ;
 hyrskeh	noun ;
 hyrsky	noun ;
 hyrttšä	noun ;
@@ -2480,7 +2480,7 @@ häkky	noun ;
 häkkyri	noun ;
 häkkyrä	noun ;
 häkkäleh	noun ;
-häkkälä	ä_ö_noun ;
+häkkäl	ä_ö_noun ;
 häkkäreh	noun ;
 häkkärä	noun ;
 häkkö	noun ;
@@ -2500,7 +2500,7 @@ hälineh	noun ;
 häly	noun ;
 hälykkä	noun ;
 häläkkä	noun ;
-hämehikki	i_ö_noun ;
+hämehikk	i_ö_noun ;
 hämehikkine	noun_dem ;
 hämmenki	noun ;
 hämmennys	noun ;
@@ -2532,7 +2532,7 @@ härme	noun ;
 härmi	noun ;
 härmä	noun ;
 härmäine	noun_dem ;
-härmäkkä	ä_ö_noun ;
+härmäkk	ä_ö_noun ;
 härmöitys	noun ;
 härneäntä	noun ;
 härppö	noun ;
@@ -2590,7 +2590,7 @@ hökerö	noun ;
 hökeäntä	noun ;
 hökimine	noun ;
 hökineh	noun ;
-hökkeli	i_ö_noun ;
+hökkel	i_ö_noun ;
 hökki	noun ;
 hökkä	noun ;
 hökleh	noun ;
@@ -3149,7 +3149,7 @@ joro	noun ;
 joroploana	noun ;
 jorotus	noun ;
 joršši	noun ;
-jortana	a_o_noun ;
+jortan	a_o_noun ;
 jortananiekka	noun ;
 joru	noun ;
 josva	noun ;
@@ -3302,7 +3302,7 @@ jupka	noun ;
 jupkaine	noun_dem ;
 jupsu	noun ;
 jura	noun ;
-jurakka	a_o_noun ;
+jurakk	a_o_noun ;
 jurmo	noun ;
 juro	noun ;
 jurohus	noun ;
@@ -3365,7 +3365,7 @@ jylmyrä	noun ;
 jylmä	noun ;
 jymineh	noun ;
 jymy	noun ;
-jymäkkä	ä_ö_noun ;
+jymäkk	ä_ö_noun ;
 jynkistyö	noun ;
 jyrehmä	noun ;
 jyrenys	noun ;
@@ -3384,7 +3384,7 @@ jyrähmäine	noun_dem ;
 jyrähmö	noun ;
 jyrähmöine	noun_dem ;
 jyrähys	noun ;
-jyräkkä	ä_ö_noun ;
+jyräkk	ä_ö_noun ;
 jyräkkäine	noun_dem ;
 jyskeh	noun ;
 jysky	noun ;
@@ -3501,7 +3501,7 @@ kahu	noun ;
 kahva	noun ;
 kaihe	noun ;
 kaihoine	noun_dem ;
-kaijelma	a_o_noun ;
+kaijelm	a_o_noun ;
 kaijelmus	noun ;
 kaijennus	noun ;
 kaijus	noun ;
@@ -3612,7 +3612,7 @@ kaĺevalaine	noun ;
 kalhu	noun ;
 kalieska	noun ;
 kalikka	noun ;
-kalikka	a_o_noun ;
+kalikk	a_o_noun ;
 kalikkaine	noun_dem ;
 kalina	noun ;
 kalina	noun ;
@@ -3728,7 +3728,7 @@ kamo	noun ;
 kamoa	noun ;
 kamota	noun ;
 kamotta	noun ;
-kampala	a_o_noun ;
+kampal	a_o_noun ;
 kampittša	noun ;
 kampka	noun ;
 kamplietta	noun ;
@@ -3750,7 +3750,7 @@ kanahka	noun ;
 kanaine	noun_dem ;
 kanalie	noun ;
 kanalja	noun ;
-kanampra	a_o_noun ;
+kanampr	a_o_noun ;
 kanapeli	noun ;
 kanarja	noun ;
 kanarjalisto	noun_koll ;
@@ -3796,7 +3796,7 @@ kanneh	noun ;
 kannelmus	noun ;
 kannettuine	noun ;
 kannetut	noun_mon ;
-kannikka	a_o_noun ;
+kannikk	a_o_noun ;
 kannikkaine	noun_dem ;
 kannikko	noun ;
 kannikkoine	noun_dem ;
@@ -4023,7 +4023,7 @@ karttavo	noun ;
 karttavukset	noun_mon ;
 kartti	noun ;
 kartti	noun ;
-karttina	a_o_noun ;
+karttin	a_o_noun ;
 karttiniekka	noun ;
 karttoanta	noun ;
 karttsa	noun ;
@@ -4328,7 +4328,7 @@ kelvo	noun ;
 kemppu	noun ;
 kemu	noun ;
 keneroala	noun ;
-kenjotta	a_o_noun ;
+kenjott	a_o_noun ;
 kenjotus	noun ;
 kenkites	noun ;
 kenkki	noun ;
@@ -4444,7 +4444,7 @@ kesänäine	noun ;
 kesäys	noun ;
 ketaleh	noun ;
 ketara	noun ;
-ketelmä	ä_ö_noun ;
+ketelm	ä_ö_noun ;
 ketelmöine	noun ;
 ketineh	noun ;
 ketka	noun ;
@@ -4573,7 +4573,7 @@ kiesari	noun ;
 kieššintä	noun ;
 kietaleh	noun ;
 kihakka	noun ;
-kihermä	ä_ö_noun ;
+kiherm	ä_ö_noun ;
 kihevys	noun ;
 kihineh	noun ;
 kihla	noun ;
@@ -4689,7 +4689,7 @@ kilu	noun ;
 kimahus	noun ;
 kimaleh	noun ;
 kimalehut	noun_dem ;
-kimana	a_o_noun ;
+kiman	a_o_noun ;
 kimara	noun ;
 kimineh	noun ;
 kimmi	noun ;
@@ -4935,7 +4935,7 @@ kleittšemine	noun ;
 kleittämine	noun ;
 kleitäntä	noun ;
 kleiveri	noun ;
-kleja	a_i_u_noun ;
+klej	a_i_u_noun ;
 kle(j)omkka	noun ;
 klejonkka	noun ;
 klemnittšä	noun ;
@@ -5245,7 +5245,7 @@ koĺenišša	noun ;
 koĺenna	noun ;
 koĺessu	noun ;
 kolhu	noun ;
-kolikka	a_o_noun ;
+kolikk	a_o_noun ;
 kolineh	noun ;
 koli̮ška	noun ;
 koliško	noun ;
@@ -5300,7 +5300,7 @@ kolopa	noun ;
 kolopaine	noun ;
 koĺoppa	noun ;
 kolossa	noun ;
-kološša	a_u_noun ;
+kološš	a_u_noun ;
 kolota	noun ;
 kolotus	noun ;
 kolotus	noun ;
@@ -5309,7 +5309,7 @@ kolouhka	noun ;
 kolovin	noun ;
 kolovorotka	noun ;
 kolovorotta	noun ;
-kolpakka	a_o_noun ;
+kolpakk	a_o_noun ;
 koĺpiško	noun ;
 kolpittša	noun ;
 koĺppoi	noun ;
@@ -5462,7 +5462,7 @@ koplukka	noun ;
 kopniekka	noun ;
 kopoine	noun ;
 kopotti	noun ;
-koppala	a_o_noun ;
+koppal	a_o_noun ;
 koppalaine	noun_dem ;
 koppaleh	noun ;
 koppali	noun ;
@@ -5505,7 +5505,7 @@ korenkoine	noun ;
 korenniekka	noun ;
 korennus	noun ;
 korennus	noun ;
-korenta	a_o_noun ;
+korent	a_o_noun ;
 korentoine	noun_dem ;
 korentuška	noun ;
 koresti	noun ;
@@ -5538,7 +5538,7 @@ korko	noun ;
 korkovo	noun ;
 korkuomine	noun ;
 korkuonta	noun ;
-korla	a_o_noun ;
+korl	a_o_noun ;
 korĺakka	noun ;
 korluška	noun ;
 korma	noun ;
@@ -5640,7 +5640,7 @@ kosa	noun ;
 kosa	noun ;
 koša	noun ;
 košakka	noun ;
-kośakka	a_o_noun ;
+kośakk	a_o_noun ;
 košana	noun ;
 košankka	noun ;
 kosat	noun_mon ;
@@ -5661,7 +5661,7 @@ kosja	noun ;
 kosjakka	noun ;
 kosjoja	noun ;
 kosjojaiset	noun_mon ;
-koskela	a_o_noun ;
+koskel	a_o_noun ;
 koskemine	noun ;
 koskenta	noun ;
 koski	noun ;
@@ -5705,7 +5705,7 @@ koštikoi	noun ;
 kostimine	noun ;
 kostinnoi	noun ;
 kostinta	noun ;
-kostinttša	a_o_noun ;
+kostinttš	a_o_noun ;
 kostitanta	noun ;
 kostites	noun ;
 kostittaja	noun ;
@@ -6237,7 +6237,7 @@ kukĺuška	noun ;
 kukolkka	noun_dem ;
 kukšeh	noun ;
 kukšena	noun ;
-kukšina	a_o_noun ;
+kukšin	a_o_noun ;
 kukšinaine	noun_dem ;
 kukšoi	noun ;
 kukšu	noun ;
@@ -6253,7 +6253,7 @@ kuĺainta	noun ;
 kuĺaitšenta	noun ;
 kuĺaitšus	noun ;
 kuĺaittšemine	noun ;
-kulakka	a_o_noun ;
+kulakk	a_o_noun ;
 kulakk	aine_oine_noun_dem ;
 kuĺaniekka	noun ;
 kuĺankka	noun ;
@@ -6335,7 +6335,7 @@ kumavunta	noun ;
 kumavus	noun ;
 kumina	noun ;
 kumina	noun ;
-kumina	a_o_noun ;
+kumin	a_o_noun ;
 kumineh	noun ;
 kumma	noun ;
 kummaissus	noun ;
@@ -6346,7 +6346,7 @@ kummittelus	noun ;
 kummitus	noun ;
 kumokas	noun ;
 kumpassu	noun ;
-kumppala	a_o_noun ;
+kumppal	a_o_noun ;
 kumppa	li_ni_noun ;
 kumpu	noun ;
 kumpura	noun ;
@@ -6488,7 +6488,7 @@ kupetus	noun ;
 kupijaine	noun ;
 kupilline	noun ;
 kupina	noun ;
-kupina	a_o_noun ;
+kupin	a_o_noun ;
 kupineh	noun ;
 kupinkkaine	noun_dem ;
 kupisenta	noun ;
@@ -6611,7 +6611,7 @@ kurvittša	noun ;
 kurvoi	noun ;
 kuša	noun ;
 kuša	noun ;
-kušakka	a_o_noun ;
+kušakk	a_o_noun ;
 kušatška	noun ;
 kuseksimine	noun ;
 kuseksinta	noun ;
@@ -6632,7 +6632,7 @@ kusnettša	noun ;
 kusnettšaine	noun_dem ;
 kušopa	noun ;
 kusoveikka	noun ;
-kuššakka	a_o_noun ;
+kuššakk	a_o_noun ;
 kuššakkaine	noun_dem ;
 kusta	noun ;
 kusti	noun ;
@@ -6820,7 +6820,7 @@ kuvatus	noun ;
 kuve	noun ;
 kuve(h)	noun ;
 kuvelma	noun ;
-kuvelma	a_o_noun ;
+kuvelm	a_o_noun ;
 kuvelmus	noun ;
 kuventa	noun ;
 kuvermo	noun ;
@@ -6970,7 +6970,7 @@ kyttä	noun ;
 kyty	noun ;
 kytylä	noun ;
 kytö	noun ;
-kyvelmä	ä_ö_noun ;
+kyvelm	ä_ö_noun ;
 kyven	noun ;
 kyvennys	noun ;
 kyvetes	noun ;
@@ -7470,7 +7470,7 @@ lasarietti	noun ;
 laseikka	noun ;
 lasi	noun ;
 laskan	noun ;
-laskelma	a_o_noun ;
+laskelm	a_o_noun ;
 laskelmus	noun ;
 laskema	noun ;
 laskemine	noun ;
@@ -8077,7 +8077,7 @@ loajos	noun ;
 loakari	noun ;
 loakeri	noun ;
 loakeroine	noun ;
-loakka	a_u_noun ;
+loakk	a_u_noun ;
 loama	noun ;
 ĺoama	noun ;
 loamakko	noun ;
@@ -8646,7 +8646,7 @@ lätäkköine	noun_dem ;
 lävintä	noun ;
 lävyssys	noun ;
 läykky	noun ;
-läylelmä	ä_ö_noun ;
+läylelm	ä_ö_noun ;
 läylemys	noun ;
 läylen	noun ;
 läyry	noun ;
@@ -8740,7 +8740,7 @@ maima	noun ;
 maimaine	noun_dem ;
 maimeroine	noun_dem ;
 maine	noun ;
-maininka	a_o_noun ;
+mainink	a_o_noun ;
 maininki	noun ;
 mainitšus	noun ;
 mainivo	noun ;
@@ -8917,7 +8917,7 @@ mašinista	noun ;
 mašinkka	noun_dem ;
 maska	noun ;
 masla	noun ;
-masĺakka	a_o_noun ;
+masĺakk	a_o_noun ;
 masli	noun ;
 masĺoška	noun ;
 masni	noun ;
@@ -9630,7 +9630,7 @@ myrkky	noun ;
 myrmetys	noun ;
 myrsky	noun ;
 myry	noun ;
-myräkkä	ä_ö_noun ;
+myräkk	ä_ö_noun ;
 myssy	noun ;
 mysä	noun ;
 mytissys	noun ;
@@ -9691,7 +9691,7 @@ mäki	noun ;
 mäkilistö	noun_koll ;
 mäkkeli	noun ;
 mäkki	noun ;
-mäkkä	ä_ö_noun ;
+mäkk	ä_ö_noun ;
 mäkliškö	noun ;
 mäklätys	noun ;
 mäkrä	noun ;
@@ -9802,7 +9802,7 @@ mölkky	noun ;
 mölky	noun ;
 mölkäreh	noun ;
 mölkö	noun ;
-möllikkä	ä_ö_noun ;
+möllikk	ä_ö_noun ;
 möllissäntä	noun ;
 möllykkö	noun ;
 mölläkkä	noun ;
@@ -9879,7 +9879,7 @@ naiššikko	noun ;
 naisuoine	noun_dem ;
 naisut	noun_dem ;
 naitanta	noun ;
-naitikka	a_o_noun ;
+naitikk	a_o_noun ;
 naitos	noun ;
 naittamine	noun ;
 nakaikka	noun ;
@@ -10326,7 +10326,7 @@ ńolki	noun ;
 ńolkoanta	noun ;
 ńoloi	noun ;
 ńolu	noun ;
-nomera	a_o_noun ;
+nomer	a_o_noun ;
 noomera	noun ;
 noomero	noun ;
 noomeroine	noun_dem ;
@@ -11153,7 +11153,7 @@ ouvostamine	noun ;
 ovas	noun ;
 ovešši	noun ;
 ovi	noun ;
-ovina	a_o_noun ;
+ovin	a_o_noun ;
 ovut	noun_dem ;
 paaji	noun ;
 paajutus	noun ;
@@ -11774,7 +11774,7 @@ paukku	noun ;
 paukkuine	noun_dem ;
 pauku	noun ;
 paulu	noun ;
-pausta	a_o_noun ;
+paust	a_o_noun ;
 pauvanta	noun ;
 pauveh	noun ;
 pavari	noun ;
@@ -12471,7 +12471,7 @@ pinkka	noun ;
 pino	noun ;
 pińoi	noun ;
 pinoine	noun_dem ;
-pinšakka	a_o_noun ;
+pinšakk	a_o_noun ;
 pinšakki	noun ;
 pinšakkoine	noun_dem ;
 pinta	noun ;
@@ -12518,7 +12518,7 @@ pisa	noun ;
 piša	noun ;
 pisalline	noun ;
 pisama	noun ;
-pisama	a_o_noun ;
+pisam	a_o_noun ;
 pisani	noun ;
 pisar	noun ;
 pisara	noun ;
@@ -12646,7 +12646,7 @@ platšku	noun ;
 platškuttamine	noun ;
 plattši	noun ;
 plauni	noun ;
-plaunikka	a_o_noun ;
+plaunikk	a_o_noun ;
 plavina	noun ;
 plavuška	noun ;
 plehanttša	noun ;
@@ -12721,7 +12721,7 @@ plitškuine	noun_dem ;
 plitškuttaja	noun ;
 plitta	noun ;
 plittša	noun ;
-ploa(h)ha	a_o_noun ;
+ploa(h)h	a_o_noun ;
 ploa(h)haine	noun_dem ;
 ploahko	noun ;
 ploakkahunta	noun ;
@@ -12958,8 +12958,8 @@ pohtoanouna	noun ;
 pohtoanova	noun ;
 poij(i)esta	noun ;
 poijinta	noun ;
-poijintam	m_n_noun ;
-poijintim	m_n_noun ;
+poijinta	m_n_noun ;
+poijinti	m_n_noun ;
 poijintima	noun ;
 poijut	noun_dem ;
 poika	noun ;
@@ -13678,12 +13678,12 @@ pritfa	noun ;
 pritiehhä	noun ;
 pritiehkä	noun ;
 pritmiettä	noun ;
-pritoana	a_i_noun ;
+pritoan	a_i_noun ;
 pritoanei	noun ;
 pritoanie	noun ;
 pritoanoi	noun ;
 pritšinä	noun ;
-pritška	a_u_noun ;
+pritšk	a_u_noun ;
 pritškahus	noun ;
 pritškeh	noun ;
 pritšku	noun ;
@@ -13704,7 +13704,7 @@ privitška	noun ;
 privoateĺa	noun ;
 privutška	noun ;
 priäätel	noun ;
-proa(h)ha	a_u_noun ;
+proa(h)h	a_u_noun ;
 proaka	noun ;
 proakalaine	noun ;
 proakeh	noun ;
@@ -13840,7 +13840,7 @@ proupa	noun ;
 proupoveti	noun ;
 proupu	noun ;
 proutivo	noun ;
-prouttiva	a_o_noun ;
+prouttiv	a_o_noun ;
 proverkka	noun ;
 pruihku	noun ;
 pruja	noun ;
@@ -14203,7 +14203,7 @@ pura	noun ;
 puŕa	noun ;
 purahus	noun ;
 purajanta	noun ;
-purakka	a_o_noun ;
+purakk	a_o_noun ;
 purakko	noun ;
 purakkoine	noun_dem ;
 purallus	noun ;
@@ -14244,7 +14244,7 @@ purjut	noun_dem ;
 purkajaini	noun ;
 purkavus	noun ;
 purkka	noun ;
-purkka	a_o_noun ;
+purkk	a_o_noun ;
 purkke	noun ;
 purkki	noun ;
 purkkine	noun_dem ;
@@ -14421,7 +14421,7 @@ puutaine	noun_dem ;
 puute	noun ;
 puute(h)	noun ;
 puutes	noun ;
-puut́ikka	a_o_noun ;
+puut́ikk	a_o_noun ;
 puutišša	noun ;
 puutka	noun ;
 puutora	noun ;
@@ -14664,7 +14664,7 @@ pöksy	noun ;
 pöksyiset	noun_dem.mon ;
 pöksä	noun ;
 pölhö	noun ;
-pölikkä	ä_ö_noun ;
+pölikk	ä_ö_noun ;
 pölineh	noun ;
 pölkky	noun ;
 pölkkyine	noun_dem ;
@@ -14735,7 +14735,7 @@ pöröškäine	noun_dem ;
 pösilö	noun ;
 pöšši	noun ;
 pössy	noun ;
-pötikkä	ä_ö_noun ;
+pötikk	ä_ö_noun ;
 pötikkäine	noun_dem ;
 pötiläs	noun ;
 pötissyntä	noun ;
@@ -15390,7 +15390,7 @@ risa	noun ;
 risahus	noun ;
 risineh	noun ;
 risinkkä	noun ;
-riška	a_o_noun ;
+rišk	a_o_noun ;
 riskansa	noun ;
 riškavus	noun ;
 riske	noun ;
@@ -15716,7 +15716,7 @@ roštšotnoi	noun ;
 roštšotta	noun ;
 roštuo	noun ;
 roštuoine	noun_dem ;
-roštuva	a_o_noun ;
+roštuv	a_o_noun ;
 rosvali	noun ;
 rosvari	noun ;
 rosveli	noun ;
@@ -16368,7 +16368,7 @@ sakuska	noun ;
 sala	noun ;
 šaĺa	noun ;
 salahka	noun ;
-salakka	a_o_noun ;
+salakk	a_o_noun ;
 salakki	noun ;
 šalannie	noun ;
 salaška	noun ;
@@ -16597,7 +16597,7 @@ satatka	noun ;
 satattšuine	noun_dem ;
 satija	noun ;
 satijaine	noun ;
-satikka	a_o_noun ;
+satikk	a_o_noun ;
 satikkaine	noun_dem ;
 satina	noun ;
 satinkka	noun ;
@@ -17331,7 +17331,7 @@ šleena	noun ;
 sleesari	noun ;
 sleja	noun ;
 šlena	noun ;
-šlepakka	a_o_noun ;
+šlepakk	a_o_noun ;
 šlepakkoine	noun_dem ;
 šletakko	noun ;
 sletstvii	noun ;
@@ -17543,7 +17543,7 @@ soahharnittša	noun ;
 soahharnittšaine	noun_dem ;
 šoahhu	noun ;
 šoahka	noun ;
-soahkara	a_i_noun ;
+soahkar	a_i_noun ;
 soahku	noun ;
 soaja	noun ;
 soajaine	noun_dem ;
@@ -17578,7 +17578,7 @@ soannos	noun ;
 soanta	noun ;
 soanti	noun ;
 šoapa	noun ;
-soapa(h)ha	a_u_noun ;
+soapa(h)h	a_u_noun ;
 soapanja	noun ;
 soapankka	noun ;
 soapasta	noun ;
@@ -17770,7 +17770,7 @@ šoltuška	noun ;
 šolu	noun ;
 šoluha	noun ;
 šolukka	noun ;
-šolvakka	a_o_noun ;
+šolvakk	a_o_noun ;
 soma	noun ;
 somerikko	noun ;
 somero	noun ;
@@ -17799,7 +17799,7 @@ sopaniekka	noun ;
 sopavus	noun ;
 šopelo	noun ;
 sopelus	noun ;
-soperkka	a_o_noun ;
+soperkk	a_o_noun ;
 sopevunta	noun ;
 sopevus	noun ;
 sopilkka	noun ;
@@ -18340,7 +18340,7 @@ sumttšaine	noun_dem ;
 sumu	noun ;
 šumu	noun ;
 sunne	noun ;
-sunta	a_o_noun ;
+sunt	a_o_noun ;
 sunteri	noun ;
 šuntti	noun ;
 šunttilaine	noun ;
@@ -18416,7 +18416,7 @@ surento	noun ;
 suri	noun ;
 šurineh	noun ;
 surja	noun ;
-šurjakka	a_o_noun ;
+šurjakk	a_o_noun ;
 surkevus	noun ;
 surkulittša	noun ;
 surkunttša	noun ;
@@ -18718,7 +18718,7 @@ syötes	noun ;
 syötti	noun ;
 syöttiläs	noun ;
 syöttyri	noun ;
-syöttä	ä_ö_noun ;
+syött	ä_ö_noun ;
 syöttäjä	noun ;
 syöttäjäine	noun_dem ;
 syöttämine	noun ;
@@ -18998,7 +18998,7 @@ taraluusa	noun ;
 taranneh	noun ;
 tarannus	noun ;
 taranpullo	noun ;
-tarantassa	a_u_noun ;
+tarantass	a_u_noun ;
 tarantoassa	noun ;
 tarapalli	noun ;
 tarapullo	noun ;
@@ -20823,7 +20823,7 @@ tyttöšikko	noun_koll ;
 tytynä	noun ;
 tytytys	noun ;
 tytär	noun ;
-tytärlentäm	m_n_noun ;
+tytärlentä	m_n_noun ;
 tytärtima	noun ;
 tytöi	noun ;
 tytöissäntä	noun ;
@@ -21055,7 +21055,7 @@ ujoi	noun ;
 ujos	noun ;
 ujumine	noun ;
 uka	noun ;
-ukarkka	a_o_noun ;
+ukarkk	a_o_noun ;
 ukki	noun ;
 ukko	noun ;
 ukkoamine	noun ;
@@ -21343,7 +21343,7 @@ uuvus	noun ;
 uvalmo	noun ;
 uvalvo	noun ;
 uvar	noun ;
-uvarkka	a_o_noun ;
+uvarkk	a_o_noun ;
 uveh	noun ;
 uvehinta	noun ;
 uvehtimine	noun ;
@@ -21891,7 +21891,7 @@ verška	noun ;
 veršńakka	noun ;
 verssoala	noun ;
 versta	noun ;
-verstakka	a_o_noun ;
+verstakk	a_o_noun ;
 verta	noun ;
 vertavus	noun ;
 vertemniekka	noun ;
@@ -21970,7 +21970,7 @@ vetäjäine	noun_dem ;
 vetämine	noun ;
 vetämäine	noun ;
 vevos	noun ;
-veäherä	ä_ö_noun ;
+veäher	ä_ö_noun ;
 veäkäleh	noun ;
 veänne	noun ;
 veännys	noun ;
@@ -22157,7 +22157,7 @@ vijattomus	noun ;
 vijoitus	noun ;
 vika	noun ;
 vikaine	noun_dem ;
-vikelä	ä_ö_noun ;
+vikel	ä_ö_noun ;
 vikelöitys	noun ;
 viketti	noun ;
 vikkeli	noun ;
@@ -22897,7 +22897,7 @@ yövyntä	noun ;
 ärjähys	noun ;
 ärme	noun ;
 ärmie	noun ;
-ärmäkkä	ä_ö_noun ;
+ärmäkk	ä_ö_noun ;
 ärreh	noun ;
 ärryntä	noun ;
 ärrys	noun ;
@@ -22943,5 +22943,263 @@ yövyntä	noun ;
 öttšökreättšä	noun ;
 ötönöi	noun ;
 öystä	noun ;
+
+LEXICON a_i_noun
+a noun ;
+a:i noun ;
+
+LEXICON a_i_u_noun
+a noun ;
+a:i noun ;
+a:u noun ;
+
+LEXICON a_i_ä_noun
+a noun ;
+a:i noun ;
+a:ä noun ;
+
+LEXICON a_o_noun
+a noun ;
+a:o noun ;
+
+LEXICON a_oi_noun
+a noun ;
+a:oi noun ;
+
+LEXICON a_o_noun_deskr
+a noun_deskr ;
+a:o noun_deskr ;
+
+LEXICON a_u_noun
+a noun ;
+a:u noun ;
+
+LEXICON a_ä_noun
+a noun ;
+a:ä noun ;
+
+LEXICON e_ä_noun
+e noun ;
+e:ä noun ;
+
+LEXICON e_ö_noun
+e noun ;
+e:ö noun ;
+
+LEXICON i_ö_noun
+i noun ;
+i:ö noun ;
+
+LEXICON h_s_noun
+h noun ;
+h:s noun ;
+
+LEXICON m_n_noun
+m noun ;
+m:n noun ;
+
+LEXICON ine_s_noun
+ine noun ;
+ine:s noun ;
+
+LEXICON o_u_noun
+o noun ;
+o:u noun ;
+
+LEXICON o_u_ö_noun
+o noun ;
+o:u noun ;
+o:ö noun ;
+
+LEXICON o_ö_noun_koll
+o noun_koll ;
+o:ö noun_koll ;
+
+LEXICON y_ä_noun
+y  noun ;
+y:ä noun ;
+
+!!LEXICON ä_y_noun
+!!ä noun ;
+!!ä:y noun ;
+
+LEXICON ä_ö_noun
+ä noun ;
+ä:ö noun ;
+
+LEXICON aine_oine_noun_dem
+aine noun_dem ;
+aine:oine noun_dem ;
+
+LEXICON ana_ina_noun
+ana noun ;
+ana:ina noun ;
+
+LEXICON ari_iri_uri_noun
+ari noun ;
+ari:iri noun ;
+ari:uri noun ;
+
+LEXICON ari_uri_noun
+ari noun ;
+ari:uri noun ;
+
+LEXICON ava_ova_noun
+ava noun ;
+ava:ova noun ;
+
+LEXICON eli_illi_noun
+eli noun ;
+eli:illi noun ;
+
+LEXICON eli_lli_noun
+eli noun ;
+eli:lli noun ;
+
+LEXICON elo_elo_ilo_noun
+elo    noun ;
+elo:ilo noun ;
+
+LEXICON ema_ima_in_noun
+ema noun ;
+ema:ima noun ;
+ema:in noun ;
+
+LEXICON ema_imo_in_noun
+ema noun ;
+ema:imo noun ;
+ema:in noun ;
+
+LEXICON en_in_noun
+en noun ;
+en:in noun ;
+
+LEXICON enjä_inä_noun
+enjä noun ;
+enjä:inä noun ;
+
+LEXICON eri_iri_noun
+eri noun ;
+eri:iri noun ;
+
+LEXICON etta_jotta_noun
+etta noun ;
+etta:jotta noun ;
+
+LEXICON fka_hka_noun
+fka noun ;
+fka:hka noun ;
+
+LEXICON heäne_häine_noun
+heäne noun ;
+heäne:häine noun ;
+
+LEXICON hha_hka_kka_uha_noun
+hha noun ;
+hha:hka noun ;
+hha:kka noun ;
+hha:uha noun ;
+
+LEXICON hku_sku_noun
+hku noun ;
+hku:sku noun ;
+
+LEXICON i(h)aine_jaine_noun
+i(h)aine noun ;
+i(h)aine:jaine noun ;
+
+LEXICON imä_ämä_noun
+imä noun ;
+imä:ämä noun ;
+
+LEXICON isla_usla_noun
+isla noun ;
+isla:usla noun ;
+
+LEXICON iškä_uška_noun
+iškä noun ;
+iškä:uška noun ;
+
+LEXICON ittša_ttšä_noun
+ittša noun ;
+ittša:ttšä noun ;
+
+LEXICON ja_ka_noun
+ja noun ;
+ja:ka noun ;
+
+LEXICON kannapro_kannarvo_noun
+kannapro noun ;
+kannapro:kannarvo noun ;
+
+LEXICON koaŕa_koaŕa_koare_noun
+koaŕa noun ;
+koaŕa:koaŕa noun ;
+koaŕa:koare noun ;
+
+LEXICON li_ni_noun
+li noun ;
+li:ni noun ;
+
+LEXICON li_uti_noun
+li  noun ;
+li:uti noun ;
+
+LEXICON liusku_ĺuška_noun
+liusku noun ;
+liusku:ĺuška noun ;
+
+LEXICON lkka_nkka_noun
+lkka noun ;
+lkka:nkka noun ;
+
+LEXICON lkka_rkka_noun
+lkka noun ;
+lkka:rkka noun ;
+
+
+LEXICON muuromittša_muurovittša_noun
+muuromittša  noun ;
+muuromittša:muurovittša  noun ;
+
+LEXICON ntšeri_rteri_noun
+ntšeri  noun ;
+ntšeri:rteri noun ;
+
+LEXICON oi_öi_noun
+oi noun ;
+oi:öi noun ;
+
+LEXICON ori_uri_noun
+ori noun ;
+ori:uri noun ;
+
+LEXICON pa_vo_noun
+pa  noun ;
+pa:vo noun ;
+
+LEXICON tema_teva_noun
+tema noun ;
+tema:teva noun ;
+
+LEXICON tilä_tšelä_noun
+tilä noun ;
+tilä:tšelä noun ;
+
+LEXICON toma_tova_noun
+toma noun ;
+toma:tova noun ;
+
+LEXICON ut_yt_noun
+ut noun ;
+ut:yt noun ;
+
+LEXICON veska_vessi_noun
+veska noun ;
+veska:vessi noun ;
+
+LEXICON veska_vieska_noun
+veska noun ;
+veska:vieska noun ;
 
 ! vim: set ft=xfst-lexc:

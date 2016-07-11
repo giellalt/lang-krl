@@ -3,7 +3,6 @@
 !! Verbs in UNDEFINED language are actions.
 
 LEXICON Verbs
-verb    Persons   ;
 
 aakkoa	verb ;
 ahahella	verb_frekv ;
@@ -32036,5 +32035,28 @@ yövytteä	verb_kaus ;
 öykähteäkseh	verb_refl ;
 öykähytteä	verb_kaus ;
 öykätä	verb ;
+
+LEXICON kavota_katuo_verb
+kavota verb ;
+kavota:katuo verb ;
+LEXICON proššai(k)koa_verb_vaill
+proššai(k)koa verb_vaill ;
+LEXICON sevota_verb
+sevota_verb ;
+LEXICON stavaikkoa_verb_vaill
+stavaikkoa verb_vaill ;
+LEXICON tavai(k)koa_tavaite_verb_vaill
+tavai(k)koa verb_vaill ;
+tavaikkoa:tavaite verb_vaill ;
+LEXICON tuta_verb
+tuta verb ;
+
+LEXICON viyhtie_verb
+viyhtie verb ;
+
+LEXICON voulie_vuolie_verb
+voulie verb ;
+voulie:vuolie verb ;
+
 
 ! vim: set ft=xfst-lexc:

@@ -2,7 +2,6 @@
 LEXICON Particles
 ka(h)	particle ;
 kajon	particle ;
--ko, -kö	particle ;
 la	particle ;
 lau	particle ;
 lausu	particle ;
@@ -22,5 +21,12 @@ vetten	particle ;
 visan	particle ;
 vit	particle ;
 vot	particle ;
+
+LEXICON particle
++Part: # ;
+
+LEXICON particle_vahv
++Part: # ;
+
 
 ! vim: set ft=xfst-lexc:
