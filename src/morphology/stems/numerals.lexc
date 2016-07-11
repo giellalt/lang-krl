@@ -3,7 +3,6 @@
 !! Numerals in UNDEFINED language are numbers.
 
 LEXICON Numerals
-numeral    Cases   ;
 
 kaheksan	cardinal ;
 kaksi	cardinal ;
@@ -47,5 +46,16 @@ tuhannes	ordinal ;
 viijes	ordinal ;
 vośmoi	ordinal ;
 yheksäs	ordinal ;
+
+LEXICON cardinal
++Num: # ;
+
+LEXICON cardinal_vaill
++Num: # ;
+
+LEXICON ordinal
++A+Ord # ;
+
+
 
 ! vim: set ft=xfst-lexc:
