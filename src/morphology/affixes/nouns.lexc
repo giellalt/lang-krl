@@ -1,0 +1,66 @@
+!! Noun inflection
+!  ---------------
+!! The UNDEFINED language nouns inflect in cases.
+
+LEXICON noun
++N: # ;
+LEXICON noun_dem
++N: # ;
+LEXICON noun_dem.mon
++N: # ;
+LEXICON noun_deskr
++N: # ;
+LEXICON noun_koll
++N: # ;
+LEXICON noun_komp
++N: # ;
+LEXICON noun_mod
++N: # ;
+LEXICON noun_mon
++N: # ;
+LEXICON noun_mon.vaill
++N: # ;
+LEXICON noun_sup
++N: # ;
+LEXICON noun_taipum
++N: # ;
+LEXICON noun_vaill
++N: # ;
+
+
+LEXICON noun_sg_nom
++Sg+Nom:0 # ;
+
+LEXICON noun_sg_common
++Sg+Gen:n # ;
++Sg+Ess:n{aä} # ;
++Sg+Tra:kši # ;
++Sg+Ine:šš{aä} # ;
++Sg+Ela:št{aä} # ;
++Sg+Ill:h # ;
++Sg+Ade:ll{aä} # ;
++Sg+All:ll{aä} # ;
++Sg+Abl:lt{aä} # ;
++Sg+Abe:tt{aä} # ;
++Pl+Nom:t # ;
+
+LEXICON noun_sg_par
++Sg+Par:{aä} # ;
+
+LEXICON noun_pl_common
++Pl+Gen:jen # ;
++Pl+Par:j{aä} # ;
++Pl+Ess:in{aä} # ;
++Pl+Tra:iksi # ;
++Pl+Ine:iss{aä} # ;
++Pl+Ela:ist{aä}  # ;
++Pl+Ill:ih # ;
++Pl+Ade:ill{aä} # ;
++Pl+All:ill{aä} # ;
++Pl+Abl:ilt{aä} # ;
++Pl+Abe:itt{aä} # ;
++Pl+Com:ineh # ;
++Pl+Ins:in # ;
+
+! vim: set ft=xfst-lexc:
+

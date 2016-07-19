@@ -1,0 +1,29 @@
+!! Adjective inflection
+!  --------------------
+!! The UNDEFINED language adjectives compare.
+
+LEXICON adjective
++A: # ;
+LEXICON adjective_dem
++A: # ;
+LEXICON adjective_kar
++A: # ;
+LEXICON adjective_kielt
++A: # ;
+LEXICON adjective_komp
++A+Cmp: # ;
+LEXICON adjective_mod
++A: # ;
+LEXICON adjective_sup
++A+Sup: # ;
+LEXICON adjective_taipum
++A: # ;
+LEXICON adjective_vahv
++A: # ;
+LEXICON adjective_vaill
++A: # ;
+
+
+
+! vim: set ft=xfst-lexc:
+
