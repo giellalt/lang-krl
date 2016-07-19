@@ -1,0 +1,63 @@
+!! Verb inflection
+!  ---------------
+!! The UNDEFINED language verbs inflect in persons.
+
+LEXICON verb
++V: # ;
+LEXICON verb_deskr
++V: # ;
+LEXICON verb_fakt
++V: # ;
+LEXICON verb_fakt.kaus
++V: # ;
+LEXICON verb_frekv
++V: # ;
+LEXICON verb_frekv.-refl
++V: # ;
+LEXICON verb_inkoat
++V: # ;
+LEXICON verb_intr
++V: # ;
+LEXICON verb_kaus
++V: # ;
+LEXICON verb_kontin
++V: # ;
+LEXICON verb_mod
++V: # ;
+LEXICON verb_mom
++V: # ;
+LEXICON verb_mom.-refl.mom
++V: # ;
+LEXICON verb_pass
++V: # ;
+LEXICON verb_pass.refl
++V: # ;
+LEXICON verb_pass.yksipers
++V: # ;
+LEXICON verb_refl
++V: # ;
+LEXICON verb_tr
++V: # ;
+LEXICON verb_transl
++V: # ;
+LEXICON verb_vaill
++V: # ;
+LEXICON verb_yksipers
++V: # ;
+
+LEXICON verb_weak_pres
++V+Sg1+Pres:n # ;
++V+Sg2+Pres:t # ;
++V+Pl1+Pres:mm{aä} # ;
++V+Pl2+Pres:tt{aä} # ;
+
+LEXICON verb_strong_pres
++V+Sg3+Pres:{uy} # ;
+
+LEXICON verb_3pl_pres
++V+Pl3+Pres:h # ;
+
+
+! vim: set ft=xfst-lexc:
+
+! vim: set ft=xfst-lexc:
