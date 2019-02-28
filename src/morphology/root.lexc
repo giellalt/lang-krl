@@ -57,6 +57,7 @@ Multichar_Symbols  !!≈ !!!Definitions for @CODE@
 
 ! Abbreviated words are classified with:
  +ABBR +ACR 
++Symbol !!≈ * @CODE@ = independent symbols in the text stream, like £, €, ©
 !! Special symbols are classified with:
 +CLB +PUNCT +LEFT +RIGHT
 !! The verbs are syntactically split according to transitivity:
@@ -134,7 +135,7 @@ Multichar_Symbols  !!≈ !!!Definitions for @CODE@
  @U.Cap.Opt@        !!≈ | @CODE@ | Allowing downcasing of derived names: deatnulasj.
 
 LEXICON Root
-!! The word forms in __UNDEFINED__ language start from the lexeme roots of basic
+!! The word forms in Karelian language start from the lexeme roots of basic
 !! word classes, or optionally from prefixes:
 0   Nouns       ;
 0   Verbs       ;
