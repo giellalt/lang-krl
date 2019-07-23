@@ -1,8 +1,38 @@
 !! Numerals
 !  --------
-!! Numerals in UNDEFINED language are numbers.
+!! Numerals in Karellian language are numbers.
 
 LEXICON Numerals
+
+yksi+Num+Card:y NUM_Y/KSI ;
+kakši+Num+Card:ka NUM_KA/KŠI ;
+kolme+Num+Card:kolm NUM_KOLM/E ;
+n’el’l’ä+Num+Card:n’el’ NUM_NEL/LÄ ;
+viisi+Num+Card:vii  NUM_VII/SI ;
+kuuši+Num+Card:kuu  NUM_KUU/ŠI ;
+seiččemen+Num+Card:seičče  NUM_SEIČČE/MEN ;
+kahekšan+Num+Card:kahekša  NUM_KAHEKŠA/N ;
+yhekšän+Num+Card:yhekšä    NUM_YHEKŠÄ/N ;
+kymmenen+Num+Card:kymmene  NUM_KYMMENE/N ;
+šata+Num+Card:š       NUM_Š/ATA ;
+miljon+Num+Card:miljon NUM_MILJON/A ;
+miljardi+Num+Card:miljard NUM_MILJARD/I ;
+
+enšimäini+Adj+Ord:enšimäi  NUM_ENŠIMMÄI/NI ;
+enšimmäini+Adj+Ord:enšimmäi  NUM_ENŠIMMÄI/NI ;
+toini+Adj+Ord:toi  NUM_TOI/NI ;
+kolmaš+Adj+Ord:kolma NUM_KOLMA/Š ;
+nelläš+Adj+Ord:nellä NUM_NELLÄ/Š ;
+viiješ+Adj+Ord:viije NUM_NELLÄ/Š ;
+kuuvveš+Adj+Ord:kuuvve NUM_KOLMA/Š ;
+seiččemeš+Adj+Ord:seiččeme NUM_NELLÄ/Š ;
+kahekšaš+Adj+Ord:kahekša NUM_KOLMA/Š ;
+yhekšäš+Adj+Ord:yhekšä NUM_NELLÄ/Š ;
+kymmeneš+Adj+Ord:kymmene NUM_NELLÄ/Š ;
+
+pari+Num+Card:pari NUM_PARI ;
+puolitoista+Num+Card:puolitoista  # ;
+
 
 kaheksan	cardinal ;
 kaksi	cardinal ;
@@ -56,6 +86,108 @@ LEXICON cardinal_vaill
 LEXICON ordinal
 +A+Ord # ;
 
+
+LEXICON NUM_Y/KSI
+
+0:ksi NUM_SGNOM_0 ;
+0:hte NUM_CASES_SG_STRONG_FRONT ;
+0:he NUM_CASES_SG_WEAK_FRONT ;
+
+LEXICON NUM_KA/KŠI
+
+0:kši NUM_SGNOM_0 ;
+0:hte NUM_CASES_SG_STRONG_BACK ;
+0:he NUM_CASES_SG_WEAK_BACK ;
+
+LEXICON NUM_KOLM/E
+
+0:e NUM_SGNOM_0 ;
+0:e NUM_CASES_SG_BACK ;
+
+LEXICON NUM_NEL/LÄ
+
+0:l’ä  NUM_SGNOM_0 ;
+0:l’ä  NUM_CASES_SG_FRONT ;
+
+LEXICON NUM_VII/SI
+
+0:zi  NUM_SGNOM_0 ;
+0:jje NUM_CASES_SG_FRONT ;
+
+LEXICON NUM_KUU/ŠI
+
+0:zi  NUM_SGNOM_0 ;
+0:vve NUM_CASES_SG_BACK ;
+
+LEXICON NUM_SEIČČE/MEN
+
+0:men NUM_SGNOM_0 ;
+0:me  NUM_CASES_SG_FRONT ;
+
+LEXICON NUM_KAHEKŠA/N
+
+0:n  NUM_SGNOM_0 ;
+0    NUM_CASES_SG_BACK ;
+
+LEXICON NUM_YHEKŠÄ/N
+
+0:n  NUM_SGNOM_0 ;
+0    NUM_CASES_SG_FRONT ;
+
+LEXICON NUM_KYMMENE/N
+
+0:n  NUM_SGNOM_0 ;
+0   NUM_CASES_SG_FRONT ;
+
+LEXICON NUM_Š/ATA
+
+0:ata NUM_SGNOM_0 ;
+0:ua NUM_CASES_SG_BACK ;
+
+
+LEXICON NUM_MILJARD/I
+
+0:i NUM_SGNOM_0 ;
+0:i NUM_CASES_SG_BACK ;
+0   NUM_PLPAR_IE ;
+
+LEXICON NUM_ENŠIMMÄI/NI
+
++Pos:ni  NUM_SGNOM_0 ;
++Pos:se  NUM_CASES_SG_FRONT ;
++Pos:s  NUM_CASES_PL_FRONT ;
+
+LEXICON NUM_TOI/NI
+
++Pos:ni NUM_SGNOM_0 ;
++Pos:se NUM_CASES_SG_BACK ;
++Pos:s NUM_PLPAR_IE ;
++Pos:s NUM_SGPAR_TA ;
++Pos:s NUM_CASES_PL_BACK ;
+
+LEXICON NUM_KOLMA/Š
+
++Pos:š  NUM_SGNOM_0 ;
++Pos:nne NUM_CASES_SG_BACK ;
+
+LEXICON NUM_NELLÄ/Š
+
++Pos:š  NUM_SGNOM_0 ;
++Pos:nne NUM_CASES_SG_WEAK_FRONT ;
++Pos:nte NUM_CASES_SG_STRONG_FRONT ;
++Pos:n NUM_SGPAR_TÄ ;
+
+LEXICON NUM_PARI
+
+0  NUM_SGNOM_0 ;
+0  NUM_CASES_SG_STRONG_BACK ;
+0  NUM_CASES_SG_WEAK_BACK ;
+
+LEXICON NUM_MILJON/A
+
+0:a NUM_SGNOM_0 ;
+0:a NUM_CASES_SG_BACK ;
+0   NUM_PLPAR_IE ;
 
 
 ! vim: set ft=xfst-lexc:

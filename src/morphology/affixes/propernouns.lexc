@@ -1,8 +1,117 @@
 !! Proper noun inflection
 !  ----------------------
-!! The UNDEFINED language proper nouns inflect in the same cases as regular
-!! nouns, but with a colon (':') as separator.
+!! The Karelian language proper nouns inflect in the same cases as regular
+!! nouns, but 
 
+
+LEXICON PROPN_SGNOM_0
+
++Sg+Nom:0 # ;
+
+LEXICON PROPN_SGPAR_A
+
++Sg+Par:a # ;
+
+LEXICON PROPN_SGPAR_E
+
++Sg+Par:e # ;
+
+LEXICON PROPN_SGPAR_TÄ
+
++Sg+Par:tä # ;
+
+LEXICON PROPN_SGPAR_TA
+
++Sg+Par:ta # ;
+
+LEXICON PROPN_PLGEN_JEN
+
++Pl+Gen:jen # ;
+
+LEXICON PROPN_PLPAR_JA
+
++Pl+Par:ja  # ;
+
+
+LEXICON PROPN_PLGEN_IEN
+
++Pl+Gen:ien # ;
+
+LEXICON PROPN_CASES_PL_BACK
+
+0 PROPN_CASES_PL_STRONG_BACK ;
+0 PROPN_CASES_PL_WEAK_BACK ;
+
+LEXICON PROPN_CASES_PL_STRONG_BACK
+
++Pl+Ill:ih # ;
+
+LEXICON PROPN_CASES_PL_WEAK_BACK
+
++Pl+Gen:ien # ;
++Pl+All:ile # ;
++Pl+Abe:itta # ;
++Pl+Ade:illa # ;
++Pl+Ela:ista # ;
++Pl+Ine:issa # ;
+
+LEXICON PROPN_CASES_PL_FRONT
+
+0 PROPN_CASES_PL_STRONG_FRONT ;
+0 PROPN_CASES_PL_WEAK_FRONT ;
+
+LEXICON PROPN_CASES_PL_STRONG_FRONT
+
++Pl+Ill:ih # ;
++Pl+Ess:inä # ;
+
+LEXICON PROPN_CASES_PL_WEAK_FRONT
+
++Pl+Gen:ien # ;
++Pl+All:ile # ;
++Pl+Abe:ittä # ;
++Pl+Ade:illä # ;
++Pl+Ela:istä # ;
++Pl+Ine:issä # ;
+
+LEXICON PROPN_CASES_SG_BACK
+
+0  PROPN_CASES_SG_STRONG_BACK ;
+0  PROPN_CASES_SG_WEAK_BACK ;
+
+LEXICON PROPN_CASES_SG_STRONG_BACK
+
++Sg+Ill:h # ;
+
+LEXICON PROPN_CASES_SG_WEAK_BACK
+
++Sg+Gen:n # ;
++Sg+Ine:s # ;
++Sg+Ine:šša # ;
++Sg+Ine:ssa # ;
++Sg+Ine+Clit/ki:ssaki # ;
++Sg+Ela:šta # ;
++Sg+Ade:lla # ;
++Pl+Nom:t # ;
++Sg+All:le # ;
+
+LEXICON PROPN_CASES_SG_FRONT
+
+0  PROPN_CASES_SG_STRONG_FRONT ;
+0  PROPN_CASES_SG_WEAK_FRONT ;
+
+LEXICON PROPN_CASES_SG_STRONG_FRONT
+
++Sg+Ill:h # ;
+
+LEXICON PROPN_CASES_SG_WEAK_FRONT
+
++Sg+Gen:n # ;
++Sg+Ine:s # ;
++Sg+Ine:ššä # ;
++Sg+Ela:štä # ;
++Sg+Ade:llä # ;
++Pl+Nom:t # ;
++Sg+All:le # ;
 
 ! vim: set ft=xfst-lexc:
-

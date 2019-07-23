@@ -23,6 +23,124 @@ LEXICON adjective_vahv
 LEXICON adjective_vaill
 +A: # ;
 
+LEXICON ADJ_SGNOM_0
+
++Sg+Nom:0 # ;
+
+!LEXICON ADJ_PLPAR_I
+!
+!+Pl+Par:i  # ;
+
+LEXICON ADJ_PLPAR_JA
+
++Pl+Par:ja  # ;
+
+
+LEXICON ADJ_PLPAR_IE
+
++Pl+Par:ie  # ;
+
+LEXICON ADJ_PLGEN_IEN
+
++Pl+Gen:ien  # ;
+
+LEXICON ADJ_SGPAR_A
+
++Sg+Par:a  # ;
+
+LEXICON ADJ_SGPAR_Ä
+
++Sg+Par:ä  # ;
+
+
+LEXICON ADJ_SGPAR_TA
+
++Sg+Par:ta  # ;
+
+LEXICON ADJ_SGPAR_TÄ
+
++Sg+Par:tä  # ;
+
+LEXICON ADJ_SGPAR_TU
+
++Sg+Par:tu  # ;
+
+LEXICON ADJ_SGPAR_TY
+
++Sg+Par:ty  # ;
+
+LEXICON ADJ_CASES_SG_BACK
+
+0  ADJ_CASES_SG_WEAK_BACK ;
+0  ADJ_CASES_SG_STRONG_BACK ;
+
+LEXICON ADJ_CASES_SG_STRONG_BACK
+
++Sg+Ess:na # ;
++Sg+Ill:h # ;
+
+LEXICON ADJ_CASES_SG_WEAK_BACK
+
++Sg+Ine:šša # ;
++Sg+Ela:šta # ;
++Sg+Ade:lla # ;
++Sg+Gen:n # ;
++Pl+Nom:t # ;
++Sg+Tra:kši # ;
+
+LEXICON ADJ_CASES_SG_FRONT
+
+0  ADJ_CASES_SG_WEAK_FRONT ;
+0  ADJ_CASES_SG_STRONG_FRONT ;
+
+LEXICON ADJ_CASES_SG_STRONG_FRONT
+
++Sg+Ess:nä # ;
++Sg+Ill:h # ;
+
+LEXICON ADJ_CASES_SG_WEAK_FRONT
+
++Sg+Ine:ššä # ;
++Sg+Ela:štä # ;
++Sg+Ade:llä # ;
++Sg+Gen:n # ;
++Pl+Nom:t # ;
++Sg+Tra:kši # ;
+
+
+LEXICON ADJ_CASES_PL_BACK
+
+0  ADJ_CASES_PL_WEAK_BACK ;
+0  ADJ_CASES_PL_STRONG_BACK ;
+
+LEXICON ADJ_CASES_PL_STRONG_BACK
+
++Pl+Ess:ina # ;
+
+LEXICON ADJ_CASES_PL_WEAK_BACK
+
++Pl+Par:i # ;
++Pl+Ade:illa # ;
++Pl+Ine:išša # ;
++Pl+Ine:išta # ;
++Pl+Gen:ien # ;
+
+LEXICON ADJ_CASES_PL_FRONT
+
+0  ADJ_CASES_PL_STRONG_FRONT ;
+0  ADJ_CASES_PL_WEAK_FRONT ;
+
+LEXICON ADJ_CASES_PL_STRONG_FRONT
+
++Pl+Ess:inä # ;
+
+LEXICON ADJ_CASES_PL_WEAK_FRONT
+
++Pl+Par:i # ;
++Pl+Ade:illä # ;
++Pl+Ine:iššä # ;
++Pl+Ine:ištä # ;
++Pl+Gen:ien # ;
 
 
 ! vim: set ft=xfst-lexc:

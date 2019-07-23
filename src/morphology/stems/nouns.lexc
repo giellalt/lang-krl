@@ -1,8 +1,514 @@
 !! Nouns
 !  -----
-!! Nouns in UNDEFINED language are things.
+!! Nouns in Karelian language are things.
 
 LEXICON Nouns
+
+afrikkalaine+N:afrikkalai NOUN_ELAVUTTAMI/NE ;
+aihe+N:aihe  NOUN_AIH/E ;
+aikakauš#lehti+N:aikakaus0leh NOUN_LEH/TI ;
+aika+N:ai  NOUN_AI/KA ;
+aikuhini+N:aikuhi NOUN_ŠIJAHI/NI ;
+ainehisto+N:ainehisto NOUN_NUMERO ;
+ruoho+N:ruoh  NOUN_HILL/O ;
+rikka#ruoho+N:rikka0ruoh  NOUN_HILL/O ;
+ajatuš+N:ajatu NOUN_MIELIKUVITU/Š ;
+ajelomini+N:ajelomi NOUN_ŠIJAHI/NI ;
+aktijo+N:aktij  NOUN_HILL/O ;
+alkoholi+N:alkohol NOUN_LAPŠ/I ;
+alku+N:al  NOUN_AL/KU ;
+aloveh+N:aloveh NOUN_ALOVEH ;
+anomuš+N:anomu NOUN_MIELIKUVITU/Š ;
+applikatijo+N:applikatijo  NOUN_NUMERO ;
+apu+N:a NOUN_A/PU ;
+arki#elämä+N:arki0eläm NOUN_PEŠ/Ä ;
+artišta+N:artišt NOUN_KAŠVATTAJ/A ;
+artista+N:artist NOUN_PAKIN/A ;
+koti#tarha+N:koti0tarh NOUN_PAKIN/A ;
+tarha+N NOUN_PAKIN/A ;
+artteli+N:arttel NOUN_PIIR/I ;
+aštie+N:ašti  NOUN_ISTORI/E ;
+ativo+N:ativo NOUN_NUMERO ;
+atressi+N:atress NOUN_FOLKLORIST/I ;
+biologini+N:biologi NOUN_ŠIJAHI/NI ;
+čikana+N:čikan NOUN_PAKIN/A ;
+porkkana+N:porkkan NOUN_PAKIN/A ;
+eepossa+N:eeposs NOUN_PAKIN/A ;
+ehokaš+N:ehoka  NOUN_RAHVA/Š ;
+ehotuš+N:ehotu NOUN_MIELIKUVITU/Š ;
+elavuttamine+N:elavuttami NOUN_ELAVUTTAMI/NE ;
+elvyttämini+N:elvyttämi NOUN_KEHITTÄMI/NI ;
+eläjä+N:eläj NOUN_JÄRJEŠTÄJ/Ä ;
+eläkkeläis#liitto+N:eläkkeläis0liit  NOUN_VOIT/TO ;
+elämä+N:eläm NOUN_PEŠ/Ä ;
+elävyttämini+N:elävyttämi NOUN_KEHITTÄMI/NI ;
+emäntä+N:emän NOUN_EMÄN/TÄ ;
+esiintyjä+N:esiintyj NOUN_JÄRJEŠTÄJ/Ä ;
+esityš+N:esity NOUN_KYNNY/Š ;
+esityš#numero+N:esityš0numero NOUN_NUMERO ;
+etno#illačču+N:etno0illač  NOUN_ILLAČ/ČU ;
+etno#illačču+N:etno0illač  NOUN_ILLAČ/ČU ;
+etno#tjuttora+N:etno0tjuttor NOUN_KAŠVATTAJ/A ;
+etno#tjuttora+N:etno0tjuttor NOUN_KAŠVATTAJ/A ;
+etno#tjuttora+N:etno0tjuttor NOUN_ŠKOL/A ;
+etno#tjuttora+N:etno0tjuttor NOUN_ŠKOL/A ;
+etuštaja+N:etuštaj NOUN_KAŠVATTAJ/A ;
+eväš+N:evä NOUN_EVÄ/Š ;
+festivali+N:festival NOUN_FOLKLORIST/I ;
+flashmob+N:flashmob NOUN_ALOVEH ;
+folkloristi+N:folklorist  NOUN_FOLKLORIST/I ;
+folklori#teatteri+N:folkloriteatter  NOUN_FOLKLORIST/I ;
+forumi+N:forum  NOUN_FOLKLORIST/I ;
+guslin#šoittaja+N:guslin0šoittaj NOUN_KAŠVATTAJ/A ;
+hahmo+N:hahmo NOUN_NUMERO ;
+haltija+N:haltij NOUN_KAŠVATTAJ/A ;
+halu+N:halu NOUN_NUMERO ;
+halu+N:halu  NOUN_ŠIVU ;
+henkilö#kilpailu+N:henkilö0kilpailu NOUN_NUMERO ;
+henkilö+N:henkilö NOUN_ÄMMÖ ;
+henki+N:henk NOUN_HENK/I ;
+henki+N:henk NOUN_PIIR/I ;
+hiiren#poika+N:hiiren0po NOUN_PO/IKA ;
+hillo+N:hill NOUN_HILL/O ;
+hiä#laulu+N:hiä0laulu  NOUN_NUMERO ;
+huomeneš+N:huomene NOUN_MIELIKUVITU/Š ;
+huomijo+N:huomij  NOUN_HILL/O ;
+huomijo+N:huomijo NOUN_NUMERO ;
+huoneh+N:huoneh NOUN_ALOVEH ;
+huumeh+N:huumeh NOUN_ALOVEH ;
+hävijä+N:hävij NOUN_JÄRJEŠTÄJ/Ä ;
+ihmeh#muajilma+N:ihmeh0muajilm NOUN_PAKIN/A ;
+ihmini+N:ihmi NOUN_KEHITTÄMI/NI ;
+ihmis#joukko+N:ihmis0jouk NOUN_JOUK/KO ;
+iisahuš+N:viisahu NOUN_VIISAHU/Š ;
+ilma+N:ilm NOUN_PAKIN/A ;
+ilma#piiri+N:ilma0piir NOUN_PIIR/I ;
+ilmašto+N:ilmašto NOUN_NUMERO ;
+ilta+N:ilt NOUN_PAKIN/A ;
+internetti#šivu+N:internetti0šivu  NOUN_ŠIVU ;
+invalidi+N:invalid NOUN_LAPŠ/I ;
+istorie+N:istori  NOUN_ISTORI/E ;
+istorija+N:istorij  NOUN_KAŠVATTAJ/A ;
+isäntä+N:isän NOUN_EMÄN/TÄ ;
+iäni+N:iän NOUN_KIEL/I ;
+jalka+N:jal  NOUN_PAIK/KA ;
+johtaja+N:johtaj NOUN_KAŠVATTAJ/A ;
+johto+N:joh NOUN_VOIT/TO ;
+joukko+N:jouk NOUN_JOUK/KO ;
+juoni+N:juon NOUN_LAPŠ/I ;
+juuri+N:juur NOUN_JUUR/I ;
+puna#juuri+N:puna0juur NOUN_JUUR/I ;
+järještäjä+N:järještäj NOUN_JÄRJEŠTÄJ/Ä ;
+järještö+N:järještö NOUN_ÄMMÖ ;
+jäšen+N:jäsen NOUN_JÄŠEN ;
+kaččoja+N:kaččoj NOUN_KAŠVATTAJ/A ;
+kala+N:kal NOUN_KAL/A ;
+kalaonni+N:kalaonn NOUN_LAPŠ/I ;
+kalaštaja+N:kalaštaj NOUN_KAŠVATTAJ/A ;
+Kalevala#eepossa+N:Kalevala0eeposs NOUN_PAKIN/A ;
+kanšalais#järještö+N:kanšalais0järještö NOUN_ÄMMÖ ;
+kanšallisuš+N:kanšallisu  NOUN_VIISAHU/Š ;
+kansan#eepossa+N:kansan0eeposs NOUN_PAKIN/A ;
+kanša+N:kanš NOUN_PAKIN/A ;
+kanšan#kulttuuri+N:kansan0kulttuur NOUN_FOLKLORIST/I ;
+kanši+N:kanš NOUN_KIEL/I ;
+kanta#rahvaš+N:kanta0rahva  NOUN_RAHVA/Š ;
+karjalaine+N:karjalai NOUN_ELAVUTTAMI/NE ;
+karjala+N:karjal NOUN_KAŠVATTAJ/A ;
+kartta+N:kart NOUN_KART/TA ;
+kašvatti+N:kašvat  NOUN_STUDENT/TI ;
+katkelma+N:katkelm NOUN_KAŠVATTAJ/A ;
+katu+N:ka  NOUN_ŠEU/TU ;
+kauppa+N:kaup NOUN_KAUP/PA ;
+kaupunki+N:kaupunk NOUN_ROOL/I ;
+kehittämini+N:kehittämi NOUN_KEHITTÄMI/NI ;
+kehittämini+N:kehittämi NOUN_KEHITTÄMI/NI ;
+kehitämini+N:kehittämi NOUN_KEHITTÄMI/NI ;
+keino+N:keino NOUN_NUMERO ;
+kenttä+N:kent NOUN_KENT/TÄ ;
+keppi+N:kep NOUN_KEP/PI ;
+kerho+N:kerho NOUN_NUMERO ;
+kerta+N:ker  NOUN_KER/TA ;
+kertoja+N:kertoj NOUN_KAŠVATTAJ/A ;
+kertomuš+N:kertomu NOUN_MIELIKUVITU/Š ;
+keškuš+N:kešku NOUN_MIELIKUVITU/Š ;
+kesseli+N:kessel NOUN_FOLKLORIST/I ;
+kešä#kuu+N:kešä0ku  NOUN_KU/U ;
+kešä#loma+N:kešä0lom NOUN_PAKIN/A ;
+kešä+N:keš NOUN_PEŠ/Ä ;
+kevät#kuu+N:kevät0ku  NOUN_KU/U ;
+kieli+N:kiel NOUN_KIEL/I ;
+kieli#pešä+N:kieli0peš NOUN_PEŠ/Ä ;
+kiinitämini+N:kiinittämi NOUN_KEHITTÄMI/NI ;
+kiinitämini+N:kiinittämi NOUN_KEHITTÄMI/NI ;
+kiinnitämini+N:kiinnittämi NOUN_KEHITTÄMI/NI ;
+kiinnoššuš+N:kiinnoššu NOUN_MIELIKUVITU/Š ;
+kilpailu#festivali+N:kilpailu0festival NOUN_FOLKLORIST/I ;
+kilpailu+N:kilpailu NOUN_NUMERO ;
+kinnaš+N:kin  NOUN_KIN/NAŠ ;
+kirikkö+N:kirik NOUN_KIRIK/KÖ ;
+kirjallisuš+N:kirjallisu NOUN_VIISAHU/Š ;
+kirja+N:kirj NOUN_PAKIN/A ;
+kirjašto+N:kirjašto  NOUN_NUMERO ;
+kirjonta#motiivi+N:kirjonta0motiiv NOUN_LAPŠ/I ;
+kirjuttaja+N:kirjuttaj NOUN_KAŠVATTAJ/A ;
+kisa+N:kis NOUN_PAKIN/A ;
+kiukoa+N:kiuko NOUN_MU/A ;
+kiukua+N:kiuku NOUN_MU/A ;
+kiäntäjä+N:kiäntäj NOUN_JÄRJEŠTÄJ/Ä ;
+kiäntämis#työ+N:kiäntämis0t NOUN_T/YÖ ;
+koivu+N:koivu NOUN_NUMERO ;
+kokko+N:kok NOUN_JOUK/KO ;
+kokoelma+N:kokoelm NOUN_PAKIN/A ;
+kollektiivi+N:kollektiiv NOUN_FOLKLORIST/I ;
+konsertti+N:konsert  NOUN_STUDENT/TI ;
+kontie+N:konti  NOUN_ISTORI/E ;
+kontien#poikane+N:kontien0poika NOUN_ELAVUTTAMI/NE ;
+kopra+N:kopr  NOUN_ŠKOL/A ;
+koris#sukši+N:koris0sukš NOUN_PIIR/I ;
+kortti+N:kort  NOUN_STUDENT/TI ;
+kos’s’onta+N:kos’s’on NOUN_KOS’S’ON/TA ;
+koti+N:ko NOUN_KO/TI ;
+koukku+N:kouk  NOUN_AL/KU ;
+koululaine+N:koululai NOUN_ELAVUTTAMI/NE ;
+koulu+N:koulu  NOUN_NUMERO ;
+kučču+N:kuč  NOUN_ILLAČ/ČU ;
+kulttuuri+N:kulttuur NOUN_FOLKLORIST/I ;
+kulttuuri#šeura+N:kulttuuri0šeur  NOUN_PAKIN/A ;
+kulttuuri#talo+N:kulttuuri0talo NOUN_NUMERO ;
+kunnivo+N:kunnivo NOUN_NUMERO ;
+kunta+N:kun NOUN_KOS’S’ON/TA ;
+kuu+N:ku  NOUN_KU/U ;
+kuva+N:kuv  NOUN_ŠKOL/A ;
+kuvittaja+N:kuvittaj NOUN_KAŠVATTAJ/A ;
+kylä#kirjašto+N:kylä0kirjašto  NOUN_NUMERO ;
+kylä+N:kyl NOUN_PEŠ/Ä ;
+kylä+N:kyl NOUN_PEŠ/Ä ;
+kynnyš+N:kynny  NOUN_KYNNY/Š ;
+kyykkä+N:kyyk  NOUN_KYYK/KÄ ;
+kyykkäri#polvi+N:kyykkäri0polv NOUN_LAPŠ/I ;
+käsi+N:k  NOUN_K/ÄSI ;
+käsi+N:kä NOUN_KÄ/SI ;
+käsi#työ+N:käsi0t NOUN_T/YÖ ;
+käynti+N:käyn NOUN_KÄYN/TI ;
+lahja+N:lahj NOUN_PAKIN/A ;
+lahja+N:lahj NOUN_ŠKOL/A ;
+laita+N:lai NOUN_LAI/TA ;
+laiteh+N:lait NOUN_LAIT/EH ;
+lapsien#kazvattaja+N:lapsien0kazvattaj NOUN_KAŠVATTAJ/A ;
+lapšienpruasiekka+N:lapšienpruasiek NOUN_PAIK/KA ;
+lapši+N:lapš NOUN_LAPŠ/I ;
+laulaja+N:laulaj NOUN_KAŠVATTAJ/A ;
+laulu#mua+N:laulu0mu NOUN_MU/A ;
+laulu+N:laulu  NOUN_NUMERO ;
+laulu+N:laulu NOUN_NUMERO ;
+laušeh+N:laušeh NOUN_ALOVEH ;
+lava+N:lav NOUN_KAŠVATTAJ/A ;
+lehti+N:leh NOUN_LEH/TI ;
+liitto+N:liit  NOUN_VOIT/TO ;
+liittymini+N:liittymi NOUN_KEHITTÄMI/NI ;
+linna+N:linn NOUN_PAKIN/A ;
+lintu+N:lin NOUN_LIN/TU ;
+lippu+N:lip NOUN_LOP/PU ;
+lisä#tieto+N:lisä0ti  NOUN_TI/ETO ;
+livvin#karjala+N:livvin0karjal NOUN_KAŠVATTAJ/A ;
+loma+N:lom NOUN_PAKIN/A ;
+loppu#konsertti+N:loppu0konsert  NOUN_STUDENT/TI ;
+loppu+N:lop NOUN_LOP/PU ;
+lujentamini+N:lujentami NOUN_ŠIJAHI/NI ;
+lukija+N:lukij NOUN_KAŠVATTAJ/A ;
+luokka+N:luok NOUN_PAIK/KA ;
+luomis#kilpailu+N:luomis0kilpailu NOUN_NUMERO ;
+luomis#työ+N:luomis0t  NOUN_T/YÖ ;
+luomis#työ+N:luomis0t NOUN_T/YÖ ;
+luonnon#šiätijö+N:luonnon0šiätijö NOUN_ÄMMÖ ;
+luonto+N:luon NOUN_LUON/TO ;
+lupauš+N:lupau NOUN_MIELIKUVITU/Š ;
+läššä#olija+N:läššä0olij NOUN_KAŠVATTAJ/A ;
+maa+N:ma  NOUN_MA/A ;
+malli+N:mall NOUN_KIEL/I ;
+malli+N:mall NOUN_PIIR/I ;
+mamma+N:mamm NOUN_PAKIN/A ;
+marju+N:marju NOUN_NUMERO ;
+matka+N:matk NOUN_PAKIN/A ;
+matka+N:mat  NOUN_ŠEIK/KA ;
+meččä#tie+N:meččä0t  NOUN_T/IE ;
+mečän#haltija+N:mečän0haltij NOUN_KAŠVATTAJ/A ;
+mečästäjä+N:mečästäj NOUN_JÄRJEŠTÄJ/Ä ;
+meininki+N:meinink NOUN_PIIR/I ;
+melličä+N:mellič NOUN_JÄRJEŠTÄJ/Ä ;
+merkki+N:merk  NOUN_MERK/KI ;
+penkki+N:penk  NOUN_MERK/KI ;
+miehol’a+N:miehol’  NOUN_KAL/A ;
+mielikuvituš+N:mielikuvitu NOUN_MIELIKUVITU/Š ;
+mieli+N:miel NOUN_KIEL/I ;
+mieli#pito+N:mieli0pi NOUN_RUA/TO ;
+mieš+N:mie  NOUN_MIE/Š ;
+miettimine+N:miettimi NOUN_ELAVUTTAMI/NE ;
+monipuolisus+N:monipuolisu  NOUN_VIISAHU/Š ;
+muajilma+N:muajilm NOUN_PAKIN/A ;
+muamo+N:muamo NOUN_NUMERO ;
+mua+N:mu NOUN_MU/A ;
+murre+N:mur  NOUN_MUR/RE ;
+musiikki#kollektiivi+N:musiikki0kollektiiv NOUN_FOLKLORIST/I ;
+musiikki+N:musiik  NOUN_MUSIIK/KI ;
+musiikki#šoitin+N:musiikki0šoit NOUN_ŠOIT/IN ;
+muuttumini+N:muuttumi NOUN_ŠIJAHI/NI ;
+mätäš+N:mät  NOUN_MÄT/ÄŠ ;
+naine+N:nai NOUN_ELAVUTTAMI/NE ;
+naine+N:nai NOUN_ELAVUTTAMI/NE ;
+nakru+N:nakru NOUN_NUMERO ;
+nauha+N:nauh  NOUN_KAL/A ;
+neito+N:nei NOUN_RUA/TO ;
+nero+N:nero NOUN_NUMERO ;
+netti#šivu+N:netti0šivu  NOUN_ŠIVU ;
+niekka+N:niek NOUN_PAIK/KA ;
+niemi#mua+N:niemi0mu NOUN_MU/A ;
+nimi+N:nim NOUN_KIEL/I ;
+nuapuri+N:nuapur NOUN_FOLKLORIST/I ;
+numero+N:numero NOUN_NUMERO ;
+nyky#ihmini+N:nyky0ihmi NOUN_KEHITTÄMI/NI ;
+nähtävyš+N:nähtävy  NOUN_KYNNY/Š ;
+nähtävyš+N:nähtävy NOUN_KYNNY/Š ;
+näkömyš+N:näkömy NOUN_KYNNY/Š ;
+näppi+N:näp NOUN_KEP/PI ;
+näyttely+N:näyttely NOUN_NÄYTTELY ;
+ohjelma+N:ohjelm NOUN_KAŠVATTAJ/A ;
+okša+N:okš NOUN_ŠKOL/A ;
+olka#piä+N:olka0p NOUN_P/IÄ ;
+olka-piä+N:olka-p NOUN_P/IÄ ;
+omaperäisys+N:omaperäisy  NOUN_OMAPERÄISY/Š ;
+ooppera#talo+N:ooppera0talo NOUN_NUMERO ;
+opaštuja+N:opaštuj NOUN_KAŠVATTAJ/A ;
+opastus#ala+N:opastus#al NOUN_PAKIN/A ;
+oppi#kirja+N:oppi0kirj NOUN_PAKIN/A ;
+oraš#kuu+N:oraš0ku  NOUN_KU/U ;
+ošallistuja+N:ošallistuj NOUN_KAŠVATTAJ/A ;
+oša+N:oš NOUN_KAŠVATTAJ/A ;
+ošanottaja+N:ošanottaj NOUN_KAŠVATTAJ/A ;
+ošašto+N:ošašto NOUN_NUMERO ;
+paikkakunta+N:paikkakun NOUN_KOS’S’ON/TA ;
+paikka+N:paik NOUN_PAIK/KA ;
+paikka+N:paik NOUN_PAIK/KA ;
+paja+N:paj NOUN_KAŠVATTAJ/A ;
+pajun#taimen+N:pajun0taimen NOUN_TAIMEN ;
+pakenomini+N:pakenomi NOUN_ŠIJAHI/NI ;
+pakina+N:pakin NOUN_PAKIN/A ;
+palačči+N:palačč NOUN_LAPŠ/I ;
+palačči#ranta#katu+N:palačči0ranta0ka  NOUN_ŠEU/TU ;
+pankka+N:pank NOUN_PAIK/KA ;
+partn’ori+N:partn’or  NOUN_FOLKLORIST/I ;
+passipo+N:passipo  NOUN_NUMERO ;
+patriotismi+N:patriotism  NOUN_FOLKLORIST/I ;
+pelaštaja+N:pelaštaj NOUN_KAŠVATTAJ/A ;
+peli+N:pel NOUN_PEL/I ;
+peluaja+N:peluaj  NOUN_KAŠVATTAJ/A ;
+peluamini+N:peluami NOUN_ŠIJAHI/NI ;
+pereh+N:pereh NOUN_PEREH ;
+perinneh+N:perin NOUN_PERIN/NEH ;
+perintö+N:perin NOUN_PERIN/TÖ ;
+persona+N:person  NOUN_PAKIN/A ;
+petoš+N:peto NOUN_MIELIKUVITU/Š ;
+piekšu+N:piekšu NOUN_NUMERO ;
+piiplija+N:piiplij NOUN_PAKIN/A ;
+piiri+N:piir NOUN_PIIR/I ;
+piirua+N:piiru  NOUN_ŠKOL/A ;
+piiruššuš#kilpailu+N:piiruššuš0kilpailu NOUN_NUMERO ;
+piiruššuš+N:piiruššu NOUN_MIELIKUVITU/Š ;
+pimie#kuu+N:pimie0ku  NOUN_KU/U ;
+pisteh+N:pisteh NOUN_PEREH ;
+pito+N:pi NOUN_RUA/TO ;
+pito+N:pi NOUN_RUA/TO ;
+piä#aihe+N:piä0aih  NOUN_AIH/E ;
+piä+N:p NOUN_P/IÄ ;
+piä#rakennuš+N:piä0rakennu NOUN_MIELIKUVITU/Š ;
+piätöš+N:piätö NOUN_KYNNY/Š ;
+planetta+N:planet NOUN_KART/TA ;
+pohjone+N:pohjo NOUN_ELAVUTTAMI/NE ;
+poika+N:po NOUN_PO/IKA ;
+poimenta+N:poimen NOUN_KOS’S’ON/TA ;
+polvi+N:polv NOUN_LAPŠ/I ;
+popularisointi+N:popularisoin NOUN_SOIN/TI ;
+projekta+N:projekt NOUN_ŠKOL/A ;
+projekti+N:projekt NOUN_FOLKLORIST/I ;
+projektu+N:projekt NOUN_PROJEKT/U ;
+proplema+N:proplem NOUN_PAKIN/A ;
+pruas#niekka+N:pruas0niek NOUN_PAIK/KA ;
+puoli+N:puol NOUN_LAPŠ/I ;
+puukko+N:puuk NOUN_JOUK/KO ;
+päivä#koti+N:päivä0ko NOUN_KO/TI ;
+päivän#kakkara#ryhmä+N:päivän0kakkara0ryhm NOUN_JÄRJEŠTÄJ/Ä ;
+päivä+N:päiv NOUN_PEŠ/Ä ;
+rahvahan#luomis#työ+N:rahvahan0luomis0t NOUN_T/YÖ ;
+rahvahan#tapa+N:rahvahan0ta  NOUN_TA/PA ;
+rahvaš+N:rahva  NOUN_RAHVA/Š ;
+raja+N:raj NOUN_PAKIN/A  ;
+rakennuš+N:rakennu NOUN_MIELIKUVITU/Š ;
+rekonstruointi+N:rekonstruoin NOUN_SOIN/TI ;
+rooli+N:rool NOUN_ROOL/I ;
+ropehelline+N:ropehelli NOUN_ELAVUTTAMI/NE ;
+roveh+N:ro NOUN_RO/VEH ;
+ruado+N:rua NOUN_RUA/DO ;
+ruado+N:rua NOUN_RUA/DO ;
+ruato+N:rua NOUN_RUA/TO ;
+ruato+N:rua NOUN_RUA/TO ;
+runo#kylä+N:runo0kyl NOUN_PEŠ/Ä ;
+runon#laulaja+N:runon0laulaj NOUN_KAŠVATTAJ/A ;
+runo+N:runo NOUN_NUMERO ;
+ryhmä+N:ryhm NOUN_JÄRJEŠTÄJ/Ä ;
+saitti+N:sait  NOUN_STUDENT/TI ;
+šakšalaine+N:šaksalai NOUN_ELAVUTTAMI/NE ;
+šana+N:šan NOUN_PAKIN/A ;
+šattuma+N:šattum NOUN_KAŠVATTAJ/A ;
+seikkailu+N:seikkailu NOUN_NUMERO ;
+šeikkailu#peli+N:šeikkailu0pel NOUN_PEL/I ;
+šeikka+N:šeik NOUN_ŠEIK/KA ;
+šeura+N:šeur  NOUN_PAKIN/A ;
+šeutu+N:šeu  NOUN_ŠEU/TU ;
+šielu+N:šielu  NOUN_ŠIVU ;
+šiipi+N:šii NOUN_ŠII/PI ;
+šijahini+N:šijahi NOUN_ŠIJAHI/NI ;
+šijahini+N:šijahi NOUN_ŠIJAHI/NI ;
+šija+N:šij NOUN_PAKIN/A ;
+šilmä+N:šilm NOUN_PEŠ/Ä ;
+šilta+N:šil NOUN_VAL/TA ;
+siti#keškuš+N:siti0kešku NOUN_MIELIKUVITU/Š ;
+šivu+N:šivu  NOUN_ŠIVU ;
+šiäntö+N:šiän NOUN_ŠIÄN/TÖ ;
+šiäštö+N:šiäštö NOUN_ÄMMÖ ;
+šiätijö+N:šiätijö NOUN_ÄMMÖ ;
+škola+N:škol NOUN_ŠKOL/A ;
+škuappi+N:škuap NOUN_ŠKUAP/PI ;
+sointi+N:soin NOUN_SOIN/TI ;
+šointu+N:šoin NOUN_LIN/TU ;
+šoitin+N:šoit NOUN_ŠOIT/IN ;
+šoittaja+N:šoittaj NOUN_KAŠVATTAJ/A ;
+šoittu+N:šoit  NOUN_ŠOIT/TU ;
+solo#esityš+N:solo0esity NOUN_KYNNY/Š ;
+spektakli+N:spektakl NOUN_FOLKLORIST/I ;
+starina#kirja+N:starina0kirj NOUN_PAKIN/A ;
+starina#muajilma+N:starina0muajilm NOUN_PAKIN/A ;
+starinan#kertoja+N:starinan0kertoj NOUN_KAŠVATTAJ/A ;
+starina+N:starin NOUN_PAKIN/A ;
+studentti+N:student  NOUN_STUDENT/TI ;
+sualeš+N:suale NOUN_SUALE/Š ;
+šuari+N:šuar NOUN_LAPŠ/I ;
+šuarna+N:šuarn NOUN_PAKIN/A ;
+šuhtautumini+N:šuhtautumi NOUN_ŠIJAHI/NI ;
+šuhteh+N:šuhteh NOUN_ALOVEH ;
+sukši+N:sukš NOUN_PIIR/I ;
+siäkši+N:siäkš NOUN_LAPŠ/I ;
+šuku+N:šu NOUN_ŠU/KU ;
+šula#kuu+N:šula0ku  NOUN_KU/U ;
+sul’č'cina+N:sul’ččin  NOUN_SULČČIN/A ;
+šuo+N:š  NOUN_Š/UO ;
+šuovatta+N:šuovatt  NOUN_PAKIN/A ;
+šuu+N:šu  NOUN_KU/U ;
+šyy+N:šy NOUN_ŠY/Y ;
+šyönti+N:šyön NOUN_KÄYN/TI ;
+šähkö#laiteh+N:šähkö0lait NOUN_LAIT/EH ;
+šähkö+N:šähkö NOUN_ÄMMÖ ;
+šähköpošti+N:šähköpošt NOUN_FOLKLORIST/I ;
+šäilyttämini+N:šäilyttämi NOUN_KEHITTÄMI/NI ;
+taimen+N:taimen NOUN_TAIMEN ;
+taiteh+N:taiteh NOUN_ALOVEH ;
+taiteilija+N:taiteilij NOUN_KAŠVATTAJ/A ;
+talo+N:talo NOUN_NUMERO ;
+talo+N:talo NOUN_NUMERO ;
+talvi#palačči+N:talvi0palačč NOUN_LAPŠ/I ;
+tanšši+N:tanšš NOUN_PEL/I ;
+tapa+N:ta  NOUN_TA/PA ;
+tapa+N:tap NOUN_PAKIN/A ;
+taphtuma+N:tapahtum NOUN_TAPAHTUM/A ;
+tappo+N:tap NOUN_TAP/PO ;
+tarkotuš+N:tarkotu NOUN_MIELIKUVITU/Š ;
+taša#valta+N:taša0val NOUN_VAL/TA ;
+tašo+N:tašo NOUN_NUMERO ;
+tatari+N:tatar NOUN_PIIR/I ;
+teatteri+N:teatter  NOUN_FOLKLORIST/I ;
+teatteri+N:teatter NOUN_PIIR/I ;
+teema+N:teem NOUN_ŠKOL/A ;
+tehnikka+N:tehnik NOUN_PAIK/KA ;
+tehtävä+N:tehtäv NOUN_PEŠ/Ä ;
+tekstii+N:tekst NOUN_PIIR/I ;
+tie+N:t  NOUN_T/IE ;
+tieto+N:ti  NOUN_TI/ETO ;
+tietäjä+N:tietäj NOUN_JÄRJEŠTÄJ/Ä ;
+tila+N:til NOUN_ŠKOL/A ;
+toimeh#pito+N:toimeh0pi NOUN_RUA/TO ;
+toimittaja+N:toimittaj NOUN_KAŠVATTAJ/A ;
+torni+N:torn NOUN_LAPŠ/I ;
+tuatto+N:tuat  NOUN_VOIT/TO ;
+tuisku#kuu+N:tuisku0ku  NOUN_KU/U ;
+tulija+N:tulij NOUN_KAŠVATTAJ/A ;
+tuloš+N:tulo NOUN_MIELIKUVITU/Š ;
+tuloš+N:tulo NOUN_MIELIKUVITU/Š ;
+tulovaisuš+N:tulovaisu NOUN_VIISAHU/Š ;
+tulovaisuš+N:tulovaisu NOUN_VIISAHU/Š ;
+tunnelma+N:tunnelm NOUN_PAKIN/A ;
+tunti+N:tun NOUN_TUN/TI ;
+tunti+N:tun NOUN_TUN/TI ;
+tuohi#kesseli+N:tuohi0kessel NOUN_FOLKLORIST/I ;
+tuohi+N:tuoh NOUN_TUOH/I ;
+tutuštumini+N:tutuštumi NOUN_ŠIJAHI/NI ;
+tuuvvittamini+N:tuuvvittami NOUN_ŠIJAHI/NI ;
+työ+N:t  NOUN_T/YÖ ;
+työ+N:t NOUN_T/YÖ ;
+ukko+N:uk NOUN_JOUK/KO ;
+ulko#maa+N:ulko0ma  NOUN_MA/A ;
+ulko#puoli+N:ulko0puol NOUN_LAPŠ/I ;
+ulko#vaihe+N:ulko0vaih  NOUN_VAIH/E ;
+unkarilaine+N:unkarilai NOUN_ELAVUTTAMI/NE ;
+urheilu+N:urheilu  NOUN_NUMERO ;
+uusi#vuosi+N:uu  NOUN_UU/SIVUOSI ;
+vaihe+N:vaih  NOUN_VAIH/E ;
+vaihtoehto+N:vaihtoehto NOUN_NUMERO ;
+vaihto+N:vaih NOUN_VOIT/TO ;
+vakumi+N:vakum NOUN_FOLKLORIST/I ;
+valehuš+N:valehu NOUN_MIELIKUVITU/Š ;
+valehuš+N:valehu NOUN_VIISAHU/Š ;
+valmistamini+N:valmistami NOUN_ŠIJAHI/NI ;
+valo+N:valo NOUN_NUMERO ;
+valta+N:val NOUN_VAL/TA ;
+valtijo+N:valtijo NOUN_NUMERO ;
+valtijon#yli#opisto+N:valtijon0yli0opisto NOUN_NUMERO ;
+varajohtaja+N:varajohtaj NOUN_KAŠVATTAJ/A ;
+vehkeh+N:vehkeh NOUN_PEREH ;
+veiči+N:veič NOUN_KIEL/I ;
+vejen#haltija+N:vejen0haltij NOUN_KAŠVATTAJ/A ;
+venäjä+N:venäj NOUN_JÄRJEŠTÄJ/Ä ;
+vesi+N:ve NOUN_KÄ/SI ;
+vetäjä+N:vetäj NOUN_JÄRJEŠTÄJ/Ä ;
+vičča+N:vič NOUN_VIČ/ČA ;
+video+N:video NOUN_VIDEO ;
+vienan#karjala+N:vienan0karjal NOUN_KAŠVATTAJ/A ;
+viršša+N:viršš NOUN_PAKIN/A ;
+voima+N:voim NOUN_PAKIN/A ;
+voittaja+N:voittaj NOUN_KAŠVATTAJ/A ;
+voitto+N:voit  NOUN_VOIT/TO ;
+vuosi+N:vu  NOUN_VU/OSI ;
+vuoši+N:vuo  NOUN_VUO/ŠI ;
+vuotis#päivä+N:vuotis0päiv NOUN_PEŠ/Ä ;
+vähembistö#kieli+N:vähembistö0kiel NOUN_KIEL/I ;
+yhteis#ruato+N:yhteis0rua NOUN_RUA/TO ;
+yhteis#toiminta+N:yhteis0toimin NOUN_KOS’S’ON/TA ;
+yhteis#työ+N:yhteis0t NOUN_T/YÖ ;
+yhyšvalta+N:yhyšval NOUN_VAL/TA ;
+yksityis#esiintyjä+N:yksityis0esiintyj NOUN_JÄRJEŠTÄJ/Ä ;
+yli#opisto+N:yli0opisto NOUN_NUMERO ;
+ympäristö+N:ympäristö NOUN_ÄMMÖ ;
+yštävä+N:yštäv NOUN_PEŠ/Ä ;
+ämmölä+N:ämmöl NOUN_JÄRJEŠTÄJ/Ä ;
+ämmö+N:ämmö NOUN_ÄMMÖ ;
+
+
+klo+N+ABBR:klo    # ;
+ven.+N+ABBR:ven.  # ;
+wwf.ru+N+ABBR:wwf.ru # ;
+
+KT+N+Prop+ACRO:KT  ACRO_T ;
+TV+N+ACRO:TV  ACRO_T ;
+WWF+N+Prop+ACRO:WWF  ACRO_T ;
 
 ahanta	noun ;
 ahava	noun ;
@@ -22944,6 +23450,8 @@ yövyntä	noun ;
 ötönöi	noun ;
 öystä	noun ;
 
+
+
 LEXICON a_i_noun
 a noun ;
 a:i noun ;
@@ -23207,5 +23715,843 @@ a+N:a  noun_sg_nom ;
 a+N:a  noun_sg_common ;
 a+N:u  noun_sg_par ;
 a+N:o  noun_pl_common ;
+
+LEXICON NOUN_MÄT/ÄŠ
+
+0:äš NOUN_SGNOM_0 ;
+0:tähä NOUN_CASES_SG_FRONT ;
+0:täš NOUN_SGPAR_TA ;
+0:täh   NOUN_CASES_PL_FRONT ;
+
+LEXICON NOUN_KIN/NAŠ
+
+0:naš NOUN_SGNOM_0 ;
+0:taha NOUN_CASES_SG_BACK ;
+0:naš NOUN_SGPAR_TA ;
+0:tah   NOUN_CASES_PL_BACK ;
+
+LEXICON NOUN_KYNNY/Š
+
+0:š NOUN_SGNOM_0 ;
+0:kše NOUN_CASES_SG_FRONT ;
+0:š NOUN_SGPAR_TÄ ;
+0:ks   NOUN_CASES_PL_FRONT ;
+0:ks   NOUN_PLPAR_IE ;
+
+LEXICON NOUN_EVÄ/Š
+
+0:š NOUN_SGNOM_0 ;
+0:hä NOUN_CASES_SG_FRONT ;
+0:š NOUN_SGPAR_TÄ ;
+0:h   NOUN_PLPAR_IE ;
+0:h   NOUN_CASES_PL_FRONT ;
+
+LEXICON NOUN_OMAPERÄISY/Š
+
+0:š NOUN_SGNOM_0 ;
+0:ve NOUN_CASES_SG_FRONT ;
++Sg+Gen:ön # ;
+0:t NOUN_SGPAR_TÄ ;
+0:v   NOUN_CASES_PL_BACK ;
+
+LEXICON NOUN_VIISAHU/Š
+
+0:š NOUN_SGNOM_0 ;
+0:ve NOUN_CASES_SG_BACK ;
++Sg+Gen:on # ;
+0:t NOUN_SGPAR_TA ;
+0:v   NOUN_CASES_PL_BACK ;
+
+LEXICON NOUN_MIELIKUVITU/Š
+
+0:š NOUN_SGNOM_0 ;
+0:kše NOUN_CASES_SG_BACK ;
+0:š NOUN_SGPAR_TA ;
+0:kši NOUN_SGPAR_E ;
+0:kši NOUN_PLPAR_JA ;
+0:kš   NOUN_CASES_PL_BACK ;
+
+LEXICON NOUN_SUALE/Š
+
+0:š NOUN_SGNOM_0 ;
+0:he NOUN_CASES_SG_BACK ;
+0:š NOUN_SGPAR_TA ;
+0:h   NOUN_CASES_PL_BACK ;
+
+LEXICON NOUN_RAHVA/Š
+
+0:š NOUN_SGNOM_0 ;
+0:ha NOUN_CASES_SG_BACK ;
+0:š NOUN_SGPAR_TA ;
+0:h   NOUN_CASES_PL_BACK ;
+0:h   NOUN_PLGEN_IEN ;
+
+LEXICON NOUN_MIE/Š
+
+0:š NOUN_SGNOM_0 ;
+0:he NOUN_CASES_SG_FRONT ;
+0:š NOUN_SGPAR_TÄ ;
+0:h   NOUN_CASES_PL_FRONT ;
+
+LEXICON NOUN_ŠOIT/IN
+
+0:in NOUN_SGNOM_0 ;
+0:time NOUN_CASES_SG_BACK ;
+0:in  NOUN_SGPAR_TA ;
+0:tim   NOUN_CASES_PL_FRONT ;
+0:tim   NOUN_PLGEN_IEN ;
+0:tim   NOUN_PLPAR_IE ;
+
+LEXICON NOUN_TAIMEN
+
+0 NOUN_SGNOM_0 ;
+0:e NOUN_CASES_SG_BACK ;
+0 NOUN_SGPAR_TA ;
+0   NOUN_CASES_PL_BACK ;
+
+LEXICON NOUN_JÄŠEN
+
+0 NOUN_SGNOM_0 ;
+0:e NOUN_CASES_SG_FRONT ;
+0 NOUN_SGPAR_TÄ ;
+0   NOUN_CASES_PL_FRONT ;
+
+LEXICON NOUN_ISTORI/E
+
+0:e NOUN_SGNOM_0 ;
+0:e NOUN_CASES_SG_BACK ;
+0:ju NOUN_SGPAR_A ;
+0:jo NOUN_CASES_PL_BACK ;
+
+LEXICON NOUN_ROOL/I
+
+0:i NOUN_SGNOM_0 ;
+0:i NOUN_CASES_SG_BACK ;
+0:i  NOUN_SGPAR_E ;
+0:e  NOUN_CASES_PL_BACK ;
+0:i  NOUN_PLPAR_JA ;
+0  NOUN_PLGEN_IEN ;
+0:ilo  NOUN_CASES_LO/I_PL_BACK ;
+
+LEXICON NOUN_PEL/I
+
+0:i NOUN_SGNOM_0 ;
+0:i NOUN_CASES_SG_FRONT ;
+0:i  NOUN_SGPAR_E ;
+0:e  NOUN_CASES_PL_FRONT ;
+0:i  NOUN_PLPAR_JÄ ;
+0:ilö  NOUN_CASES_LÖ/I_PL_FRONT ;
+
+LEXICON NOUN_ŠKUAP/PI
+
+0:pi NOUN_SGNOM_0 ;
+0:i NOUN_CASES_SG_WEAK_BACK ;
+0:pi NOUN_CASES_SG_STRONG_BACK ;
+0:pi  NOUN_SGPAR_E ;
+0:p  NOUN_CASES_PL_BACK ;
+0:pe  NOUN_PLPAR_JA ;
+
+LEXICON NOUN_KEP/PI
+
+0:pi NOUN_SGNOM_0 ;
+0:i NOUN_CASES_SG_WEAK_FRONT ;
+0:pi NOUN_CASES_SG_STRONG_FRONT ;
+0:pi  NOUN_SGPAR_E ;
+0:p  NOUN_CASES_PL_FRONT ;
+0:pe  NOUN_PLPAR_JÄ ;
+0:pi  NOUN_PLGEN_JEN ;
+
+LEXICON NOUN_ŠII/PI
+
+0:pi NOUN_SGNOM_0 ;
+0:ve NOUN_CASES_SG_WEAK_FRONT ;
+0:pe NOUN_CASES_SG_STRONG_FRONT ;
+0:pi  NOUN_SGPAR_E ;
+0:v  NOUN_CASES_PL_WEAK_FRONT ;
+0:p  NOUN_CASES_PL_WEAK_FRONT ;
+0:pi  NOUN_PLPAR_JÄ ;
+0:pi  NOUN_PLGEN_JEN ;
+
+LEXICON NOUN_LIN/TU
+
+0:tu NOUN_SGNOM_0 ;
+0:nu NOUN_CASES_SG_BACK ;
+0:tu  NOUN_SGPAR_O ;
+0:nu  NOUN_CASES_PL_BACK ;
+0:tu  NOUN_PLPAR_JA ;
+
+
+LEXICON NOUN_TUN/TI
+
+0:ti NOUN_SGNOM_0 ;
+0:ni NOUN_CASES_SG_BACK ;
+0:ti  NOUN_SGPAR_E ;
+0:ne  NOUN_CASES_PL_BACK ;
+0:te  NOUN_PLPAR_JA ;
+
+LEXICON NOUN_KÄYN/TI
+
+0:ti NOUN_SGNOM_0 ;
+0:ni NOUN_CASES_SG_FRONT ;
+0:ti  NOUN_SGPAR_E ;
+0:ne  NOUN_CASES_PL_FRONT ;
+0:te  NOUN_PLPAR_JÄ ;
+
+LEXICON NOUN_KÄ/SI
+
+0:si NOUN_SGNOM_0 ;
+0:te NOUN_CASES_SG_FRONT ;
+0:si  NOUN_SGPAR_E ;
+0:s   NOUN_CASES_PL_FRONT ;
+0:si  NOUN_PLPAR_JÄ ;
+
+LEXICON NOUN_FOLKLORIST/I
+
+0:i NOUN_SGNOM_0 ;
+0:i NOUN_CASES_SG_BACK ;
+0:i  NOUN_SGPAR_E ;
+0:e  NOUN_CASES_PL_BACK ;
+0:i  NOUN_PLPAR_JA ;
+0    NOUN_PLGEN_IEN ;
+
+LEXICON NOUN_LAPŠ/I
+
+0:i   NOUN_SGNOM_0 ;
+0:e   NOUN_CASES_SG_BACK ;
+0:i   NOUN_SGPAR_E ;
+0     NOUN_CASES_PL_BACK ;
+0:i   NOUN_PLPAR_JA ;
+0:ilo  NOUN_CASES_LO/I_PL_BACK ;
+
+LEXICON NOUN_HENK/I
+
+0:i NOUN_SGNOM_0 ;
+0:i NOUN_CASES_SG_FRONT ;
+0   NOUN_CASES_PL_FRONT ;
+0:i NOUN_SGPAR_E ;
+
+LEXICON NOUN_PIIR/I
+
+0:i NOUN_SGNOM_0 ;
+0:i NOUN_CASES_SG_FRONT ;
+0   NOUN_CASES_PL_FRONT ;
+0:i NOUN_SGPAR_Ä ;
+0:i NOUN_SGPAR_E ;
+0:ilö NOUN_CASES_LÖ/I_PL_FRONT ;
+LEXICON NOUN_TUOH/I
+
+0:i NOUN_SGNOM_0 ;
+0:e NOUN_CASES_SG_BACK ;
+0   NOUN_CASES_PL_BACK ;
+0   NOUN_SGPAR_TA ;
+
+LEXICON NOUN_JUUR/I
+
+0:i NOUN_SGNOM_0 ;
+0:e NOUN_CASES_SG_FRONT ;
+0   NOUN_CASES_PL_FRONT ;
+0   NOUN_SGPAR_TA ;
+0   NOUN_PLPAR_IE ;
+
+LEXICON NOUN_KIEL/I
+
+0:i NOUN_SGNOM_0 ;
+0:e NOUN_CASES_SG_FRONT ;
+0   NOUN_CASES_PL_FRONT ;
+0   NOUN_SGPAR_TÄ ;
+0   NOUN_PLPAR_IE ;
+
+LEXICON NOUN_VUO/ŠI
+
+0:ši  NOUN_SGNOM_0 ;
+0:te  NOUN_CASES_SG_BACK ;
+0:s   NOUN_CASES_PL_BACK ;
+0:t   NOUN_SGPAR_TA ;
+
+LEXICON NOUN_PROJEKT/U
+
+0:u NOUN_SGNOM_0 ;
+0:a NOUN_CASES_SG_BACK ;
+0:i NOUN_SGGEN_N ;
+0   NOUN_CASES_PL_BACK ;
+
+
+LEXICON NOUN_TAP/PO
+
+0:po NOUN_SGNOM_0 ;
+0:pu NOUN_SGPAR_O ;
+0:po NOUN_CASES_SG_BACK ;
+
+LEXICON NOUN_RUA/TO
+
+0:to NOUN_SGNOM_0 ;
+0:du NOUN_SGPAR_O ;
+0:tu NOUN_SGPAR_O ;
+0:to NOUN_CASES_SG_BACK ;
+0:do NOUN_CASES_SG_BACK ;
+0:vo NOUN_CASES_SG_BACK ;
+0:to NOUN_PLPAR_JA ;
+0:to NOUN_PLGEN_JEN ;
+0:tolo NOUN_CASES_LO/I_PL_BACK ;
+
+LEXICON NOUN_RUA/DO
+
+0:to NOUN_SGNOM_0 ;
+0:do NOUN_SGNOM_0 ;
+0:du NOUN_SGPAR_O ;
+0:to NOUN_CASES_SG_BACK ;
+0:do NOUN_CASES_SG_BACK ;
+0:vo NOUN_CASES_SG_BACK ;
+
+LEXICON NOUN_TI/ETO
+
+0:eto  NOUN_SGNOM_0 ;
+0:etu  NOUN_SGPAR_O ;
+0:eto  NOUN_CASES_SG_STRONG_BACK ;
+0:ijo  NOUN_CASES_SG_WEAK_BACK ;
+0:to  NOUN_PLPAR_JA ;
+0:to  NOUN_PLGEN_JEN ;
+0:tolo  NOUN_CASES_LO/I_PL_BACK ;
+
+LEXICON NOUN_T/YÖ
+
+0:yö NOUN_SGNOM_0 ;
+0:yö NOUN_CASES_SG_FRONT ;
+0:ö  NOUN_CASES_PL_FRONT ;
+0:ö  NOUN_PLPAR_ITÄ ;
+0:ö  NOUN_PLGEN_IJEN ;
+
+LEXICON NOUN_T/IE
+
+0:ie NOUN_SGNOM_0 ;
+0:ie NOUN_CASES_SG_FRONT ;
+0:e  NOUN_CASES_PL_FRONT ;
+
+LEXICON NOUN_Š/UO
+
+0:uo NOUN_SGNOM_0 ;
+0:uo NOUN_CASES_SG_BACK ;
+0:o  NOUN_CASES_PL_BACK ;
+
+LEXICON NOUN_NUMERO
+
+0 NOUN_SGNOM_0 ;
+0 NOUN_CASES_SG_BACK ;
+0 NOUN_SGPAR_A ;
+0 NOUN_PLPAR_JA ;
+0 NOUN_CASES_PL_BACK ;
+0 NOUN_PLGEN_JEN ;
+
+LEXICON NOUN_ŠIVU
+
+0 NOUN_SGNOM_0 ;
+0 NOUN_CASES_SG_BACK ;
+0 NOUN_SGPAR_O ;
+0 NOUN_PLPAR_JA ;
+0 NOUN_CASES_PL_BACK ;
+0 NOUN_PLGEN_JEN ;
+
+LEXICON NOUN_HILL/O
+
+0:o NOUN_SGNOM_0 ;
+0:o NOUN_CASES_SG_BACK ;
+0:u NOUN_SGPAR_O ;
+0:o NOUN_PLPAR_JA ;
+0:o NOUN_CASES_PL_BACK ;
+0:o NOUN_PLGEN_JEN ;
+
+LEXICON NOUN_VIDEO
+
+0 NOUN_SGNOM_0 ;
+0 NOUN_CASES_SG_BACK ;
+0 NOUN_SGPAR_TA ;
+0 NOUN_PLPAR_JA ;
+0 NOUN_CASES_PL_BACK ;
+0 NOUN_PLGEN_JEN ;
+
+LEXICON NOUN_PERIN/TÖ
+
+0:tö NOUN_SGNOM_0 ;
+0:nö NOUN_CASES_SG_FRONT ;
+0:tö NOUN_PLPAR_JÄ ;
+0:nö NOUN_CASES_PL_FRONT ;
+0:tö NOUN_PLGEN_JEN ;
+
+LEXICON NOUN_NÄYTTELY
+
+0 NOUN_SGNOM_0 ;
+0 NOUN_CASES_SG_FRONT ;
+0 NOUN_CASES_PL_FRONT ;
+0 NOUN_SGPAR_Ö ;
+0 NOUN_PLPAR_JÄ ;
+0 NOUN_PLGEN_JEN ;
+
+LEXICON NOUN_ÄMMÖ
+
+0 NOUN_SGNOM_0 ;
+0 NOUN_CASES_SG_FRONT ;
+0 NOUN_CASES_PL_FRONT ;
+0 NOUN_PLPAR_JÄ ;
+0 NOUN_PLGEN_JEN ;
+
+LEXICON NOUN_KYYK/KÄ
+
+0:kä NOUN_SGNOM_0 ;
+0:ä NOUN_CASES_SG_WEAK_FRONT ;
+0   NOUN_CASES_PL_FRONT ;
+0:k  NOUN_PLPAR_IE ;
+
+LEXICON NOUN_VIČ/ČA
+
+0:ča NOUN_SGNOM_0 ;
+0:a NOUN_CASES_SG_WEAK_BACK ;
+0:o NOUN_CASES_PL_BACK ;
+0:ču NOUN_SGPAR_A ;
+0:čo NOUN_CASES_PL_BACK ;
+0:čo NOUN_PLPAR_JA ;
+
+LEXICON NOUN_PAIK/KA
+
+0:ka NOUN_SGNOM_0 ;
+0:a  NOUN_CASES_SG_WEAK_BACK ;
+0:ku NOUN_SGPAR_A ;
+0:o  NOUN_CASES_PL_BACK ;
+0:ko NOUN_CASES_PL_BACK ;
+0:ko NOUN_PLPAR_JA ;
+0:ko NOUN_PLGEN_JEN ;
+
+
+LEXICON NOUN_TA/PA
+
+0:pa NOUN_SGNOM_0 ;
+0:va NOUN_CASES_SG_WEAK_BACK ;
+0:vo NOUN_CASES_PL_WEAK_BACK ;
+0:po NOUN_CASES_PL_BACK_STRONG ;
+0:po NOUN_PLPAR_JA ;
+0:po NOUN_PLGEN_JEN ;
+
+LEXICON NOUN_STUDENT/TI
+
+0:ti NOUN_SGNOM_0 ;
+0:i NOUN_CASES_SG_WEAK_BACK ;
+0:ti NOUN_PLGEN_JEN ;
+0:tilo  NOUN_CASES_LO/I_PL_BACK ;
+
+LEXICON NOUN_MUSIIK/KI
+
+0:ki NOUN_SGNOM_0 ;
+0:i NOUN_CASES_SG_WEAK_BACK ;
+
+LEXICON NOUN_MERK/KI
+
+0:ki NOUN_SGNOM_0 ;
+0:i NOUN_CASES_SG_WEAK_FRONT ;
+
+LEXICON NOUN_VOIT/TO
+
+0:to NOUN_SGNOM_0 ;
+0:to NOUN_SGPAR_O ;
+0:to NOUN_PLPAR_JA ;
+0:to NOUN_PLGEN_JEN ;
+0:o NOUN_CASES_SG_WEAK_BACK ;
+0:tolo  NOUN_CASES_LO/I_PL_BACK ;
+
+LEXICON NOUN_MA/A
+
+0:a NOUN_SGNOM_0 ;
+0:a NOUN_SGPAR_TA ;
+0   NOUN_PLPAR_ITA ;
+0:a NOUN_CASES_SG_BACK ;
+0   NOUN_CASES_PL_BACK ;
+
+LEXICON NOUN_KU/U
+
+0:u NOUN_SGNOM_0 ;
+0:u NOUN_SGPAR_TA ;
+0:u NOUN_CASES_SG_BACK ;
+0   NOUN_CASES_PL_BACK ;
+
+LEXICON NOUN_ŠEU/TU
+
+0:tu NOUN_SGNOM_0 ;
+0:tu NOUN_SGPAR_O ;
+0:vu NOUN_CASES_SG_WEAK_BACK ;
+0:vu NOUN_CASES_PL_BACK ;
+
+LEXICON NOUN_ŠOIT/TU
+
+0:tu NOUN_SGNOM_0 ;
+0:tu NOUN_SGPAR_O ;
+0:u NOUN_CASES_SG_WEAK_BACK ;
+
+LEXICON NOUN_ILLAČ/ČU
+
+0:ču NOUN_SGNOM_0 ;
+0:ču NOUN_SGPAR_O ;
+0:ču NOUN_SGILL_H ;
+0:u NOUN_CASES_SG_WEAK_BACK ;
+
+LEXICON NOUN_LUON/TO
+
+0:to NOUN_SGNOM_0 ;
+0:tu  NOUN_SGPAR_O ;
+0:no NOUN_CASES_SG_WEAK_BACK ;
+0:to NOUN_CASES_SG_STRONG_BACK ;
+
+LEXICON NOUN_JOUK/KO
+
+0:ko NOUN_SGNOM_0 ;
+0:ko NOUN_PLPAR_JA ;
+0:ku  NOUN_SGPAR_O ;
+0:o NOUN_CASES_SG_WEAK_BACK ;
+0:ko NOUN_CASES_SG_STRONG_BACK ;
+0:o NOUN_CASES_PL_BACK ;
+
+LEXICON NOUN_KIRIK/KÖ
+
+0:kö NOUN_SGNOM_0 ;
+0:ky  NOUN_SGPAR_Ö ;
+0:ö NOUN_CASES_SG_WEAK_FRONT ;
+
+LEXICON NOUN_AL/KU
+
+0:ku NOUN_SGNOM_0 ;
+0:u NOUN_CASES_SG_WEAK_BACK ;
+
+LEXICON NOUN_LOP/PU
+
+0:pu NOUN_SGNOM_0 ;
+0:pu NOUN_PLGEN_JEN ;
+0:pu NOUN_SGPAR_O ;
+0:u NOUN_CASES_SG_WEAK_BACK ;
+
+LEXICON NOUN_A/PU
+
+0:pu NOUN_SGNOM_0 ;
+0:pu NOUN_PLGEN_JEN ;
+0:pu NOUN_SGPAR_O ;
+0:vu NOUN_CASES_SG_WEAK_BACK ;
+
+LEXICON NOUN_ŠU/KU
+
+0:ku NOUN_SGNOM_0 ;
+0:ku NOUN_PLGEN_JEN ;
+0:vu NOUN_CASES_SG_WEAK_BACK ;
+
+
+LEXICON NOUN_LEH/TI
+
+0:ti NOUN_SGNOM_0 ;
+0:e  NOUN_CASES_SG_WEAK_FRONT ;
+0:ti NOUN_SGPAR_E ;
+0:tilö  NOUN_CASES_LÖ/I_PL_FRONT ;
+
+LEXICON NOUN_KO/TI
+
+0:ti NOUN_SGNOM_0 ;
+0:i  NOUN_CASES_SG_WEAK_BACK ;
+0:ji  NOUN_CASES_SG_WEAK_BACK ;
+0:ti NOUN_CASES_SG_STRONG_BACK ;
+0:tilo  NOUN_CASES_LO/I_PL_BACK ;
+
+LEXICON NOUN_ŠIJAHI/NI
+
+0:ni NOUN_SGNOM_0 ;
+0:se NOUN_CASES_SG_BACK ;
+0:s  NOUN_SGPAR_TU ;
+0:s  NOUN_CASES_PL_BACK ;
+
+LEXICON NOUN_KEHITTÄMI/NI
+
+0:ni NOUN_SGNOM_0 ;
+0:se NOUN_CASES_SG_FRONT ;
+0:s  NOUN_SGPAR_TY ;
+0:s  NOUN_SGPAR_TÄ ;
+0:s  NOUN_PLPAR_IE ;
+0:s  NOUN_CASES_PL_FRONT ;
+
+
+LEXICON NOUN_ELAVUTTAMI/NE
+
+0:ne NOUN_SGNOM_0 ;
+0:se NOUN_CASES_SG_BACK ;
+0:s  NOUN_SGPAR_TU ;
+0:s  NOUN_SGPAR_TA ;
+0:s  NOUN_CASES_PL_BACK ;
+
+LEXICON NOUN_JÄRJEŠTÄJ/Ä
+
+0:ä  NOUN_SGNOM_0 ;
+0:ä  NOUN_CASES_SG_FRONT ;
+0    NOUN_CASES_PL_FRONT ;
+0    NOUN_PLPAR_IE  ;
+
+LEXICON NOUN_SOIN/TI
+
+0:ti  NOUN_SGNOM_0 ;
+0:ni  NOUN_CASES_SG_WEAK_BACK ;
+0:n    NOUN_CASES_PL_BACK ;
+0:t    NOUN_PLPAR_IE  ;
+
+LEXICON NOUN_KOS’S’ON/TA
+
+0:ta  NOUN_SGNOM_0 ;
+0:na  NOUN_CASES_SG_WEAK_BACK ;
+0:ta  NOUN_CASES_SG_STRONG_BACK ;
+0:n    NOUN_CASES_PL_BACK ;
+0:t    NOUN_PLPAR_IE  ;
+
+LEXICON NOUN_KAŠVATTAJ/A
+
+0:a  NOUN_SGNOM_0 ;
+0:a  NOUN_CASES_SG_BACK ;
+0:u  NOUN_SGPAR_A ;
+0    NOUN_CASES_PL_BACK ;
+0    NOUN_PLPAR_IE  ;
+
+LEXICON NOUN_ŠEIK/KA
+
+0:ka  NOUN_SGNOM_0 ;
+0:a  NOUN_CASES_SG_WEAK_BACK ;
+0:u  NOUN_SGPAR_A ;
+0:o    NOUN_CASES_PL_BACK ;
+0:o    NOUN_PLPAR_JA ;
+0:o    NOUN_PLGEN_JEN ;
+
+LEXICON NOUN_KAUP/PA
+
+0:pa  NOUN_SGNOM_0 ;
+0:a  NOUN_CASES_SG_WEAK_BACK ;
+0:pa  NOUN_CASES_SG_STRONG_BACK ;
+0:pu  NOUN_SGPAR_A ;
+0:o    NOUN_CASES_PL_BACK ;
+0:po    NOUN_PLPAR_JA ;
+0:po    NOUN_PLGEN_JEN ;
+
+
+LEXICON NOUN_KART/TA
+
+0:ta  NOUN_SGNOM_0 ;
+0:a  NOUN_CASES_SG_WEAK_BACK ;
+0:ta  NOUN_CASES_SG_STRONG_BACK ;
+0:tu  NOUN_SGPAR_A ;
+0:o    NOUN_CASES_PL_BACK ;
+0:to    NOUN_PLPAR_JA ;
+0:to    NOUN_PLGEN_JEN ;
+
+LEXICON NOUN_PAKIN/A
+
+0:a  NOUN_SGNOM_0 ;
+0:a  NOUN_CASES_SG_BACK ;
+0:u  NOUN_SGPAR_A ;
+0:o    NOUN_CASES_PL_BACK ;
+0:o    NOUN_PLPAR_JA ;
+0:o    NOUN_PLGEN_JEN ;
+
+LEXICON NOUN_SULČČIN/A
+
+0:a  NOUN_SGNOM_0 ;
+0:a  NOUN_CASES_SG_BACK ;
+0:o  NOUN_SGPAR_A ;
+0:o  NOUN_CASES_PL_BACK ;
+0:o  NOUN_PLGEN_JEN ;
+
+LEXICON NOUN_KAL/A
+
+0:a  NOUN_SGNOM_0 ;
+0:a  NOUN_CASES_SG_BACK ;
+0:u  NOUN_SGPAR_A ;
+0:u  NOUN_CASES_PL_BACK ;
+0:o  NOUN_PLGEN_JEN ;
+
+LEXICON NOUN_ŠKOL/A
+
+0:a  NOUN_SGNOM_0 ;
+0:a  NOUN_CASES_SG_BACK ;
+0:o  NOUN_PLPAR_I ;
+0    NOUN_CASES_PL_BACK ;
+
+
+LEXICON NOUN_TAPAHTUM/A
+
+0:a  NOUN_SGNOM_0 ;
+0:a  NOUN_CASES_SG_BACK ;
+0:o  NOUN_SGPAR_A ;
+0    NOUN_PLPAR_IE ;
+
+LEXICON NOUN_PEŠ/Ä
+
+0:ä  NOUN_SGNOM_0 ;
+0:ä  NOUN_CASES_SG_FRONT ;
+0    NOUN_CASES_PL_FRONT ;
+0:y  NOUN_SGPAR_Ä ;
+0    NOUN_PLPAR_IE ;
+
+LEXICON NOUN_KENT/TÄ
+
+0:tä  NOUN_SGNOM_0 ;
+0:ä  NOUN_CASES_SG_FRONT ;
+0:t   NOUN_CASES_PL_FRONT ;
+
+LEXICON NOUN_EMÄN/TÄ
+
+0:tä  NOUN_SGNOM_0 ;
+0:nä  NOUN_CASES_SG_FRONT ;
+0:t   NOUN_CASES_PL_FRONT ;
+
+LEXICON NOUN_LAI/TA
+
+0:ta  NOUN_SGNOM_0 ;
+0:ja  NOUN_CASES_SG_WEAK_BACK ;
+0:ta  NOUN_CASES_SG_STRONG_BACK ;
+0:ta  NOUN_SGILL_H ;
+0:to  NOUN_PLPAR_I ;
+0:jo  NOUN_CASES_PL_BACK ;
+
+LEXICON NOUN_KER/TA
+
+0:ta  NOUN_SGNOM_0 ;
+0:ra  NOUN_CASES_SG_WEAK_BACK ;
+0:ta  NOUN_CASES_SG_STRONG_BACK ;
+0:ta  NOUN_SGILL_H ;
+0:tu  NOUN_SGPAR_A ;
+0:to  NOUN_PLPAR_I ;
+0:ro  NOUN_CASES_PL_BACK ;
+
+LEXICON NOUN_VAL/TA
+
+0:ta  NOUN_SGNOM_0 ;
+0:la  NOUN_CASES_SG_WEAK_BACK ;
+0:ta  NOUN_CASES_SG_STRONG_BACK ;
+0:ta  NOUN_SGILL_H ;
+0:to  NOUN_PLPAR_I ;
+0:lo  NOUN_CASES_PL_BACK ;
+
+LEXICON NOUN_ŠIÄN/TÖ
+
+0:tö  NOUN_SGNOM_0 ;
+0:nö  NOUN_CASES_SG_FRONT ;
+0:nö  NOUN_CASES_PL_FRONT ;
+
+LEXICON NOUN_ŠY/Y
+
+0:y NOUN_SGNOM_0 ;
+0:y NOUN_CASES_SG_FRONT ;
+0:y NOUN_SGPAR_TÄ ;
+
+LEXICON NOUN_MU/A
+
+0:a NOUN_SGNOM_0 ;
+0:a NOUN_CASES_SG_BACK ;
+0:a NOUN_SGPAR_TA ;
+
+LEXICON NOUN_P/IÄ
+
+0:iä NOUN_SGNOM_0 ;
+0:iä NOUN_CASES_SG_FRONT ;
+0:iä NOUN_SGPAR_TÄ ;
+0:ä NOUN_PLPAR_ITÄ ;
+0:ä NOUN_CASES_PL_FRONT ;
+
+LEXICON NOUN_LAIT/EH
+
+0:eh   NOUN_SGNOM_0 ;
+0:tehe NOUN_CASES_SG_BACK ;
+0:teh   NOUN_CASES_PL_BACK ;
+0:teh   NOUN_PLPAR_IE ;
+
+LEXICON NOUN_PERIN/NEH
+
+0:neh   NOUN_SGNOM_0 ;
+0:tehe NOUN_CASES_SG_FRONT ;
+0:teh   NOUN_CASES_PL_FRONT ;
+0:teh   NOUN_PLPAR_IE ;
+
+
+LEXICON NOUN_ALOVEH
+
+0   NOUN_SGNOM_0 ;
+0:e NOUN_CASES_SG_BACK ;
+0   NOUN_SGPAR_TA ;
+0   NOUN_CASES_PL_BACK ;
+0:i   NOUN_PLPAR_JA ;
+
+
+LEXICON NOUN_PEREH
+
+0   NOUN_SGNOM_0 ;
+0:e NOUN_CASES_SG_FRONT ;
+0   NOUN_SGPAR_TÄ ;
+0   NOUN_PLPAR_IE ;
+0   NOUN_CASES_PL_FRONT ;
+
+LEXICON NOUN_AI/KA
+
+0:ka  NOUN_SGNOM_0 ;
+0:ja  NOUN_CASES_SG_WEAK_BACK ;
+0:ka  NOUN_CASES_SG_STRONG_BACK ;
+0:ka  NOUN_SGILL_H ;
+0:ko  NOUN_SGPAR_A ;
+0:ku  NOUN_SGPAR_A ;
+0:ko  NOUN_CASES_PL_BACK ;
+
+LEXICON NOUN_AIH/E
+
+0:e  NOUN_SGNOM_0 ;
+0:ee  NOUN_CASES_SG_BACK ;
+0:ie  NOUN_CASES_SG_BACK ;
+0:et  NOUN_SGPAR_TA ;
+
+LEXICON NOUN_VAIH/E
+
+0:e  NOUN_SGNOM_0 ;
+0:ie  NOUN_CASES_SG_BACK ;
+0:et  NOUN_SGPAR_TA ;
+
+
+LEXICON NOUN_MUR/RE
+
+0:re  NOUN_SGNOM_0 ;
+0:tehe  NOUN_CASES_SG_BACK ;
+0:teh  NOUN_CASES_PL_BACK ;
+
+LEXICON NOUN_UU/SIVUOSI
+
++Sg+Nom:sivuosi  # ;
++Sg+Gen:vvenvuuvven  # ;
+
+LEXICON NOUN_VU/OSI
+
+0:osi  NOUN_SGNOM_0 ;
+0:ot   NOUN_SGPAR_TA ;
+0:os   NOUN_CASES_PL_BACK ;
+0:uvve NOUN_CASES_SG_BACK ;
+
+LEXICON NOUN_K/ÄSI
+
+0:äsi  NOUN_SGNOM_0 ;
+0:ät   NOUN_SGPAR_TÄ ;
+0:äis  NOUN_CASES_PL_FRONT ;
+0:iä   NOUN_CASES_SG_FRONT ;
+
+LEXICON NOUN_PO/IKA
+
+0:ika  NOUN_SGNOM_0 ;
+0:ja  NOUN_CASES_SG_BACK ;
+0:j  NOUN_CASES_PL_BACK ;
+
+LEXICON NOUN_RO/VEH
+
+0:veh  NOUN_SGNOM_0 ;
+0:pehe  NOUN_CASES_SG_BACK ;
+0:peh  NOUN_CASES_PL_BACK ;
+0:veh  NOUN_SGPAR_TA ;
+0:peh  NOUN_PLPAR_IE ;
+
+LEXICON ACRO_T
+
+0 ACRO_SGNOM_0 ;
+0:%:  ACRO_CASES ;
+
 
 ! vim: set ft=xfst-lexc:

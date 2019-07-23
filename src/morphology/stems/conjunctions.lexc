@@ -1,5 +1,32 @@
 
 LEXICON conjunctions
+
+
+a+CC:a #  ;
+da+CC:da #  ;
+i+CC:i #  ;
+ili+CC:ili #  ;
+eli+CC:eli #  ;
+ka+CC:ka #  ;
+libo+CC:libo #  ;
+šekä+CC:šekä #  ;
+ta+CC:ta #  ;
+tai+CC:tai #  ;
+tahi+CC:tahi #  ;
+vai+CC:vai #  ;
+vaikka+CC:vaikka #  ;
+vain+CC:vain #  ;
+
+jotta+CS:jotta # ;
+kun+CS:kun # ;
+ni+CS:ni # ;
+kuni+CS:kuni # ;
+još+CS:još # ;
+jošpa+CS:jošpa # ;
+kuin+CS:kuin # ;
+
+
+
 a	conjunction ;
 ali	conjunction ;
 apa	conjunction ;
