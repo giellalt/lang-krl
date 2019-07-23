@@ -57,6 +57,282 @@ LEXICON verb_strong_pres
 LEXICON verb_3pl_pres
 +V+Pl3+Pres:h # ;
 
+LEXICON VERB_CONNEG_0
+
++Act+Pres+ConNeg:0 # ;
+
+
+LEXICON VERB_PAST_3SG_0
+
++Act+Past+Sg3:0 # ;
+
+LEXICON VERB_3SG_U
+
++Act+Pres+Sg3:u # ;
++Act+Pres+Sg3+Qst:uko # ;
+
+LEXICON VERB_3SG_Y
+
++Act+Pres+Sg3:y # ;
+
+LEXICON VERB_PASSIVE_H
+
++Act+Pres+Pl3:h # ;
++Pss+Pres:h # ;
++Pss+Pres+ConNeg:0 # ;
+
+LEXICON VERB_PAST_PASSIVE_H
+
++Act+Past+Pl3:h CLITS_KI_OPT ;
++Pss+Past:h CLITS_KI_OPT ;
+
+LEXICON VERB_IMPVPL_BACK
+
++Act+Imp+Pl2:kkua # ;
+
+LEXICON VERB_IMPV
+
++Act+Imp+Sg2:0 # ;
++Act+Pres+ConNeg:0 # ;
+
+LEXICON VERB_INF_MÄ
+
++Inf+Ill:mäh # ;
++Inf+Ine:mäššä # ;
++Inf+Ade:mällä # ;
++Inf+Abe:mättä # ;
+
+LEXICON VERB_INF_MA
+
++Inf+Ill:mah # ;
++Inf+Ine:mašša # ;
++Inf+Abe:matta # ;
++Inf+Ade:malla # ;
+
+LEXICON VERB_INF_TA
+
++Inf:ta # ;
+
+LEXICON VERB_INF_TÄ
+
++Inf:tä # ;
+
+!! FIXME: not sure
+LEXICON VERB_INF_AS
+
++Ger+Ine:as’s’a # ;
+
+LEXICON VERB_INF_A
+
++Inf:a # ;
+
+!! FIXME: ger or sup or some other
+LEXICON VERB_INF_EN
+
++Ger:en # ;
+
+LEXICON VERB_INF_Ä
+
++Inf:ä # ;
+
+LEXICON VERB_INF_Ö
+
++Inf:ö # ;
+
+LEXICON VERB_INF_O
+
++Inf:o # ;
+
+LEXICON VERB_INF_E
+
++Inf:e # ;
+
+
+LEXICON VERB_PCP_TU
+
++Pss+PrfPrc+Pos+Sg+Nom:tu # ;
++Pss+PrfPrc+Pos+Sg+Par+Px3:tuoh # ;
+
+LEXICON VERB_PCP_TY
+
++Pss+PrfPrc+Pos+Sg+Nom:ty # ;
++Pss+PrfPrc+Pos+Sg+Par+Px3:työh # ;
+
+LEXICON VERB_PCP_TAVA
+
++Pss+PrfPrc+Pos+Sg+Nom:tava # ;
++Pss+PrfPrc+Pos+Sg+Tra:tavakši # ;
++Pss+PrfPrc+Pos+Sg+Par+Px3:tuoh # ;
+
+LEXICON VERB_PCP_N
+
++Act+PrfPrc:n # ;
++Act+Past+Sg+ConNeg:n # ;
+
+LEXICON VERB_PRES_BACK
+
++Act+Pres+Sg1:n # ;
++Act+Pres+Sg2:t # ;
++Act+Pres+Pl1:ma # ;
++Act+Pres+Pl1:mma # ;
++Act+Pres+Pl2:tta # ;
++Act+Pres+Sg2+Qst:tko # ;
+
+LEXICON VERB_PRES_FRONT
+
++Act+Pres+Sg1:n # ;
++Act+Pres+Sg2:t # ;
++Act+Pres+Pl1:mä # ;
++Act+Pres+Pl1:mmä # ;
++Act+Pres+Pl2:ttä # ;
+
+LEXICON VERB_PAST_BACK
+
++Act+Past+Sg1:in # ;
++Act+Past+Sg2:it # ;
++Act+Past+Pl1:ima # ;
++Act+Past+Pl1:imma # ;
++Act+Past+Pl2:itta # ;
+
+LEXICON VERB_PAST_FRONT
+
++Act+Past+Sg1:in # ;
++Act+Past+Sg2:it # ;
++Act+Past+Pl1:immä # ;
++Act+Past+Pl2:ittä # ;
+
+
+LEXICON VERB_COND
+
++Act+Cond+Sg1:isin # ;
++Act+Cond+Sg2:isin # ;
++Act+Cond+Sg3:is # ;
++Act+Cond+Sg3+Qst:isko # ;
+
+LEXICON VERB_COND_PASSIVE_TAIS
+
++Pss+Cond+Pe4:tais # ;
+
+LEXICON VERB_COND_PASSIVE_TÄIS
+
++Pss+Cond+Pe4:täis # ;
+
+
+LEXICON AUX_PCP
+
+!! FIXME
+%<pp%>:t # ;
+%<pp%>%<sg%>%<gen%>:n # ;
+
+LEXICON AUX_3SG_PI
+
+%<actv%>%<pri%>%<p3%>%<sg%>:pi # ;
+
+LEXICON AUX_3SG_0
+
+%<actv%>%<pri%>%<p3%>%<sg%>:0 # ;
+
+LEXICON AUX_3SG_Y
+
+%<actv%>%<pri%>%<p3%>%<sg%>:y # ;
+
+
+LEXICON AUX_CONNEG_0
+
+%<actv%>%<pri%>%<conneg%>:0 # ;
+
+LEXICON AUX_PRES_FRONT
+
+%<actv%>%<pri%>%<p1%>%<sg%>:n # ;
+%<actv%>%<pri%>%<p2%>%<sg%>:t # ;
+%<actv%>%<pri%>%<p1%>%<pl%>:mmä # ;
+%<actv%>%<pri%>%<p2%>%<pl%>:ttä # ;
+
+LEXICON AUX_PRES_BACK
+
+%<actv%>%<pri%>%<p1%>%<sg%>:n # ;
+%<actv%>%<pri%>%<p2%>%<sg%>:t # ;
+%<actv%>%<pri%>%<p2%>%<sg%>%<qst%>:tko # ;
+%<actv%>%<pri%>%<p1%>%<pl%>:mma # ;
+%<actv%>%<pri%>%<p2%>%<pl%>:tta # ;
+
+!!!LEXICON AUX_PAST_WEAK_FRONT
+!!!
+!!!%<actv%>%<pri%>%<p1%>%<sg%>:in # ;
+!!!%<actv%>%<pri%>%<p2%>%<sg%>:it # ;
+!!!%<npgi%>%<cev%>%<c1%>%<cy%>:vzzä # ;
+!!!%<actv%>%<pri%>%<p2%>%<pl%>:ittä # ;
+
+LEXICON AUX_PAST_WEAK_BACK
+
+%<actv%>%<pri%>%<p1%>%<sg%>:in # ;
+%<actv%>%<pri%>%<p2%>%<sg%>:it # ;
+%<actv%>%<pri%>%<p1%>%<pl%>:imma # ;
+%<actv%>%<pri%>%<p2%>%<pl%>:itta # ;
+
+LEXICON AUX_PAST_3SG_0
+
+%<actv%>%<past%>%<p3%>%<sg%>:0 # ;
+
+LEXICON AUX_PASSIVE_H
+
+%<actv%>%<pri%>%<p3%>%<pl%>:h # ;
+%<pasv%>%<pri%>:h # ;
+
+LEXICON AUX_PAST_PASSIVE_H
+
+%<actv%>%<past%>%<p3%>%<pl%>:h # ;
+%<pasv%>%<past%>:h # ;
+
+LEXICON AUX_COND
+
+%<actv%>%<cni%>%<p1%>%<sg%>:isin # ;
+%<actv%>%<cni%>%<p2%>%<sg%>:isit # ;
+%<actv%>%<cni%>%<p3%>%<sg%>:is # ;
+%<actv%>%<cni%>%<p3%>%<sg%>%<qst%>:isko # ;
+
+LEXICON AUX_INF_A
+
+%<inf%>:a  # ;
+
+LEXICON AUX_INF_Ä
+
+%<inf%>:ä  # ;
+
+LEXICON AUX_INF_E
+
+%<inf%>%<ine%>:ešša  # ;
+%<inf%>%<ine%>%<px3sp%>:eššah  # ;
+
+LEXICON AUX_INF_MA
+
+%<inf%>%<ill%>:mah # ;
+%<inf%>%<ine%>:mašša # ;
+%<inf%>%<abe%>:matta # ;
+
+LEXICON AUX_INF_MÄ
+
+%<inf%>%<ill%>:mäh # ;
+%<inf%>%<ine%>:maššä # ;
+%<inf%>%<abe%>:mättä # ;
+
+!LEXICON AUX_IMPV
+!
+!%<actv%>%<imp%>%<p2%>%<sg%>:0 # ;
+!%<actv%>%<pri%>%<conneg%>:0 # ;
+
+LEXICON AUX_PCP_TY
+
+%<pasv%>%<pp%>%<sg%>%<nom%>:ty # ;
+%<pasv%>%<pp%>%<sg%>%<par%>%<px3sp%>:työh # ;
+
+
+LEXICON AUX_PCP_N
+
+%<actv%>%<pp%>:n # ;
+%<actv%>%<past%>%<sg%>%<conneg%>:n # ;
+
+
 
 ! vim: set ft=xfst-lexc:
 

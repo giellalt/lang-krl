@@ -1,0 +1,274 @@
+
+LEXICON PROPN
+
+Aino+N+Prop+Sem/ant/fem:Aino PROPN_LUMIKELLO ;
+Akropolis+N+Prop+Sem/Top:Akropolis PROPN_KONSTANTIN ;
+Aleksandrovna+N+Prop+Sem/cog:Aleksandrovna PROPN_KARJALA ;
+Aleksejeva+N+Prop+Sem/cog:Aleksejeva PROPN_KARJALA ;
+Anna+N+Prop+Sem/ant/fem:Ann PROPN_ANN/A ;
+Anuš+N+Prop+Sem/Top:Anu PROPN_ANU/Š ;
+Arbat+N+Prop+Sem/Top:Arbat PROPN_KONSTANTIN ;
+Arhankeli+N+Prop+Sem/Top:Arhankeli PROPN_PETROSKOI ;
+Art-šat’or+N+Prop+Sem/misc:Art-šat’or  PROPN_PETROSKOI ;
+Art-teltta+N+Prop+Sem/misc:Art-telt  PROPN_TELT/TA ;
+Ateena+N+Prop+Sem/Top:Ateena PROPN_KARJALA ;
+Aunuš+N+Prop+Sem/Top:Aunu PROPN_ANU/Š ;
+Australija+N+Prop+Sem/Top:Australij  PROPN_UDMURTIJ/A ;
+Bol’šoi+N+Prop+Sem/Top:Bol’šoi PROPN_PETROSKOI ;
+Building+N+Prop+Sem/misc:Building  PROPN_KONSTANTIN ;
+Colosseus+N+Prop+Sem/Top:Colosseus PROPN_KONSTANTIN ;
+Cookin#šuari+N+Prop+Sem/Hum:Cookin0šuar  PROPN_LOUH/I ;
+Danil+N+Prop+Sem/ant/mal:Danil PROPN_KONSTANTIN ;
+Eiffel+N+Prop+Sem/Top:Eiffel PROPN_LÖNNROT ;
+Elias+N+Prop+Sem/ant/mal:Elias PROPN_PETROSKOI ;
+Eli+N+Prop+Sem/Top:Eli PROPN_PETROSKOI ;
+Empire+N+Prop+Sem/Top:Empire PROPN_VENÄJÄ ;
+Eremitaaši+N+Prop+Sem/Top:Eremitaaši PROPN_PETROSKOI ;
+Fedosova+N+Prop+Sem/cog:Fedosova PROPN_KARJALA ;
+Fevronija+N+Prop+Sem/cog:Fevronija  PROPN_KARJALA ;
+Galina+N+Prop+Sem/ant/fem:Galina PROPN_KARJALA ;
+Glazkov+N+Prop+Sem/cog:Glazkov PROPN_KONSTANTIN ;
+Helena+N+Prop+Sem/ant/fem:Helena PROPN_KARJALA ;
+Hiekkaveššoš+N+Prop+Sem/Top:Hiekkaveššo PROPN_ANU/Š ;
+Hiisi+N+Prop+Sem/ant/mal:Hii   PROPN_HII/SI ;
+Hotejeva+N+Prop+Sem/cog:Hotejeva PROPN_KARJALA ;
+Hristo+N+Prop+Sem/misc:Hristo PROPN_LUMIKELLO ;
+Ilmarini+N+Prop+Sem/ant/mal:Ilmari  PROPN_ILMARI/NI ;
+Ilmatar+N+Prop+Sem/ant/fem:Ilmat  PROPN_ILMAT/AR ;
+Irina+N+Prop+Sem/ant/fem:Irina PROPN_KARJALA ;
+Iro+N+Prop+Sem/ant/fem:Iro PROPN_LUMIKELLO ;
+Jakutija+N+Prop+Sem/Top:Jakutij  PROPN_MORDOUVI/A ;
+Jakutija+N+Prop+Sem/Top:Jakutij  PROPN_UDMURTIJ/A ;
+Jegor+N+Prop+Sem/ant/mal:Jegor PROPN_KONSTANTIN ;
+Jekaterina+N+Prop+Sem/ant/fem:Jekaterina PROPN_KARJALA ;
+Jelagina+N+Prop+Sem/cog:Jelagina PROPN_KARJALA ;
+Joukahaine+N+Prop+Sem/ant/mal:Joukahai  PROPN_JOUKAHAI/NE ;
+Jyškyjärvi+N+Prop+Sem/Top:Jyškyjärv PROPN_JYŠKYJÄRV/I ;
+Kalevala+N+Prop+Sem/misc:Kalevala PROPN_KARJALA ;
+Kaliningrad+N+Prop+Sem/Top:Kaliningrad PROPN_KONSTANTIN ;
+Karjala+N+Prop+Sem/Top:Karjala PROPN_KARJALA ;
+Kiestinki+N+Prop+Sem/Top:Kiestinki PROPN_PETROSKOI ;
+Kira+N+Prop+Sem/ant/fem:Kira PROPN_KARJALA ;
+Kirilä+N+Prop+Sem/cog:Kirilä PROPN_VENÄJÄ ;
+Kiži+N+Prop+Sem/Top:Kiži PROPN_PETROSKOI ;
+Komi+N+Prop+Sem/Top:Komi PROPN_PETROSKOI ;
+Kondratjev+N+Prop+Sem/cog:Kondratjev PROPN_KONSTANTIN ;
+Konstantin+N+Prop+Sem/misc:Konstantin PROPN_KONSTANTIN ;
+Koval’ova+N+Prop+Sem/cog:Koval’ova PROPN_KARJALA ;
+Krasnodar+N+Prop+Sem/Top:Krasnodar PROPN_KONSTANTIN ;
+Kyllikki+N+Prop+Sem/Hum:Kyllik PROPN_KYLLIK/KI ;
+Ledn’ova+N+Prop+Sem/ant/fem:Ledn’ova PROPN_KARJALA ;
+Lemminkäini+N+Prop+Sem/ant/mal:Lemminkäi  PROPN_LEMMINKÄI/NI ;
+Lenin+N+Prop+Sem/cog:Lenin PROPN_KONSTANTIN ;
+Lobačov+N+Prop+Sem/cog:Lobačov PROPN_KONSTANTIN ;
+Loginova+N+Prop+Sem/cog:Loginova PROPN_KARJALA ;
+Louhi+N+Prop+Sem/Hum:Louh PROPN_LOUH/I ;
+L’udmila+N+Prop+Sem/ant/fem:L’udmila PROPN_KARJALA ;
+Lumikello+N+Prop+Sem/misc:Lumikello PROPN_LUMIKELLO ;
+Lönnrot+N+Prop+Sem/cog:Lönnrot PROPN_LÖNNROT ;
+Maikki+N+Prop+Sem/ant/fem:Maikki PROPN_PETROSKOI ;
+Maksim+N+Prop+Sem/ant/mal:Maksim PROPN_KONSTANTIN ;
+Manala+N+Prop+Sem/Top:Manala PROPN_KARJALA ;
+Mari+N+Prop+Sem/ant/fem:Mari PROPN_PETROSKOI ;
+Mari+N+Prop+Sem/Top:Mari PROPN_PETROSKOI ;
+Matvei+N+Prop+Sem/ant/mal:Matvei PROPN_PETROSKOI ;
+Melentjeva+N+Prop+Sem/cog:Melentjeva PROPN_KARJALA ;
+Mirja+N+Prop+Sem/ant/fem:Mirja PROPN_KARJALA ;
+Mordouvia+N+Prop+Sem/Top:Mordouvi  PROPN_MORDOUVI/A ;
+Moškova+N+Prop+Sem/Top:Moškova PROPN_KARJALA ;
+Mugačeva+N+Prop+Sem/cog:Mugačeva  PROPN_KARJALA ;
+Murmanšk+N+Prop+Sem/Top:Murmanšk PROPN_KONSTANTIN ;
+Nadežda+N+Prop+Sem/Hum:Nadežd  PROPN_MORDOUVI/A ;
+Nesterenko+N+Prop+Sem/cog:Nesterenko PROPN_LUMIKELLO ;
+Nikiforov+N+Prop+Sem/cog:Nikiforov  PROPN_KONSTANTIN ;
+Nina+N+Prop+Sem/ant/fem:Nina PROPN_KARJALA ;
+Olga+N+Prop+Sem/ant/fem:Olga PROPN_KARJALA ;
+Orlov+N+Prop+Sem/Top:Orlov PROPN_KONSTANTIN ;
+Ostankin+N+Prop+Sem/Top:Ostankin  PROPN_KONSTANTIN ;
+Palmgren+N+Prop+Sem/cog:Palmgren PROPN_KONSTANTIN ;
+Pariisi+N+Prop+Sem/Hum:Pariisi  PROPN_PETROSKOI ;
+Pariisi+N+Prop+Sem/Top:Parii   PROPN_HII/SI ;
+Petri+N+Prop+Sem/ant/mal:Petri PROPN_PETROSKOI ;
+PetropavlovskKamčatski+N+Prop+Sem/Top:PetropavlovskKamčatski  PROPN_PETROSKOI ;
+Petroskoi+N+Prop+Sem/Top:Petroskoi PROPN_PETROSKOI ;
+Petru+N+Prop+Sem/Hum:Petru PROPN_LUMIKELLO ;
+Piiteri+N+Prop+Sem/Top:Piiteri PROPN_PETROSKOI ;
+Piiteri+N+Prop+Sem/Top:Piiteri PROPN_PIITERI ;
+Pohjola+N+Prop+Sem/Top:Pohjola PROPN_KARJALA ;
+Polenov+N+Prop+Sem/cog:Polenov PROPN_KONSTANTIN ;
+Potapovo+N+Prop+Sem/Top:Potapovo PROPN_LUMIKELLO ;
+Puavali+N+Prop+Sem/ant/mal:Puavali PROPN_PETROSKOI ;
+Raisa+N+Prop+Sem/ant/fem:Raisa PROPN_KARJALA ;
+Remšujeva+N+Prop+Sem/Top:Remšujeva PROPN_KARJALA ;
+Rinkevič+N+Prop+Sem/cog:Rinkevič  PROPN_KONSTANTIN ;
+Rooma+N+Prop+Sem/Top:Rooma  PROPN_KARJALA ;
+Saha+N+Prop+Sem/Top:Saha PROPN_KARJALA ;
+Samoa+N+Prop+Sem/Top:Samoa  PROPN_KARJALA ;
+Šampo+N+Prop+Sem/ant/mal:Šampo PROPN_LUMIKELLO ;
+Santra+N+Prop+Sem/ant/fem:Santra PROPN_KARJALA ;
+Šeina+N+Prop+Sem/cog:Šein  PROPN_VLASOV/A ;
+Sem’onova+N+Prop+Sem/cog:Sem’onova PROPN_KARJALA ;
+Sergei+N+Prop+Sem/ant/mal:Sergei PROPN_PETROSKOI ;
+Sidnei+N+Prop+Sem/Top:Sidnei PROPN_PETROSKOI ;
+Spitsina+N+Prop+Sem/cog:Spitsina PROPN_KARJALA ;
+Stankevičus+N+Prop+Sem/cog:Stankevičus PROPN_KONSTANTIN ;
+State+N+Prop+Sem/Top:State PROPN_VENÄJÄ ;
+Suomi+N+Prop+Sem/Top:Suomi PROPN_PETROSKOI ;
+Taimira+N+Prop+Sem/Top:Taimira PROPN_KARJALA ;
+Tatjana+N+Prop+Sem/ant/fem:Tatjana PROPN_KARJALA ;
+Tat’t’ana+N+Prop+Sem/ant/fem:Tat’t’ana PROPN_KARJALA ;
+Terentjev+N+Prop+Sem/cog:Terentjev  PROPN_KONSTANTIN ;
+Tikkanen+N+Prop+Sem/cog:Tikkanen PROPN_KONSTANTIN ;
+Torvinen+N+Prop+Sem/cog:Torvi PROPN_TORVI/NEN ;
+Tula+N+Prop+Sem/Top:Tula PROPN_KARJALA ;
+Tver+N+Prop+Sem/Top:Tver PROPN_KONSTANTIN ;
+Udmurtia+N+Prop+Sem/Top:Udmurti  PROPN_MORDOUVI/A ;
+Udmurtija+N+Prop+Sem/Top:Udmurtij  PROPN_UDMURTIJ/A ;
+Uljana+N+Prop+Sem/cog:Uljana PROPN_KARJALA ;
+Ust’-Avam+N+Prop+Sem/Top+Use/NonStandard:Us’t-Avam PROPN_KONSTANTIN ;
+Ust’-Avam+N+Prop+Sem/Top:Ust’-Avam PROPN_KONSTANTIN ;
+Vasiljeva+N+Prop+Sem/cog:Vasiljev  PROPN_UDMURTIJ/A ;
+Venäjä+N+Prop+Sem/Top:Venäjä PROPN_VENÄJÄ ;
+Viena+N+Prop+Sem/Top:Viena PROPN_KARJALA ;
+Viipuni+N+Prop+Sem/ant/mal:Viipu  PROPN_ILMARI/NI ;
+Vlasova+N+Prop+Sem/cog:Vlasova PROPN_KARJALA ;
+Vlasova+N+Prop+Sem/cog:Vlasov  PROPN_VLASOV/A ;
+Voločanka+N+Prop+Sem/Top:Voločanka PROPN_KARJALA ;
+Vologda+N+Prop+Sem/Top:Vologda PROPN_KARJALA ;
+Vuokkiniemi+N+Prop+Sem/Top:Vuokkiniem PROPN_JYŠKYJÄRV/I ;
+Väinämöini+N+Prop+Sem/ant/mal:Väinämöi  PROPN_LEMMINKÄI/NI ;
+yandex+N+Prop+Sem/misc:yandex PROPN_KONSTANTIN ;
+Zubanov+N+Prop+Sem/cog:Zubanov PROPN_KONSTANTIN ;
+
+LEXICON PROPN_PETROSKOI
+
+0 PROPN_SGNOM_0 ;
+0 PROPN_CASES_SG_BACK ;
+
+LEXICON PROPN_PIITERI
+
+0 PROPN_SGNOM_0 ;
+0 PROPN_CASES_SG_FRONT ;
+
+LEXICON PROPN_LÖNNROT
+
+0 PROPN_SGNOM_0 ;
+0:i PROPN_CASES_SG_FRONT ;
+
+LEXICON PROPN_JYŠKYJÄRV/I
+
+0:i PROPN_SGNOM_0 ;
+0:e PROPN_CASES_SG_FRONT ;
+
+LEXICON PROPN_KYLLIK/KI
+
+0:ki PROPN_SGNOM_0 ;
+0:i PROPN_CASES_SG_FRONT ;
+
+LEXICON PROPN_LEMMINKÄI/NI
+
+0:ni PROPN_SGNOM_0 ;
+0:se PROPN_CASES_SG_FRONT ;
+
+LEXICON PROPN_ILMARI/NI
+
+0:ni PROPN_SGNOM_0 ;
+0:se PROPN_CASES_SG_BACK ;
+0:s  PROPN_SGPAR_TA ;
+
+LEXICON PROPN_JOUKAHAI/NE
+
+0:ne PROPN_SGNOM_0 ;
+0:se PROPN_CASES_SG_BACK ;
+0:s  PROPN_SGPAR_TA ;
+
+LEXICON PROPN_LOUH/I
+
+0:i PROPN_SGNOM_0 ;
+0:e PROPN_CASES_SG_BACK ;
+0  PROPN_CASES_PL_BACK ;
+0  PROPN_PLGEN_IEN ;
+
+LEXICON PROPN_VENÄJÄ
+
+0 PROPN_SGNOM_0 ;
+0 PROPN_CASES_SG_FRONT ;
+
+LEXICON PROPN_KARJALA
+
+0 PROPN_SGNOM_0 ;
+0 PROPN_CASES_SG_BACK ;
+
+LEXICON PROPN_ANN/A
+
+0:a PROPN_SGNOM_0 ;
+0:a PROPN_CASES_SG_BACK ;
+0:u PROPN_SGPAR_A ;
+
+LEXICON PROPN_VLASOV/A
+
+0:a PROPN_SGNOM_0 ;
+0:a PROPN_CASES_SG_BACK ;
+0:u PROPN_SGPAR_A ;
+
+LEXICON PROPN_MORDOUVI/A
+
+0:a PROPN_SGNOM_0 ;
+0:e PROPN_CASES_SG_BACK ;
+
+LEXICON PROPN_UDMURTIJ/A
+
+0:a PROPN_SGNOM_0 ;
+0:a PROPN_CASES_SG_BACK ;
+
+
+LEXICON PROPN_TORVI/NEN
+
+0:nen PROPN_SGNOM_0 ;
+0:se PROPN_CASES_SG_BACK ;
+
+LEXICON PROPN_LUMIKELLO
+
+0 PROPN_SGNOM_0 ;
+0 PROPN_CASES_SG_BACK ;
+
+LEXICON PROPN_KONSTANTIN
+
+0 PROPN_SGNOM_0 ;
+0:i PROPN_CASES_SG_BACK ;
+
+LEXICON PROPN_ANU/Š
+
+0:š PROPN_SGNOM_0 ;
+0:kše PROPN_CASES_SG_BACK ;
+0:š PROPN_SGPAR_TA ;
+0:kši PROPN_SGPAR_E ;
+0:kš   PROPN_CASES_PL_BACK ;
+
+
+
+LEXICON PROPN_ILMAT/AR
+
+0:ar PROPN_SGNOM_0 ;
+0:tare PROPN_CASES_SG_BACK ;
+0:ar PROPN_SGPAR_TA ;
+0:ar   PROPN_CASES_PL_BACK ;
+
+LEXICON PROPN_HII/SI
+
+0:si  PROPN_SGNOM_0 ;
+0:je  PROPN_CASES_SG_FRONT ;
+0:t   PROPN_SGPAR_TÄ ;
+0:s   PROPN_CASES_PL_FRONT ;
+
+LEXICON PROPN_TELT/TA
+
+0:ta  PROPN_SGNOM_0 ;
+0:a  PROPN_CASES_SG_WEAK_BACK ;
+0:ta  PROPN_CASES_SG_STRONG_BACK ;
+0:tu  PROPN_SGPAR_A ;
+0:o    PROPN_CASES_PL_BACK ;
+0:to    PROPN_PLPAR_JA ;
+0:to    PROPN_PLGEN_JEN ;
+
+

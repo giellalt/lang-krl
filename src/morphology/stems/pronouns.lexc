@@ -4,11 +4,206 @@
 
 LEXICON Pronouns
 
+
+minä+Pron+Use/Dialect+Pers+Sg1:mi PRON_MI/NÄ ;
+mie+Pron+Pers+Sg1:mi PRON_MI/E ;
+sie+Pron+Pers+Sg2:si PRON_MI/E ;
+hiän+Pron+Pers+Sg3:h  PRON_H/IÄN ;
+myö+Pron+Pers+Pl1:m  PRON_M/YÖ ;
+työ+Pron+Pers+Pl2:t  PRON_M/YÖ ;
+hyö+Pron+Pers+Pl3:h  PRON_M/YÖ ;
+
+tämä+Pron+Dem:tä  PRON_TÄ/MÄ ;
+nämä+Pron+Dem:nä  PRON_NÄ/MÄ ;
+tuo+Pron+Dem:t  PRON_T/UO ;
+nuo+Pron+Dem:n  PRON_N/UO ;
+še+Pron+Dem:š  PRON_Š/E ;
+ne+Pron+Dem:n  PRON_N/E ;
+
+iče+Pron+Reflex:ič   PRON_IČ/E ;
+kaikki+Pron+Ind:kai  PRON_KAI/KKI ;
+kumpaine+Pron+Interr:kumpa  PRON_KUMPA/INE ;
+kumpaine+Pron+Rel:kumpa  PRON_KUMPA/INE ;
+kumpaine+Pron+Ind:kumpa  PRON_KUMPA/INE ;
+jokahini+Pron+Ind:jokahi  PRON_JOKAHI/NI ;
+moni+Pron+Ind:mon  PRON_MON/I ;
+muu+Pron+Ind:mu  PRON_MU/U ;
+
+kennih+Pron+Ind:ke PRON_JOKA ;
+joka+Pron+Ind:joka   PRON_JOKA ;
+koko+Pron+Ind:koko  PRON_JOKA ;
+
+kudai+Pron+Interr:ku PRON_KU/DAI ;
+ken+Pron+Interr:ke PRON_KE/N ;
+mi+Pron+Interr:mi PRON_MI ;
+ku+Pron+Interr:ku PRON_KU ;
+molompi+Pron:molom PRON_MOLOM/PI ;
+
+toini+Pron:toi PRON_TOI/NI ;
+
+mitänä+Pron+Ind+Sg+Nom:mitänä #  ;
+
 mie # ;
 sie # ;
 hiä # ;
 myö # ;
 työ # ;
 hyö # ;
+
+LEXICON PRON_MI/NÄ
+
+0:nä  PRON_SGNOM_0 ;
+0:nu  PRON_CASES_SG_FRONT ;
+
+LEXICON PRON_MI/E
+
+0:e PRON_SGNOM_0 ;
+0:u PRON_CASES_SG_BACK ;
+%<sg%>%<par%>:lma  # ;
+
+LEXICON PRON_H/IÄN
+
+0:iän  PRON_SGNOM_0 ;
+0:än PRON_SGPAR_TÄ ;
+0:äne PRON_CASES_SG_FRONT ;
+
+
+LEXICON PRON_M/YÖ
+
+0:yö PRON_PLNOM_0 ;
+0:e PRON_CASES_PL_FRONT ;
+
+LEXICON PRON_TÄ/MÄ
+
+0:mä PRON_SGNOM_0 ;
+0  PRON_CASES_SG_FRONT ;
+0  PRON_SGPAR_TÄ ;
+0:mä PRON_SGGEN_N ;
+%<sg%>%<ill%>:hä  # ;
+
+LEXICON PRON_NÄ/MÄ
+
+0:mä PRON_PLNOM_0 ;
+0  PRON_CASES_PL_FRONT ;
+0  PRON_PLGEN_IJEN ;
+
+LEXICON PRON_T/UO
+
+0:uo  PRON_SGNOM_0 ;
+0:uo  PRON_CASES_SG_BACK ;
+
+LEXICON PRON_N/UO
+
+0:uo  PRON_PLNOM_0 ;
+0:oi  PRON_CASES_PL_BACK ;
+
+LEXICON PRON_Š/E
+
+0:e  PRON_SGNOM_0 ;
+0:i  PRON_CASES_SG_FRONT ;
+%<sg%>%<gen%>:en # ;
+%<sg%>%<ine%>:iinä # ;
+%<sg%>%<ela%>:iitä # ;
+%<sg%>%<ill%>:iih # ;
+%<sg%>%<ill%>:inne # ;
+%<sg%>%<par%>:itä # ;
+
+LEXICON PRON_N/E
+
+0:e  PRON_PLNOM_0 ;
+0:i  PRON_CASES_PL_FRONT ;
+%<pl%>%<gen%>:iijen # ;
+%<pl%>%<ill%>:iihi # ;
+
+LEXICON PRON_IČ/E
+
+0:e  PRON_SGNOM_0 ;
+0:e  PRON_CASES_SG_FRONT ;
+0:či PRON_SGPAR_E ;
+
+LEXICON PRON_KAI/KKI
+
+0 PRON_SGNOM_0 ;
+0:kki PRON_SGNOM_0 ;
+0:ke  PRON_CASES_SG_WEAK_BACK ;
+0:k  PRON_CASES_PL_WEAK_BACK ;
+%<pl%>%<ins%>:kin # ;
+%<pl%>%<com%>:kkine # ;
+
+LEXICON PRON_KU/DAI
+
+0:dai PRON_SGNOM_0 ;
+0:dua PRON_CASES_SG_BACK ;
+
+LEXICON PRON_MOLOM/PI
+
+0:pi  PRON_SGNOM_0 ;
+0:m   PRON_CASES_PL_WEAK_BACK ;
+0:p   PRON_CASES_PL_BACK_STRONG ;
+0:ma  PRON_CASES_SG_BACK ;
+
+LEXICON PRON_JOKAHI/NI
+
+0:ni PRON_SGNOM_0 ;
+0:se PRON_CASES_SG_BACK ;
+0:s  PRON_SGPAR_TA ;
+
+LEXICON PRON_KUMPA/INE
+
+0:ine PRON_SGNOM_0 ;
+0:ise PRON_CASES_SG_BACK ;
+0:is  PRON_SGPAR_TA ;
+
+0:ni PRON_SGNOM_0 ;
+0:ne PRON_SGNOM_0 ;
+0:se PRON_CASES_SG_BACK ;
+0:s  PRON_SGPAR_TA ;
+0:s  PRON_CASES_PL_BACK ;
+0:s  PRON_PLGEN_IEN ;
+
+LEXICON PRON_KE/N
+
+0:n PRON_SGNOM_0 ;
+0:ne PRON_CASES_SG_FRONT ;
+0 PRON_CASES_SG_FRONT ;
+
+LEXICON PRON_MI
+
+0  PRON_SGNOM_0 ;
+0  PRON_SGPAR_TÄ ;
+0 PRON_CASES_SG_FRONT_S ;
+
+LEXICON PRON_KU
+
+0 PRON_SGNOM_0 ;
+0  PRON_CASES_SG_BACK ;
+
+LEXICON PRON_JOKA
+
+0  PRON_SGNOM_0 ;
+
+LEXICON PRON_MON/I
+
+0:i PRON_SGNOM_0 ;
+0:e PRON_CASES_SG_BACK ;
+0  PRON_SGPAR_TA ;
+0  PRON_CASES_PL_BACK ;
+
+
+LEXICON PRON_MU/U
+
+0:u PRON_SGNOM_0 ;
+0:u PRON_CASES_SG_BACK_S ;
+0:u  PRON_SGPAR_TA ;
+0  PRON_CASES_PL_BACK ;
+
+LEXICON PRON_TOI/NI
+
+0:ni PRON_SGNOM_0 ;
+0:se PRON_CASES_SG_BACK ;
+0:s PRON_SGPAR_TA ;
+0:s PRON_PLPAR_IE ;
+
+
 
 ! vim: set ft=xfst-lexc:

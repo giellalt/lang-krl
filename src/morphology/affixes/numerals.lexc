@@ -1,0 +1,65 @@
+
+LEXICON NUM_SGNOM_0
+
++Sg+Nom:0 # ;
+
+
+LEXICON NUM_CASES_SG_BACK
+
+0 NUM_CASES_SG_WEAK_BACK ;
+0 NUM_CASES_SG_STRONG_BACK ;
+
+LEXICON NUM_CASES_SG_FRONT
+
+0 NUM_CASES_SG_WEAK_FRONT ;
+0 NUM_CASES_SG_STRONG_FRONT ;
+
+LEXICON NUM_CASES_SG_STRONG_FRONT
+
++Sg+Ess:nä # ;
++Sg+Ill:h # ;
+
+LEXICON NUM_CASES_SG_STRONG_BACK
+
++Sg+Ess:na # ;
++Sg+Ill:h # ;
+
+LEXICON NUM_CASES_SG_WEAK_BACK
+
++Sg+Ade:lla # ;
++Sg+Ine:šša # ;
++Sg+Gen:n # ;
++Pl+Nom:t # ;
+
+LEXICON NUM_CASES_SG_WEAK_FRONT
+
++Sg+Ade:llä # ;
++Sg+Ine:ššä # ;
++Sg+Gen:n # ;
++Pl+Nom:t # ;
+
+LEXICON NUM_CASES_PL_BACK
+
++Pl+Ade:illa # ;
++Pl+Ine:išša # ;
++Pl+Ess:ina # ;
+
+
+LEXICON NUM_CASES_PL_FRONT
+
++Pl+Ade:illä # ;
++Pl+Ine:iššä # ;
++Pl+Ess:inä # ;
+
+LEXICON NUM_SGPAR_TA
+
++Sg+Par:tA # ;
+
+LEXICON NUM_SGPAR_TÄ
+
++Sg+Par:tä # ;
+
+LEXICON NUM_PLPAR_IE
+
++Pl+Par:ie  # ;
+

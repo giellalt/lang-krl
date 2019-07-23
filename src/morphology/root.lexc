@@ -143,8 +143,10 @@ LEXICON Root
 0   Pronouns    ;
 0   Numerals    ;
 0   Particles ;
-    Punctuation ;
-    Symbols     ;
+0   Punctuation ;
+0   Symbols     ;
+0   ADV ;
+0   PROPN ;
 0 adpositions ;
 0 conjunctions ;
 0 interjections ;

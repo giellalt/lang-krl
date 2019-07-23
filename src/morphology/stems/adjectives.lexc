@@ -4,6 +4,134 @@
 
 LEXICON Adjectives
 
+
+aito+A:ai  ADJ_AI/TO ;
+alkuperäini+A:alkuperäi ADJ_EEPPI/NI ;
+armenijalaini+A:armenijalai ADJ_KARJALAI/NI ;
+avomielini+A:avomieli ADJ_EEPPI/NI ;
+azerbaidžanilaini+A:azerbaidžanilai ADJ_KARJALAI/NI ;
+eeppini+A:eeppi ADJ_EEPPI/NI ;
+enetsi#kieline+A:enetsi0kieli ADJ_KIELI/NE ;
+epä#virallini+A:epä0viralli ADJ_KARJALAI/NI ;
+eri+A:eri ADJ_ERI ;
+eri-ikäne+A:eri-ikä ADJ_KIELI/NE ;
+erikoine+A:erikoi ADJ_KIELI/NE ;
+erilaini+A:erilai ADJ_KARJALAI/NI ;
+erimoini+A:erimoi ADJ_KARJALAI/NI ;
+eryäs+A:eryä ADJ_ERÄ/S ;
+eräs+A:erä ADJ_ERÄ/S ;
+hantin#kieline+A:hantin0kieli ADJ_KIELI/NE ;
+henkellini+A:henkelli ADJ_EEPPI/NI ;
+hieno+A:hieno  ADJ_MAINIJO ;
+hyvä+A:hyv ADJ_HYV/Ä ;
+hyvä+A:par  ADJ_PAR/EMPI ;
+ikäne+A:ikä ADJ_KIELI/NE ;
+jokavuotini+A:jokavuoti ADJ_KARJALAI/NI ;
+kaiken#moine+A:kaiken0moi ADJ_KIELI/NE ;
+kaitani+A:kaita ADJ_KARJALAI/NI ;
+kallis+A:kallis ADJ_KAUNIS ;
+kannettava+A:kannettav ADJ_OM/A ;
+kansainvälini+A:kansainväli ADJ_EEPPI/NI ;
+kanšallini+A:kanšalli ADJ_KARJALAI/NI ;
+kanšallis#aiheini+A:kanšallis0aihei ADJ_KARJALAI/NI ;
+karjalaini+A:karjalai ADJ_KARJALAI/NI ;
+kaunis+A:kaunis ADJ_KAUNIS ;
+kaupunkilaini+A:kaupunkilai ADJ_KARJALAI/NI ;
+keinotekoini+A:keinotekoi ADJ_KARJALAI/NI ;
+keinotekoni+A:keinoteko ADJ_KARJALAI/NI ;
+keltani+A:kelta ADJ_KARJALAI/NI ;
+kielelline+A:kielelli ADJ_KIELI/NE ;
+kiivaš#luontoni+A:kiivas0luonto ADJ_KARJALAI/NI ;
+kippura#nokkani+A:kippura0n’okka ADJ_KARJALAI/NI ;
+kippura#nokkani+A:kippura0nokka ADJ_KARJALAI/NI ;
+kirkaš+A:kirk ADJ_KIRK/AŠ ;
+kokoni+A:koko ADJ_KARJALAI/NI ;
+koprallini+A:kopralli ADJ_KARJALAI/NI ;
+kova+A:kov ADJ_OM/A ;
+kuulusa+A:kuulus ADJ_OM/A ;
+kypšä+A:kyps ADJ_KYPŠ/Ä ;
+liettualaini+A:liettualai ADJ_KARJALAI/NI ;
+livvin#kieline+A:livvin0kieli ADJ_KIELI/NE ;
+loppuni+A:loppu  ADJ_KARJALAI/NI ;
+luajittu+A:luajit  ADJ_TUNNET/TU ;
+luonnollini+A:luonnolli  ADJ_KARJALAI/NI ;
+luova+A:luov ADJ_OM/A ;
+lämmin+A:läm ADJ_LÄM/MIN ;
+mahollini+A:maholli ADJ_KARJALAI/NI ;
+mahtava+A:mahtav ADJ_OM/A ;
+mainijo+A:mainijo  ADJ_MAINIJO ;
+makie+A:makie ADJ_OIKIE ;
+mehövä+A:mehöv ADJ_KYPŠ/Ä ;
+melukaš+A:meluk ADJ_KIRK/AŠ ;
+miellyttävä+A:miellyttäv ADJ_KYPŠ/Ä ;
+mimmoni+A:mimmo ADJ_KARJALAI/NI ;
+moldavijalaini+A:moldavijalai ADJ_KARJALAI/NI ;
+mukava+A:mukav ADJ_OM/A ;
+nerokaš+A:nerok ADJ_KIRK/AŠ ;
+nuori+A:nuor ADJ_NUOR/I ;
+oikie+A:oikie ADJ_OIKIE ;
+oma+A:om ADJ_OM/A ;
+omatoimini+A:omatoimi ADJ_KARJALAI/NI ;
+omissettu+A:omisset  ADJ_TUNNET/TU ;
+paha+A:pah ADJ_OM/A ;
+pedagogine+A:pedagogi ADJ_KARJALAI/NI ;
+perintehellini+A:perintehelli ADJ_EEPPI/NI ;
+permin#kieline+A:permin0kieli ADJ_KIELI/NE ;
+petroskoilaini+A:petroskoilai ADJ_KARJALAI/NI ;
+pieni+A:pien ADJ_PIEN/I ;
+pikkaraini+A:pikkarai ADJ_KARJALAI/NI ;
+pituni+A:pitu ADJ_KARJALAI/NI ;
+pohjone+A:pohjo ADJ_KARJALAI/NI ;
+puolalaini+A:puolalai ADJ_KARJALAI/NI ;
+rauhallini+A:rauhalli ADJ_KARJALAI/NI ;
+rehellini+A:rehelli ADJ_EEPPI/NI ;
+rušappo+A:rušappo ADJ_MAINIJO ;
+šama+A:šam ADJ_OM/A ;
+šamanmielini+A:šamanmieli ADJ_EEPPI/NI ;
+šamanmoini+A:šamanmoi ADJ_KARJALAI/NI ;
+šelvä+A:šelv ADJ_HYV/Ä ;
+semmoni+A:semmo  ADJ_KARJALAI/NI ;
+šeuruava+A:šeuruav ADJ_OM/A ;
+šilie+A:šilie ADJ_OIKIE ;
+suomelane+A:suomela ADJ_KARJALAI/NI ;
+šuosittu+A:šuosit  ADJ_TUNNET/TU ;
+šuunnattu+A:šuunnat  ADJ_TUNNET/TU ;
+šuuri+A:šuur ADJ_NUOR/I ;
+tarkka+A:tarkk ADJ_OM/A ;
+tarvittava+A:tarvittav ADJ_OM/A ;
+terväni+A:tervä ADJ_EEPPI/NI ;
+tiettäväine+A:tiettäväi ADJ_KIELI/NE ;
+totini+A:toti ADJ_KARJALAI/NI ;
+tovellini+A:tovelli ADJ_KARJALAI/NI ;
+tunnettu+A:tunnet  ADJ_TUNNET/TU ;
+tuohini+A:tuohi ADJ_KARJALAI/NI ;
+tuttu+A:tut  ADJ_TUNNET/TU ;
+tyhjä+A:tyhj ADJ_HYV/Ä ;
+tärkie+A:tärkie ADJ_OIKIE ;
+täyši+A:täy  ADJ_TÄY/ŠI ;
+ugrilane+A:ugrila ADJ_KARJALAI/NI ;
+ukrainalaini+A:ukrainalai ADJ_KARJALAI/NI ;
+uuši+A:uu  ADJ_UU/ŠI ;
+vahva+A:vahv ADJ_OM/A ;
+vaikie+A:vaikie ADJ_OIKIE ;
+vakallini+A:vakalli ADJ_YŠTÄVÄLLI/NI ;
+valettu+A:valet  ADJ_TUNNET/TU ;
+valkie+A:valkie ADJ_OIKIE ;
+valtijollini+A:valtijolli ADJ_KARJALAI/NI ;
+vanha+A:vanh ADJ_OM/A ;
+vanha+A:vanh ADJ_OM/A ;
+vanhan#aikane+A:vanhan0aika ADJ_KIELI/NE ;
+vapuaehtoni+A:vapuaehto ADJ_KARJALAI/NI ;
+vaštuullini+A:vaštuulli ADJ_KARJALAI/NI ;
+ven’ankieline+A:ven’ankieli ADJ_KIELI/NE ;
+venäläini+A:venäläi  ADJ_YŠTÄVÄLLI/NI ;
+viimeni+A:viime ADJ_EEPPI/NI ;
+viimeni+A:viime ADJ_KARJALAI/NI ;
+virallini+A:viralli ADJ_KARJALAI/NI ;
+yksinäini+A:yksinäi  ADJ_EEPPI/NI ;
+yštävällini+A:yštävälli ADJ_KARJALAI/NI ;
+
+
 aaloi	adjective ;
 ahas	adjective ;
 ahasläntä	adjective_mod ;
@@ -8918,5 +9046,161 @@ sahine:sähine adjective ;
 LEXICON vieras_vierahaine_adjective
 vieras adjective ;
 vieras:vierahaine adjective ;
+
+LEXICON ADJ_ERI
+!! maybe like fin: eri, no infl.
+
++Pos:0 ADJ_SGNOM_0 ;
+
+LEXICON ADJ_MAINIJO
+
++Pos:0  ADJ_SGNOM_0 ;
++Pos:0  ADJ_CASES_SG_BACK ;
++Pos:0  ADJ_CASES_PL_BACK ;
++Pos:0  ADJ_PLPAR_JA ;
+
+LEXICON ADJ_OIKIE
+
++Pos:0  ADJ_SGNOM_0 ;
++Pos:0  ADJ_CASES_SG_BACK ;
++Pos:0  ADJ_CASES_PL_BACK ;
+
+LEXICON ADJ_PIEN/I
+
++Pos:i ADJ_SGNOM_0 ;
++Pos:e ADJ_CASES_SG_FRONT ;
++Comp:empi ADJ_SGNOM_0 ;
++Comp:emmä ADJ_CASES_SG_FRONT ;
++Sup:in ADJ_SGNOM_0 ;
+
+LEXICON ADJ_NUOR/I
+
++Pos:i  ADJ_SGNOM_0 ;
++Pos:e  ADJ_CASES_SG_BACK ;
++Pos:0    ADJ_CASES_PL_BACK ;
++Pos:0    ADJ_PLPAR_IE ;
++Pos:0    ADJ_PLGEN_IEN ;
++Comp:empi ADJ_SGNOM_0 ;
++Comp:emma ADJ_CASES_SG_BACK ;
++Sup:in ADJ_SGNOM_0 ;
++Sup:imma ADJ_CASES_SG_BACK ;
++Sup:imm ADJ_CASES_PL_BACK ;
++Sup:imp ADJ_PLPAR_IE ;
+
+LEXICON ADJ_HYV/Ä
+
++Pos:ä ADJ_SGNOM_0 ;
++Pos:y ADJ_SGPAR_Ä ;
++Pos:ä ADJ_CASES_SG_FRONT ;
+
+LEXICON ADJ_PAR/EMPI
+
++Comp:empi  ADJ_SGNOM_0 ;
++Comp:emp   ADJ_PLPAR_IE ;
++Comp:emma  ADJ_CASES_SG_WEAK_BACK ;
++Comp:empa  ADJ_CASES_SG_STRONG_BACK ;
++Comp:emn   ADJ_CASES_PL_WEAK_BACK ;
++Comp:emp   ADJ_CASES_PL_STRONG_BACK ;
++Comp+Sg+Ill:empah # ;
++Sup:aš  ADJ_SGNOM_0 ;
++Sup:aha  ADJ_CASES_SG_BACK ;
+
+LEXICON ADJ_LÄM/MIN
+
++Pos:min ADJ_SGNOM_0 ;
++Pos:min ADJ_SGPAR_TÄ ;
+
+LEXICON ADJ_KAUNIS
+
++Pos:0  ADJ_SGNOM_0 ;
++Pos:0  ADJ_SGPAR_TA ;
+
+LEXICON ADJ_OM/A
+
++Pos:a ADJ_SGNOM_0 ;
++Pos:a ADJ_CASES_SG_BACK ;
++Pos:0   ADJ_CASES_PL_BACK ;
++Pos:u  ADJ_SGPAR_A ;
++Pos:0    ADJ_PLPAR_IE ;
++Comp:ampi ADJ_SGNOM_0 ;
++Comp:amma  ADJ_CASES_SG_BACK ;
++Comp+Sg+Ill:ampah # ;
++Sup:in  ADJ_SGNOM_0 ;
++Sup:imma  ADJ_CASES_SG_BACK ;
++Sup:imm  ADJ_CASES_PL_BACK ;
+
+LEXICON ADJ_KYPŠ/Ä
+
++Pos:ä  ADJ_SGNOM_0 ;
++Pos:y  ADJ_SGPAR_Ä ;
++Pos:ä  ADJ_CASES_SG_FRONT ;
++Pos:0    ADJ_CASES_PL_FRONT ;
++Pos:0    ADJ_PLPAR_IE ;
+
+LEXICON ADJ_YŠTÄVÄLLI/NI
+
++Pos:ni ADJ_SGNOM_0 ;
++Pos:se ADJ_CASES_SG_BACK ;
++Pos:s  ADJ_CASES_PL_BACK ;
++Pos:s  ADJ_SGPAR_TU ;
++Pos:s  ADJ_PLPAR_IE ;
+
+LEXICON ADJ_KARJALAI/NI
+
++Pos:ni ADJ_SGNOM_0 ;
++Pos:se ADJ_CASES_SG_BACK ;
++Pos:s  ADJ_CASES_PL_BACK ;
++Pos:s  ADJ_SGPAR_TA ;
++Pos:s  ADJ_PLPAR_IE ;
+
+LEXICON ADJ_EEPPI/NI
+
++Pos:ni ADJ_SGNOM_0 ;
++Pos:se ADJ_CASES_SG_FRONT ;
++Pos:s  ADJ_CASES_PL_FRONT ;
++Pos:s  ADJ_SGPAR_TÄ ;
++Pos:s  ADJ_PLPAR_IE ;
+
+LEXICON ADJ_KIELI/NE
+
++Pos:ne ADJ_SGNOM_0 ;
++Pos:se ADJ_CASES_SG_FRONT ;
++Pos:s  ADJ_CASES_PL_FRONT ;
++Pos:s  ADJ_SGPAR_TY ;
++Pos:s  ADJ_PLPAR_IE ;
+
+LEXICON ADJ_TUNNET/TU
+
++Pos:tu ADJ_SGNOM_0 ;
++Pos:tu ADJ_PLPAR_JA ;
++Pos:u ADJ_CASES_SG_WEAK_BACK ;
+
+LEXICON ADJ_AI/TO
+
++Pos:to ADJ_SGNOM_0 ;
++Pos:to ADJ_CASES_SG_BACK ;
+
+LEXICON ADJ_UU/ŠI
+
++Pos:ši  ADJ_SGNOM_0 ;
++Pos:vve ADJ_CASES_SG_BACK ;
+
+LEXICON ADJ_TÄY/ŠI
+
++Pos:ši  ADJ_SGNOM_0 ;
++Pos:ve ADJ_CASES_SG_FRONT ;
+
+LEXICON ADJ_KIRK/AŠ
+
++Pos:aš    ADJ_SGNOM_0 ;
++Pos:kaha  ADJ_CASES_SG_BACK ;
++Pos:kah   ADJ_CASES_PL_BACK ;
++Pos:kah   ADJ_PLPAR_IE ;
+
+LEXICON ADJ_ERÄ/S
+
++Pos:s  ADJ_SGNOM_0 ;
++Pos:hä ADJ_CASES_SG_FRONT ;
+
 
 ! vim: set ft=xfst-lexc:

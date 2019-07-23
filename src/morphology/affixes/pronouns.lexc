@@ -1,0 +1,159 @@
+LEXICON PRON_SGGEN_N
+
++Sg+Gen:n # ;
+
+LEXICON PRON_SGNOM_0
+
++Sg+Nom:0 CLITS_KI_OPT ;
+
+LEXICON PRON_PLNOM_0
+
++Pl+Nom:0 # ;
+
+LEXICON PRON_PLPAR_IE
+
++Pl+Par:ie # ;
+
+LEXICON PRON_PLGEN_IJEN
+
++Pl+Gen:ijen # ;
+
+LEXICON PRON_PLGEN_IEN
+
++Pl+Gen:ien # ;
+
+LEXICON PRON_SGPAR_E
+
++Sg+Par:e # ;
++Sg+Par+Px3:eh # ;
+
+LEXICON PRON_SGPAR_TA
+
++Sg+Par:ta # ;
+
+LEXICON PRON_SGPAR_TÄ
+
++Sg+Par:tä # ;
+
+LEXICON PRON_CASES_SG_FRONT
+
+0 PRON_CASES_SG_WEAK_FRONT ;
+0 PRON_CASES_SG_STRONG_FRONT  ;
+
+LEXICON PRON_CASES_SG_FRONT_S
+
+0 PRON_CASES_SG_WEAK_FRONT_S ;
+0 PRON_CASES_SG_STRONG_FRONT ;
+
+LEXICON PRON_CASES_SG_BACK
+
+0 PRON_CASES_SG_WEAK_BACK ;
+0 PRON_CASES_SG_STRONG_BACK ;
+
+LEXICON PRON_CASES_SG_BACK_S
+
+0 PRON_CASES_SG_WEAK_BACK_S ;
+0 PRON_CASES_SG_STRONG_BACK ;
+
+LEXICON PRON_CASES_SG_STRONG_BACK
+
++Sg+Ess:na # ;
+
+
+LEXICON PRON_CASES_SG_WEAK_BACK
+
++Sg+Gen:n # ;
++Sg+Ine:s # ;
++Sg+Ine:šša # ;
++Sg+Ela:šta # ;
++Sg+Ela:sta # ;
++Sg+Ill:h # ;
++Sg+Ade:lla # ;
++Sg+Ade:la # ;
++Sg+All:le # ;
++Pl+Nom:t # ;
+
+LEXICON PRON_CASES_SG_WEAK_BACK_S
+
++Sg+Gen:n # ;
++Sg+Ine:s # ;
++Sg+Ine:ssa # ;
++Sg+Ela:sta # ;
++Sg+Ill:h # ;
++Sg+Ade:lla # ;
++Sg+Ade:la # ;
++Sg+All:le # ;
++Pl+Nom:t # ;
+
+LEXICON PRON_CASES_SG_STRONG_FRONT
+
++Sg+Ess:nä # ;
+
+LEXICON PRON_CASES_SG_WEAK_FRONT
+
++Sg+Gen:n # ;
++Sg+Ine:s # ;
++Sg+Ine:ššä # ;
++Sg+Ine:štä # ;
++Sg+Ill:h # ;
++Sg+Ade:llä # ;
++Sg+Ade+Px3:lläh # ;
++Sg+All:le # ;
++Pl+Nom:t # ;
+
+LEXICON PRON_CASES_SG_WEAK_FRONT_S
+
++Sg+Gen:n # ;
++Sg+Ine:s # ;
++Sg+Ine:ssä # ;
++Sg+Ine:stä # ;
++Sg+Ill:h # ;
++Sg+All:le # ;
++Pl+Nom:t # ;
+
+LEXICON PRON_CASES_PL_BACK
+
+0 PRON_CASES_PL_WEAK_BACK ;
+0 PRON_CASES_PL_BACK_STRONG ;
+LEXICON PRON_CASES_PL_WEAK_BACK
+
++Pl+Par:ita # ;
++Pl+Tra:iksi # ;
++Pl+Ine:issa # ;
++Pl+Ela:ista # ;
++Pl+Ade:ila # ;
++Pl+Ade:illa # ;
++Pl+All:ila # ;
++Pl+Abl:ilta # ;
++Pl+Abe:itta # ;
+
+LEXICON PRON_CASES_PL_BACK_STRONG
+
++Pl+Ill:ih # ;
++Pl+Ess:ina # ;
+
+LEXICON PRON_CASES_PL_FRONT
+
+0 PRON_CASES_PL_WEAK_FRONT ;
+0 PRON_CASES_PL_FRONT_STRONG ;
+
+LEXICON PRON_CASES_PL_WEAK_FRONT
+
++Pl+Gen:ijän # ;
++Pl+Par:itä # ;
++Pl+Tra:iksi # ;
++Pl+Ine:issä # ;
++Pl+Ela:istä # ;
++Pl+Ade:ilä # ;
++Pl+Ade:illä # ;
++Pl+All:ilä # ;
++Pl+Abl:iltä # ;
++Pl+Abe:ittä # ;
+
+LEXICON PRON_CASES_PL_FRONT_STRONG
+
++Pl+Ess:inä # ;
++Pl+Ill:ih # ;
+
+
+

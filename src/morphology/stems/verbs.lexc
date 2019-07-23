@@ -4,6 +4,225 @@
 
 LEXICON Verbs
 
+olla+V:o AUX_O/LLA ;
+ei+V+Neg:e AUX_E/I ;
+voija+V:vo  AUX_VO/IJA ;
+piteä+V:pi  AUX_PI/TEÄ ;
+
+
+
+ajatella+V:ajat    VERB_AJAT/ELLA ;
+alkoa+V:al  VERB_AL/KOA ;
+antoa+V:an  VERB_AN/TOA ;
+antua+V:an  VERB_KAN/TUA ;
+tuntua+V:tun  VERB_KAN/TUA ;
+aštuo+V:ašt VERB_KUUL/UO ;
+ativoija+V:ativoi  VERB_STARINOI/JA ;
+auttoa+V:aut  VERB_SOIT/TOA ;
+auttua+V:aut VERB_VOIT/TUA ;
+avata+V:av  VERB_AV/ATA ;
+kiušata+V:kiuš  VERB_AV/ATA ;
+eččie+V:eč  VERB_EČ/ČIE ;
+eleä+V:el   VERB_EL/EÄ ;
+erottoa+V:erot  VERB_SOIT/TOA ;
+esitteä+V:esit VERB_PIÄT/TEÄ ;
+esittyä+V:esit VERB_NÄYT/TYÄ ;
+heitteä+V:heit VERB_PIÄT/TEÄ ;
+herätteä+V:herät VERB_PIÄT/TEÄ ;
+herättyä+V:herät VERB_NÄYT/TYÄ ;
+himota+V:himo VERB_TARVI/TA ;
+himottoa+V:himot  VERB_SOIT/TOA ;
+hokšata+V:hokš  VERB_AV/ATA ;
+huaveilla+V:huavei  VERB_TU/LLA ;
+hukkuo+V:huk  VERB_ROIK/KUO ;
+huomata+V:huom  VERB_AV/ATA ;
+hyreytyä+V:hyreyty VERB_HYREYTY/Ä ;
+hyrähteä+V:hyräh  VERB_PIÄT/TEÄ ;
+ikävöijä+V:ikävöi  VERB_IKÄVÖI/JÄ ;
+ilmeštyö+V:ilmeš  VERB_ILMEŠ/TYÖ ;
+ilmottoa+V:ilmot  VERB_SOIT/TOA ;
+innoššuttua+V:innoššut VERB_VOIT/TUA ;
+istuo+V:is  VERB_IS/TUO ;
+jiähä+V:j VERB_J/IÄHÄ ;
+joutuo+V:jout VERB_KUUL/UO ;
+järješteä+V:järješ  VERB_JÄRJEŠ/TEÄ ;
+kačahtoa+V:kačah  VERB_SOIT/TOA ;
+kaččoa+V:kač  VERB_KAČ/ČOA ;
+kaččuo+V:kač  VERB_KAČ/ČUO ;
+kaimata+V:kaim  VERB_AV/ATA ;
+kaimata+V:kaim  VERB_AV/ATA ;
+kannattoa+V:kannat  VERB_SOIT/TOA ;
+kannattua+V:kannat  VERB_VOIT/TUA ;
+kantoa+V:kan  VERB_AN/TOA ;
+kantua+V:kant VERB_KAN/TUA ;
+kašvoa+V:kašv  VERB_KAŠV/OA ;
+kehitteä+V:kehit VERB_PIÄT/TEÄ ;
+kehitttyä+V:kehitty VERB_HYREYTY/Ä ;
+kekšie+V:kekši VERB_TANŠŠI/E ;
+kennie+V:kenni VERB_TANŠŠI/E ;
+keritä+V:ker VERB_KER/ITÄ ;
+kertuo+V:ker  VERB_KER/TUO ;
+kerätä+V:ker VERB_KER/ÄTÄ ;
+kerätä+V:kerä VERB_KERÄ/TÄ ;
+kielteä+V:kiel VERB_PIÄT/TEÄ ;
+kiinnoššuttua+V:kiinnoššut VERB_VOIT/TUA ;
+kiinnoštoa+V:kiinnoš VERB_KOROŠ/TOA ;
+kiinnostuo+V:kiinnost VERB_KUUL/UO ;
+kiitteä+V:kiit VERB_PIÄT/TEÄ ;
+kirjuttoa+V:kirjut  VERB_SOIT/TOA ;
+kiskoa+V:kis  VERB_AL/KOA ;
+kiänteä+V:kiän VERB_PIÄT/TEÄ ;
+koristoa+V:koris VERB_VALMIS/TOA ;
+koristoa+V:koris VERB_VALMIS/TOA ;
+koroštoa+V:koroš VERB_KOROŠ/TOA ;
+koroštoa+V:koroš VERB_VALMIS/TOA ;
+kuččuo+V:kuč  VERB_KUČ/ČUO ;
+kummekšie+V:kummekši VERB_TANŠŠI/E ;
+kunnivoija+V:kunnivoi  VERB_STARINOI/JA ;
+kuorittoa+V:kuorit  VERB_SOIT/TOA ;
+kuotella+V:kuot    VERB_AJAT/ELLA ;
+kuulla+V:kuu  VERB_TU/LLA ;
+kuuluo+V:kuul  VERB_KUUL/UO ;
+kuvitella+V:kuvit    VERB_AJAT/ELLA ;
+kyšyä+V:kyšy  VERB_HYREYTY/Ä ;
+käyttäytyö+V:käyttäy  VERB_RYH/TYÖ ;
+kitkie+V:kitk  VERB_KITK/IE ;
+itkie+V:it  VERB_IT/KIE ;
+käyvä+V:kä  VERB_KÄ/YVÄ ;
+laškie+V:laš VERB_LAŠ/KIE ;
+lauloa+V:laul  VERB_KAŠV/OA ;
+leikata+V:leik  VERB_LEIK/ATA ;
+lenteä+V:len VERB_PIÄT/TEÄ ;
+levähellä+V:levähel  VERB_LEVÄHEL/LÄ ;
+liittyä+V:liit VERB_NÄYT/TYÄ ;
+liittyö+V:liit VERB_ILMEŠ/TYÖ ;
+lišäytyö+V:lišäy  VERB_ILMEŠ/TYÖ ;
+lopettoa+V:lopet  VERB_SOIT/TOA ;
+loppuo+V:lop  VERB_LOP/PUO ;
+luatie+V:lua  VERB_LUA/TIE ;
+luiskahtoa+V:luiskah  VERB_SOIT/TOA ;
+lukie+V:luki VERB_TANŠŠI/E ;
+luuvva+V:l  VERB_L/UUVVA ;
+lähtie+V:lä  VERB_LÄ/HTIE ;
+löyteä+V:löy  VERB_LÖY/TEÄ ;
+löyteä+V:löy VERB_VIČER/TEÄ ;
+löytyä+V:löy VERB_PI/TYÄ ;
+malttoa+V:malt  VERB_SOIT/TOA ;
+merkitä+V:merki VERB_MERKI/TÄ ;
+miellytteä+V:miellyt VERB_PIÄT/TEÄ ;
+miettie+V:miet  VERB_MIET/TIE ;
+muhie+V:muhi VERB_TANŠŠI/E ;
+muistelehtoa+V:muistel  VERB_MUISTEL/EHTOA ;
+männä+V:män  VERB_MÄN/NÄ ;
+nimetä+V:nim VERB_NIM/ETÄ ;
+noššattoa+V:noššat VERB_VALMIS/TOA ;
+noštoa+V:noš VERB_VALMIS/TOA ;
+noušša+V:nouš  VERB_NOUŠ/ŠA ;
+nähä+V:n VERB_N/ÄHÄ ;
+näytteä+V:näyt VERB_PIÄT/TEÄ ;
+näytteä+V:näyt VERB_PIÄT/TEÄ ;
+näytteä+V:näyt VERB_PIÄT/TEÄ ;
+näyttyä+V:näyt VERB_NÄYT/TYÄ ;
+näyttyä+V:näyt VERB_NÄYT/TYÄ ;
+omistoa+V:omis VERB_VALMIS/TOA ;
+ommella+V:om  VERB_OM/MELLA ;
+opaštuo+V:opaš  VERB_OPAŠ/TUO ;
+oppie+V:op VERB_OP/PIE ;
+ošallistuo+V:ošallis  VERB_IS/TUO ;
+ottoa+V:ot  VERB_OT/TOA ;
+ottua+V:ott  VERB_VOIT/TUA ;
+ottuo+V:ot  VERB_IS/TUO ;
+painoa+V:pain  VERB_KAŠV/OA ;
+painuo+V:pain  VERB_TOIV/UO ;
+paissa+V:pa VERB_PA/ISSA ;
+paistoa+V:pais VERB_PAIS/TOA ;
+panna+V:pan VERB_PAN/NA ;
+peitteä+V:peit  VERB_PIÄT/TEÄ ;
+pelaštoa+V:pelaš VERB_KOROŠ/TOA ;
+pelata+V:pel  VERB_AV/ATA ;
+peluata+V:pelu  VERB_AV/ATA ;
+piteä+V:pi  VERB_PIÄT/TEÄ ;
+pityä+V:pi  VERB_PI/TYÄ ;
+piästä+V:piäs  VERB_PIÄS/TÄ ;
+piäštä+V:piäš  VERB_PIÄS/TÄ ;
+piätteä+V:piät  VERB_PIÄT/TEÄ ;
+poimie+V:poimi VERB_POIMI/E ;
+pureškella+V:pureškel  VERB_PUREŠKEL/LA ;
+rikkuo+V:rik  VERB_RIK/KUO ;
+roikkuo+V:roik  VERB_ROIK/KUO ;
+ruatuo+V:rua VERB_RUA/TUO ;
+ruveta+V:ru  VERB_RU/VETA ;
+ryhtyö+V:ryh  VERB_RYH/TYÖ ;
+šalvata+V:šal  VERB_ŠAL/VATA ;
+šammuttoa+V:šammut  VERB_SOIT/TOA ;
+šammuttua+V:šammut VERB_VOIT/TUA ;
+šanoa+V:šan  VERB_ŠAN/OA ;
+šanuo+V:šan  VERB_TOIV/UO ;
+šanuo+V:šan  VERB_TOIV/UO ;
+sattuo+V:sat  VERB_SAT/TUO ;
+šeisuo+V:šeis  VERB_TOIV/UO ;
+šelitteä+V:šelit VERB_PIÄT/TEÄ ;
+šiirtyä+V:šiirty  VERB_HYREYTY/Ä ;
+šituo+V:šit  VERB_TOIV/UO ;
+šituo+V:ši  VERB_ŠI/TUO ;
+šoittoa+V:šoit  VERB_SOIT/TOA ;
+šopie+V:šo VERB_ŠO/PIE ;
+staraija+V:starai  VERB_STARINOI/JA ;
+starinoija+V:starinoi  VERB_STARINOI/JA ;
+suaha+V:s VERB_S/UAHA ;
+šuaha+V:š VERB_S/UAHA ;
+šuojella+V:šuojel  VERB_PUREŠKEL/LA ;
+šuorittua+V:šuorit VERB_VOIT/TUA ;
+šuovata+V:šuov  VERB_AV/ATA ;
+šuvaija+V:šuvai  VERB_STARINOI/JA ;
+šyntyö+V:šyn  VERB_RYH/TYÖ ;
+šyyvä+V:šy  VERB_ŠY/YVÄ ;
+tahtoa+V:tah  VERB_TAH/TOA ;
+tanššie+V:tanšši VERB_TANŠŠI/E ;
+tappoa+V:tap  VERB_TAP/POA ;
+tarita+V:tari VERB_TARVI/TA ;
+tarvita+V:tarvi VERB_TARVI/TA ;
+tieteä+V:ti VERB_TI/ETEÄ ;
+tietyä+V:tie VERB_PI/TYÄ ;
+tiijuššella+V:tiijušše  VERB_TU/LLA ;
+tiijuštua+V:tiijuš VERB_KAN/TUA ;
+toimie+V:toimi VERB_TANŠŠI/E ;
+toivuo+V:toiv  VERB_TOIV/UO ;
+toteuttoa+V:toteut  VERB_SOIT/TOA ;
+tulla+V:tu VERB_TU/LLA ;
+tuntie+V:tun  VERB_TUN/TIE ;
+tuomita+V:tuomi VERB_TARVI/TA ;
+tuškistuo+V:tuškist VERB_KUUL/UO ;
+tuuvva+V:t VERB_T/UUVVA ;
+tykytä+V:tyk VERB_TYK/YTÄ ;
+työnteä+V:työn  VERB_TYÖN/TEÄ ;
+täyttyä+V:täyt VERB_TÄYT/TYÄ ;
+uškuo+V:usk  VERB_KUUL/UO ;
+uškuo+V:uš  VERB_RIK/KUO ;
+vaihella+V:vaihel  VERB_PUREŠKEL/LA ;
+vaihtua+V:vaih VERB_VOIT/TUA ;
+vaikuttoa+V:vaikut  VERB_SOIT/TOA ;
+vaipuo+V:vai  VERB_VAI/PUO ;
+valita+V:vali VERB_TARVI/TA ;
+vallata+V:val VERB_VAL/LATA ;
+valmistoa+V:valmis VERB_VALMIS/TOA ;
+varjella+V:varje  VERB_TU/LLA ;
+vaššata+V:vašš  VERB_AV/ATA ;
+vaštata+V:vašt  VERB_AV/ATA ;
+veikkuo+V:veik  VERB_ROIK/KUO ;
+vičerteä+V:vičer VERB_VIČER/TEÄ ;
+vietteä+V:viet VERB_PIÄT/TEÄ ;
+viijä+V:v VERB_V/IIJÄ ;
+virkkoa+V:virk  VERB_AL/KOA ;
+voittua+V:voit VERB_VOIT/TUA ;
+vuolla+V:vuo VERB_TU/LLA ;
+yhistyä+V:yhis VERB_NÄYT/TYÄ ;
+yhistäytyö+V:yhistäy  VERB_ILMEŠ/TYÖ ;
+yhtyö+V:yh  VERB_RYH/TYÖ ;
+ymmärteä+V:ymmär  VERB_PIÄT/TEÄ ;
+yritteä+V:yrit VERB_PIÄT/TEÄ ;
+
+
 aakkoa	verb ;
 ahahella	verb_frekv ;
 ahavakoittuo	verb ;
@@ -32071,5 +32290,862 @@ tua verb ;
 tua:a verb_weak_pres ;
 tua:ta verb_strong_pres ;
 tua:eta verb_3pl_pres ;
+
+LEXICON VERB_J/IÄHÄ
+
+0:iäh VERB_INF_Ä ;
+0:iä  VERB_PRES_FRONT ;
+0:äi   VERB_PAST_3SG_0 ;
+0:iä  VERB_PCP_TY ;
+0:iäti VERB_PAST_PASSIVE_H ;
+
+LEXICON VERB_V/IIJÄ
+
+0:iijä VERB_INF_Ä ;
+0:iijä VERB_PASSIVE_H ;
+0:ie  VERB_PRES_FRONT ;
+0:ie  VERB_3SG_Y ;
+0:ei  VERB_PAST_3SG_0 ;
+0:ieti VERB_PAST_PASSIVE_H ;
+0:ie  VERB_PCP_TY ;
+
+LEXICON VERB_L/UUVVA
+
+0:uuvv VERB_INF_A ;
+0:uo VERB_INF_MÄ ;
+0:uo  VERB_PRES_BACK ;
+0:uo  VERB_3SG_U ;
+0:uoti VERB_PAST_PASSIVE_H ;
+0:uo  VERB_PCP_TU ;
+0:o  VERB_PAST_BACK ;
+
+LEXICON VERB_ŠY/YVÄ
+
+0:yv VERB_INF_Ä ;
+0:ö VERB_INF_MÄ ;
+0:ö  VERB_PRES_FRONT ;
+0:ö  VERB_3SG_Y ;
+0:öti VERB_PAST_PASSIVE_H ;
+0:ö  VERB_PCP_TY ;
+
+LEXICON VERB_PIÄS/TÄ
+
+0:t  VERB_INF_Ä ;
+0:i  VERB_PAST_3SG_0 ;
+0    VERB_PAST_FRONT ;
+0:e  VERB_PRES_FRONT ;
+0:ö  VERB_3SG_Y ;
+0    VERB_PCP_TY ;
+
+LEXICON VERB_KÄ/YVÄ
+
+0:yv  VERB_INF_Ä ;
+0:y   VERB_INF_MÄ ;
+0:yvä  VERB_PASSIVE_H ;
+0:y   VERB_PRES_BACK ;
+0   VERB_3SG_Y ;
+0:vi  VERB_PAST_3SG_0 ;
+0:yti  VERB_PAST_PASSIVE_H ;
+0:v  VERB_PAST_FRONT ;
+0:yny  VERB_PCP_N ;
+0:y  VERB_PCP_TY ;
+
+LEXICON VERB_S/UAHA
+
+0:uah VERB_INF_A ;
+0:uaha VERB_PASSIVE_H ;
+0:ua  VERB_PRES_BACK ;
+0:ua  VERB_3SG_U ;
+0:ua  VERB_IMPV ;
+0:ai  VERB_PAST_3SG_0 ;
+0:a  VERB_PAST_BACK ;
+0:uati VERB_PAST_PASSIVE_H ;
+
+LEXICON VERB_MIET/TIE
+
+0:ti VERB_INF_E ;
+0:i  VERB_PRES_FRONT ;
+0:ti VERB_PAST_3SG_0 ;
+0:i  VERB_PAST_FRONT ;
+0:itti  VERB_PAST_PASSIVE_H ;
+0:itä   VERB_PASSIVE_H ;
+0:i  VERB_PCP_N ;
+
+LEXICON VERB_LÄ/HTIE
+
+0:hti VERB_INF_E ;
+0:he  VERB_PRES_FRONT ;
+0:ksi VERB_PAST_3SG_0 ;
+0:ks VERB_PAST_FRONT ;
+0:hetti  VERB_PAST_PASSIVE_H ;
+0:hte  VERB_PCP_N ;
+
+LEXICON VERB_T/UUVVA
+
+0:uuvv  VERB_INF_A ;
+0:uova   VERB_PASSIVE_H ;
+0:uu    VERB_PRES_BACK ;
+0:uu    VERB_IMPV ;
+0:oi    VERB_PAST_3SG_0 ;
+0:o    VERB_PAST_BACK ;
+0:uoti  VERB_PAST_PASSIVE_H ;
+0:uo  VERB_PCP_TU ;
+
+LEXICON VERB_TU/LLA
+
+0:ll  VERB_INF_A ;
+0:lla   VERB_PASSIVE_H ;
+0:le    VERB_PRES_BACK ;
+0:le    VERB_IMPV ;
+0:li    VERB_PAST_3SG_0 ;
+0:l    VERB_PAST_BACK ;
+0:lti  VERB_PAST_PASSIVE_H ;
+0:l  VERB_PCP_TU ;
+
+LEXICON VERB_PA/ISSA
+
+0:iss    VERB_INF_A ;
+0:ista   VERB_PASSIVE_H ;
+0:kaja    VERB_3SG_U ;
+0:kiso    VERB_3SG_U ;
+0:kaja    VERB_PRES_BACK ;
+0:kise    VERB_PRES_BACK ;
+0:kise    VERB_IMPV ;
+0:kisi    VERB_PAST_3SG_0 ;
+0:kis    VERB_PAST_BACK ;
+0:isti   VERB_PAST_PASSIVE_H ;
+
+LEXICON VERB_NOUŠ/ŠA
+
+0:š    VERB_INF_A ;
+0:ta   VERB_PASSIVE_H ;
+0:e    VERB_PRES_BACK ;
+0:e    VERB_IMPV ;
+0:i    VERB_PAST_3SG_0 ;
+0    VERB_PAST_BACK ;
+0:ti   VERB_PAST_PASSIVE_H ;
+
+LEXICON VERB_PAN/NA
+
+0:n    VERB_INF_A ;
+0:na   VERB_PASSIVE_H ;
+0:e    VERB_PRES_BACK ;
+0:e    VERB_IMPV ;
+0:i    VERB_PAST_3SG_0 ;
+0    VERB_PAST_BACK ;
+0:ti   VERB_PAST_PASSIVE_H ;
+
+LEXICON VERB_MÄN/NÄ
+
+0:n    VERB_INF_Ä ;
+0:nä   VERB_PASSIVE_H ;
+0:ö    VERB_3SG_Y ;
+0:e    VERB_PRES_BACK ;
+0:e    VERB_IMPV ;
+0:i    VERB_PAST_3SG_0 ;
+0    VERB_PAST_BACK ;
+0:ti  VERB_PAST_PASSIVE_H ;
+
+LEXICON VERB_TARVI/TA
+
+0:t  VERB_INF_A ;
+0:čči  VERB_PAST_3SG_0 ;
+0:čč  VERB_PAST_BACK ;
+0:ččo  VERB_3SG_U ;
+0:če  VERB_PRES_BACK ;
+0:če  VERB_IMPV ;
+0:tti VERB_PAST_PASSIVE_H ;
+
+LEXICON VERB_MERKI/TÄ
+
+0:t  VERB_INF_A ;
+0:čči  VERB_PAST_3SG_0 ;
+0:čč  VERB_PAST_FRONT ;
+0:ččö  VERB_3SG_Y ;
+0:če  VERB_PRES_FRONT ;
+0:če  VERB_IMPV ;
+0:tti VERB_PAST_PASSIVE_H ;
+
+LEXICON VERB_STARINOI/JA
+
+0:j  VERB_INF_A ;
+0:čči  VERB_PAST_3SG_0 ;
+0:če  VERB_PRES_BACK ;
+0:če  VERB_IMPV ;
+0:ti VERB_PAST_PASSIVE_H ;
+0 VERB_PASSIVE_H ;
+
+LEXICON VERB_IKÄVÖI/JÄ
+
+0:j  VERB_INF_Ä ;
+0  VERB_PAST_3SG_0 ;
+0  VERB_PRES_FRONT ;
+0  VERB_IMPV ;
+0:ti  VERB_PAST_PASSIVE_H ;
+0:jä  VERB_PASSIVE_H ;
+
+
+LEXICON VERB_ŠAN/OA
+
+0:o  VERB_INF_A ;
+0:o  VERB_PAST_3SG_0 ;
+0:o  VERB_PRES_BACK ;
+0:o  VERB_IMPV ;
+0:o  VERB_INF_MA ;
+0:otti VERB_PASSIVE_H ;
+0:ot  VERB_PCP_TU ;
+
+LEXICON VERB_MUISTEL/EHTOA
+
+0:ehto  VERB_INF_A ;
+0:i  VERB_PAST_3SG_0 ;
+0:e  VERB_PRES_BACK ;
+0:e  VERB_IMPV ;
+0:e  VERB_INF_MA ;
+0:ti VERB_PAST_PASSIVE_H ;
+
+LEXICON VERB_KAŠV/OA
+
+0:o  VERB_INF_A ;
+0:o  VERB_PAST_3SG_0 ;
+0:a  VERB_PRES_BACK ;
+0:a  VERB_3SG_U ;
+0:a  VERB_IMPV ;
+0:a  VERB_INF_MA ;
+0:etti VERB_PAST_PASSIVE_H ;
+0:et VERB_COND_PASSIVE_TAIS ;
+
+LEXICON VERB_AL/KOA
+
+0:ko  VERB_INF_A ;
+0:ko  VERB_PAST_3SG_0 ;
+0:a  VERB_PRES_BACK ;
+0:a  VERB_IMPV ;
+0:ka  VERB_INF_MA ;
+0:eta VERB_PASSIVE_H ;
+0:etti VERB_PAST_PASSIVE_H ;
+
+LEXICON VERB_AN/TOA
+
+0:netti VERB_PAST_PASSIVE_H ;
+0:to  VERB_INF_A ;
+0:to  VERB_PAST_3SG_0 ;
+0:na  VERB_PRES_BACK ;
+0:na  VERB_IMPV ;
+0:ta  VERB_INF_MA ;
+0:neta VERB_PASSIVE_H ;
+0:netti VERB_PAST_PASSIVE_H ;
+0:net VERB_PCP_TAVA ;
+
+LEXICON VERB_PAIS/TOA
+
+0:to  VERB_INF_A ;
+0:ta  VERB_INF_EN ;
+0:to  VERB_PAST_3SG_0 ;
+0:setti VERB_PAST_PASSIVE_H ;
+0:ta  VERB_PRES_BACK ;
+
+LEXICON VERB_KAČ/ČUO
+
+0:ču  VERB_INF_O ;
+0:čo  VERB_INF_MA ;
+0:čo  VERB_PAST_3SG_0 ;
+0:o  VERB_PAST_BACK ;
+0:čotti VERB_PAST_PASSIVE_H ;
+0:čota VERB_PASSIVE_H ;
+0:čot VERB_PCP_TU ;
+0:o  VERB_PRES_BACK ;
+
+LEXICON VERB_KAČ/ČOA
+
+0:čo  VERB_INF_A ;
+0:čo  VERB_INF_MA ;
+0:čo  VERB_PAST_3SG_0 ;
+0:o  VERB_PAST_BACK ;
+0:čotti VERB_PAST_PASSIVE_H ;
+0:čota VERB_PASSIVE_H ;
+0:čot VERB_PCP_TU ;
+0:o  VERB_PRES_BACK ;
+
+LEXICON VERB_KOROŠ/TOA
+
+0:to  VERB_INF_A ;
+0:ta  VERB_INF_EN ;
+0:ti  VERB_PAST_3SG_0 ;
+0:ši  VERB_PAST_3SG_0 ;
+0:šetti VERB_PAST_PASSIVE_H ;
+0:šeta VERB_PASSIVE_H ;
+0:šet VERB_PCP_TU ;
+0:ša  VERB_PRES_BACK ;
+0:ta  VERB_PCP_N ;
+
+LEXICON VERB_VALMIS/TOA
+
+0:to  VERB_INF_A ;
+0:ta  VERB_INF_EN ;
+0:ti  VERB_PAST_3SG_0 ;
+0:si  VERB_PAST_3SG_0 ;
+0:setti VERB_PAST_PASSIVE_H ;
+0:seta VERB_PASSIVE_H ;
+0:set VERB_PCP_TU ;
+0:sa  VERB_PRES_BACK ;
+0:ta  VERB_PCP_N ;
+
+LEXICON VERB_TAH/TOA
+
+0:to  VERB_INF_A ;
+0:o  VERB_PRES_BACK ;
+0:to  VERB_PAST_3SG_0 ;
+0:otti VERB_PAST_PASSIVE_H ;
+0:ota VERB_PASSIVE_H ;
+0:ot VERB_PCP_TU ;
+0:to VERB_PCP_N ;
+
+LEXICON VERB_TAP/POA
+
+0:po  VERB_INF_A ;
+0:po  VERB_PAST_3SG_0 ;
+0:etti VERB_PAST_PASSIVE_H ;
+0:eta VERB_PASSIVE_H ;
+0:et VERB_COND_PASSIVE_TAIS ;
+0:et VERB_PCP_TU ;
+0:t  VERB_PAST_BACK ;
+
+LEXICON VERB_SOIT/TOA
+
+0:to  VERB_INF_A ;
+0:ti  VERB_PAST_3SG_0 ;
+0:ta  VERB_3SG_U ;
+0:a  VERB_PRES_BACK ;
+0:etti VERB_PAST_PASSIVE_H ;
+0:eta VERB_PASSIVE_H ;
+0:et VERB_COND_PASSIVE_TAIS ;
+0:et VERB_PCP_TU ;
+0:t  VERB_PAST_BACK ;
+
+
+LEXICON VERB_OT/TOA
+
+0:to  VERB_INF_A ;
+0:ti  VERB_PAST_3SG_0 ;
+0:a VERB_PRES_BACK ;
+0:a VERB_3SG_U ;
+0:a VERB_IMPV ;
+0:ta VERB_IMPVPL_BACK ;
+0:etti VERB_PAST_PASSIVE_H ;
+0:eta VERB_PASSIVE_H ;
+
+LEXICON VERB_TANŠŠI/E
+
+0  VERB_INF_E ;
+0  VERB_PRES_BACK ;
+0  VERB_PAST_3SG_0 ;
+0  VERB_3SG_U ;
+0:tti  VERB_PAST_PASSIVE_H ;
+
+LEXICON VERB_EČ/ČIE
+
+0:či  VERB_INF_E ;
+0:či  VERB_INF_MÄ ;
+0:i  VERB_PRES_BACK ;
+0:i  VERB_PAST_3SG_0 ;
+0:itti  VERB_PAST_PASSIVE_H ;
+
+
+LEXICON VERB_POIMI/E
+
+0  VERB_INF_E ;
+0  VERB_INF_MA ;
+0  VERB_PRES_BACK ;
+0:tti  VERB_PAST_PASSIVE_H ;
+
+LEXICON VERB_IT/KIE
+
+0:ki  VERB_INF_E ;
+0:ke  VERB_PRES_BACK ;
+0:e  VERB_CONNEG_0 ;
+0:ki  VERB_PAST_BACK ;
+0:ketti  VERB_PAST_PASSIVE_H ;
+0:ö   VERB_3SG_Y ;
+0:ket  VERB_PCP_TY ;
+
+LEXICON VERB_KITK/IE
+
+0:i  VERB_INF_E ;
+0:e  VERB_PRES_BACK ;
+0:i  VERB_PAST_BACK ;
+0:itti  VERB_PAST_PASSIVE_H ;
+0:ö   VERB_3SG_Y ;
+0:et  VERB_PCP_TY ;
+
+LEXICON VERB_LAŠ/KIE
+
+0:ki  VERB_INF_E ;
+0:e  VERB_PRES_BACK ;
+0:i  VERB_PAST_BACK ;
+0:itti  VERB_PAST_PASSIVE_H ;
+0:et  VERB_PCP_TU ;
+
+LEXICON VERB_OP/PIE
+
+0:pi  VERB_INF_E ;
+0:i  VERB_PRES_BACK ;
+0:itti  VERB_PAST_PASSIVE_H ;
+
+LEXICON VERB_ŠO/PIE
+
+0:pi  VERB_INF_E ;
+0:vi  VERB_PRES_BACK ;
+0:pi  VERB_PAST_3SG_0 ;
+0:vitti  VERB_PAST_PASSIVE_H ;
+
+LEXICON VERB_TUN/TIE
+
+0:ti  VERB_INF_E ;
+0:ne  VERB_PRES_BACK ;
+0:to  VERB_3SG_U ;
+0:ti  VERB_PAST_3SG_0 ;
+0:netti  VERB_PAST_PASSIVE_H ;
+0:neta   VERB_PASSIVE_H ;
+0:t   VERB_COND ;
+
+LEXICON VERB_LUA/TIE
+
+0:ti  VERB_INF_E ;
+0:ji  VERB_PRES_BACK ;
+0:ti  VERB_PAST_3SG_0 ;
+0:jitti VERB_PAST_PASSIVE_H ;
+0:jita  VERB_PASSIVE_H ;
+
+LEXICON VERB_TI/ETEÄ
+
+0:ete  VERB_INF_Ä ;
+0:ijetti  VERB_PAST_PASSIVE_H ;
+0:ijet  VERB_PCP_TY ;
+0:ijä  VERB_PRES_FRONT ;
+0:ijetä VERB_PASSIVE_H ;
+0:ijet  VERB_COND_PASSIVE_TÄIS ;
+0:etä  VERB_COND ;
+
+LEXICON VERB_TÄYT/TYÄ
+
+0:ty  VERB_INF_Ä ;
+0:ti  VERB_PAST_3SG_0 ;
+0:ytti  VERB_PAST_PASSIVE_H ;
+0:yt  VERB_PCP_TY ;
+
+LEXICON VERB_NÄYT/TYÄ
+
+0:ty  VERB_INF_Ä ;
+0:ty  VERB_3SG_Y ;
+0:ti  VERB_PAST_3SG_0 ;
+0:ty  VERB_PAST_3SG_0 ;
+0:ytä  VERB_PASSIVE_H ;
+0:etti  VERB_PAST_PASSIVE_H ;
+0:et  VERB_PCP_TY ;
+
+LEXICON VERB_VIČER/TEÄ
+
+0:te  VERB_INF_Ä ;
+0:ti  VERB_PAST_3SG_0 ;
+0:retti  VERB_PAST_PASSIVE_H ;
+0:retä  VERB_PASSIVE_H ;
+0:ret  VERB_PCP_TY ;
+
+LEXICON VERB_PIÄT/TEÄ
+
+0:te  VERB_INF_Ä ;
+0:tä  VERB_INF_MÄ ;
+0:ä  VERB_CONNEG_0 ;
+0:ä  VERB_PRES_FRONT ;
+0:e  VERB_PRES_FRONT ;
+0:tä  VERB_3SG_Y ;
+0:ti  VERB_PAST_3SG_0 ;
+0:etti  VERB_PAST_PASSIVE_H ;
+0:etä  VERB_PASSIVE_H ;
+0:et  VERB_PCP_TY ;
+0:tä  VERB_PCP_N ;
+
+LEXICON VERB_TYÖN/TEÄ
+
+0:te  VERB_INF_Ä ;
+0:ti  VERB_PAST_3SG_0 ;
+0:netti  VERB_PAST_PASSIVE_H ;
+0:netä  VERB_PASSIVE_H ;
+0:net  VERB_PCP_TY ;
+
+LEXICON VERB_LÖY/TEÄ
+
+0:te  VERB_INF_Ä ;
+0:si  VERB_PAST_3SG_0 ;
+0:s   VERB_PAST_FRONT ;
+0:vä  VERB_PRES_FRONT ;
+0:vetti  VERB_PAST_PASSIVE_H ;
+0:vetä  VERB_PASSIVE_H ;
+0:vet  VERB_PCP_TY ;
+
+LEXICON VERB_JÄRJEŠ/TEÄ
+
+0:te  VERB_INF_Ä ;
+0:ti  VERB_PAST_3SG_0 ;
+0:tä  VERB_3SG_Y ;
+0:šetti  VERB_PAST_PASSIVE_H ;
+0:šetä  VERB_PASSIVE_H ;
+0:šet  VERB_PCP_TY ;
+0:šä   VERB_PCP_N ;
+
+LEXICON VERB_PI/TYÄ
+
+0:ty  VERB_INF_Ä ;
+
+LEXICON VERB_EL/EÄ
+
+0:e  VERB_INF_Ä ;
+0:ä  VERB_3SG_Y ;
+0:ä  VERB_PRES_FRONT ;
+0:etä  VERB_PASSIVE_H ;
+
+LEXICON VERB_OPAŠ/TUO
+
+0:tu  VERB_INF_O ;
+0:šo  VERB_PAST_3SG_0 ;
+0:to  VERB_3SG_U ;
+0:šuta  VERB_PASSIVE_H ;
+0:tu  VERB_PRES_BACK ;
+
+LEXICON VERB_TOIV/UO
+
+0:u  VERB_INF_O ;
+0:o  VERB_PAST_3SG_0 ;
+0:o  VERB_3SG_U ;
+0:ota  VERB_PASSIVE_H ;
+0:utti  VERB_PAST_PASSIVE_H ;
+0:o  VERB_PRES_BACK ;
+
+LEXICON VERB_VOIT/TUA
+
+0:tu  VERB_INF_A ;
+0:tu  VERB_INF_AS ; 
+0:tu  VERB_PAST_3SG_0 ;
+0:tu  VERB_3SG_U ;
+0:tu  VERB_PRES_BACK ;
+0:a  VERB_CONNEG_0 ;
+
+LEXICON VERB_KAN/TUA
+
+0:tu  VERB_INF_A ;
+0:tu  VERB_INF_AS ; 
+0:tu  VERB_PAST_3SG_0 ;
+0:tu  VERB_3SG_U ;
+0:tu  VERB_PRES_BACK ;
+0:na  VERB_CONNEG_0 ;
+
+LEXICON VERB_RUA/TUO
+
+0:tu   VERB_INF_O ;
+0:ta   VERB_3SG_U ;
+0      VERB_PRES_BACK ;
+0:va   VERB_PRES_BACK ;
+0:ta   VERB_INF_MA ;
+
+LEXICON VERB_KUUL/UO
+
+0:u  VERB_INF_O ;
+0:u  VERB_PAST_3SG_0 ;
+0:u  VERB_3SG_U ;
+0:u  VERB_PRES_BACK ;
+
+LEXICON VERB_LOP/PUO
+
+0:pu  VERB_INF_O ;
+0:pu  VERB_PAST_3SG_0 ;
+0:pu  VERB_3SG_U ;
+0:pu  VERB_PRES_BACK ;
+0:pu  VERB_PAST_3SG_0 ;
+
+LEXICON VERB_RYH/TYÖ
+
+0:ty  VERB_INF_Ö ;
+0:ty  VERB_PAST_3SG_0 ;
+0:ty  VERB_3SG_Y ;
+0:ty  VERB_PRES_BACK ;
+0:ytti  VERB_PAST_PASSIVE_H ;
+0:yt  VERB_COND_PASSIVE_TÄIS ;
+
+LEXICON VERB_ILMEŠ/TYÖ
+
+0:ty  VERB_INF_Ö ;
+0:ty  VERB_PAST_3SG_0 ;
+0:ty  VERB_3SG_Y ;
+0:ty  VERB_PRES_BACK ;
+
+
+LEXICON VERB_IS/TUO
+
+0:tu  VERB_INF_O ;
+0:su  VERB_PAST_3SG_0 ;
+0:tu  VERB_PAST_3SG_0 ;
+0:su  VERB_PAST_BACK ;
+0:tu  VERB_3SG_U ;
+0:tu  VERB_PRES_BACK ;
+0:sutti  VERB_PAST_PASSIVE_H ;
+
+LEXICON VERB_RIK/KUO
+
+0:ku  VERB_INF_O ;
+0:ko  VERB_PAST_3SG_0 ;
+0:ko  VERB_3SG_U ;
+0:o  VERB_PRES_BACK ;
+0:otti  VERB_PAST_PASSIVE_H ;
+
+LEXICON VERB_ROIK/KUO
+
+0:ku  VERB_INF_O ;
+0:ku  VERB_PAST_3SG_0 ;
+0:ku  VERB_3SG_U ;
+0:u  VERB_PRES_BACK ;
+0:utti  VERB_PAST_PASSIVE_H ;
+
+LEXICON VERB_SAT/TUO
+
+0:tu  VERB_INF_O ;
+0:tu  VERB_PAST_3SG_0 ;
+0:to  VERB_3SG_U ;
+0:u  VERB_PRES_BACK ;
+0:u  VERB_PCP_N ;
+
+LEXICON VERB_KER/TUO
+
+0:tu  VERB_INF_O ;
+0:to  VERB_PAST_3SG_0 ;
+0:to  VERB_3SG_U ;
+0:to  VERB_PRES_BACK ;
+
+LEXICON VERB_ŠI/TUO
+
+0:tu  VERB_INF_O ;
+0:to  VERB_PAST_3SG_0 ;
+0:to  VERB_3SG_U ;
+0:to  VERB_PRES_BACK ;
+0:votti  VERB_PAST_PASSIVE_H ;
+
+LEXICON VERB_KUČ/ČUO
+
+0:ču  VERB_INF_O ;
+0:ču  VERB_3SG_U ;
+0:uta  VERB_PASSIVE_H ;
+0:u  VERB_PRES_BACK ;
+
+LEXICON VERB_VAI/PUO
+
+0:pu  VERB_INF_O ;
+0:pu  VERB_PAST_3SG_0 ;
+0:pu  VERB_3SG_U ;
+0:vu  VERB_PRES_BACK ;
+0:pu  VERB_PCP_N ;
+0:vut  VERB_PCP_TU ;
+
+LEXICON VERB_KER/ÄTÄ
+
+0:ä    VERB_INF_TÄ ;
+0:äsi VERB_PAST_3SG_0 ;
+0:ää  VERB_PRES_BACK ;
+0:ätti  VERB_PAST_PASSIVE_H ;
+0:äta VERB_PASSIVE_H ;
+0:yä  VERB_INF_MÄ ;
+
+LEXICON VERB_KER/ITÄ
+
+0:i    VERB_INF_TÄ ;
+0:kisi VERB_PAST_3SG_0 ;
+0:kiä  VERB_PRES_BACK ;
+0:itti  VERB_PAST_PASSIVE_H ;
+0:it  VERB_PCP_TY ;
+0:itä VERB_PASSIVE_H ;
+0:yä  VERB_INF_MÄ ;
+
+LEXICON VERB_N/ÄHÄ
+
+0:äh    VERB_INF_Ä ;
+0:äki VERB_PAST_3SG_0 ;
+0:äv  VERB_PAST_FRONT ;
+0:iä VERB_PRES_FRONT ;
+0:äe  VERB_PRES_FRONT ;
+0:ähti  VERB_PAST_PASSIVE_H ;
+0:ähhä VERB_PASSIVE_H ;
+
+LEXICON VERB_AV/ATA
+
+0:a    VERB_INF_TA ;
+0:a    VERB_INF_MA ;
+0:asi VERB_PAST_3SG_0 ;
+0:as VERB_PAST_BACK ;
+0:ua  VERB_3SG_U ;
+0:ua  VERB_PRES_BACK ;
+0:atti  VERB_PAST_PASSIVE_H ;
+0:ata VERB_PASSIVE_H ;
+
+LEXICON VERB_RU/VETA
+
+0:ve    VERB_INF_TA ;
+0:pie    VERB_INF_MA ;
+0:pesi VERB_PAST_3SG_0 ;
+0:pes VERB_PAST_BACK ;
+0:pie  VERB_3SG_U ;
+0:pia  VERB_PRES_BACK ;
+0:vetti  VERB_PAST_PASSIVE_H ;
+0:veta VERB_PASSIVE_H ;
+
+LEXICON VERB_KERÄ/TÄ
+
+0    VERB_INF_TÄ ;
+0    VERB_INF_MÄ ;
+0:si VERB_PAST_3SG_0 ;
+0:ä  VERB_PRES_FRONT ;
+0:tti  VERB_PAST_PASSIVE_H ;
+0:tä VERB_PASSIVE_H ;
+
+LEXICON VERB_LEIK/ATA
+
+0:a VERB_INF_TA ;
+0:kasi VERB_PAST_3SG_0 ;
+0:kaa  VERB_PRES_BACK ;
+
+LEXICON VERB_ŠAL/VATA
+
+0:va VERB_INF_TA ;
+0:pasi VERB_PAST_3SG_0 ;
+0:pua  VERB_PRES_BACK ;
+0:pua  VERB_3SG_U ;
+0:pua  VERB_INF_MA ;
+
+LEXICON VERB_VAL/LATA
+
+0:la VERB_INF_TA ;
+0:tasi VERB_PAST_3SG_0 ;
+0:taa  VERB_PRES_BACK ;
+
+LEXICON VERB_NIM/ETÄ
+
+0:e VERB_INF_TÄ ;
+0:esi VERB_PAST_3SG_0 ;
+0:ie  VERB_PRES_BACK ;
+0:et  VERB_PCP_TY ;
+
+LEXICON VERB_TYK/YTÄ
+
+0:y VERB_INF_TA ;
+0:kysi VERB_PAST_3SG_0 ;
+0:kyä  VERB_PRES_BACK ;
+
+LEXICON VERB_HYREYTY/Ä
+
+0      VERB_INF_Ä ;
+0      VERB_PAST_3SG_0 ;
+0      VERB_PRES_BACK ;
+0:ö      VERB_3SG_Y ;
+0:tä      VERB_PASSIVE_H ;
+
+LEXICON VERB_PUREŠKEL/LA
+
+0:l  VERB_INF_A ;
+0:i  VERB_PAST_3SG_0 ;
+0:e  VERB_PRES_BACK ;
+0:e  VERB_IMPV ;
+0:ti VERB_PAST_PASSIVE_H ;
+0:e VERB_PASSIVE_H ;
+0  VERB_PCP_TU ;
+0:lu  VERB_PCP_N ;
+0:o  VERB_INF_MA ;
+0:o  VERB_3SG_U ;
+
+LEXICON VERB_AJAT/ELLA
+
+0:ell  VERB_INF_A ;
+0:teli  VERB_PAST_3SG_0 ;
+0:tele  VERB_PRES_BACK ;
+0:tele  VERB_IMPV ;
+0:elti VERB_PAST_PASSIVE_H ;
+0:tele VERB_PASSIVE_H ;
+0:el  VERB_PCP_TU ;
+0:ellu  VERB_PCP_N ;
+0:telo  VERB_INF_MA ;
+
+LEXICON VERB_LEVÄHEL/LÄ
+
+0:l  VERB_INF_Ä ;
+0:i  VERB_PAST_3SG_0 ;
+0:e  VERB_PRES_BACK ;
+0:e  VERB_IMPV ;
+0:ti VERB_PAST_PASSIVE_H ;
+0:e VERB_PASSIVE_H ;
+0  VERB_PCP_TU ;
+0:ly VERB_PCP_N ;
+
+
+LEXICON VERB_OM/MELLA
+
+0:mell  VERB_INF_A ;
+0:peli  VERB_PAST_3SG_0 ;
+0:pele  VERB_PRES_BACK ;
+0:pele  VERB_IMPV ;
+0:melti VERB_PAST_PASSIVE_H ;
+0:pele VERB_PASSIVE_H ;
+0:mel  VERB_PCP_TU ;
+0:mellu  VERB_PCP_N ;
+
+
+LEXICON AUX_O/LLA
+
+0:ll    AUX_INF_A ;
+0:llu   AUX_PCP ;
+0:lla   AUX_PASSIVE_H ;
+0:le    AUX_CONNEG_0 ;
+0:le    AUX_PRES_BACK ;
+0:ll    AUX_INF_E ;
+0:lo    AUX_INF_MA ;
+0:l    AUX_PAST_WEAK_BACK ;
+0:li    AUX_PAST_3SG_0 ;
+0:lti   AUX_PAST_PASSIVE_H ;
+0:n     AUX_3SG_0 ;
+0       AUX_COND ;
+0:l       AUX_COND ;
+
+LEXICON AUX_E/I
+
+%<actv%>%<p3%>%<sg%>+ja%<cnjcoo%>:ikä    # ;
+%<actv%>%<p1%>%<sg%>:n    # ;
+%<actv%>%<p2%>%<sg%>:t    # ;
+%<actv%>%<p3%>%<sg%>:i    # ;
+%<actv%>%<p1%>%<pl%>:mmä    # ;
+%<actv%>%<p2%>%<pl%>:ttä    # ;
+%<actv%>%<imp%>%<p2%>%<sg%>:lä   # ;
+
+LEXICON AUX_VO/IJA
+
+0:ij  AUX_INF_A ;
+0:i  AUX_3SG_0 ;
+0:i  AUX_PAST_3SG_0 ;
+0:i  AUX_3SG_PI ;
+0:i  AUX_PRES_BACK ;
+0:ija  AUX_PASSIVE_H ;
+0  AUX_PAST_WEAK_BACK ;
+0  AUX_COND ;
+
+LEXICON AUX_PI/TEÄ
+
+0:te  AUX_INF_Ä ;
+0:tä  AUX_INF_MÄ ;
+0:ä  AUX_CONNEG_0 ;
+0:ä  AUX_PRES_FRONT ;
+0:e  AUX_PRES_FRONT ;
+0:tä  AUX_3SG_Y ;
+0:ti  AUX_PAST_3SG_0 ;
+0:etti  AUX_PAST_PASSIVE_H ;
+0:etä  AUX_PASSIVE_H ;
+0:et  AUX_PCP_TY ;
+0:tä  AUX_PCP_N ;
+
+
 
 ! vim: set ft=xfst-lexc:
