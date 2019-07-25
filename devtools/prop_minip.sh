@@ -3,9 +3,9 @@
 # script to generate paradigms for generating word forms
 # command:
 # sh generate_contlex_para.sh PATTERN
-# example, when you are in fkv:
-# sh devtools/prop_minip.sh prop_42_sur | dfkvNorm | less
-# sh devtools/prop_minip.sh Sirainen | dfkvNorm 
+# example, when you are in krl:
+# sh devtools/prop_minip.sh prop_42_sur | dkrlNorm | less
+# sh devtools/prop_minip.sh Sirainen | dkrlNorm 
 
 
 PATTERN=$1
@@ -18,7 +18,7 @@ for lemma in $(cat $L_FILE);
 do
  for form in $(cat $P_FILE);
  do
-   echo "${lemma}${form}" | $LOOKUP $GTHOME/langs/fkv/src/generator-gt-norm.xfst
+   echo "${lemma}${form}" | $LOOKUP $GTHOME/startup-langs/krl/src/generator-gt-norm.xfst
  done
 done
 

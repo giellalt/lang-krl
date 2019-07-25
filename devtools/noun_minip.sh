@@ -3,7 +3,7 @@
 # script to generate paradigms for generating word forms
 # command:
 # sh generate_contlex_para.sh PATTERN
-# example, when you are in fkv:
+# example, when you are in krl:
 # sh devtools/noun_minip.sh n_21 | less
 # sh devtools/noun_minip.sh järvenpää 
 # Only get the lemma you ask for:
@@ -25,8 +25,8 @@ for lemma in $(cat $L_FILE);
 do
  for form in $(cat $P_FILE);
  do
-  echo "${lemma}${form}" | $LOOKUP $GTHOME/langs/fkv/src/generator-gt-norm-dial_Por.xfst
-  # echo "${lemma}${form}" | $LOOKUP $GTHOME/langs/fkv/src/generator-gt-norm.xfst
+  echo "${lemma}${form}" | $LOOKUP $GTHOME/startup-langs/krl/src/generator-gt-norm.xfst
+  # echo "${lemma}${form}" | $LOOKUP $GTHOME/startup-langs/krl/src/generator-gt-norm.xfst
  done
 done
 
