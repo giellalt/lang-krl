@@ -19,10 +19,15 @@ fi
 # Codes for the word forms to be generated - list as many or few as needed:
 morf_codes="+A+Sg+Nom \
             +A+Sg+Gen \
-            +A+Sg+Ill \
+            +A+Sg+Par \
+            +A+Sg+Ess \
             +A+Pl+Nom \
-            +A+Pl+Com \
-            +A+Attr"
+            +A+Pl+Gen \
+            +A+Sg+Comp+Nom \
+            +A+Sg+Comp+Gen \
+            +A+Sg+Superl+Nom \
+            +A+Sg+Superl+Gen"
+
 
 # Lexicon source file for lexicons and lemmas:
 source_file=src/morphology/stems/adjectives.lexc

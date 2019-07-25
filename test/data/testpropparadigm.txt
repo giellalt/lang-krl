@@ -1,0 +1,7 @@
++N+Prop+Sg+Nom
++N+Prop+Sg+Par
++N+Prop+Sg+Gen
++N+Prop+Sg+Ill
++N+Prop+Sg+Ine
++N+Prop+Sg+Ela
++N+Prop+Sg+Ess

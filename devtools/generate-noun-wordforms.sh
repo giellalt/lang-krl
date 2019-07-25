@@ -19,11 +19,15 @@ fi
 # Codes for the word forms to be generated - list as many or few as needed:
 morf_codes="+N+Sg+Nom \
             +N+Sg+Gen \
+            +N+Sg+Par \
             +N+Sg+Ill \
-            +N+Sg+Com \
+            +N+Sg+Ade \
+            +N+Sg+Ess \
             +N+Pl+Nom \
-            +N+Pl+Com \
-            +N+Ess"
+            +N+Pl+Gen \
+            +N+Pl+Par \
+            +N+Pl+Ill"
+
 
 # Lexicon source file for lexicons and lemmas:
 source_file=src/morphology/stems/nouns.lexc
