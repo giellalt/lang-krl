@@ -11,27 +11,26 @@ in the AUTHORS file are available to grant other licencing choices.
 Installation and compilation, and a short note on usage, is documented in the
 file INSTALL.
 
-Documentation is scattered around on the Giellatekno and Divvun pages, e.g.:
+Documentation can be found here:
 
-* http://giellatekno.uit.no/krldoc/index.html
-* https://giellalt.uit.no/tools/docu-krl-manual.html
-* https://giellalt.uit.no/index.html
+* https://giellalt.uit.no/lang/doc/KarelianDocumentation.html (analyser)
+* https://giellalt.uit.no/index.html (infrastructure)
 
 Lexical data was taken from::
 
-    KARJALAN KIELEN SANAKIRJA, XML-VERSIO 
+    KARJALAN KIELEN SANAKIRJA, XML-VERSIO
     (versio 1.0, julkaistu 18.8.2015)
-    
+
     JULKAISIJA
     Kotimaisten kielten keskus
-    
+
     JULKAISIJAN YHTEYSTIEDOT
     aineistot [at] kotus.fi
     http://www.kotus.fi
-    
+
     AINEISTON SIJAINTI
-    http://kaino.kotus.fi/kks/lataa/kksxml.zip 
-    
+    http://kaino.kotus.fi/kks/lataa/kksxml.zip
+
     LISENSSI
     Creative Commons Nimeä 4.0
 
