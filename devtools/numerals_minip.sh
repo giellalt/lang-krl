@@ -28,6 +28,7 @@ do
   echo "${lemma}${form}" | $LOOKUP $GTHOME/startup-langs/krl/src/generator-gt-norm.xfst
   # echo "${lemma}${form}" | $LOOKUP $GTHOME/startup-langs/krl/src/generator-gt-norm.xfst
  done
+ rm -f $L_FILE
 done
 
 
