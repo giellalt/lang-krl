@@ -1,11 +1,11 @@
 # Karelian documentation
 
-This page documents the work on the **Karelian language model**. 
-
 [![Maturity: Experiment](https://img.shields.io/badge/Maturity-Experiment-black.svg)](https://giellalt.github.io/MaturityClassification.html)
 [![License: GPLv3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
 [![Issues](https://img.shields.io/github/issues/giellalt/lang-krl)](https://github.com/giellalt/lang-krl/issues)
 [![Build status](https://github.com/giellalt/lang-krl/workflows/Speller%20CI+CD/badge.svg)](https://github.com/giellalt/lang-krl/actions)
+
+This page documents the work on the **Karelian language model**. 
 
 # Project documentation
 
