@@ -1,0 +1,46 @@
+Proper noun inflection
+The Karelian language proper nouns inflect in the same cases as regular
+nouns, but 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
