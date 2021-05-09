@@ -1,5 +1,14 @@
+# Karelian Nouns
+This file documents the  Karelian noun stem file.
+The first part of the file contains stems, the second contains the 
+intermediate morphology.
+
+## The stem list
+
 Nouns
-Nouns in Karelian language are things.
+ afrikkalaine+N:afrikkalai NOUN_ELAVUTTAMI/NE ;
+ aihe+N:aihe NOUN_AIH/E ;
+ aikakauš#lehti+N:aikakaus0leh NOUN_LEH/TI ;
 
 
 
@@ -7,10 +16,15 @@ Nouns in Karelian language are things.
 
 
 
+## The list of intermediate lexica
 
+These lexica point to the morphology in `affixes/nouns.lexc`
 
+**LEXICON a_i_noun**
 
+**LEXICON a_i_u_noun**
 
+**LEXICON a_i_ä_noun**
 
 
 
@@ -73,11 +87,15 @@ Nouns in Karelian language are things.
 
 
 
+### Intermediate lexicon, approach 2 (todo: unify)
 
+**LEXICON rihm/a__noun**
 
+**LEXICON NOUN_MÄT/ÄŠ**
 
+**LEXICON NOUN_KIN/NAŠ**
 
-
+**LEXICON NOUN_KYNNY/Š**
 
 
 

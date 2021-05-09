@@ -1,0 +1,8 @@
+# Karelian interjections
+
+@LEXNAME*
+
+
+
+
+

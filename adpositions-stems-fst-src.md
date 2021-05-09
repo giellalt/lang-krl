@@ -1,0 +1,12 @@
+# Karelian adpositions
+
+adpositions
+
+
+
+
+
+
+
+
+

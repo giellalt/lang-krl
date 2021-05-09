@@ -1,0 +1,7 @@
+# Karelian adverb stems
+
+ADV
+
+
+
+
