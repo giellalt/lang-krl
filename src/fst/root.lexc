@@ -151,4 +151,9 @@ LEXICON Root
 0 conjunctions ;
 0 interjections ;
 
+
+LEXICON K
+# ;
++Qst:%>{oö} # ;
+
 ! vim: set ft=xfst-lexc:
