@@ -1,336 +1,366 @@
-!! Verb inflection
+!! # Karelian Verb inflection
 !  ---------------
-!! The Karelian language verbs inflect in persons.
+!! The verb lexicon contains two groups of continuation lexica
+!! One, with names like VERB_KUUL/UO (in capital letters and indicating stem)
+!! have analyses like the Finnish fst (without twolc). The other group has
+!! contlexes with nams *verb, verb_frekv, verb_intr*, etc. They have
+!! analyses more like the Kven and Meänkieli ones (with gradation and
+!! harmony as twolc processes.
+
+!! **TODO:** Clean up this and go for one of the two.
+
+!! ## Intermediate lexica, for now pointing to present tense only.
 
 LEXICON verb
-+V: # ;
+!! **LEXICON @LEXNAME@**
++V: vinfl ; ! xxx check!
 LEXICON verb_deskr
-+V: # ;
+!! **LEXICON @LEXNAME@**
++V: vinfl ; ! xxx check!
 LEXICON verb_fakt
-+V: # ;
+!! **LEXICON @LEXNAME@**
++V: vinfl ; ! xxx check!
 LEXICON verb_fakt.kaus
-+V: # ;
+!! **LEXICON @LEXNAME@**
++V: vinfl ; ! xxx check!
+!! ... etc. some 20 similar lexica.
 LEXICON verb_frekv
-+V: # ;
++V: vinfl ; ! xxx check!
 LEXICON verb_frekv.-refl
-+V: # ;
++V: vinfl ; ! xxx check!
 LEXICON verb_inkoat
-+V: # ;
++V: vinfl ; ! xxx check!
 LEXICON verb_intr
-+V: # ;
++V: vinfl ; ! xxx check!
 LEXICON verb_kaus
-+V: # ;
++V: vinfl ; ! xxx check!
 LEXICON verb_kontin
-+V: # ;
++V: vinfl ; ! xxx check!
 LEXICON verb_mod
-+V: # ;
++V: vinfl ; ! xxx check!
 LEXICON verb_mom
-+V: # ;
++V: vinfl ; ! xxx check!
 LEXICON verb_mom.-refl.mom
-+V: # ;
++V: vinfl ; ! xxx check!
 LEXICON verb_pass
-+V: # ;
++V: vinfl ; ! xxx check!
 LEXICON verb_pass.refl
-+V: # ;
++V: vinfl ; ! xxx check!
 LEXICON verb_pass.yksipers
-+V: # ;
++V: vinfl ; ! xxx check!
 LEXICON verb_refl
-+V: # ;
++V: vinfl ; ! xxx check!
 LEXICON verb_tr
-+V: # ;
++V: vinfl ; ! xxx check!
 LEXICON verb_transl
-+V: # ;
++V: vinfl ; ! xxx check!
 LEXICON verb_vaill
-+V: # ;
++V: vinfl ; ! xxx check!
 LEXICON verb_yksipers
-+V: # ;
++V: vinfl ; ! xxx check!
+
+
+!! ## Morphological lexica
+
+!! ### Lexica pointing to final lexica
+
+LEXICON vinfl
+!! **LEXICON @LEXNAME@** going to strong (no trigger)  and weak (^WG trigger)
++Act+Ind:^WG verb_weak_pres ; !!≈ @CODE@
++Act+Ind:    verb_strong_pres ; !!≈ @CODE@
+
+
+!! ### Final lexica (only pointing to K)
 
 LEXICON verb_weak_pres
-+V+Sg1+Pres:n # ;
-+V+Sg2+Pres:t # ;
-+V+Pl1+Pres:mm{aä} # ;
-+V+Pl2+Pres:tt{aä} # ;
+!! **LEXICON @LEXNAME@**
++Sg1:%>n # ;
++Sg2:%>t # ;
++Pl1:%>mm{aä} # ;
++Pl2:%>tt{aä} # ;
 
 LEXICON verb_strong_pres
-+V+Sg3+Pres:{uy} # ;
+!! **LEXICON @LEXNAME@** 
++Sg3:%>{uy} # ;
 
 LEXICON verb_3pl_pres
-+V+Pl3+Pres:h # ;
+!! **LEXICON @LEXNAME@**
++V+Pl3+Prs:h # ;
 
 LEXICON VERB_CONNEG_0
-
-+Act+Pres+ConNeg:0 # ;
+!! **LEXICON @LEXNAME@** 
++Act+Prs+ConNeg:0 # ;
 
 
 LEXICON VERB_PAST_3SG_0
-
-+Act+Past+Sg3:0 # ;
+!! **LEXICON @LEXNAME@** 
++Act+Ind+Prt+Sg3:0 # ;
 
 LEXICON VERB_3SG_U
-
-+Act+Pres+Sg3:u # ;
-+Act+Pres+Sg3+Qst:uko # ;
+!! **LEXICON @LEXNAME@** 
++Act+Ind+Prs+Sg3:u # ;
++Act+Ind+Prs+Sg3+Qst:uko # ;
 
 LEXICON VERB_3SG_Y
-
-+Act+Pres+Sg3:y # ;
+!! **LEXICON @LEXNAME@** 
++Act+Ind+Prs+Sg3:y # ;
 
 LEXICON VERB_PASSIVE_H
-
-+Act+Pres+Pl3:h # ;
-+Pss+Pres:h # ;
-+Pss+Pres+ConNeg:0 # ;
+!! **LEXICON @LEXNAME@** 
++Act+Ind+Prs+Pl3:h # ;
++Pss+Prs:h # ;
++Pss+Prs+ConNeg:0 # ;
 
 LEXICON VERB_PAST_PASSIVE_H
-
-+Act+Past+Pl3:h CLITS_KI_OPT ;
+!! **LEXICON @LEXNAME@** 
++Act+Ind+Prt+Pl3:h CLITS_KI_OPT ;
 +Pss+Past:h CLITS_KI_OPT ;
 
 LEXICON VERB_IMPVPL_BACK
-
+!! **LEXICON @LEXNAME@** 
 +Act+Imp+Pl2:kkua # ;
 
 LEXICON VERB_IMPV
-
+!! **LEXICON @LEXNAME@** 
 +Act+Imp+Sg2:0 # ;
-+Act+Pres+ConNeg:0 # ;
++Act+Prs+ConNeg:0 # ;
 
 LEXICON VERB_INF_MÄ
-
+!! **LEXICON @LEXNAME@** 
 +Inf+Ill:mäh # ;
 +Inf+Ine:mäššä # ;
 +Inf+Ade:mällä # ;
 +Inf+Abe:mättä # ;
 
 LEXICON VERB_INF_MA
-
+!! **LEXICON @LEXNAME@** 
 +Inf+Ill:mah # ;
 +Inf+Ine:mašša # ;
 +Inf+Abe:matta # ;
 +Inf+Ade:malla # ;
 
 LEXICON VERB_INF_TA
-
+!! **LEXICON @LEXNAME@** 
 +Inf:ta # ;
 
 LEXICON VERB_INF_TÄ
-
+!! **LEXICON @LEXNAME@** 
 +Inf:tä # ;
 
 !! FIXME: not sure
 LEXICON VERB_INF_AS
-
+!! **LEXICON @LEXNAME@** 
 +Ger+Ine:as’s’a # ;
 
 LEXICON VERB_INF_A
-
+!! **LEXICON @LEXNAME@** 
 +Inf:a # ;
 
 !! FIXME: ger or sup or some other
 LEXICON VERB_INF_EN
-
+!! **LEXICON @LEXNAME@** 
 +Ger:en # ;
 
 LEXICON VERB_INF_Ä
-
+!! **LEXICON @LEXNAME@** 
 +Inf:ä # ;
 
 LEXICON VERB_INF_Ö
-
+!! **LEXICON @LEXNAME@** 
 +Inf:ö # ;
 
 LEXICON VERB_INF_O
-
+!! **LEXICON @LEXNAME@** 
 +Inf:o # ;
 
 LEXICON VERB_INF_E
-
+!! **LEXICON @LEXNAME@** 
 +Inf:e # ;
 
 
 LEXICON VERB_PCP_TU
-
+!! **LEXICON @LEXNAME@** 
 +Pss+PrfPrc+Pos+Sg+Nom:tu # ;
 +Pss+PrfPrc+Pos+Sg+Par+Px3:tuoh # ;
 
 LEXICON VERB_PCP_TY
-
+!! **LEXICON @LEXNAME@** 
 +Pss+PrfPrc+Pos+Sg+Nom:ty # ;
 +Pss+PrfPrc+Pos+Sg+Par+Px3:työh # ;
 
 LEXICON VERB_PCP_TAVA
-
+!! **LEXICON @LEXNAME@** 
 +Pss+PrfPrc+Pos+Sg+Nom:tava # ;
 +Pss+PrfPrc+Pos+Sg+Tra:tavakši # ;
 +Pss+PrfPrc+Pos+Sg+Par+Px3:tuoh # ;
 
 LEXICON VERB_PCP_N
-
+!! **LEXICON @LEXNAME@** 
 +Act+PrfPrc:n # ;
-+Act+Past+Sg+ConNeg:n # ;
++Act+Ind+Prt+Sg+ConNeg:n # ;
 
 LEXICON VERB_PRES_BACK
-
-+Act+Pres+Sg1:n # ;
-+Act+Pres+Sg2:t # ;
-+Act+Pres+Pl1:ma # ;
-+Act+Pres+Pl1:mma # ;
-+Act+Pres+Pl2:tta # ;
-+Act+Pres+Sg2+Qst:tko # ;
+!! **LEXICON @LEXNAME@** 
++Act+Ind+Prs+Sg1:n # ;
++Act+Ind+Prs+Sg2:t # ;
++Act+Ind+Prs+Pl1:ma # ;
++Act+Ind+Prs+Pl1:mma # ;
++Act+Ind+Prs+Pl2:tta # ;
++Act+Ind+Prs+Sg2+Qst:tko # ;
 
 LEXICON VERB_PRES_FRONT
-
-+Act+Pres+Sg1:n # ;
-+Act+Pres+Sg2:t # ;
-+Act+Pres+Pl1:mä # ;
-+Act+Pres+Pl1:mmä # ;
-+Act+Pres+Pl2:ttä # ;
+!! **LEXICON @LEXNAME@** 
++Act+Ind+Prs+Sg1:n # ;
++Act+Ind+Prs+Sg2:t # ;
++Act+Ind+Prs+Pl1:mä # ;
++Act+Ind+Prs+Pl1:mmä # ;
++Act+Ind+Prs+Pl2:ttä # ;
 
 LEXICON VERB_PAST_BACK
-
-+Act+Past+Sg1:in # ;
-+Act+Past+Sg2:it # ;
-+Act+Past+Pl1:ima # ;
-+Act+Past+Pl1:imma # ;
-+Act+Past+Pl2:itta # ;
+!! **LEXICON @LEXNAME@** 
++Act+Ind+Prt+Sg1:in # ;
++Act+Ind+Prt+Sg2:it # ;
++Act+Ind+Prt+Pl1:ima # ;
++Act+Ind+Prt+Pl1:imma # ;
++Act+Ind+Prt+Pl2:itta # ;
 
 LEXICON VERB_PAST_FRONT
-
-+Act+Past+Sg1:in # ;
-+Act+Past+Sg2:it # ;
-+Act+Past+Pl1:immä # ;
-+Act+Past+Pl2:ittä # ;
+!! **LEXICON @LEXNAME@** 
++Act+Ind+Prt+Sg1:in # ;
++Act+Ind+Prt+Sg2:it # ;
++Act+Ind+Prt+Pl1:immä # ;
++Act+Ind+Prt+Pl2:ittä # ;
 
 
 LEXICON VERB_COND
-
+!! **LEXICON @LEXNAME@** 
 +Act+Cond+Sg1:isin # ;
 +Act+Cond+Sg2:isin # ;
 +Act+Cond+Sg3:is # ;
 +Act+Cond+Sg3+Qst:isko # ;
 
 LEXICON VERB_COND_PASSIVE_TAIS
-
+!! **LEXICON @LEXNAME@** 
 +Pss+Cond+Pe4:tais # ;
 
 LEXICON VERB_COND_PASSIVE_TÄIS
-
+!! **LEXICON @LEXNAME@** 
 +Pss+Cond+Pe4:täis # ;
 
 
 LEXICON AUX_PCP
-
+!! **LEXICON @LEXNAME@** 
 !! FIXME
 %<pp%>:t # ;
-%<pp%>%<sg%>%<gen%>:n # ;
+%<pp%>+Sg%<gen%>:n # ;
 
 LEXICON AUX_3SG_PI
-
-%<actv%>%<pri%>%<p3%>%<sg%>:pi # ;
+!! **LEXICON @LEXNAME@** 
++Act%<pri%>%<p3%>+Sg:pi # ;
 
 LEXICON AUX_3SG_0
-
-%<actv%>%<pri%>%<p3%>%<sg%>:0 # ;
+!! **LEXICON @LEXNAME@** 
++Act%<pri%>%<p3%>+Sg:0 # ;
 
 LEXICON AUX_3SG_Y
-
-%<actv%>%<pri%>%<p3%>%<sg%>:y # ;
+!! **LEXICON @LEXNAME@** 
++Act%<pri%>%<p3%>+Sg:y # ;
 
 
 LEXICON AUX_CONNEG_0
-
-%<actv%>%<pri%>%<conneg%>:0 # ;
+!! **LEXICON @LEXNAME@** 
++Act%<pri%>%<conneg%>:0 # ;
 
 LEXICON AUX_PRES_FRONT
-
-%<actv%>%<pri%>%<p1%>%<sg%>:n # ;
-%<actv%>%<pri%>%<p2%>%<sg%>:t # ;
-%<actv%>%<pri%>%<p1%>%<pl%>:mmä # ;
-%<actv%>%<pri%>%<p2%>%<pl%>:ttä # ;
+!! **LEXICON @LEXNAME@** 
++Act%<pri%>%<p1%>+Sg:n # ;
++Act%<pri%>%<p2%>+Sg:t # ;
++Act%<pri%>%<p1%>%<pl%>:mmä # ;
++Act%<pri%>%<p2%>%<pl%>:ttä # ;
 
 LEXICON AUX_PRES_BACK
-
-%<actv%>%<pri%>%<p1%>%<sg%>:n # ;
-%<actv%>%<pri%>%<p2%>%<sg%>:t # ;
-%<actv%>%<pri%>%<p2%>%<sg%>%<qst%>:tko # ;
-%<actv%>%<pri%>%<p1%>%<pl%>:mma # ;
-%<actv%>%<pri%>%<p2%>%<pl%>:tta # ;
+!! **LEXICON @LEXNAME@** 
++Act%<pri%>%<p1%>+Sg:n # ;
++Act%<pri%>%<p2%>+Sg:t # ;
++Act%<pri%>%<p2%>+Sg%<qst%>:tko # ;
++Act%<pri%>%<p1%>%<pl%>:mma # ;
++Act%<pri%>%<p2%>%<pl%>:tta # ;
 
 !!!LEXICON AUX_PAST_WEAK_FRONT
 !!!
-!!!%<actv%>%<pri%>%<p1%>%<sg%>:in # ;
-!!!%<actv%>%<pri%>%<p2%>%<sg%>:it # ;
+!!!+Act%<pri%>%<p1%>+Sg:in # ;
+!!!+Act%<pri%>%<p2%>+Sg:it # ;
 !!!%<npgi%>%<cev%>%<c1%>%<cy%>:vzzä # ;
-!!!%<actv%>%<pri%>%<p2%>%<pl%>:ittä # ;
+!!!+Act%<pri%>%<p2%>%<pl%>:ittä # ;
 
 LEXICON AUX_PAST_WEAK_BACK
-
-%<actv%>%<pri%>%<p1%>%<sg%>:in # ;
-%<actv%>%<pri%>%<p2%>%<sg%>:it # ;
-%<actv%>%<pri%>%<p1%>%<pl%>:imma # ;
-%<actv%>%<pri%>%<p2%>%<pl%>:itta # ;
+!! **LEXICON @LEXNAME@** 
++Act%<pri%>%<p1%>+Sg:in # ;
++Act%<pri%>%<p2%>+Sg:it # ;
++Act%<pri%>%<p1%>%<pl%>:imma # ;
++Act%<pri%>%<p2%>%<pl%>:itta # ;
 
 LEXICON AUX_PAST_3SG_0
-
-%<actv%>%<past%>%<p3%>%<sg%>:0 # ;
+!! **LEXICON @LEXNAME@** 
++Act%<past%>%<p3%>+Sg:0 # ;
 
 LEXICON AUX_PASSIVE_H
 
-%<actv%>%<pri%>%<p3%>%<pl%>:h # ;
++Act%<pri%>%<p3%>%<pl%>:h # ;
 %<pasv%>%<pri%>:h # ;
 
 LEXICON AUX_PAST_PASSIVE_H
 
-%<actv%>%<past%>%<p3%>%<pl%>:h # ;
++Act%<past%>%<p3%>%<pl%>:h # ;
 %<pasv%>%<past%>:h # ;
 
 LEXICON AUX_COND
 
-%<actv%>%<cni%>%<p1%>%<sg%>:isin # ;
-%<actv%>%<cni%>%<p2%>%<sg%>:isit # ;
-%<actv%>%<cni%>%<p3%>%<sg%>:is # ;
-%<actv%>%<cni%>%<p3%>%<sg%>%<qst%>:isko # ;
++Act%<cni%>%<p1%>+Sg:isin # ;
++Act%<cni%>%<p2%>+Sg:isit # ;
++Act%<cni%>%<p3%>+Sg:is # ;
++Act%<cni%>%<p3%>+Sg%<qst%>:isko # ;
 
 LEXICON AUX_INF_A
 
-%<inf%>:a  # ;
++Inf:a  # ;
 
 LEXICON AUX_INF_Ä
 
-%<inf%>:ä  # ;
++Inf:ä  # ;
 
 LEXICON AUX_INF_E
 
-%<inf%>%<ine%>:ešša  # ;
-%<inf%>%<ine%>%<px3sp%>:eššah  # ;
++Inf+Ine:ešša  # ;
++Inf+Ine%<px3sp%>:eššah  # ;
 
 LEXICON AUX_INF_MA
 
-%<inf%>%<ill%>:mah # ;
-%<inf%>%<ine%>:mašša # ;
-%<inf%>%<abe%>:matta # ;
++Inf+Ill:mah # ;
++Inf+Ine:mašša # ;
++Inf+Abe:matta # ;
 
 LEXICON AUX_INF_MÄ
-
-%<inf%>%<ill%>:mäh # ;
-%<inf%>%<ine%>:maššä # ;
-%<inf%>%<abe%>:mättä # ;
++Inf: K ;
++Inf+Ill:mäh # ;
++Inf+Ine:maššä # ;
++Inf+Abe:mättä # ;
 
 !LEXICON AUX_IMPV
 !
-!%<actv%>%<imp%>%<p2%>%<sg%>:0 # ;
-!%<actv%>%<pri%>%<conneg%>:0 # ;
+!+Act%<imp%>%<p2%>+Sg:0 # ;
+!+Act%<pri%>%<conneg%>:0 # ;
 
 LEXICON AUX_PCP_TY
 
-%<pasv%>%<pp%>%<sg%>%<nom%>:ty # ;
-%<pasv%>%<pp%>%<sg%>%<par%>%<px3sp%>:työh # ;
+%<pasv%>%<pp%>+Sg%<nom%>:ty # ;
+%<pasv%>%<pp%>+Sg%<par%>%<px3sp%>:työh # ;
 
 
 LEXICON AUX_PCP_N
 
-%<actv%>%<pp%>:n # ;
-%<actv%>%<past%>%<sg%>%<conneg%>:n # ;
++Act%<pp%>:n # ;
++Act%<past%>+Sg%<conneg%>:n # ;
 
 
 

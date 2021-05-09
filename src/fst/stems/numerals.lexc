@@ -1,9 +1,9 @@
-!! Numerals
+!! # Numerals
 !  --------
-!! Numerals in Karellian language are numbers.
+!! The Numerals are analysed as the ones for Finnish.
 
 LEXICON Numerals
-
+!! **LEXICON @LEXNAME@**
 yksi+Num+Card:y NUM_Y/KSI ;
 kakši+Num+Card:ka NUM_KA/KŠI ;
 kolme+Num+Card:kolm NUM_KOLM/E ;
@@ -78,31 +78,36 @@ vośmoi	ordinal ;
 yheksäs	ordinal ;
 
 LEXICON cardinal
+!! **LEXICON @LEXNAME@**
 +Num: # ;
 
 LEXICON cardinal_vaill
+!! **LEXICON @LEXNAME@**
 +Num: # ;
 
 LEXICON ordinal
+!! **LEXICON @LEXNAME@**
 +A+Ord # ;
 
 
 LEXICON NUM_Y/KSI
-
+!! **LEXICON @LEXNAME@**
 0:ksi NUM_SGNOM_0 ;
 0:hte NUM_CASES_SG_STRONG_FRONT ;
 0:he NUM_CASES_SG_WEAK_FRONT ;
 
 LEXICON NUM_KA/KŠI
-
+!! **LEXICON @LEXNAME@**
 0:kši NUM_SGNOM_0 ;
 0:hte NUM_CASES_SG_STRONG_BACK ;
 0:he NUM_CASES_SG_WEAK_BACK ;
 
 LEXICON NUM_KOLM/E
-
+!! **LEXICON @LEXNAME@**
 0:e NUM_SGNOM_0 ;
 0:e NUM_CASES_SG_BACK ;
+
+!! ... etc.
 
 LEXICON NUM_NEL/LÄ
 

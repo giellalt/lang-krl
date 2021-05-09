@@ -1,12 +1,16 @@
-!! Nouns
+!! # Karelian Nouns
 !  -----
-!! Nouns in Karelian language are things.
+!! This file documents the  Karelian noun stem file.
+!! The first part of the file contains stems, the second contains the 
+!! intermediate morphology.
+
+!! ## The stem list
 
 LEXICON Nouns
-
-afrikkalaine+N:afrikkalai NOUN_ELAVUTTAMI/NE ;
-aihe+N:aihe  NOUN_AIH/E ;
-aikakauš#lehti+N:aikakaus0leh NOUN_LEH/TI ;
+!! @LEXNAME@
+afrikkalaine+N:afrikkalai NOUN_ELAVUTTAMI/NE ; !!≈ @CODE@
+aihe+N:aihe  NOUN_AIH/E ; !!≈ @CODE@
+aikakauš#lehti+N:aikakaus0leh NOUN_LEH/TI ; !!≈ @CODE@
 aika+N:ai  NOUN_AI/KA ;
 aikuhini+N:aikuhi NOUN_ŠIJAHI/NI ;
 ainehisto+N:ainehisto NOUN_NUMERO ;
@@ -23452,16 +23456,23 @@ yövyntä	noun ;
 
 
 
+!! ## The list of intermediate lexica
+
+!! These lexica point to the morphology in `affixes/nouns.lexc`
+
 LEXICON a_i_noun
-a noun ;
+!! **LEXICON @LEXNAME@**
+ a noun ;
 a:i noun ;
 
 LEXICON a_i_u_noun
+!! **LEXICON @LEXNAME@**
 a noun ;
 a:i noun ;
 a:u noun ;
 
 LEXICON a_i_ä_noun
+!! **LEXICON @LEXNAME@**
 a noun ;
 a:i noun ;
 a:ä noun ;
@@ -23710,28 +23721,32 @@ LEXICON veska_vieska_noun
 veska noun ;
 veska:vieska noun ;
 
+
+!! ### Intermediate lexicon, approach 2 (todo: unify)
+
 LEXICON rihm/a__noun
+!! **LEXICON @LEXNAME@**
 a+N:a  noun_sg_nom ;
 a+N:a  noun_sg_common ;
 a+N:u  noun_sg_par ;
 a+N:o  noun_pl_common ;
 
 LEXICON NOUN_MÄT/ÄŠ
-
+!! **LEXICON @LEXNAME@**
 0:äš NOUN_SGNOM_0 ;
 0:tähä NOUN_CASES_SG_FRONT ;
 0:täš NOUN_SGPAR_TA ;
 0:täh   NOUN_CASES_PL_FRONT ;
 
 LEXICON NOUN_KIN/NAŠ
-
+!! **LEXICON @LEXNAME@**
 0:naš NOUN_SGNOM_0 ;
 0:taha NOUN_CASES_SG_BACK ;
 0:naš NOUN_SGPAR_TA ;
 0:tah   NOUN_CASES_PL_BACK ;
 
 LEXICON NOUN_KYNNY/Š
-
+!! **LEXICON @LEXNAME@**
 0:š NOUN_SGNOM_0 ;
 0:kše NOUN_CASES_SG_FRONT ;
 0:š NOUN_SGPAR_TÄ ;

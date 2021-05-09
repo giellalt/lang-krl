@@ -1,14 +1,22 @@
-!! Verbs
+!! # Documenting the Karelian Verb lexicon.
 !  -----
-!! Verbs in the Karelian language are actions.
+
+!! The verb lexicon contains two groups of continuation lexica
+!! One, with names like VERB_KUUL/UO (in capital letters and indicating stem)
+!! have analyses like the Finnish fst (without twolc). The other group has
+!! contlexes with nams *verb, verb_frekv, verb_intr*, etc. They have
+!! analyses more like the Kven and Meänkieli ones (with gradation and
+!! harmony as twolc processes.
+
+!! **TODO:** Clean up this and go for one of the two.
 
 LEXICON Verbs
-
-olla+V:o AUX_O/LLA ;
-ei+V+Neg:e AUX_E/I ;
-voija+V:vo  AUX_VO/IJA ;
-piteä+V:pi  AUX_PI/TEÄ ;
-
+!! **LEXICON @LEXNAME@** contains the stem list
+olla+V:o AUX_O/LLA ; !!≈ * @CODE@
+ei+V+Neg:e AUX_E/I ; !!≈ * @CODE@
+voija+V:vo  AUX_VO/IJA ; !!≈ * @CODE@
+piteä+V:pi  AUX_PI/TEÄ ; !!≈ * @CODE@
+!! ... some 200 more verbs
 
 
 ajatella+V:ajat    VERB_AJAT/ELLA ;
@@ -223,10 +231,13 @@ ymmärteä+V:ymmär  VERB_PIÄT/TEÄ ;
 yritteä+V:yrit VERB_PIÄT/TEÄ ;
 
 
-aakkoa	verb ;
-ahahella	verb_frekv ;
-ahavakoittuo	verb ;
-ahavastuo	verb ;
+!! ### The second list of verbs
+!! This contains just the infinitive and points to defect paradigms for now.
+
+aakkoa	verb ; !!≈ * @CODE@
+ahahella	verb_frekv ; !!≈ * @CODE@
+ahavakoittuo	verb ; !!≈ * @CODE@ 
+ahavastuo	verb ; !!≈ * @CODE@
 ahavoija	verb_intr ;
 ahavoijakseh	verb_refl ;
 ahavoitšiettšie	verb_refl ;
@@ -32256,43 +32267,54 @@ yövytteä	verb_kaus ;
 öykähytteä	verb_kaus ;
 öykätä	verb ;
 
+!! ## The intermediate lexica
+!! These lexica redirects the stem to different person-number sublexica.
+
 LEXICON kavota_katuo_verb
-kavota verb ;
-kavota:katuo verb ;
+!! **LEXICON @LEXNAME@** ... This lexicon does not work, as both stems go to the same contlex.
+kavota verb ; !!≈ * @CODE@ 
+kavota:katuo verb ; !!≈ * @CODE@ 
 
 LEXICON proššai(k)koa_verb_vaill
+!! **LEXICON @LEXNAME@**
 proššai(k)koa verb_vaill ;
 
 LEXICON sevota_verb
+!! **LEXICON @LEXNAME@**
 sevota_verb ;
 
 LEXICON stavaikkoa_verb_vaill
+!! **LEXICON @LEXNAME@** 
 stavaikkoa verb_vaill ;
 
 LEXICON tavai(k)koa_tavaite_verb_vaill
+!! **LEXICON @LEXNAME@**
 tavai(k)koa verb_vaill ;
 tavaikkoa:tavaite verb_vaill ;
 
 LEXICON tuta_verb
+!! **LEXICON @LEXNAME@**
 tuta verb ;
 
 LEXICON viyhtie_verb
+!! **LEXICON @LEXNAME@**
 viyhtie verb ;
 
 LEXICON voulie_vuolie_verb
+!! **LEXICON @LEXNAME@**
 voulie verb ;
 voulie:vuolie verb ;
 
 
 LEXICON kirjut/tua__verb
-
+!! **LEXICON @LEXNAME@** 
 tua verb ;
 tua:a verb_weak_pres ;
 tua:ta verb_strong_pres ;
 tua:eta verb_3pl_pres ;
 
 LEXICON VERB_J/IÄHÄ
-
+!! **LEXICON @LEXNAME@** 
 0:iäh VERB_INF_Ä ;
 0:iä  VERB_PRES_FRONT ;
 0:äi   VERB_PAST_3SG_0 ;
@@ -32300,7 +32322,7 @@ LEXICON VERB_J/IÄHÄ
 0:iäti VERB_PAST_PASSIVE_H ;
 
 LEXICON VERB_V/IIJÄ
-
+!! **LEXICON @LEXNAME@** 
 0:iijä VERB_INF_Ä ;
 0:iijä VERB_PASSIVE_H ;
 0:ie  VERB_PRES_FRONT ;
@@ -32310,7 +32332,7 @@ LEXICON VERB_V/IIJÄ
 0:ie  VERB_PCP_TY ;
 
 LEXICON VERB_L/UUVVA
-
+!! **LEXICON @LEXNAME@** 
 0:uuvv VERB_INF_A ;
 0:uo VERB_INF_MÄ ;
 0:uo  VERB_PRES_BACK ;
@@ -32320,7 +32342,7 @@ LEXICON VERB_L/UUVVA
 0:o  VERB_PAST_BACK ;
 
 LEXICON VERB_ŠY/YVÄ
-
+!! **LEXICON @LEXNAME@** 
 0:yv VERB_INF_Ä ;
 0:ö VERB_INF_MÄ ;
 0:ö  VERB_PRES_FRONT ;
@@ -32329,7 +32351,7 @@ LEXICON VERB_ŠY/YVÄ
 0:ö  VERB_PCP_TY ;
 
 LEXICON VERB_PIÄS/TÄ
-
+!! **LEXICON @LEXNAME@** 
 0:t  VERB_INF_Ä ;
 0:i  VERB_PAST_3SG_0 ;
 0    VERB_PAST_FRONT ;
@@ -32338,7 +32360,7 @@ LEXICON VERB_PIÄS/TÄ
 0    VERB_PCP_TY ;
 
 LEXICON VERB_KÄ/YVÄ
-
+!! **LEXICON @LEXNAME@** 
 0:yv  VERB_INF_Ä ;
 0:y   VERB_INF_MÄ ;
 0:yvä  VERB_PASSIVE_H ;
@@ -32351,7 +32373,7 @@ LEXICON VERB_KÄ/YVÄ
 0:y  VERB_PCP_TY ;
 
 LEXICON VERB_S/UAHA
-
+!! **LEXICON @LEXNAME@** 
 0:uah VERB_INF_A ;
 0:uaha VERB_PASSIVE_H ;
 0:ua  VERB_PRES_BACK ;
@@ -32362,7 +32384,7 @@ LEXICON VERB_S/UAHA
 0:uati VERB_PAST_PASSIVE_H ;
 
 LEXICON VERB_MIET/TIE
-
+!! **LEXICON @LEXNAME@** 
 0:ti VERB_INF_E ;
 0:i  VERB_PRES_FRONT ;
 0:ti VERB_PAST_3SG_0 ;
@@ -32372,7 +32394,7 @@ LEXICON VERB_MIET/TIE
 0:i  VERB_PCP_N ;
 
 LEXICON VERB_LÄ/HTIE
-
+!! **LEXICON @LEXNAME@** 
 0:hti VERB_INF_E ;
 0:he  VERB_PRES_FRONT ;
 0:ksi VERB_PAST_3SG_0 ;
@@ -32381,7 +32403,7 @@ LEXICON VERB_LÄ/HTIE
 0:hte  VERB_PCP_N ;
 
 LEXICON VERB_T/UUVVA
-
+!! **LEXICON @LEXNAME@** 
 0:uuvv  VERB_INF_A ;
 0:uova   VERB_PASSIVE_H ;
 0:uu    VERB_PRES_BACK ;
@@ -32392,7 +32414,7 @@ LEXICON VERB_T/UUVVA
 0:uo  VERB_PCP_TU ;
 
 LEXICON VERB_TU/LLA
-
+!! **LEXICON @LEXNAME@** 
 0:ll  VERB_INF_A ;
 0:lla   VERB_PASSIVE_H ;
 0:le    VERB_PRES_BACK ;
@@ -32403,7 +32425,7 @@ LEXICON VERB_TU/LLA
 0:l  VERB_PCP_TU ;
 
 LEXICON VERB_PA/ISSA
-
+!! **LEXICON @LEXNAME@** 
 0:iss    VERB_INF_A ;
 0:ista   VERB_PASSIVE_H ;
 0:kaja    VERB_3SG_U ;
@@ -32416,7 +32438,7 @@ LEXICON VERB_PA/ISSA
 0:isti   VERB_PAST_PASSIVE_H ;
 
 LEXICON VERB_NOUŠ/ŠA
-
+!! **LEXICON @LEXNAME@** 
 0:š    VERB_INF_A ;
 0:ta   VERB_PASSIVE_H ;
 0:e    VERB_PRES_BACK ;
@@ -32426,7 +32448,7 @@ LEXICON VERB_NOUŠ/ŠA
 0:ti   VERB_PAST_PASSIVE_H ;
 
 LEXICON VERB_PAN/NA
-
+!! **LEXICON @LEXNAME@** 
 0:n    VERB_INF_A ;
 0:na   VERB_PASSIVE_H ;
 0:e    VERB_PRES_BACK ;
@@ -32436,7 +32458,7 @@ LEXICON VERB_PAN/NA
 0:ti   VERB_PAST_PASSIVE_H ;
 
 LEXICON VERB_MÄN/NÄ
-
+!! **LEXICON @LEXNAME@** 
 0:n    VERB_INF_Ä ;
 0:nä   VERB_PASSIVE_H ;
 0:ö    VERB_3SG_Y ;
@@ -32447,7 +32469,7 @@ LEXICON VERB_MÄN/NÄ
 0:ti  VERB_PAST_PASSIVE_H ;
 
 LEXICON VERB_TARVI/TA
-
+!! **LEXICON @LEXNAME@** 
 0:t  VERB_INF_A ;
 0:čči  VERB_PAST_3SG_0 ;
 0:čč  VERB_PAST_BACK ;
@@ -32457,7 +32479,7 @@ LEXICON VERB_TARVI/TA
 0:tti VERB_PAST_PASSIVE_H ;
 
 LEXICON VERB_MERKI/TÄ
-
+!! **LEXICON @LEXNAME@** 
 0:t  VERB_INF_A ;
 0:čči  VERB_PAST_3SG_0 ;
 0:čč  VERB_PAST_FRONT ;
@@ -32467,7 +32489,7 @@ LEXICON VERB_MERKI/TÄ
 0:tti VERB_PAST_PASSIVE_H ;
 
 LEXICON VERB_STARINOI/JA
-
+!! **LEXICON @LEXNAME@** 
 0:j  VERB_INF_A ;
 0:čči  VERB_PAST_3SG_0 ;
 0:če  VERB_PRES_BACK ;
@@ -32476,7 +32498,7 @@ LEXICON VERB_STARINOI/JA
 0 VERB_PASSIVE_H ;
 
 LEXICON VERB_IKÄVÖI/JÄ
-
+!! **LEXICON @LEXNAME@** 
 0:j  VERB_INF_Ä ;
 0  VERB_PAST_3SG_0 ;
 0  VERB_PRES_FRONT ;
@@ -32486,7 +32508,7 @@ LEXICON VERB_IKÄVÖI/JÄ
 
 
 LEXICON VERB_ŠAN/OA
-
+!! **LEXICON @LEXNAME@** 
 0:o  VERB_INF_A ;
 0:o  VERB_PAST_3SG_0 ;
 0:o  VERB_PRES_BACK ;
@@ -32496,7 +32518,7 @@ LEXICON VERB_ŠAN/OA
 0:ot  VERB_PCP_TU ;
 
 LEXICON VERB_MUISTEL/EHTOA
-
+!! **LEXICON @LEXNAME@** 
 0:ehto  VERB_INF_A ;
 0:i  VERB_PAST_3SG_0 ;
 0:e  VERB_PRES_BACK ;
@@ -32505,7 +32527,7 @@ LEXICON VERB_MUISTEL/EHTOA
 0:ti VERB_PAST_PASSIVE_H ;
 
 LEXICON VERB_KAŠV/OA
-
+!! **LEXICON @LEXNAME@** 
 0:o  VERB_INF_A ;
 0:o  VERB_PAST_3SG_0 ;
 0:a  VERB_PRES_BACK ;
@@ -32516,7 +32538,7 @@ LEXICON VERB_KAŠV/OA
 0:et VERB_COND_PASSIVE_TAIS ;
 
 LEXICON VERB_AL/KOA
-
+!! **LEXICON @LEXNAME@** 
 0:ko  VERB_INF_A ;
 0:ko  VERB_PAST_3SG_0 ;
 0:a  VERB_PRES_BACK ;
@@ -32526,7 +32548,7 @@ LEXICON VERB_AL/KOA
 0:etti VERB_PAST_PASSIVE_H ;
 
 LEXICON VERB_AN/TOA
-
+!! **LEXICON @LEXNAME@** 
 0:netti VERB_PAST_PASSIVE_H ;
 0:to  VERB_INF_A ;
 0:to  VERB_PAST_3SG_0 ;
@@ -32538,7 +32560,7 @@ LEXICON VERB_AN/TOA
 0:net VERB_PCP_TAVA ;
 
 LEXICON VERB_PAIS/TOA
-
+!! **LEXICON @LEXNAME@** 
 0:to  VERB_INF_A ;
 0:ta  VERB_INF_EN ;
 0:to  VERB_PAST_3SG_0 ;
@@ -32546,7 +32568,7 @@ LEXICON VERB_PAIS/TOA
 0:ta  VERB_PRES_BACK ;
 
 LEXICON VERB_KAČ/ČUO
-
+!! **LEXICON @LEXNAME@** 
 0:ču  VERB_INF_O ;
 0:čo  VERB_INF_MA ;
 0:čo  VERB_PAST_3SG_0 ;
@@ -32557,7 +32579,7 @@ LEXICON VERB_KAČ/ČUO
 0:o  VERB_PRES_BACK ;
 
 LEXICON VERB_KAČ/ČOA
-
+!! **LEXICON @LEXNAME@** 
 0:čo  VERB_INF_A ;
 0:čo  VERB_INF_MA ;
 0:čo  VERB_PAST_3SG_0 ;
@@ -32568,7 +32590,7 @@ LEXICON VERB_KAČ/ČOA
 0:o  VERB_PRES_BACK ;
 
 LEXICON VERB_KOROŠ/TOA
-
+!! **LEXICON @LEXNAME@** 
 0:to  VERB_INF_A ;
 0:ta  VERB_INF_EN ;
 0:ti  VERB_PAST_3SG_0 ;
@@ -32580,7 +32602,7 @@ LEXICON VERB_KOROŠ/TOA
 0:ta  VERB_PCP_N ;
 
 LEXICON VERB_VALMIS/TOA
-
+!! **LEXICON @LEXNAME@** 
 0:to  VERB_INF_A ;
 0:ta  VERB_INF_EN ;
 0:ti  VERB_PAST_3SG_0 ;
@@ -32592,7 +32614,7 @@ LEXICON VERB_VALMIS/TOA
 0:ta  VERB_PCP_N ;
 
 LEXICON VERB_TAH/TOA
-
+!! **LEXICON @LEXNAME@** 
 0:to  VERB_INF_A ;
 0:o  VERB_PRES_BACK ;
 0:to  VERB_PAST_3SG_0 ;
@@ -32602,7 +32624,7 @@ LEXICON VERB_TAH/TOA
 0:to VERB_PCP_N ;
 
 LEXICON VERB_TAP/POA
-
+!! **LEXICON @LEXNAME@** 
 0:po  VERB_INF_A ;
 0:po  VERB_PAST_3SG_0 ;
 0:etti VERB_PAST_PASSIVE_H ;
@@ -32612,7 +32634,7 @@ LEXICON VERB_TAP/POA
 0:t  VERB_PAST_BACK ;
 
 LEXICON VERB_SOIT/TOA
-
+!! **LEXICON @LEXNAME@** 
 0:to  VERB_INF_A ;
 0:ti  VERB_PAST_3SG_0 ;
 0:ta  VERB_3SG_U ;
@@ -32625,7 +32647,7 @@ LEXICON VERB_SOIT/TOA
 
 
 LEXICON VERB_OT/TOA
-
+!! **LEXICON @LEXNAME@** 
 0:to  VERB_INF_A ;
 0:ti  VERB_PAST_3SG_0 ;
 0:a VERB_PRES_BACK ;
@@ -32636,7 +32658,7 @@ LEXICON VERB_OT/TOA
 0:eta VERB_PASSIVE_H ;
 
 LEXICON VERB_TANŠŠI/E
-
+!! **LEXICON @LEXNAME@** 
 0  VERB_INF_E ;
 0  VERB_PRES_BACK ;
 0  VERB_PAST_3SG_0 ;
@@ -32644,7 +32666,7 @@ LEXICON VERB_TANŠŠI/E
 0:tti  VERB_PAST_PASSIVE_H ;
 
 LEXICON VERB_EČ/ČIE
-
+!! **LEXICON @LEXNAME@** 
 0:či  VERB_INF_E ;
 0:či  VERB_INF_MÄ ;
 0:i  VERB_PRES_BACK ;
@@ -32653,14 +32675,14 @@ LEXICON VERB_EČ/ČIE
 
 
 LEXICON VERB_POIMI/E
-
+!! **LEXICON @LEXNAME@** 
 0  VERB_INF_E ;
 0  VERB_INF_MA ;
 0  VERB_PRES_BACK ;
 0:tti  VERB_PAST_PASSIVE_H ;
 
 LEXICON VERB_IT/KIE
-
+!! **LEXICON @LEXNAME@** 
 0:ki  VERB_INF_E ;
 0:ke  VERB_PRES_BACK ;
 0:e  VERB_CONNEG_0 ;
@@ -32670,7 +32692,7 @@ LEXICON VERB_IT/KIE
 0:ket  VERB_PCP_TY ;
 
 LEXICON VERB_KITK/IE
-
+!! **LEXICON @LEXNAME@** 
 0:i  VERB_INF_E ;
 0:e  VERB_PRES_BACK ;
 0:i  VERB_PAST_BACK ;
@@ -32679,7 +32701,7 @@ LEXICON VERB_KITK/IE
 0:et  VERB_PCP_TY ;
 
 LEXICON VERB_LAŠ/KIE
-
+!! **LEXICON @LEXNAME@** 
 0:ki  VERB_INF_E ;
 0:e  VERB_PRES_BACK ;
 0:i  VERB_PAST_BACK ;
@@ -32687,20 +32709,20 @@ LEXICON VERB_LAŠ/KIE
 0:et  VERB_PCP_TU ;
 
 LEXICON VERB_OP/PIE
-
+!! **LEXICON @LEXNAME@** 
 0:pi  VERB_INF_E ;
 0:i  VERB_PRES_BACK ;
 0:itti  VERB_PAST_PASSIVE_H ;
 
 LEXICON VERB_ŠO/PIE
-
+!! **LEXICON @LEXNAME@** 
 0:pi  VERB_INF_E ;
 0:vi  VERB_PRES_BACK ;
 0:pi  VERB_PAST_3SG_0 ;
 0:vitti  VERB_PAST_PASSIVE_H ;
 
 LEXICON VERB_TUN/TIE
-
+!! **LEXICON @LEXNAME@** 
 0:ti  VERB_INF_E ;
 0:ne  VERB_PRES_BACK ;
 0:to  VERB_3SG_U ;
@@ -32710,7 +32732,7 @@ LEXICON VERB_TUN/TIE
 0:t   VERB_COND ;
 
 LEXICON VERB_LUA/TIE
-
+!! **LEXICON @LEXNAME@** 
 0:ti  VERB_INF_E ;
 0:ji  VERB_PRES_BACK ;
 0:ti  VERB_PAST_3SG_0 ;
@@ -32718,7 +32740,7 @@ LEXICON VERB_LUA/TIE
 0:jita  VERB_PASSIVE_H ;
 
 LEXICON VERB_TI/ETEÄ
-
+!! **LEXICON @LEXNAME@** 
 0:ete  VERB_INF_Ä ;
 0:ijetti  VERB_PAST_PASSIVE_H ;
 0:ijet  VERB_PCP_TY ;
@@ -32728,14 +32750,14 @@ LEXICON VERB_TI/ETEÄ
 0:etä  VERB_COND ;
 
 LEXICON VERB_TÄYT/TYÄ
-
+!! **LEXICON @LEXNAME@** 
 0:ty  VERB_INF_Ä ;
 0:ti  VERB_PAST_3SG_0 ;
 0:ytti  VERB_PAST_PASSIVE_H ;
 0:yt  VERB_PCP_TY ;
 
 LEXICON VERB_NÄYT/TYÄ
-
+!! **LEXICON @LEXNAME@** 
 0:ty  VERB_INF_Ä ;
 0:ty  VERB_3SG_Y ;
 0:ti  VERB_PAST_3SG_0 ;
@@ -32745,7 +32767,7 @@ LEXICON VERB_NÄYT/TYÄ
 0:et  VERB_PCP_TY ;
 
 LEXICON VERB_VIČER/TEÄ
-
+!! **LEXICON @LEXNAME@** 
 0:te  VERB_INF_Ä ;
 0:ti  VERB_PAST_3SG_0 ;
 0:retti  VERB_PAST_PASSIVE_H ;
@@ -32753,7 +32775,7 @@ LEXICON VERB_VIČER/TEÄ
 0:ret  VERB_PCP_TY ;
 
 LEXICON VERB_PIÄT/TEÄ
-
+!! **LEXICON @LEXNAME@** 
 0:te  VERB_INF_Ä ;
 0:tä  VERB_INF_MÄ ;
 0:ä  VERB_CONNEG_0 ;
@@ -32767,7 +32789,7 @@ LEXICON VERB_PIÄT/TEÄ
 0:tä  VERB_PCP_N ;
 
 LEXICON VERB_TYÖN/TEÄ
-
+!! **LEXICON @LEXNAME@** 
 0:te  VERB_INF_Ä ;
 0:ti  VERB_PAST_3SG_0 ;
 0:netti  VERB_PAST_PASSIVE_H ;
@@ -32775,7 +32797,7 @@ LEXICON VERB_TYÖN/TEÄ
 0:net  VERB_PCP_TY ;
 
 LEXICON VERB_LÖY/TEÄ
-
+!! **LEXICON @LEXNAME@** 
 0:te  VERB_INF_Ä ;
 0:si  VERB_PAST_3SG_0 ;
 0:s   VERB_PAST_FRONT ;
@@ -32785,7 +32807,7 @@ LEXICON VERB_LÖY/TEÄ
 0:vet  VERB_PCP_TY ;
 
 LEXICON VERB_JÄRJEŠ/TEÄ
-
+!! **LEXICON @LEXNAME@** 
 0:te  VERB_INF_Ä ;
 0:ti  VERB_PAST_3SG_0 ;
 0:tä  VERB_3SG_Y ;
@@ -32795,7 +32817,7 @@ LEXICON VERB_JÄRJEŠ/TEÄ
 0:šä   VERB_PCP_N ;
 
 LEXICON VERB_PI/TYÄ
-
+!! **LEXICON @LEXNAME@** 
 0:ty  VERB_INF_Ä ;
 
 LEXICON VERB_EL/EÄ
@@ -32806,7 +32828,7 @@ LEXICON VERB_EL/EÄ
 0:etä  VERB_PASSIVE_H ;
 
 LEXICON VERB_OPAŠ/TUO
-
+!! **LEXICON @LEXNAME@** 
 0:tu  VERB_INF_O ;
 0:šo  VERB_PAST_3SG_0 ;
 0:to  VERB_3SG_U ;
@@ -32814,7 +32836,7 @@ LEXICON VERB_OPAŠ/TUO
 0:tu  VERB_PRES_BACK ;
 
 LEXICON VERB_TOIV/UO
-
+!! **LEXICON @LEXNAME@** 
 0:u  VERB_INF_O ;
 0:o  VERB_PAST_3SG_0 ;
 0:o  VERB_3SG_U ;
@@ -32823,7 +32845,7 @@ LEXICON VERB_TOIV/UO
 0:o  VERB_PRES_BACK ;
 
 LEXICON VERB_VOIT/TUA
-
+!! **LEXICON @LEXNAME@** 
 0:tu  VERB_INF_A ;
 0:tu  VERB_INF_AS ; 
 0:tu  VERB_PAST_3SG_0 ;
@@ -32832,7 +32854,7 @@ LEXICON VERB_VOIT/TUA
 0:a  VERB_CONNEG_0 ;
 
 LEXICON VERB_KAN/TUA
-
+!! **LEXICON @LEXNAME@** 
 0:tu  VERB_INF_A ;
 0:tu  VERB_INF_AS ; 
 0:tu  VERB_PAST_3SG_0 ;
@@ -32841,7 +32863,7 @@ LEXICON VERB_KAN/TUA
 0:na  VERB_CONNEG_0 ;
 
 LEXICON VERB_RUA/TUO
-
+!! **LEXICON @LEXNAME@** 
 0:tu   VERB_INF_O ;
 0:ta   VERB_3SG_U ;
 0      VERB_PRES_BACK ;
@@ -32849,14 +32871,14 @@ LEXICON VERB_RUA/TUO
 0:ta   VERB_INF_MA ;
 
 LEXICON VERB_KUUL/UO
-
+!! **LEXICON @LEXNAME@** 
 0:u  VERB_INF_O ;
 0:u  VERB_PAST_3SG_0 ;
 0:u  VERB_3SG_U ;
 0:u  VERB_PRES_BACK ;
 
 LEXICON VERB_LOP/PUO
-
+!! **LEXICON @LEXNAME@** 
 0:pu  VERB_INF_O ;
 0:pu  VERB_PAST_3SG_0 ;
 0:pu  VERB_3SG_U ;
@@ -32864,7 +32886,7 @@ LEXICON VERB_LOP/PUO
 0:pu  VERB_PAST_3SG_0 ;
 
 LEXICON VERB_RYH/TYÖ
-
+!! **LEXICON @LEXNAME@** 
 0:ty  VERB_INF_Ö ;
 0:ty  VERB_PAST_3SG_0 ;
 0:ty  VERB_3SG_Y ;
@@ -32873,7 +32895,7 @@ LEXICON VERB_RYH/TYÖ
 0:yt  VERB_COND_PASSIVE_TÄIS ;
 
 LEXICON VERB_ILMEŠ/TYÖ
-
+!! **LEXICON @LEXNAME@** 
 0:ty  VERB_INF_Ö ;
 0:ty  VERB_PAST_3SG_0 ;
 0:ty  VERB_3SG_Y ;
@@ -32881,7 +32903,7 @@ LEXICON VERB_ILMEŠ/TYÖ
 
 
 LEXICON VERB_IS/TUO
-
+!! **LEXICON @LEXNAME@** 
 0:tu  VERB_INF_O ;
 0:su  VERB_PAST_3SG_0 ;
 0:tu  VERB_PAST_3SG_0 ;
@@ -32891,7 +32913,7 @@ LEXICON VERB_IS/TUO
 0:sutti  VERB_PAST_PASSIVE_H ;
 
 LEXICON VERB_RIK/KUO
-
+!! **LEXICON @LEXNAME@** 
 0:ku  VERB_INF_O ;
 0:ko  VERB_PAST_3SG_0 ;
 0:ko  VERB_3SG_U ;
@@ -32899,7 +32921,7 @@ LEXICON VERB_RIK/KUO
 0:otti  VERB_PAST_PASSIVE_H ;
 
 LEXICON VERB_ROIK/KUO
-
+!! **LEXICON @LEXNAME@** 
 0:ku  VERB_INF_O ;
 0:ku  VERB_PAST_3SG_0 ;
 0:ku  VERB_3SG_U ;
@@ -32907,7 +32929,7 @@ LEXICON VERB_ROIK/KUO
 0:utti  VERB_PAST_PASSIVE_H ;
 
 LEXICON VERB_SAT/TUO
-
+!! **LEXICON @LEXNAME@** 
 0:tu  VERB_INF_O ;
 0:tu  VERB_PAST_3SG_0 ;
 0:to  VERB_3SG_U ;
@@ -32915,14 +32937,14 @@ LEXICON VERB_SAT/TUO
 0:u  VERB_PCP_N ;
 
 LEXICON VERB_KER/TUO
-
+!! **LEXICON @LEXNAME@** 
 0:tu  VERB_INF_O ;
 0:to  VERB_PAST_3SG_0 ;
 0:to  VERB_3SG_U ;
 0:to  VERB_PRES_BACK ;
 
 LEXICON VERB_ŠI/TUO
-
+!! **LEXICON @LEXNAME@** 
 0:tu  VERB_INF_O ;
 0:to  VERB_PAST_3SG_0 ;
 0:to  VERB_3SG_U ;
@@ -32930,14 +32952,14 @@ LEXICON VERB_ŠI/TUO
 0:votti  VERB_PAST_PASSIVE_H ;
 
 LEXICON VERB_KUČ/ČUO
-
+!! **LEXICON @LEXNAME@** 
 0:ču  VERB_INF_O ;
 0:ču  VERB_3SG_U ;
 0:uta  VERB_PASSIVE_H ;
 0:u  VERB_PRES_BACK ;
 
 LEXICON VERB_VAI/PUO
-
+!! **LEXICON @LEXNAME@** 
 0:pu  VERB_INF_O ;
 0:pu  VERB_PAST_3SG_0 ;
 0:pu  VERB_3SG_U ;
@@ -32946,7 +32968,7 @@ LEXICON VERB_VAI/PUO
 0:vut  VERB_PCP_TU ;
 
 LEXICON VERB_KER/ÄTÄ
-
+!! **LEXICON @LEXNAME@** 
 0:ä    VERB_INF_TÄ ;
 0:äsi VERB_PAST_3SG_0 ;
 0:ää  VERB_PRES_BACK ;
@@ -32955,7 +32977,7 @@ LEXICON VERB_KER/ÄTÄ
 0:yä  VERB_INF_MÄ ;
 
 LEXICON VERB_KER/ITÄ
-
+!! **LEXICON @LEXNAME@** 
 0:i    VERB_INF_TÄ ;
 0:kisi VERB_PAST_3SG_0 ;
 0:kiä  VERB_PRES_BACK ;
@@ -32965,7 +32987,7 @@ LEXICON VERB_KER/ITÄ
 0:yä  VERB_INF_MÄ ;
 
 LEXICON VERB_N/ÄHÄ
-
+!! **LEXICON @LEXNAME@** 
 0:äh    VERB_INF_Ä ;
 0:äki VERB_PAST_3SG_0 ;
 0:äv  VERB_PAST_FRONT ;
@@ -32975,7 +32997,7 @@ LEXICON VERB_N/ÄHÄ
 0:ähhä VERB_PASSIVE_H ;
 
 LEXICON VERB_AV/ATA
-
+!! **LEXICON @LEXNAME@** 
 0:a    VERB_INF_TA ;
 0:a    VERB_INF_MA ;
 0:asi VERB_PAST_3SG_0 ;
@@ -32986,7 +33008,7 @@ LEXICON VERB_AV/ATA
 0:ata VERB_PASSIVE_H ;
 
 LEXICON VERB_RU/VETA
-
+!! **LEXICON @LEXNAME@** 
 0:ve    VERB_INF_TA ;
 0:pie    VERB_INF_MA ;
 0:pesi VERB_PAST_3SG_0 ;
@@ -32997,7 +33019,7 @@ LEXICON VERB_RU/VETA
 0:veta VERB_PASSIVE_H ;
 
 LEXICON VERB_KERÄ/TÄ
-
+!! **LEXICON @LEXNAME@** 
 0    VERB_INF_TÄ ;
 0    VERB_INF_MÄ ;
 0:si VERB_PAST_3SG_0 ;
@@ -33006,19 +33028,19 @@ LEXICON VERB_KERÄ/TÄ
 0:tä VERB_PASSIVE_H ;
 
 LEXICON VERB_LEIK/ATA
-
+!! **LEXICON @LEXNAME@** 
 0:a VERB_INF_TA ;
 0:kasi VERB_PAST_3SG_0 ;
 0:kaa  VERB_PRES_BACK ;
 
 LEXICON VERB_ŠAL/VATA
-
+!! **LEXICON @LEXNAME@** 
 0:va VERB_INF_TA ;
 0:pasi VERB_PAST_3SG_0 ;
 0:pua  VERB_PRES_BACK ;
 0:pua  VERB_3SG_U ;
 0:pua  VERB_INF_MA ;
-
+!! **LEXICON @LEXNAME@** 
 LEXICON VERB_VAL/LATA
 
 0:la VERB_INF_TA ;
@@ -33026,20 +33048,20 @@ LEXICON VERB_VAL/LATA
 0:taa  VERB_PRES_BACK ;
 
 LEXICON VERB_NIM/ETÄ
-
+!! **LEXICON @LEXNAME@** 
 0:e VERB_INF_TÄ ;
 0:esi VERB_PAST_3SG_0 ;
 0:ie  VERB_PRES_BACK ;
 0:et  VERB_PCP_TY ;
 
 LEXICON VERB_TYK/YTÄ
-
+!! **LEXICON @LEXNAME@** 
 0:y VERB_INF_TA ;
 0:kysi VERB_PAST_3SG_0 ;
 0:kyä  VERB_PRES_BACK ;
 
 LEXICON VERB_HYREYTY/Ä
-
+!! **LEXICON @LEXNAME@** 
 0      VERB_INF_Ä ;
 0      VERB_PAST_3SG_0 ;
 0      VERB_PRES_BACK ;
@@ -33047,7 +33069,7 @@ LEXICON VERB_HYREYTY/Ä
 0:tä      VERB_PASSIVE_H ;
 
 LEXICON VERB_PUREŠKEL/LA
-
+!! **LEXICON @LEXNAME@** 
 0:l  VERB_INF_A ;
 0:i  VERB_PAST_3SG_0 ;
 0:e  VERB_PRES_BACK ;
@@ -33060,7 +33082,7 @@ LEXICON VERB_PUREŠKEL/LA
 0:o  VERB_3SG_U ;
 
 LEXICON VERB_AJAT/ELLA
-
+!! **LEXICON @LEXNAME@** 
 0:ell  VERB_INF_A ;
 0:teli  VERB_PAST_3SG_0 ;
 0:tele  VERB_PRES_BACK ;
@@ -33072,7 +33094,7 @@ LEXICON VERB_AJAT/ELLA
 0:telo  VERB_INF_MA ;
 
 LEXICON VERB_LEVÄHEL/LÄ
-
+!! **LEXICON @LEXNAME@** 
 0:l  VERB_INF_Ä ;
 0:i  VERB_PAST_3SG_0 ;
 0:e  VERB_PRES_BACK ;
@@ -33084,7 +33106,7 @@ LEXICON VERB_LEVÄHEL/LÄ
 
 
 LEXICON VERB_OM/MELLA
-
+!! **LEXICON @LEXNAME@** 
 0:mell  VERB_INF_A ;
 0:peli  VERB_PAST_3SG_0 ;
 0:pele  VERB_PRES_BACK ;
@@ -33096,7 +33118,7 @@ LEXICON VERB_OM/MELLA
 
 
 LEXICON AUX_O/LLA
-
+!! **LEXICON @LEXNAME@** 
 0:ll    AUX_INF_A ;
 0:llu   AUX_PCP ;
 0:lla   AUX_PASSIVE_H ;
@@ -33112,7 +33134,7 @@ LEXICON AUX_O/LLA
 0:l       AUX_COND ;
 
 LEXICON AUX_E/I
-
+!! **LEXICON @LEXNAME@** 
 %<actv%>%<p3%>%<sg%>+ja%<cnjcoo%>:ikä    # ;
 %<actv%>%<p1%>%<sg%>:n    # ;
 %<actv%>%<p2%>%<sg%>:t    # ;
@@ -33122,7 +33144,7 @@ LEXICON AUX_E/I
 %<actv%>%<imp%>%<p2%>%<sg%>:lä   # ;
 
 LEXICON AUX_VO/IJA
-
+!! **LEXICON @LEXNAME@** 
 0:ij  AUX_INF_A ;
 0:i  AUX_3SG_0 ;
 0:i  AUX_PAST_3SG_0 ;
@@ -33133,7 +33155,7 @@ LEXICON AUX_VO/IJA
 0  AUX_COND ;
 
 LEXICON AUX_PI/TEÄ
-
+!! **LEXICON @LEXNAME@** 
 0:te  AUX_INF_Ä ;
 0:tä  AUX_INF_MÄ ;
 0:ä  AUX_CONNEG_0 ;

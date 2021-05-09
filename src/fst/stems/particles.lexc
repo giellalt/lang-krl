@@ -1,5 +1,7 @@
+!! # Karelian particles
 
 LEXICON Particles
+!! **LEXICON @LEXNAME@** gives the particles.
 ka(h)	particle ;
 kajon	particle ;
 la	particle ;
@@ -23,9 +25,11 @@ vit	particle ;
 vot	particle ;
 
 LEXICON particle
+!! **LEXICON @LEXNAME@** gives tag
 +Part: # ;
 
 LEXICON particle_vahv
+!! **LEXICON @LEXNAME@** gives the same tag, actually.
 +Part: # ;
 
 

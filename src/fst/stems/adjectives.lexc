@@ -1,11 +1,12 @@
-!! Adjectives
+!! # Karelian Adjectives
 !  ----------
-!! Adjectives in the Karelian language describe things.
+!! This file documents the `stems/adjectives.lexc` file for Adjective stems 
+!! The files points to the `affixes/adjectives.lexc` file.
 
 LEXICON Adjectives
+!! LEXICON @LEXNAME@
 
-
-aito+A:ai  ADJ_AI/TO ;
+aito+A:ai  ADJ_AI/TO ; !!≈ @CODE@ etc.
 alkuperäini+A:alkuperäi ADJ_EEPPI/NI ;
 armenijalaini+A:armenijalai ADJ_KARJALAI/NI ;
 avomielini+A:avomieli ADJ_EEPPI/NI ;

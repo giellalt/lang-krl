@@ -1,5 +1,9 @@
+!! # Karelian Propernouns
 
+!! The file `stems/propernouns.lexc` lists just that.
+ 
 LEXICON PROPN
+!! **LEXICON @LEXNAME@**
 
 Aino+N+Prop+Sem/ant/fem:Aino PROPN_LUMIKELLO ;
 Akropolis+N+Prop+Sem/Top:Akropolis PROPN_KONSTANTIN ;
