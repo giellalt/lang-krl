@@ -5,11 +5,12 @@
 [![Issues](https://img.shields.io/github/issues/giellalt/lang-krl)](https://github.com/giellalt/lang-krl/issues)
 [![Build status](https://github.com/giellalt/lang-krl/workflows/Speller%20CI+CD/badge.svg)](https://github.com/giellalt/lang-krl/actions)
 
-This page documents the work on the **Karelian language model**. 
+These pages document the work on the [Karelian language model](https://github.com/giellalt/lang-krl). 
+
 
 # Project documentation
 
-* Add links to project specific documentation here as needed. Keep the documentation in the `docs/` directory.
+* (Add links to project specific documentation here as needed. Keep the documentation in the `docs/` directory.)
 
 # In-source documentation
 
