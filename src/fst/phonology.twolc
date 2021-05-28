@@ -1,37 +1,41 @@
-!! =================================== !
-!! The Karelian morphophonological/twolc rules file !
-!! =================================== !
+! =================================== !
+!! # The Karelian morphophonological/twolc rules file 
+! =================================== !
 
+!! ## Alphabets and sets
+
+!! ### Alpahbet
 Alphabet
- a b c d e f g h i j k l m n o p q r s t u v w x y z æ ø å
- á é ó ú í à è ò ù ì ä ë ö ü ï â ê ô û î ã ý þ ñ ð ß ç
+ a b c č d e f g h i j k l m n o p q r s š t u v w x y z ž !!≈ - **@CODE@**
+ á é ó ú í à è ò ù ì ä ë ö ü ï â ê ô û î ã	   !!≈ - **@CODE@**
+ A B C Č D E F G H I J K L M N O P Q R S Š T U V W X Y Z Ž !!≈ - **@CODE@**
+ Á É Ó Ú Í À È Ò Ù Ì Ä Ë Ö Ü Ï Â Ê Ô Û Î Ã		   !!≈ - **@CODE@**
+ %{aä%}:a %{aä%}:ä !!≈ - **@CODE@**
+ %{oö%}:o %{oö%}:ö !!≈ - **@CODE@**
+ %{uy%}:u %{uy%}:y !!≈ - **@CODE@**
+ %>:0 ; !!≈ - **@CODE@**
 
- A B C D E F G H I J K L M N O P Q R S T U V W X Y Z Æ Ø Å
- Á É Ó Ú Í À È Ò Ù Ì Ä Ë Ö Ü Ï Â Ê Ô Û Î Ã Ý þ Ñ Ð
 
- %{aä%}:a %{aä%}:ä
- %{oö%}:o %{oö%}:ö
- %{uy%}:u %{uy%}:y
-
- %>:0 ;
-
+!! ### Sets
 Sets
 
- Vow = a e i o u y æ ø å 
-       á é ó ú í à è ò ù ì ä ë ö ü ï â ê ô û î ã ý ;
- Cns = b c d f g h j k l m n p q r s t v w x z ð þ ;
- Front = ä ö y ;
- Back = a o u ;
+ Vow = a e i o u y							  !!≈ - **@CODE@**
+       á é ó ú í à è ò ù ì ä ë ö ü ï â ê ô û î ã ý ;  !!≈   **@CODE@**
+ Cns = b c č d f g h j k l m n p q r s š t v w x z ž ;  !!≈ - **@CODE@**
+ Front = ä ö y ;									  !!≈ - **@CODE@**
+ Back = a o u ;										  !!≈ - **@CODE@**
 
+!! ## Rules
 Rules
 
 "Vowel harmony basic"
+!! **Rule: @RULENAME@** 
  HARM:FRONT <=> Front \[Back | %#]* _ ; 
                 where HARM in ( %{aä%} %{oö%} %{uy%} )
                       FRONT in ( ä ö y ) matched ;
 
+!! **Tests:**
 !!€ kirjut{aä}mm{aä}
 !!€ kirjutamma
-
 !!$ kirjut{aä}mm{aä}
 !!$ kirjutämmä

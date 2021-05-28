@@ -13,10 +13,13 @@
 ! giellatekno@uit.no or feedback@divvun.no
 
 ! ========================================================================== !
-! !!            !!!Karelian morphological analyser                      !
+!! #         Karelian morphological analyser                      
 ! ========================================================================== !
-!! INTRODUCTION TO MORPHOLOGICAL ANALYSER OF Karelian LANGUAGE.
+
+!! This file documents the Karelian [fst/root.lexc file](https://github.com/giellalt/lang-krl/blob/main/src/fst/root.lexc)
  
+
+!! ## Tags and other multicharacter symbols
 
 Multichar_Symbols  !!≈ # Definitions for @CODE@
 
@@ -27,89 +30,92 @@ Multichar_Symbols  !!≈ # Definitions for @CODE@
 !! (It is highly suggested to follow existing standards when adding new tags).
 
 !! The parts-of-speech are:
- +N +A +Adv +V                                 !!≈
- +Pron +CS +CC +Adp +Po +Pr +Interj +Pcle +Num !!≈
+ +N +A +Adv +V                                 !!≈ * **@CODE@**
+ +Pron +CS +CC +Adp +Po +Pr +Interj +Pcle +Num  !!≈ * **@CODE@**
 
 !! The parts of speech are further split up into:
- +Prop +Pers +Dem +Interr +Refl +Recipr +Rel +Indef
+ +Prop +Pers +Dem +Interr +Refl +Recipr +Rel +Indef !!≈ * **@CODE@**
 
 !! The Usage extents are marked using following tags:
- +Err/Orth   
- +Use/-Spell 
+ +Err/Orth    !!≈ * **@CODE@**
+ +Use/-Spell  !!≈ * **@CODE@**
 
 !! The nominals are inflected in the following Case and Number
- +Sg +Du +Pl
- +Ess +Nom +Gen +Acc +Ill +Loc +Com +Com/Sh
+ +Sg +Du +Pl !!≈ * **@CODE@**
+ +Ess +Nom +Gen +Acc +Ill +Loc +Com +Com/Sh !!≈ * **@CODE@**
 
 !! The possession is marked as such:
- +PxSg1 +PxSg2 +PxSg3 +PxDu1 +PxDu2 +PxDu3 +PxPl1 +PxPl2 +PxPl3
+ +PxSg1 +PxSg2 +PxSg3 +PxDu1 +PxDu2 +PxDu3 +PxPl1 +PxPl2 +PxPl3 !!≈ * **@CODE@**
 !! The comparative forms are:
- +Comp +Superl
+ +Comp +Superl !!≈ * **@CODE@**
 !! Numerals are classified under:
- +Attr +Card
- +Ord 
+ +Attr +Card !!≈ * **@CODE@**
+ +Ord  !!≈ * **@CODE@**
 !! Verb moods are:
- +Ind +Prs +Prt +Pot +Cond +Imprt
+ +Ind +Prs +Prt +Pot +Cond +Imprt !!≈ * **@CODE@**
 !! Verb personal forms are:
- +Sg1 +Sg2 +Sg3 +Du1 +Du2 +Du3 +Pl1 +Pl2 +Pl3
+ +Sg1 +Sg2 +Sg3 +Du1 +Du2 +Du3 +Pl1 +Pl2 +Pl3 !!≈ * **@CODE@**
 !! Other verb forms are
- +Inf +Ger +ConNeg +ConNegII +Neg +ImprtII +PrsPrc +PrfPrc +Sup +VGen +VAbess
+ +Inf +Ger +ConNeg +ConNegII +Neg +ImprtII +PrsPrc +PrfPrc +Sup +VGen +VAbess !!≈ * **@CODE@**
 
 ! Abbreviated words are classified with:
- +ABBR +ACR 
+ +ABBR +ACR !!≈ * **@CODE@** 
 +Symbol !!≈ * @CODE@ = independent symbols in the text stream, like £, €, ©
 !! Special symbols are classified with:
-+CLB +PUNCT +LEFT +RIGHT
++CLB +PUNCT +LEFT +RIGHT !!≈ * **@CODE@**
 !! The verbs are syntactically split according to transitivity:
- +TV +IV
+ +TV +IV !!≈ * **@CODE@**
 !! Special multiword units are analysed with:
- +Multi
+ +Multi !!≈ * **@CODE@**
 !! Non-dictionary words can be recognised with:
- +Guess
+ +Guess !!≈ * **@CODE@** (not in use (?))
 
 !! Question and Focus particles:
- +Qst +Foc
+ +Qst +Foc !!≈ * **@CODE@**
 
 
 !! Semantics are classified with
- +Mal +Fem +Sur 
- +Plc 
- +Org
- +Obj
- +Ani
- +Hum
- +Plant
- +Group
- +Time 
- +Txt
- +Route
- +Measr 
- +Wthr
- +Build 
- +Edu
- +Veh
- +Clth
+ +Mal +Fem +Sur  !!≈ * **@CODE@**
+ +Plc 			 !!≈ * **@CODE@**
+ +Org			 !!≈ * **@CODE@**
+ +Obj			 !!≈ * **@CODE@**
+ +Ani			 !!≈ * **@CODE@**
+ +Hum			 !!≈ * **@CODE@**
+ +Plant			 !!≈ * **@CODE@**
+ +Group			 !!≈ * **@CODE@**
+ +Time 			 !!≈ * **@CODE@**
+ +Txt			 !!≈ * **@CODE@**
+ +Route			 !!≈ * **@CODE@**
+ +Measr 		 !!≈ * **@CODE@**
+ +Wthr			 !!≈ * **@CODE@**
+ +Build 		 !!≈ * **@CODE@**
+ +Edu			 !!≈ * **@CODE@**
+ +Veh			 !!≈ * **@CODE@**
+ +Clth			 !!≈ * **@CODE@**
 
 
 !! Derivations are classified under the morphophonetic form of the suffix, the
 !! source and target part-of-speech.
- +V→N +V→V +V→A
- +Der/xxx
+ +V→N +V→V +V→A !!≈ * **@CODE@**
+ +Der/xxx !!≈ * **@CODE@**
 
 
 !! Morphophonology
 !  ---------------
 !! To represent phonologic variations in word forms we use the following
 !! symbols in the lexicon files:
- {aä} {oö} {uy}
+ {aä} {oö} {uy} !!≈ * **@CODE@**
 
 !! And following triggers to control variation
- {front} {back}
+ {front} {back} !!≈ * **@CODE@**
 
 !! ## Flag diacritics
 !! We have manually optimised the structure of our lexicon using following
 !! flag diacritics to restrict morhpological combinatorics - only allow compounds
 !! with verbs if the verb is further derived into a noun again:
+
+!! | Flag | Explanation |
+!! |------|------------ |
  @P.NeedNoun.ON@    !!≈ |  @CODE@ | (Dis)allow compounds with verbs unless nominalised
  @D.NeedNoun.ON@    !!≈ |  @CODE@ | (Dis)allow compounds with verbs unless nominalised
  @C.NeedNoun@       !!≈ |  @CODE@ | (Dis)allow compounds with verbs unless nominalised
@@ -118,7 +124,10 @@ Multichar_Symbols  !!≈ # Definitions for @CODE@
 !! to control position-based compounding restrictions for nominals. Their use is
 !! handled automatically if combined with +CmpN/xxx tags. If not used, they will
 !! do no harm.
- @P.CmpFrst.FALSE@ !!≈ |  @CODE@ | Require that words tagged as such only appear first
+
+!! | Flag | Explanation |
+!! |------|------------ |
+ @P.CmpFrst.FALSE@ !!≈ |  @CODE@ | Require that words tagged as such only appear frst
  @D.CmpPref.TRUE@  !!≈ |  @CODE@ | Block such words from entering ENDLEX
  @P.CmpPref.FALSE@ !!≈ |  @CODE@ | Block these words from making further compounds
  @D.CmpLast.TRUE@  !!≈ |  @CODE@ | Block such words from entering R
@@ -131,29 +140,36 @@ Multichar_Symbols  !!≈ # Definitions for @CODE@
 !! nouns (e.g. Finnish Pariisi -> pariisilainen). See e.g. North Sámi for how to use
 !! these flags. There exists a ready-made regex that will do the actual down-casing
 !! given the proper use of these flags.
+
+!! | Flag | Explanation |
+!! |------|------------ |
  @U.Cap.Obl@        !!≈ |  @CODE@ | Allowing downcasing of derived names: deatnulasj.
  @U.Cap.Opt@        !!≈ |  @CODE@ | Allowing downcasing of derived names: deatnulasj.
 
+
+!! ## The Root and K lexica
 LEXICON Root
+!! **LEXICON @LEXNAME@** is where it all begins
 !! The word forms in Karelian language start from the lexeme roots of basic
 !! word classes, or optionally from prefixes:
-0   Nouns       ;
-0   Verbs       ;
-0   Adjectives  ;
-0   Pronouns    ;
-0   Numerals    ;
-0   Particles ;
-0   Punctuation ;
-0   Symbols     ;
-0   ADV ;
-0   PROPN ;
-0 adpositions ;
-0 conjunctions ;
-0 interjections ;
+   Nouns       ;  !!≈ * @CODE@
+   Verbs       ;  !!≈ * @CODE@
+   Adjectives  ;  !!≈ * @CODE@
+   Pronouns    ;  !!≈ * @CODE@
+   Numerals    ;  !!≈ * @CODE@
+   Particles ;	   !!≈ * @CODE@
+   Punctuation ;  !!≈ * @CODE@
+   Symbols     ;  !!≈ * @CODE@
+   ADV ;		   !!≈ * @CODE@
+   PROPN ;		   !!≈ * @CODE@
+ adpositions ;	   !!≈ * @CODE@
+ conjunctions ;   !!≈ * @CODE@
+ interjections ;  !!≈ * @CODE@
 
 
 LEXICON K
-# ;
-+Qst:%>{oö} # ;
+!! **LEXICON @LEXNAME@** adds clitics or goes to #
+# ;  !!≈ * @CODE@
++Qst:%>{oö} # ; !!≈ * @CODE@
 
 ! vim: set ft=xfst-lexc:
