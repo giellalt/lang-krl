@@ -1,5 +1,5 @@
-Noun inflection
-The Karelian language nouns inflect in cases.
+# Noun inflection
+This file documents Karelian noun inflection.
 
 
 
