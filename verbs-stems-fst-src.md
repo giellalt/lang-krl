@@ -239,3 +239,5 @@ These lexica redirects the stem to different person-number sublexica.
 
 
 
+* * *
+<small>This (part of) documentation was generated from [../src/fst/stems/verbs.lexc](http://github.com/giellalt/lang-krl/blob/main/../src/fst/stems/verbs.lexc)</small>

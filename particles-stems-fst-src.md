@@ -7,3 +7,5 @@
 **LEXICON particle_vahv** gives the same tag, actually.
 
 
+* * *
+<small>This (part of) documentation was generated from [../src/fst/stems/particles.lexc](http://github.com/giellalt/lang-krl/blob/main/../src/fst/stems/particles.lexc)</small>
