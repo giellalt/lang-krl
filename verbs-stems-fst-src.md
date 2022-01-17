@@ -10,10 +10,10 @@ harmony as twolc processes.
 **TODO:** Clean up this and go for one of the two.
 
 **LEXICON Verbs** contains the stem list
- * olla+V:o AUX_O/LLA ;
- * ei+V+Neg:e AUX_E/I ;
- * voija+V:vo AUX_VO/IJA ;
- * piteä+V:pi AUX_PI/TEÄ ;
+* olla+V:o AUX_O/LLA ;@CODE@
+* ei+V+Neg:e AUX_E/I ;@CODE@
+* voija+V:vo AUX_VO/IJA ;@CODE@
+* piteä+V:pi AUX_PI/TEÄ ;@CODE@
 ... some 200 more verbs
 
 
@@ -22,17 +22,17 @@ harmony as twolc processes.
 ### The second list of verbs
 This contains just the infinitive and points to defect paradigms for now.
 
- * aakkoa verb ;
- * ahahella verb_frekv ;
- * ahavakoittuo verb ; 
- * ahavastuo verb ;
+* aakkoa verb ;@CODE@
+* ahahella verb_frekv ;@CODE@
+* ahavakoittuo verb ; 
+* ahavastuo verb ;@CODE@
 
 ## The intermediate lexica
 These lexica redirects the stem to different person-number sublexica.
 
 **LEXICON kavota_katuo_verb** ... This lexicon does not work, as both stems go to the same contlex.
- * kavota verb ; 
- * kavota:katuo verb ; 
+* kavota verb ; 
+* kavota:katuo verb ; 
 
 **LEXICON proššai(k)koa_verb_vaill**
 

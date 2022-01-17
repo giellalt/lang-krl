@@ -606,30 +606,548 @@ These were the set types.
 
 
 * * *
-<small>This (part of) documentation was generated from [../src/cg3/functions.cg3](http://github.com/giellalt/lang-krl/blob/main/../src/cg3/functions.cg3)</small># The Karelian morphophonological/twolc rules file 
+<small>This (part of) documentation was generated from [../src/cg3/functions.cg3](http://github.com/giellalt/lang-krl/blob/main/../src/cg3/functions.cg3)</small>
+#         Karelian morphological analyser                      
+
+This file documents the Karelian [fst/root.lexc file](https://github.com/giellalt/lang-krl/blob/main/src/fst/root.lexc)
+
+
+## Tags and other multicharacter symbols
+
+# Definitions for Multichar_Symbols@CODE@
+
+## Analysis symbols
+The morphological analyses of wordforms for the Karelian
+language are presented in this system in terms of the following symbols.
+(It is highly suggested to follow existing standards when adding new tags).
+
+The parts-of-speech are:
+* **+N +A +Adv +V**@CODE@****
+* **+Pron +CS +CC +Adp +Po +Pr +Interj +Pcle +Num**@CODE@****
+
+The parts of speech are further split up into:
+* **+Prop +Pers +Dem +Interr +Refl +Recipr +Rel +Indef**@CODE@****
+
+The Usage extents are marked using following tags:
+* **+Err/Orth**@CODE@****
+* **+Use/-Spell**@CODE@****
+
+The nominals are inflected in the following Case and Number
+* **+Sg +Du +Pl**@CODE@****
+* **+Ess +Nom +Gen +Acc +Ill +Loc +Com +Com/Sh**@CODE@****
+
+The possession is marked as such:
+* **+PxSg1 +PxSg2 +PxSg3 +PxDu1 +PxDu2 +PxDu3 +PxPl1 +PxPl2 +PxPl3**@CODE@****
+The comparative forms are:
+* **+Comp +Superl**@CODE@****
+Numerals are classified under:
+* **+Attr +Card**@CODE@****
+* **+Ord**@CODE@****
+Verb moods are:
+* **+Ind +Prs +Prt +Pot +Cond +Imprt**@CODE@****
+Verb personal forms are:
+* **+Sg1 +Sg2 +Sg3 +Du1 +Du2 +Du3 +Pl1 +Pl2 +Pl3**@CODE@****
+Other verb forms are
+* **+Inf +Ger +ConNeg +ConNegII +Neg +ImprtII +PrsPrc +PrfPrc +Sup +VGen +VAbess**@CODE@****
+
+* **+ABBR +ACR** 
+* +Symbol© = independent symbols in the text stream, like £, €, ©
+Special symbols are classified with:
+* **+CLB +PUNCT +LEFT +RIGHT**@CODE@****
+The verbs are syntactically split according to transitivity:
+* **+TV +IV**@CODE@****
+Special multiword units are analysed with:
+* **+Multi**@CODE@****
+Non-dictionary words can be recognised with:
+* **+Guess(?))** (not in use (?))
+
+Question and Focus particles:
+* **+Qst +Foc**@CODE@****
+
+
+Semantics are classified with
+* **+Mal +Fem +Sur**@CODE@****
+* **+Plc**@CODE@****
+* **+Org**@CODE@****
+* **+Obj**@CODE@****
+* **+Ani**@CODE@****
+* **+Hum**@CODE@****
+* **+Plant**@CODE@****
+* **+Group**@CODE@****
+* **+Time**@CODE@****
+* **+Txt**@CODE@****
+* **+Route**@CODE@****
+* **+Measr**@CODE@****
+* **+Wthr**@CODE@****
+* **+Build**@CODE@****
+* **+Edu**@CODE@****
+* **+Veh**@CODE@****
+* **+Clth**@CODE@****
+
+
+Derivations are classified under the morphophonetic form of the suffix, the
+source and target part-of-speech.
+* **+V→N +V→V +V→A**@CODE@****
+* **+Der/xxx**@CODE@****
+
+
+Morphophonology
+To represent phonologic variations in word forms we use the following
+symbols in the lexicon files:
+* **{aä} {oö} {uy}**@CODE@****
+
+And following triggers to control variation
+* **{front} {back}**@CODE@****
+
+## Flag diacritics
+We have manually optimised the structure of our lexicon using following
+flag diacritics to restrict morhpological combinatorics - only allow compounds
+with verbs if the verb is further derived into a noun again:
+
+| Flag | Explanation |
+|------|------------ |
+|  @P.NeedNoun.ON@nominalised | (Dis)allow compounds with verbs unless nominalised
+|  @D.NeedNoun.ON@nominalised | (Dis)allow compounds with verbs unless nominalised
+|  @C.NeedNoun@nominalised | (Dis)allow compounds with verbs unless nominalised
+
+For languages that allow compounding, the following flag diacritics are needed
+to control position-based compounding restrictions for nominals. Their use is
+handled automatically if combined with +CmpN/xxx tags. If not used, they will
+do no harm.
+
+| Flag | Explanation |
+|------|------------ |
+|  @P.CmpFrst.FALSE@frst | Require that words tagged as such only appear frst
+|  @D.CmpPref.TRUE@ENDLEX | Block such words from entering ENDLEX
+|  @P.CmpPref.FALSE@compounds | Block these words from making further compounds
+|  @D.CmpLast.TRUE@R | Block such words from entering R
+|  @D.CmpNone.TRUE@compounding | Combines with the next tag to prohibit compounding
+|  @U.CmpNone.FALSE@compounding | Combines with the prev tag to prohibit compounding
+|  @P.CmpOnly.TRUE@R | Sets a flag to indicate that the word has passed R
+|  @D.CmpOnly.FALSE@root. | Disallow words coming directly from root.
+
+Use the following flag diacritics to control downcasing of derived proper
+nouns (e.g. Finnish Pariisi -> pariisilainen). See e.g. North Sámi for how to use
+these flags. There exists a ready-made regex that will do the actual down-casing
+given the proper use of these flags.
+
+| Flag | Explanation |
+|------|------------ |
+|  @U.Cap.Obl@deatnulasj. | Allowing downcasing of derived names: deatnulasj.
+|  @U.Cap.Opt@deatnulasj. | Allowing downcasing of derived names: deatnulasj.
+
+
+## The Root and K lexica
+**LEXICON Root** is where it all begins
+The word forms in Karelian language start from the lexeme roots of basic
+word classes, or optionally from prefixes:
+* Nouns ;@CODE@
+* Verbs ;@CODE@
+* Adjectives ;@CODE@
+* Pronouns ;@CODE@
+* Numerals ;@CODE@
+* Particles ;@CODE@
+* Punctuation ;@CODE@
+* Symbols ;@CODE@
+* ADV ;@CODE@
+* PROPN ;@CODE@
+* adpositions ;@CODE@
+* conjunctions ;@CODE@
+* interjections ;@CODE@
+
+
+**LEXICON K** adds clitics or goes to #
+* # ;@CODE@
+* +Qst:%>{oö} # ;@CODE@
+
+* * *
+<small>This (part of) documentation was generated from [../src/fst/root.lexc](http://github.com/giellalt/lang-krl/blob/main/../src/fst/root.lexc)</small>
+# Symbol affixes
+
+
+
+
+
+* * *
+<small>This (part of) documentation was generated from [../src/fst/affixes/symbols.lexc](http://github.com/giellalt/lang-krl/blob/main/../src/fst/affixes/symbols.lexc)</small># Noun inflection
+This file documents Karelian noun inflection.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+* * *
+<small>This (part of) documentation was generated from [../src/fst/affixes/nouns.lexc](http://github.com/giellalt/lang-krl/blob/main/../src/fst/affixes/nouns.lexc)</small>Adjective inflection
+The Karelian language adjectives compare.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+* * *
+<small>This (part of) documentation was generated from [../src/fst/affixes/adjectives.lexc](http://github.com/giellalt/lang-krl/blob/main/../src/fst/affixes/adjectives.lexc)</small># Karelian Verb inflection
+The verb lexicon contains two groups of continuation lexica
+One, with names like VERB_KUUL/UO (in capital letters and indicating stem)
+have analyses like the Finnish fst (without twolc). The other group has
+contlexes with nams *verb, verb_frekv, verb_intr*, etc. They have
+analyses more like the Kven and Meänkieli ones (with gradation and
+harmony as twolc processes.
+
+**TODO:** Clean up this and go for one of the two.
+
+## Intermediate lexica, for now pointing to present tense only.
+
+**LEXICON verb**
+**LEXICON verb_deskr**
+**LEXICON verb_fakt**
+**LEXICON verb_fakt.kaus**
+... etc. some 20 similar lexica.
+
+
+## Morphological lexica
+
+### Lexica pointing to final lexica
+
+**LEXICON vinfl** going to strong (no trigger)  and weak (^WG trigger)
++Act+Ind:^WG verb_weak_pres ;@CODE@
++Act+Ind: verb_strong_pres ;@CODE@
+
+
+### Final lexica (only pointing to K)
+
+**LEXICON verb_weak_pres**
+
+**LEXICON verb_strong_pres** 
+
+**LEXICON verb_3pl_pres**
+
+**LEXICON VERB_CONNEG_0** 
+
+
+**LEXICON VERB_PAST_3SG_0** 
+
+**LEXICON VERB_3SG_U** 
+
+**LEXICON VERB_3SG_Y** 
+
+**LEXICON VERB_PASSIVE_H** 
+
+**LEXICON VERB_PAST_PASSIVE_H** 
+
+**LEXICON VERB_IMPVPL_BACK** 
+
+**LEXICON VERB_IMPV** 
+
+**LEXICON VERB_INF_MÄ** 
+
+**LEXICON VERB_INF_MA** 
+
+**LEXICON VERB_INF_TA** 
+
+**LEXICON VERB_INF_TÄ** 
+
+FIXME: not sure
+**LEXICON VERB_INF_AS** 
+
+**LEXICON VERB_INF_A** 
+
+FIXME: ger or sup or some other
+**LEXICON VERB_INF_EN** 
+
+**LEXICON VERB_INF_Ä** 
+
+**LEXICON VERB_INF_Ö** 
+
+**LEXICON VERB_INF_O** 
+
+**LEXICON VERB_INF_E** 
+
+
+**LEXICON VERB_PCP_TU** 
+
+**LEXICON VERB_PCP_TY** 
+
+**LEXICON VERB_PCP_TAVA** 
+
+**LEXICON VERB_PCP_N** 
+
+**LEXICON VERB_PRES_BACK** 
+
+**LEXICON VERB_PRES_FRONT** 
+
+**LEXICON VERB_PAST_BACK** 
+
+**LEXICON VERB_PAST_FRONT** 
+
+
+**LEXICON VERB_COND** 
+
+**LEXICON VERB_COND_PASSIVE_TAIS** 
+
+**LEXICON VERB_COND_PASSIVE_TÄIS** 
+
+
+**LEXICON AUX_PCP** 
+FIXME
+
+**LEXICON AUX_3SG_PI** 
+
+**LEXICON AUX_3SG_0** 
+
+**LEXICON AUX_3SG_Y** 
+
+
+**LEXICON AUX_CONNEG_0** 
+
+**LEXICON AUX_PRES_FRONT** 
+
+**LEXICON AUX_PRES_BACK** 
+
+
+**LEXICON AUX_PAST_WEAK_BACK** 
+
+**LEXICON AUX_PAST_3SG_0** 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+* * *
+<small>This (part of) documentation was generated from [../src/fst/affixes/verbs.lexc](http://github.com/giellalt/lang-krl/blob/main/../src/fst/affixes/verbs.lexc)</small>Proper noun inflection
+The Karelian language proper nouns inflect in the same cases as regular
+nouns, but 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+* * *
+<small>This (part of) documentation was generated from [../src/fst/affixes/propernouns.lexc](http://github.com/giellalt/lang-krl/blob/main/../src/fst/affixes/propernouns.lexc)</small># The Karelian morphophonological/twolc rules file 
 
 This file documents the [phonology.twolc file](http://github.com/giellalt/lang-krl/blob/main/src/fst/phonology.twolc) 
 
 ## Alphabets and sets
 
 ### Alpahbet
- - **a b c č d e f g h i j k l m n o p q r s š t u v w x y z ž**
- - **á é ó ú í à è ò ù ì ä ë ö ü ï â ê ô û î ã**
- - **A B C Č D E F G H I J K L M N O P Q R S Š T U V W X Y Z Ž**
- - **Á É Ó Ú Í À È Ò Ù Ì Ä Ë Ö Ü Ï Â Ê Ô Û Î Ã**
- - **%{aä%}:a %{aä%}:ä**
- - **%{oö%}:o %{oö%}:ö**
- - **%{uy%}:u %{uy%}:y**
- - **%>:0 ;**
+- **a b c č d e f g h i j k l m n o p q r s š t u v w x y z ž**@CODE@****
+- **á é ó ú í à è ò ù ì ä ë ö ü ï â ê ô û î ã**@CODE@****
+- **A B C Č D E F G H I J K L M N O P Q R S Š T U V W X Y Z Ž**@CODE@****
+- **Á É Ó Ú Í À È Ò Ù Ì Ä Ë Ö Ü Ï Â Ê Ô Û Î Ã**@CODE@****
+- **%{aä%}:a %{aä%}:ä**@CODE@****
+- **%{oö%}:o %{oö%}:ö**@CODE@****
+- **%{uy%}:u %{uy%}:y**@CODE@****
+- **%>:0 ;**@CODE@****
 
 
 ### Sets
 
- - **Vow = a e i o u y**
-   **á é ó ú í à è ò ù ì ä ë ö ü ï â ê ô û î ã ý ;**
- - **Cns = b c č d f g h j k l m n p q r s š t v w x z ž ;**
- - **Front = ä ö y ;**
- - **Back = a o u ;**
+- **Vow = a e i o u y**@CODE@****
+  **á é ó ú í à è ò ù ì ä ë ö ü ï â ê ô û î ã ý ;**@CODE@****
+- **Cns = b c č d f g h j k l m n p q r s š t v w x z ž ;**@CODE@****
+- **Front = ä ö y ;**@CODE@****
+- **Back = a o u ;**@CODE@****
 
 ## Rules
 
@@ -641,7 +1159,22 @@ This file documents the [phonology.twolc file](http://github.com/giellalt/lang-k
 * ★*kirjut{aä}mm{aä}* (is not standard language)
 * ★*kirjutämmä* (is not standard language)
 * * *
-<small>This (part of) documentation was generated from [../src/fst/phonology.twolc](http://github.com/giellalt/lang-krl/blob/main/../src/fst/phonology.twolc)</small># Karelian particles
+<small>This (part of) documentation was generated from [../src/fst/phonology.twolc](http://github.com/giellalt/lang-krl/blob/main/../src/fst/phonology.twolc)</small># Karelian interjections
+
+@LEXNAME*
+
+
+
+
+
+* * *
+<small>This (part of) documentation was generated from [../src/fst/stems/interjections.lexc](http://github.com/giellalt/lang-krl/blob/main/../src/fst/stems/interjections.lexc)</small>Prefixes
+Prefixes in the Karelian language are bound to beginning of other words.
+
+
+
+* * *
+<small>This (part of) documentation was generated from [../src/fst/stems/prefixes.lexc](http://github.com/giellalt/lang-krl/blob/main/../src/fst/stems/prefixes.lexc)</small># Karelian particles
 
 **LEXICON Particles** gives the particles.
 
@@ -651,7 +1184,17 @@ This file documents the [phonology.twolc file](http://github.com/giellalt/lang-k
 
 
 * * *
-<small>This (part of) documentation was generated from [../src/fst/stems/particles.lexc](http://github.com/giellalt/lang-krl/blob/main/../src/fst/stems/particles.lexc)</small># Karelian Nouns
+<small>This (part of) documentation was generated from [../src/fst/stems/particles.lexc](http://github.com/giellalt/lang-krl/blob/main/../src/fst/stems/particles.lexc)</small># Karelian conjunctions
+
+conjunctions
+
+
+
+
+
+
+* * *
+<small>This (part of) documentation was generated from [../src/fst/stems/conjunctions.lexc](http://github.com/giellalt/lang-krl/blob/main/../src/fst/stems/conjunctions.lexc)</small># Karelian Nouns
 This file documents the  Karelian noun stem file.
 The first part of the file contains stems, the second contains the 
 intermediate morphology.
@@ -659,9 +1202,9 @@ intermediate morphology.
 ## The stem list
 
 Nouns
- afrikkalaine+N:afrikkalai NOUN_ELAVUTTAMI/NE ;
- aihe+N:aihe NOUN_AIH/E ;
- aikakauš#lehti+N:aikakaus0leh NOUN_LEH/TI ;
+afrikkalaine+N:afrikkalai NOUN_ELAVUTTAMI/NE ;@CODE@
+aihe+N:aihe NOUN_AIH/E ;@CODE@
+aikakauš#lehti+N:aikakaus0leh NOUN_LEH/TI ;@CODE@
 
 
 
@@ -969,91 +1512,13 @@ These lexica point to the morphology in `affixes/nouns.lexc`
 
 
 * * *
-<small>This (part of) documentation was generated from [../src/fst/stems/nouns.lexc](http://github.com/giellalt/lang-krl/blob/main/../src/fst/stems/nouns.lexc)</small># Karelian adverb stems
-
-ADV
-
-
-
-
-* * *
-<small>This (part of) documentation was generated from [../src/fst/stems/adverbs.lexc](http://github.com/giellalt/lang-krl/blob/main/../src/fst/stems/adverbs.lexc)</small># Numerals
-The Numerals are analysed as the ones for Finnish.
-
-**LEXICON Numerals**
-
-
-
-
-
-**LEXICON cardinal**
-
-**LEXICON cardinal_vaill**
-
-**LEXICON ordinal**
-
-
-**LEXICON NUM_Y/KSI**
-
-**LEXICON NUM_KA/KŠI**
-
-**LEXICON NUM_KOLM/E**
-
-... etc.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-* * *
-<small>This (part of) documentation was generated from [../src/fst/stems/numerals.lexc](http://github.com/giellalt/lang-krl/blob/main/../src/fst/stems/numerals.lexc)</small># Karelian adpositions
-
-adpositions
-
-
-
-
-
-
-
-
-
-* * *
-<small>This (part of) documentation was generated from [../src/fst/stems/adpositions.lexc](http://github.com/giellalt/lang-krl/blob/main/../src/fst/stems/adpositions.lexc)</small># Karelian Adjectives
+<small>This (part of) documentation was generated from [../src/fst/stems/nouns.lexc](http://github.com/giellalt/lang-krl/blob/main/../src/fst/stems/nouns.lexc)</small># Karelian Adjectives
 This file documents the `stems/adjectives.lexc` file for Adjective stems 
 The files points to the `affixes/adjectives.lexc` file.
 
 LEXICON Adjectives
 
- aito+A:ai ADJ_AI/TO ; etc.
+aito+A:ai ADJ_AI/TO ;etc. etc.
 
 
 
@@ -1123,23 +1588,7 @@ maybe like fin: eri, no infl.
 
 
 * * *
-<small>This (part of) documentation was generated from [../src/fst/stems/adjectives.lexc](http://github.com/giellalt/lang-krl/blob/main/../src/fst/stems/adjectives.lexc)</small># Karelian conjunctions
-
-conjunctions
-
-
-
-
-
-
-* * *
-<small>This (part of) documentation was generated from [../src/fst/stems/conjunctions.lexc](http://github.com/giellalt/lang-krl/blob/main/../src/fst/stems/conjunctions.lexc)</small>Prefixes
-Prefixes in the Karelian language are bound to beginning of other words.
-
-
-
-* * *
-<small>This (part of) documentation was generated from [../src/fst/stems/prefixes.lexc](http://github.com/giellalt/lang-krl/blob/main/../src/fst/stems/prefixes.lexc)</small># Karelian Pronouns
+<small>This (part of) documentation was generated from [../src/fst/stems/adjectives.lexc](http://github.com/giellalt/lang-krl/blob/main/../src/fst/stems/adjectives.lexc)</small># Karelian Pronouns
 The file list pronoun stems .
 
 **LEXICON Pronouns**
@@ -1219,10 +1668,10 @@ harmony as twolc processes.
 **TODO:** Clean up this and go for one of the two.
 
 **LEXICON Verbs** contains the stem list
- * olla+V:o AUX_O/LLA ;
- * ei+V+Neg:e AUX_E/I ;
- * voija+V:vo AUX_VO/IJA ;
- * piteä+V:pi AUX_PI/TEÄ ;
+* olla+V:o AUX_O/LLA ;@CODE@
+* ei+V+Neg:e AUX_E/I ;@CODE@
+* voija+V:vo AUX_VO/IJA ;@CODE@
+* piteä+V:pi AUX_PI/TEÄ ;@CODE@
 ... some 200 more verbs
 
 
@@ -1231,17 +1680,17 @@ harmony as twolc processes.
 ### The second list of verbs
 This contains just the infinitive and points to defect paradigms for now.
 
- * aakkoa verb ;
- * ahahella verb_frekv ;
- * ahavakoittuo verb ; 
- * ahavastuo verb ;
+* aakkoa verb ;@CODE@
+* ahahella verb_frekv ;@CODE@
+* ahavakoittuo verb ; 
+* ahavastuo verb ;@CODE@
 
 ## The intermediate lexica
 These lexica redirects the stem to different person-number sublexica.
 
 **LEXICON kavota_katuo_verb** ... This lexicon does not work, as both stems go to the same contlex.
- * kavota verb ; 
- * kavota:katuo verb ; 
+* kavota verb ; 
+* kavota:katuo verb ; 
 
 **LEXICON proššai(k)koa_verb_vaill**
 
@@ -1449,16 +1898,85 @@ These lexica redirects the stem to different person-number sublexica.
 
 
 * * *
-<small>This (part of) documentation was generated from [../src/fst/stems/verbs.lexc](http://github.com/giellalt/lang-krl/blob/main/../src/fst/stems/verbs.lexc)</small># Karelian interjections
+<small>This (part of) documentation was generated from [../src/fst/stems/verbs.lexc](http://github.com/giellalt/lang-krl/blob/main/../src/fst/stems/verbs.lexc)</small># Numerals
+The Numerals are analysed as the ones for Finnish.
 
-@LEXNAME*
+**LEXICON Numerals**
+
+
+
+
+
+**LEXICON cardinal**
+
+**LEXICON cardinal_vaill**
+
+**LEXICON ordinal**
+
+
+**LEXICON NUM_Y/KSI**
+
+**LEXICON NUM_KA/KŠI**
+
+**LEXICON NUM_KOLM/E**
+
+... etc.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
 
 
 * * *
-<small>This (part of) documentation was generated from [../src/fst/stems/interjections.lexc](http://github.com/giellalt/lang-krl/blob/main/../src/fst/stems/interjections.lexc)</small># Karelian Propernouns
+<small>This (part of) documentation was generated from [../src/fst/stems/numerals.lexc](http://github.com/giellalt/lang-krl/blob/main/../src/fst/stems/numerals.lexc)</small># Karelian adverb stems
+
+ADV
+
+
+
+
+* * *
+<small>This (part of) documentation was generated from [../src/fst/stems/adverbs.lexc](http://github.com/giellalt/lang-krl/blob/main/../src/fst/stems/adverbs.lexc)</small># Karelian adpositions
+
+adpositions
+
+
+
+
+
+
+
+
+
+* * *
+<small>This (part of) documentation was generated from [../src/fst/stems/adpositions.lexc](http://github.com/giellalt/lang-krl/blob/main/../src/fst/stems/adpositions.lexc)</small># Karelian Propernouns
 
 The file `stems/propernouns.lexc` lists just that.
 
@@ -1515,524 +2033,6 @@ The file `stems/propernouns.lexc` lists just that.
 
 * * *
 <small>This (part of) documentation was generated from [../src/fst/stems/propernouns.lexc](http://github.com/giellalt/lang-krl/blob/main/../src/fst/stems/propernouns.lexc)</small>
-#         Karelian morphological analyser                      
-
-This file documents the Karelian [fst/root.lexc file](https://github.com/giellalt/lang-krl/blob/main/src/fst/root.lexc)
-
-
-## Tags and other multicharacter symbols
-
- # Definitions for Multichar_Symbols
-
-## Analysis symbols
-The morphological analyses of wordforms for the Karelian
-language are presented in this system in terms of the following symbols.
-(It is highly suggested to follow existing standards when adding new tags).
-
-The parts-of-speech are:
- * **+N +A +Adv +V**
- * **+Pron +CS +CC +Adp +Po +Pr +Interj +Pcle +Num**
-
-The parts of speech are further split up into:
- * **+Prop +Pers +Dem +Interr +Refl +Recipr +Rel +Indef**
-
-The Usage extents are marked using following tags:
- * **+Err/Orth**
- * **+Use/-Spell**
-
-The nominals are inflected in the following Case and Number
- * **+Sg +Du +Pl**
- * **+Ess +Nom +Gen +Acc +Ill +Loc +Com +Com/Sh**
-
-The possession is marked as such:
- * **+PxSg1 +PxSg2 +PxSg3 +PxDu1 +PxDu2 +PxDu3 +PxPl1 +PxPl2 +PxPl3**
-The comparative forms are:
- * **+Comp +Superl**
-Numerals are classified under:
- * **+Attr +Card**
- * **+Ord**
-Verb moods are:
- * **+Ind +Prs +Prt +Pot +Cond +Imprt**
-Verb personal forms are:
- * **+Sg1 +Sg2 +Sg3 +Du1 +Du2 +Du3 +Pl1 +Pl2 +Pl3**
-Other verb forms are
- * **+Inf +Ger +ConNeg +ConNegII +Neg +ImprtII +PrsPrc +PrfPrc +Sup +VGen +VAbess**
-
- * **+ABBR +ACR** 
- * +Symbol = independent symbols in the text stream, like £, €, ©
-Special symbols are classified with:
- * **+CLB +PUNCT +LEFT +RIGHT**
-The verbs are syntactically split according to transitivity:
- * **+TV +IV**
-Special multiword units are analysed with:
- * **+Multi**
-Non-dictionary words can be recognised with:
- * **+Guess** (not in use (?))
-
-Question and Focus particles:
- * **+Qst +Foc**
-
-
-Semantics are classified with
- * **+Mal +Fem +Sur**
- * **+Plc**
- * **+Org**
- * **+Obj**
- * **+Ani**
- * **+Hum**
- * **+Plant**
- * **+Group**
- * **+Time**
- * **+Txt**
- * **+Route**
- * **+Measr**
- * **+Wthr**
- * **+Build**
- * **+Edu**
- * **+Veh**
- * **+Clth**
-
-
-Derivations are classified under the morphophonetic form of the suffix, the
-source and target part-of-speech.
- * **+V→N +V→V +V→A**
- * **+Der/xxx**
-
-
-Morphophonology
-To represent phonologic variations in word forms we use the following
-symbols in the lexicon files:
- * **{aä} {oö} {uy}**
-
-And following triggers to control variation
- * **{front} {back}**
-
-## Flag diacritics
-We have manually optimised the structure of our lexicon using following
-flag diacritics to restrict morhpological combinatorics - only allow compounds
-with verbs if the verb is further derived into a noun again:
-
-| Flag | Explanation |
-|------|------------ |
- |  @P.NeedNoun.ON@ | (Dis)allow compounds with verbs unless nominalised
- |  @D.NeedNoun.ON@ | (Dis)allow compounds with verbs unless nominalised
- |  @C.NeedNoun@ | (Dis)allow compounds with verbs unless nominalised
-
-For languages that allow compounding, the following flag diacritics are needed
-to control position-based compounding restrictions for nominals. Their use is
-handled automatically if combined with +CmpN/xxx tags. If not used, they will
-do no harm.
-
-| Flag | Explanation |
-|------|------------ |
- |  @P.CmpFrst.FALSE@ | Require that words tagged as such only appear frst
- |  @D.CmpPref.TRUE@ | Block such words from entering ENDLEX
- |  @P.CmpPref.FALSE@ | Block these words from making further compounds
- |  @D.CmpLast.TRUE@ | Block such words from entering R
- |  @D.CmpNone.TRUE@ | Combines with the next tag to prohibit compounding
- |  @U.CmpNone.FALSE@ | Combines with the prev tag to prohibit compounding
- |  @P.CmpOnly.TRUE@ | Sets a flag to indicate that the word has passed R
- |  @D.CmpOnly.FALSE@ | Disallow words coming directly from root.
-
-Use the following flag diacritics to control downcasing of derived proper
-nouns (e.g. Finnish Pariisi -> pariisilainen). See e.g. North Sámi for how to use
-these flags. There exists a ready-made regex that will do the actual down-casing
-given the proper use of these flags.
-
-| Flag | Explanation |
-|------|------------ |
- |  @U.Cap.Obl@ | Allowing downcasing of derived names: deatnulasj.
- |  @U.Cap.Opt@ | Allowing downcasing of derived names: deatnulasj.
-
-
-## The Root and K lexica
-**LEXICON Root** is where it all begins
-The word forms in Karelian language start from the lexeme roots of basic
-word classes, or optionally from prefixes:
- * Nouns ;
- * Verbs ;
- * Adjectives ;
- * Pronouns ;
- * Numerals ;
- * Particles ;
- * Punctuation ;
- * Symbols ;
- * ADV ;
- * PROPN ;
- * adpositions ;
- * conjunctions ;
- * interjections ;
-
-
-**LEXICON K** adds clitics or goes to #
- * # ;
- * +Qst:%>{oö} # ;
-
-* * *
-<small>This (part of) documentation was generated from [../src/fst/root.lexc](http://github.com/giellalt/lang-krl/blob/main/../src/fst/root.lexc)</small>
-# Symbol affixes
-
-
-
-
-
-* * *
-<small>This (part of) documentation was generated from [../src/fst/affixes/symbols.lexc](http://github.com/giellalt/lang-krl/blob/main/../src/fst/affixes/symbols.lexc)</small># Noun inflection
-This file documents Karelian noun inflection.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-* * *
-<small>This (part of) documentation was generated from [../src/fst/affixes/nouns.lexc](http://github.com/giellalt/lang-krl/blob/main/../src/fst/affixes/nouns.lexc)</small>Adjective inflection
-The Karelian language adjectives compare.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-* * *
-<small>This (part of) documentation was generated from [../src/fst/affixes/adjectives.lexc](http://github.com/giellalt/lang-krl/blob/main/../src/fst/affixes/adjectives.lexc)</small># Karelian Verb inflection
-The verb lexicon contains two groups of continuation lexica
-One, with names like VERB_KUUL/UO (in capital letters and indicating stem)
-have analyses like the Finnish fst (without twolc). The other group has
-contlexes with nams *verb, verb_frekv, verb_intr*, etc. They have
-analyses more like the Kven and Meänkieli ones (with gradation and
-harmony as twolc processes.
-
-**TODO:** Clean up this and go for one of the two.
-
-## Intermediate lexica, for now pointing to present tense only.
-
-**LEXICON verb**
-**LEXICON verb_deskr**
-**LEXICON verb_fakt**
-**LEXICON verb_fakt.kaus**
-... etc. some 20 similar lexica.
-
-
-## Morphological lexica
-
-### Lexica pointing to final lexica
-
-**LEXICON vinfl** going to strong (no trigger)  and weak (^WG trigger)
- +Act+Ind:^WG verb_weak_pres ;
- +Act+Ind: verb_strong_pres ;
-
-
-### Final lexica (only pointing to K)
-
-**LEXICON verb_weak_pres**
-
-**LEXICON verb_strong_pres** 
-
-**LEXICON verb_3pl_pres**
-
-**LEXICON VERB_CONNEG_0** 
-
-
-**LEXICON VERB_PAST_3SG_0** 
-
-**LEXICON VERB_3SG_U** 
-
-**LEXICON VERB_3SG_Y** 
-
-**LEXICON VERB_PASSIVE_H** 
-
-**LEXICON VERB_PAST_PASSIVE_H** 
-
-**LEXICON VERB_IMPVPL_BACK** 
-
-**LEXICON VERB_IMPV** 
-
-**LEXICON VERB_INF_MÄ** 
-
-**LEXICON VERB_INF_MA** 
-
-**LEXICON VERB_INF_TA** 
-
-**LEXICON VERB_INF_TÄ** 
-
-FIXME: not sure
-**LEXICON VERB_INF_AS** 
-
-**LEXICON VERB_INF_A** 
-
-FIXME: ger or sup or some other
-**LEXICON VERB_INF_EN** 
-
-**LEXICON VERB_INF_Ä** 
-
-**LEXICON VERB_INF_Ö** 
-
-**LEXICON VERB_INF_O** 
-
-**LEXICON VERB_INF_E** 
-
-
-**LEXICON VERB_PCP_TU** 
-
-**LEXICON VERB_PCP_TY** 
-
-**LEXICON VERB_PCP_TAVA** 
-
-**LEXICON VERB_PCP_N** 
-
-**LEXICON VERB_PRES_BACK** 
-
-**LEXICON VERB_PRES_FRONT** 
-
-**LEXICON VERB_PAST_BACK** 
-
-**LEXICON VERB_PAST_FRONT** 
-
-
-**LEXICON VERB_COND** 
-
-**LEXICON VERB_COND_PASSIVE_TAIS** 
-
-**LEXICON VERB_COND_PASSIVE_TÄIS** 
-
-
-**LEXICON AUX_PCP** 
-FIXME
-
-**LEXICON AUX_3SG_PI** 
-
-**LEXICON AUX_3SG_0** 
-
-**LEXICON AUX_3SG_Y** 
-
-
-**LEXICON AUX_CONNEG_0** 
-
-**LEXICON AUX_PRES_FRONT** 
-
-**LEXICON AUX_PRES_BACK** 
-
-
-**LEXICON AUX_PAST_WEAK_BACK** 
-
-**LEXICON AUX_PAST_3SG_0** 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-* * *
-<small>This (part of) documentation was generated from [../src/fst/affixes/verbs.lexc](http://github.com/giellalt/lang-krl/blob/main/../src/fst/affixes/verbs.lexc)</small>Proper noun inflection
-The Karelian language proper nouns inflect in the same cases as regular
-nouns, but 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-* * *
-<small>This (part of) documentation was generated from [../src/fst/affixes/propernouns.lexc](http://github.com/giellalt/lang-krl/blob/main/../src/fst/affixes/propernouns.lexc)</small>
 
 
 We describe here how abbreviations are in Karelian are read out, e.g.

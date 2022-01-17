@@ -4,7 +4,7 @@ The files points to the `affixes/adjectives.lexc` file.
 
 LEXICON Adjectives
 
- aito+A:ai ADJ_AI/TO ; etc.
+aito+A:ai ADJ_AI/TO ;etc. etc.
 
 
 
