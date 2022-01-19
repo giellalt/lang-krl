@@ -7,6 +7,12 @@
 
 These pages document the work on the [Karelian language model](https://github.com/giellalt/lang-krl). 
 
+The analyser contains appr. 64000 stems, but there still are some
+grammatical issues to solve before the coverage is good.
+
+The work was done mainly by Flammie Pirinen.
+
+* Generation of: [paradigms|http://giellatekno.uit.no/cgi/p-krl.fi.html]
 
 # Project documentation
 

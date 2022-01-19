@@ -22,8 +22,8 @@ harmony as twolc processes.
 ### Lexica pointing to final lexica
 
 **LEXICON vinfl** going to strong (no trigger)  and weak (^WG trigger)
-+Act+Ind:^WG verb_weak_pres ;@CODE@
-+Act+Ind: verb_strong_pres ;@CODE@
++Act+Ind:^WG verb_weak_pres ;
++Act+Ind: verb_strong_pres ;
 
 
 ### Final lexica (only pointing to K)
