@@ -12,7 +12,7 @@ grammatical issues to solve before the coverage is good.
 
 The work was done mainly by Flammie Pirinen.
 
-* Generation of: [paradigms|http://giellatekno.uit.no/cgi/p-krl.fi.html]
+* Generation of: [paradigms](http://giellatekno.uit.no/cgi/p-krl.fi.html)
 
 # Project documentation
 
