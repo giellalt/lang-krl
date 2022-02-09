@@ -3,23 +3,11 @@ The file list pronoun stems .
 
 **LEXICON Pronouns**
 
-
-
-
-
-
-
-
-
-
 **LEXICON PRON_MI/NÄ**
-
 
 **LEXICON PRON_MI/E**
 
-
 **LEXICON PRON_H/IÄN**
-
 
 **LEXICON PRON_M/YÖ**
 
@@ -47,7 +35,6 @@ The file list pronoun stems .
 
 **LEXICON PRON_KUMPA/INE**
 
-
 **LEXICON PRON_KE/N**
 
 **LEXICON PRON_MI**
@@ -58,12 +45,13 @@ The file list pronoun stems .
 
 **LEXICON PRON_MON/I**
 
-
 **LEXICON PRON_MU/U**
 
 **LEXICON PRON_TOI/NI**
 
-
-
 * * *
-<small>This (part of) documentation was generated from [../src/fst/stems/pronouns.lexc](http://github.com/giellalt/lang-krl/blob/main/../src/fst/stems/pronouns.lexc)</small>
+
+<small>This (part of) documentation was generated from [src/fst/stems/pronouns.lexc](https://github.com/giellalt/lang-krl/blob/main/src/fst/stems/pronouns.lexc)</small>
+
+---
+

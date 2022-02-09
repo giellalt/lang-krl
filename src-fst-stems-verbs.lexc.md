@@ -16,9 +16,6 @@ harmony as twolc processes.
 * piteä+V:pi AUX_PI/TEÄ ;
 ... some 200 more verbs
 
-
-
-
 ### The second list of verbs
 This contains just the infinitive and points to defect paradigms for now.
 
@@ -47,7 +44,6 @@ These lexica redirects the stem to different person-number sublexica.
 **LEXICON viyhtie_verb**
 
 **LEXICON voulie_vuolie_verb**
-
 
 **LEXICON kirjut/tua__verb** 
 
@@ -89,7 +85,6 @@ These lexica redirects the stem to different person-number sublexica.
 
 **LEXICON VERB_IKÄVÖI/JÄ** 
 
-
 **LEXICON VERB_ŠAN/OA** 
 
 **LEXICON VERB_MUISTEL/EHTOA** 
@@ -116,13 +111,11 @@ These lexica redirects the stem to different person-number sublexica.
 
 **LEXICON VERB_SOIT/TOA** 
 
-
 **LEXICON VERB_OT/TOA** 
 
 **LEXICON VERB_TANŠŠI/E** 
 
 **LEXICON VERB_EČ/ČIE** 
-
 
 **LEXICON VERB_POIMI/E** 
 
@@ -158,8 +151,6 @@ These lexica redirects the stem to different person-number sublexica.
 
 **LEXICON VERB_PI/TYÄ** 
 
-
-
 **LEXICON VERB_OPAŠ/TUO** 
 
 **LEXICON VERB_TOIV/UO** 
@@ -177,7 +168,6 @@ These lexica redirects the stem to different person-number sublexica.
 **LEXICON VERB_RYH/TYÖ** 
 
 **LEXICON VERB_ILMEŠ/TYÖ** 
-
 
 **LEXICON VERB_IS/TUO** 
 
@@ -212,7 +202,6 @@ These lexica redirects the stem to different person-number sublexica.
 **LEXICON VERB_ŠAL/VATA** 
 **LEXICON VERB_ŠAL/VATA** 
 
-
 **LEXICON VERB_NIM/ETÄ** 
 
 **LEXICON VERB_TYK/YTÄ** 
@@ -225,9 +214,7 @@ These lexica redirects the stem to different person-number sublexica.
 
 **LEXICON VERB_LEVÄHEL/LÄ** 
 
-
 **LEXICON VERB_OM/MELLA** 
-
 
 **LEXICON AUX_O/LLA** 
 
@@ -237,7 +224,9 @@ These lexica redirects the stem to different person-number sublexica.
 
 **LEXICON AUX_PI/TEÄ** 
 
-
-
 * * *
-<small>This (part of) documentation was generated from [../src/fst/stems/verbs.lexc](http://github.com/giellalt/lang-krl/blob/main/../src/fst/stems/verbs.lexc)</small>
+
+<small>This (part of) documentation was generated from [src/fst/stems/verbs.lexc](https://github.com/giellalt/lang-krl/blob/main/src/fst/stems/verbs.lexc)</small>
+
+---
+

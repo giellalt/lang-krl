@@ -16,7 +16,6 @@ harmony as twolc processes.
 **LEXICON verb_fakt.kaus**
 ... etc. some 20 similar lexica.
 
-
 ## Morphological lexica
 
 ### Lexica pointing to final lexica
@@ -24,7 +23,6 @@ harmony as twolc processes.
 **LEXICON vinfl** going to strong (no trigger)  and weak (^WG trigger)
 +Act+Ind:^WG verb_weak_pres ;
 +Act+Ind: verb_strong_pres ;
-
 
 ### Final lexica (only pointing to K)
 
@@ -35,7 +33,6 @@ harmony as twolc processes.
 **LEXICON verb_3pl_pres**
 
 **LEXICON VERB_CONNEG_0** 
-
 
 **LEXICON VERB_PAST_3SG_0** 
 
@@ -75,7 +72,6 @@ FIXME: ger or sup or some other
 
 **LEXICON VERB_INF_E** 
 
-
 **LEXICON VERB_PCP_TU** 
 
 **LEXICON VERB_PCP_TY** 
@@ -92,13 +88,11 @@ FIXME: ger or sup or some other
 
 **LEXICON VERB_PAST_FRONT** 
 
-
 **LEXICON VERB_COND** 
 
 **LEXICON VERB_COND_PASSIVE_TAIS** 
 
 **LEXICON VERB_COND_PASSIVE_TÄIS** 
-
 
 **LEXICON AUX_PCP** 
 FIXME
@@ -109,41 +103,19 @@ FIXME
 
 **LEXICON AUX_3SG_Y** 
 
-
 **LEXICON AUX_CONNEG_0** 
 
 **LEXICON AUX_PRES_FRONT** 
 
 **LEXICON AUX_PRES_BACK** 
 
-
 **LEXICON AUX_PAST_WEAK_BACK** 
 
 **LEXICON AUX_PAST_3SG_0** 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 * * *
-<small>This (part of) documentation was generated from [../src/fst/affixes/verbs.lexc](http://github.com/giellalt/lang-krl/blob/main/../src/fst/affixes/verbs.lexc)</small>
+
+<small>This (part of) documentation was generated from [src/fst/affixes/verbs.lexc](https://github.com/giellalt/lang-krl/blob/main/src/fst/affixes/verbs.lexc)</small>
+
+---
+

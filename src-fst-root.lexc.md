@@ -3,7 +3,6 @@
 
 This file documents the Karelian [fst/root.lexc file](https://github.com/giellalt/lang-krl/blob/main/src/fst/root.lexc)
 
-
 ## Tags and other multicharacter symbols
 
 # Definitions for Multichar_Symbols
@@ -56,7 +55,6 @@ Non-dictionary words can be recognised with:
 Question and Focus particles:
 * **+Qst +Foc**
 
-
 Semantics are classified with
 * **+Mal +Fem +Sur**
 * **+Plc**
@@ -76,12 +74,10 @@ Semantics are classified with
 * **+Veh**
 * **+Clth**
 
-
 Derivations are classified under the morphophonetic form of the suffix, the
 source and target part-of-speech.
 * **+V→N +V→V +V→A**
 * **+Der/xxx**
-
 
 Morphophonology
 To represent phonologic variations in word forms we use the following
@@ -128,7 +124,6 @@ given the proper use of these flags.
 |  @U.Cap.Obl@ | Allowing downcasing of derived names: deatnulasj.
 |  @U.Cap.Opt@ | Allowing downcasing of derived names: deatnulasj.
 
-
 ## The Root and K lexica
 **LEXICON Root** is where it all begins
 The word forms in Karelian language start from the lexeme roots of basic
@@ -147,10 +142,13 @@ word classes, or optionally from prefixes:
 * conjunctions ;
 * interjections ;
 
-
 **LEXICON K** adds clitics or goes to #
 * # ;
 * +Qst:%>{oö} # ;
 
 * * *
-<small>This (part of) documentation was generated from [../src/fst/root.lexc](http://github.com/giellalt/lang-krl/blob/main/../src/fst/root.lexc)</small>
+
+<small>This (part of) documentation was generated from [src/fst/root.lexc](https://github.com/giellalt/lang-krl/blob/main/src/fst/root.lexc)</small>
+
+---
+

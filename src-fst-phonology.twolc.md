@@ -14,7 +14,6 @@ This file documents the [phonology.twolc file](http://github.com/giellalt/lang-k
 - **%{uy%}:u %{uy%}:y**
 - **%>:0 ;**
 
-
 ### Sets
 
 - **Vow = a e i o u y**
@@ -32,5 +31,10 @@ This file documents the [phonology.twolc file](http://github.com/giellalt/lang-k
 * *kirjutamma*
 * ★*kirjut{aä}mm{aä}* (is not standard language)
 * ★*kirjutämmä* (is not standard language)
+
 * * *
-<small>This (part of) documentation was generated from [../src/fst/phonology.twolc](http://github.com/giellalt/lang-krl/blob/main/../src/fst/phonology.twolc)</small>
+
+<small>This (part of) documentation was generated from [src/fst/phonology.twolc](https://github.com/giellalt/lang-krl/blob/main/src/fst/phonology.twolc)</small>
+
+---
+
