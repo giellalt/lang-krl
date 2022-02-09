@@ -3,6 +3,8 @@
 !! The Numerals are analysed as the ones for Finnish.
 
 LEXICON Numerals
+ARABICS ;
+
 !! **LEXICON @LEXNAME@**
 yksi+Num+Card:y NUM_Y/KSI ;
 kakši+Num+Card:ka NUM_KA/KŠI ;
