@@ -88,6 +88,11 @@ GT_DISTRO_SRCS=
 
 GIELLA_LOCAL_TARGETS=
 
+generated_files/%.lexc: \
+		$(GIELLA_SHARED)/smi/src/fst/stems/%.lexc
+	$(AM_V_at)$(MKDIR_P) generated_files
+	$(AM_V_GEN)cp -f $< $@
+
 ### END: Local processing: ###
 
 ####### Other targets: ###########
