@@ -579,7 +579,7 @@ conjunctions
 ---
 
 # Karelian Nouns
-This file documents the  Karelian noun stem file.
+This file documents the Karelian noun stem file.
 The first part of the file contains stems, the second contains the 
 intermediate morphology.
 
