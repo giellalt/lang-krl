@@ -29,7 +29,7 @@ Documentation
 Documentation can be found at:
 
 - [Language specific documentation](https://giellalt.github.io/lang-krl/)
--   <https://giellalt.uit.no/index.html>
+- [General documentation](https://giellalt.github.io/)
 
 Lexical data was taken from:
 
