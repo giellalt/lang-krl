@@ -28,7 +28,7 @@ Documentation
 
 Documentation can be found at:
 
--   <https://giellalt.uit.no/lang/kel/KarelianDocumentation.html>
+- [Language specific documentation](https://giellalt.github.io/lang-krl/)
 -   <https://giellalt.uit.no/index.html>
 
 Lexical data was taken from:
