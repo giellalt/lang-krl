@@ -8,29 +8,29 @@
 
 
 LEXICON noun
-+N: # ;
++N+Sg+Nom: # ;
 LEXICON noun_dem
-+N: # ;
++N+Sg+Nom: # ;
 LEXICON noun_dem.mon
-+N: # ;
++N+Sg+Nom: # ;
 LEXICON noun_deskr
-+N: # ;
++N+Sg+Nom: # ;
 LEXICON noun_koll
-+N: # ;
++N+Sg+Nom: # ;
 LEXICON noun_komp
-+N: # ;
++N+Sg+Nom: # ;
 LEXICON noun_mod
-+N: # ;
++N+Sg+Nom: # ;
 LEXICON noun_mon
-+N: # ;
++N+Sg+Nom: # ;
 LEXICON noun_mon.vaill
-+N: # ;
++N+Sg+Nom: # ;
 LEXICON noun_sup
-+N: # ;
++N+Sg+Nom: # ;
 LEXICON noun_taipum
-+N: # ;
++N+Sg+Nom: # ;
 LEXICON noun_vaill
-+N: # ;
++N+Sg+Nom: # ;
 
 
 LEXICON noun_sg_nom
