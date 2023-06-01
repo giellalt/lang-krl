@@ -70,6 +70,9 @@ Multichar_Symbols  !!≈ # Definitions for @CODE@
 !! Non-dictionary words can be recognised with:
  +Guess !!≈ * **@CODE@** (not in use (?))
 
+ +Cmp
+
++Clit/Ki
 !! Question and Focus particles:
  +Qst +Foc !!≈ * **@CODE@**
 
