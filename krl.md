@@ -588,7 +588,7 @@ intermediate morphology.
 Nouns
 afrikkalaine+N:afrikkalai NOUN_ELAVUTTAMI/NE ;
 aihe+N:aihe NOUN_AIH/E ;
-aikakauš#lehti+N:aikakaus0leh NOUN_LEH/TI ;
+aikakaušlehti+N:aikakaus#leh NOUN_LEH/TI ;
 
 ## The list of intermediate lexica
 
