@@ -4,85 +4,104 @@ LEXICON conjunctions
 !! @LEXNAME@
 
 a+CC:a #  ;
+ali+CC:ali # ;
 da+CC:da #  ;
+eli+CC:eli #  ;
 i+CC:i #  ;
 ili+CC:ili #  ;
-eli+CC:eli #  ;
 ka+CC:ka #  ;
 libo+CC:libo #  ;
 šekä+CC:šekä #  ;
+sekä+CC:sekä #  ;
 ta+CC:ta #  ;
 tai+CC:tai #  ;
 tahi+CC:tahi #  ;
+tahikka+CC:tahikka #  ;
 vai+CC:vai #  ;
 vaikka+CC:vaikka #  ;
 vain+CC:vain #  ;
 
+
+što+CS:što # ;
+štopi+CS:štopi # ;
+štopu+CS:štopu # ;
+
+
 jotta+CS:jotta # ;
 kun+CS:kun # ;
+ku+CS:ku # ;
+kui+CS:kui # ;
+
 ni+CS:ni # ;
 kuni+CS:kuni # ;
 još+CS:još # ;
 jošpa+CS:jošpa # ;
 kuin+CS:kuin # ;
+hos+CS:hos # ;
+hot+CS:hot # ;
+hoti+CS:hoti # ;
+
+jeeseli+CS:jeeseli # ;
+jeesli+CS:jeesli # ;
+jeiseli+CS:jeiseli # ;
+jeseli+CS:jeseli # ;
+jesli+CS:jesli # ;
+jos+CS:jos # ;
 
 
-
-a	conjunction ;
-ali	conjunction ;
+!a	conjunction ;
+!ali	conjunction ;
 apa	conjunction ;
 ašna(ka)	conjunction ;
-eli	conjunction ;
+!eli	conjunction ;
 eli	conjunction_paired ;
 elikkä	conjunction ;
 elämišto	conjunction ;
 elämištä	conjunction ;
-hos	conjunction ;
-hot	conjunction ;
-hoti	conjunction ;
-ili	conjunction ;
+!hos	conjunction ;
+!hot	conjunction ;
+!hoti	conjunction ;
+!ili	conjunction ;
 ilikkö	conjunction ;
 itše	conjunction ;
-jeeseli	conjunction ;
-jeesli	conjunction ;
-jeiseli	conjunction ;
-jeseli	conjunction ;
-jesli	conjunction ;
-jos	conjunction ;
-jotta	conjunction ;
+!jeeseli	conjunction ;
+!jeesli	conjunction ;
+!jeiseli	conjunction ;
+!jeseli	conjunction ;
+!jesli	conjunction ;
+!jos	conjunction ;
+!jotta	conjunction ;
 jotto	conjunction ;
 ka	conjunction ;
 kä	conjunction ;
-ku	conjunction ;
-kui	conjunction ;
-kuin	conjunction ;
-kun	conjunction ;
-kuni	conjunction ;
-lipo	conjunction ;
+!ku	conjunction ;
+!kui	conjunction ;
+!kuin	conjunction ;
+!kun	conjunction ;
+!kuni	conjunction ;
+!lipo	conjunction ;
 miku(i)	conjunction_komp ;
 muuta	conjunction ;
 seko	conjunction ;
 sekö	conjunction ;
 seku	conjunction ;
-sekä	conjunction ;
+!sekä	conjunction ;
 sini	conjunction ;
-što	conjunction ;
-štopi	conjunction ;
-štopu	conjunction ;
-ta	conjunction_kopulat ;
-tahi	conjunction ;
-tahikka	conjunction ;
+!što	conjunction ;
+!štopi	conjunction ;
+!štopu	conjunction ;
+!ta	conjunction_kopulat ;
+!tahi	conjunction ;
+!tahikka	conjunction ;
 tahikko	conjunction ;
-tai	conjunction_kopulat ;
+!tai	conjunction_kopulat ;
 taiko	conjunction ;
 to	conjunction ;
 toĺko	conjunction ;
 tä	conjunction ;
-vai	conjunction ;
-vai	conjunction ;
-vaikka	conjunction ;
-vain	conjunction ;
-vain	conjunction ;
+!vai	conjunction ;
+!vaikka	conjunction ;
+!vain	conjunction ;
 voan	conjunction ;
 
 ! vim: set ft=xfst-lexc:
