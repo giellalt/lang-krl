@@ -20,17 +20,17 @@ kymmenen+Num+Card:kymmene  NUM_KYMMENE/N ;
 miljon+Num+Card:miljon NUM_MILJON/A ;
 miljardi+Num+Card:miljard NUM_MILJARD/I ;
 
-enšimäini+Adj+Ord:enšimäi  NUM_ENŠIMMÄI/NI ;
-enšimmäini+Adj+Ord:enšimmäi  NUM_ENŠIMMÄI/NI ;
-toini+Adj+Ord:toi  NUM_TOI/NI ;
-kolmaš+Adj+Ord:kolma NUM_KOLMA/Š ;
-nelläš+Adj+Ord:nellä NUM_NELLÄ/Š ;
-viiješ+Adj+Ord:viije NUM_NELLÄ/Š ;
-kuuvveš+Adj+Ord:kuuvve NUM_KOLMA/Š ;
-seiččemeš+Adj+Ord:seiččeme NUM_NELLÄ/Š ;
-kahekšaš+Adj+Ord:kahekša NUM_KOLMA/Š ;
-yhekšäš+Adj+Ord:yhekšä NUM_NELLÄ/Š ;
-kymmeneš+Adj+Ord:kymmene NUM_NELLÄ/Š ;
+enšimäini+A+Ord:enšimäi  NUM_ENŠIMMÄI/NI ;
+enšimmäini+A+Ord:enšimmäi  NUM_ENŠIMMÄI/NI ;
+toini+A+Ord:toi  NUM_TOI/NI ;
+kolmaš+A+Ord:kolma NUM_KOLMA/Š ;
+nelläš+A+Ord:nellä NUM_NELLÄ/Š ;
+viiješ+A+Ord:viije NUM_NELLÄ/Š ;
+kuuvveš+A+Ord:kuuvve NUM_KOLMA/Š ;
+seiččemeš+A+Ord:seiččeme NUM_NELLÄ/Š ;
+kahekšaš+A+Ord:kahekša NUM_KOLMA/Š ;
+yhekšäš+A+Ord:yhekšä NUM_NELLÄ/Š ;
+kymmeneš+A+Ord:kymmene NUM_NELLÄ/Š ;
 
 pari+Num+Card:pari NUM_PARI ;
 puolitoista+Num+Card:puolitoista  # ;

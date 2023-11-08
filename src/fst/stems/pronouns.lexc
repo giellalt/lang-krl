@@ -62,7 +62,8 @@ LEXICON PRON_MI/E
 
 0:e PRON_SGNOM_0 ;
 0:u PRON_CASES_SG_BACK ;
-%<sg%>%<par%>:lma  # ;
+!%<sg%>%<par%>:lma  # ;
++Sg+Par:lma # ;
 
 LEXICON PRON_H/IÄN
 !! **LEXICON @LEXNAME@**
@@ -82,7 +83,8 @@ LEXICON PRON_TÄ/MÄ
 0  PRON_CASES_SG_FRONT ;
 0  PRON_SGPAR_TÄ ;
 0:mä PRON_SGGEN_N ;
-%<sg%>%<ill%>:hä  # ;
+!%<sg%>%<ill%>:hä  # ;
++Sg+Ill:hä # ;
 
 LEXICON PRON_NÄ/MÄ
 !! **LEXICON @LEXNAME@**
@@ -104,19 +106,27 @@ LEXICON PRON_Š/E
 !! **LEXICON @LEXNAME@**
 0:e  PRON_SGNOM_0 ;
 0:i  PRON_CASES_SG_FRONT ;
-%<sg%>%<gen%>:en # ;
-%<sg%>%<ine%>:iinä # ;
-%<sg%>%<ela%>:iitä # ;
-%<sg%>%<ill%>:iih # ;
-%<sg%>%<ill%>:inne # ;
-%<sg%>%<par%>:itä # ;
+!%<sg%>%<gen%>:en # ;
+!%<sg%>%<ine%>:iinä # ;
+!%<sg%>%<ela%>:iitä # ;
+!%<sg%>%<ill%>:iih # ;
+!%<sg%>%<ill%>:inne # ;
+!%<sg%>%<par%>:itä # ;
++Sg+Gen:en # ;
++Sg+Ine:iinä # ;
++Sg+Ela:iitä # ;
++Sg+Ill:iih # ;
++Sg+Ill:inne # ;
++Sg+Par:itä # ;
 
 LEXICON PRON_N/E
 !! **LEXICON @LEXNAME@**
 0:e  PRON_PLNOM_0 ;
 0:i  PRON_CASES_PL_FRONT ;
-%<pl%>%<gen%>:iijen # ;
-%<pl%>%<ill%>:iihi # ;
+!%<pl%>%<gen%>:iijen # ;
+!%<pl%>%<ill%>:iihi # ;
++Pl+Gen:iijen # ;
++Pl+Ill:iihi # ;
 
 LEXICON PRON_IČ/E
 !! **LEXICON @LEXNAME@**
@@ -130,8 +140,10 @@ LEXICON PRON_KAI/KKI
 0:kki PRON_SGNOM_0 ;
 0:ke  PRON_CASES_SG_WEAK_BACK ;
 0:k  PRON_CASES_PL_WEAK_BACK ;
-%<pl%>%<ins%>:kin # ;
-%<pl%>%<com%>:kkine # ;
+!%<pl%>%<ins%>:kin # ;
+!%<pl%>%<com%>:kkine # ;
++Pl+Ins:kin # ;
++Pl+Com:kkine # ;
 
 LEXICON PRON_KU/DAI
 !! **LEXICON @LEXNAME@**

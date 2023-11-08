@@ -251,40 +251,55 @@ LEXICON VERB_COND_PASSIVE_TÄIS
 LEXICON AUX_PCP
 !! **LEXICON @LEXNAME@** 
 !! FIXME
-%<pp%>:t # ;
-%<pp%>+Sg%<gen%>:n # ;
+!%<pp%>:t # ;
+!%<pp%>+Sg%<gen%>:n # ;
++PrfPrc:t # ;
++PrfPrc+Sg+Gen:n # ;
 
 LEXICON AUX_3SG_PI
 !! **LEXICON @LEXNAME@** 
-+Act%<pri%>%<p3%>+Sg:pi # ;
+!+Act%<pri%>%<p3%>+Sg:pi # ;
++Act+Ind+Prs+Sg3:pi # ;
 
 LEXICON AUX_3SG_0
-!! **LEXICON @LEXNAME@** 
-+Act%<pri%>%<p3%>+Sg:0 # ;
+!! **LEXICON @LEXNAME@**
+!+Act%<pri%>%<p3%>+Sg:0 # ;
++Act+Ind+Prs+Sg3:0 # ;
 
 LEXICON AUX_3SG_Y
 !! **LEXICON @LEXNAME@** 
-+Act%<pri%>%<p3%>+Sg:y # ;
+!+Act%<pri%>%<p3%>+Sg:y # ;
++Act+Ind+Prs+Sg3:y # ;
 
 
 LEXICON AUX_CONNEG_0
 !! **LEXICON @LEXNAME@** 
-+Act%<pri%>%<conneg%>:0 # ;
+!+Act%<pri%>%<conneg%>:0 # ;
++Act+Ind+Prs+ConNeg:0 # ;
 
 LEXICON AUX_PRES_FRONT
 !! **LEXICON @LEXNAME@** 
-+Act%<pri%>%<p1%>+Sg:n # ;
-+Act%<pri%>%<p2%>+Sg:t # ;
-+Act%<pri%>%<p1%>%<pl%>:mmä # ;
-+Act%<pri%>%<p2%>%<pl%>:ttä # ;
+!+Act%<pri%>%<p1%>+Sg:n # ;
+!+Act%<pri%>%<p2%>+Sg:t # ;
+!+Act%<pri%>%<p1%>%<pl%>:mmä # ;
+!+Act%<pri%>%<p2%>%<pl%>:ttä # ;
++Act+Ind+Prs+Sg1:n # ;
++Act+Ind+Prs+Sg2:t # ;
++Act+Ind+Prs+Pl1:mmä # ;
++Act+Ind+Prs+Pl2:ttä # ;
 
 LEXICON AUX_PRES_BACK
 !! **LEXICON @LEXNAME@** 
-+Act%<pri%>%<p1%>+Sg:n # ;
-+Act%<pri%>%<p2%>+Sg:t # ;
-+Act%<pri%>%<p2%>+Sg%<qst%>:tko # ;
-+Act%<pri%>%<p1%>%<pl%>:mma # ;
-+Act%<pri%>%<p2%>%<pl%>:tta # ;
+!+Act%<pri%>%<p1%>+Sg:n # ;
+!+Act%<pri%>%<p2%>+Sg:t # ;
+!+Act%<pri%>%<p2%>+Sg%<qst%>:tko # ;
+!+Act%<pri%>%<p1%>%<pl%>:mma # ;
+!+Act%<pri%>%<p2%>%<pl%>:tta # ;
++Act+Ind+Prs+Sg1:n # ;
++Act+Ind+Prs+Sg2:t # ;
++Act+Ind+Prs+Sg2:tko # ;
++Act+Ind+Prs+Pl1:mma # ;
++Act+Ind+Prs+Pl2:tta # ;
 
 !!!LEXICON AUX_PAST_WEAK_FRONT
 !!!
@@ -295,31 +310,44 @@ LEXICON AUX_PRES_BACK
 
 LEXICON AUX_PAST_WEAK_BACK
 !! **LEXICON @LEXNAME@** 
-+Act%<pri%>%<p1%>+Sg:in # ;
-+Act%<pri%>%<p2%>+Sg:it # ;
-+Act%<pri%>%<p1%>%<pl%>:imma # ;
-+Act%<pri%>%<p2%>%<pl%>:itta # ;
+!+Act%<pri%>%<p1%>+Sg:in # ;
+!+Act%<pri%>%<p2%>+Sg:it # ;
+!+Act%<pri%>%<p1%>%<pl%>:imma # ;
+!+Act%<pri%>%<p2%>%<pl%>:itta # ;
++Act+Ind+Prt+Sg1:in # ;
++Act+Ind+Prt+Sg2:it # ;
++Act+Ind+Prt+Pl1:imma # ;
++Act+Ind+Prt+Pl2:itta # ;
 
 LEXICON AUX_PAST_3SG_0
 !! **LEXICON @LEXNAME@** 
-+Act%<past%>%<p3%>+Sg:0 # ;
+!+Act%<past%>%<p3%>+Sg:0 # ;
++Act+Ind+Prt+Sg3:0 # ;
 
 LEXICON AUX_PASSIVE_H
 
-+Act%<pri%>%<p3%>%<pl%>:h # ;
-%<pasv%>%<pri%>:h # ;
+!+Act%<pri%>%<p3%>%<pl%>:h # ;
+!%<pasv%>%<pri%>:h # ;
++Act+Ind+Prt+Pl3:h # ;
++Pss+Ind+Prt:h # ;
 
 LEXICON AUX_PAST_PASSIVE_H
 
-+Act%<past%>%<p3%>%<pl%>:h # ;
-%<pasv%>%<past%>:h # ;
+!+Act%<past%>%<p3%>%<pl%>:h # ;
+!%<pasv%>%<past%>:h # ;
++Act+Ind+Prt+Pl3:h # ;
++Pss+Ind+Prt:h # ;
 
 LEXICON AUX_COND
 
-+Act%<cni%>%<p1%>+Sg:isin # ;
-+Act%<cni%>%<p2%>+Sg:isit # ;
-+Act%<cni%>%<p3%>+Sg:is # ;
-+Act%<cni%>%<p3%>+Sg%<qst%>:isko # ;
+!+Act%<cni%>%<p1%>+Sg:isin # ;
+!+Act%<cni%>%<p2%>+Sg:isit # ;
+!+Act%<cni%>%<p3%>+Sg:is # ;
+!+Act%<cni%>%<p3%>+Sg%<qst%>:isko # ;
++Act+Cond+Sg1:isin # ;
++Act+Cond+Sg2:isin # ;
++Act+Cond+Sg3:is # ;
++Act+Cond+Sg3+Qst:isko # ;
 
 LEXICON AUX_INF_A
 
@@ -332,7 +360,8 @@ LEXICON AUX_INF_Ä
 LEXICON AUX_INF_E
 
 +Inf+Ine:ešša  # ;
-+Inf+Ine%<px3sp%>:eššah  # ;
+!+Inf+Ine%<px3sp%>:eššah  # ;
++Inf+Ine+PxSP3:eššah  # ;
 
 LEXICON AUX_INF_MA
 
@@ -353,16 +382,18 @@ LEXICON AUX_INF_MÄ
 
 LEXICON AUX_PCP_TY
 
-%<pasv%>%<pp%>+Sg%<nom%>:ty # ;
-%<pasv%>%<pp%>+Sg%<par%>%<px3sp%>:työh # ;
+!%<pasv%>%<pp%>+Sg%<nom%>:ty # ;
+!%<pasv%>%<pp%>+Sg%<par%>%<px3sp%>:työh # ;
++Pss+PrfPrc+Sg+Nom:ty # ;
++Pss+PrfPrc+Sg+Par+PxSP3:työh # ;
 
 
 LEXICON AUX_PCP_N
 
-+Act%<pp%>:n # ;
-+Act%<past%>+Sg%<conneg%>:n # ;
-
-
+!+Act%<pp%>:n # ;
+!+Act%<past%>+Sg%<conneg%>:n # ;
++Act+PrfPrc:n # ;
++Act+Ind+Prt+Sg+ConNeg:n # ;
 
 ! vim: set ft=xfst-lexc:
 

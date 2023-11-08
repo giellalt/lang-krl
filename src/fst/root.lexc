@@ -32,7 +32,8 @@ Multichar_Symbols  !!≈ # Definitions for @CODE@
 !! The parts-of-speech are:
  +N +A +Adv +V                                 !!≈ * **@CODE@**
  +Pron +CS +CC +Adp +Po +Pr +Interj +Pcle +Num  !!≈ * **@CODE@**
-
+ +C  !!≈ * **@CODE@** TYÖÖÖÖ! this need depricating :-) 2023-11-08 Jaska
+ 
 !! The parts of speech are further split up into:
  +Prop +Pers +Dem +Interr +Refl +Recipr +Rel +Indef !!≈ * **@CODE@**
 
@@ -45,14 +46,18 @@ Multichar_Symbols  !!≈ # Definitions for @CODE@
 !! The nominals are inflected in the following Case and Number
  +Sg +Du +Pl !!≈ * **@CODE@**
  +Ess +Nom +Gen +Acc +Ill +Loc +Com +Com/Sh !!≈ * **@CODE@**
+ +Ine +Ill +Ela +Par +Tra +Ins
 
 !! The possession is marked as such:
  +PxSg1 +PxSg2 +PxSg3 +PxDu1 +PxDu2 +PxDu3 +PxPl1 +PxPl2 +PxPl3 !!≈ * **@CODE@**
+ +PxSP3
 !! The comparative forms are:
- +Comp +Superl !!≈ * **@CODE@**
+ +Pos +Comp +Superl !!≈ * **@CODE@**
 !! Numerals are classified under:
  +Attr +Card !!≈ * **@CODE@**
  +Ord  !!≈ * **@CODE@**
+!! Verb voices are:
++Act +Pss
 !! Verb moods are:
  +Ind +Prs +Prt +Pot +Cond +Imprt !!≈ * **@CODE@**
 !! Verb personal forms are:

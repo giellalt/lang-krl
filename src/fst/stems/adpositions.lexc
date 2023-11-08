@@ -382,7 +382,8 @@ eh postposition ;
 
 
 LEXICON postposition
-+Post: # ;
+!+Post: # ;
++Adp+Po: # ;
 
 LEXICON preposition
 +Pr: # ;

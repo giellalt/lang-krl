@@ -281,12 +281,13 @@ LEXICON NOUN_COMP
 
 LEXICON ACRO_SGNOM_0
 
-%<sg%>%<nom%>:0 # ;
+!%<sg%>%<nom%>:0 # ;
++Sg+Nom:0 # ;
 
 LEXICON ACRO_CASES
 
-%<sg%>%<gen%>:n # ;
-
+!%<sg%>%<gen%>:n # ;
++Sg+Gen:n # ;
 
 
 
