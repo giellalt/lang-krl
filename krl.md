@@ -308,7 +308,7 @@ FIXME
 
 **LEXICON AUX_3SG_PI** 
 
-**LEXICON AUX_3SG_0** 
+**LEXICON AUX_3SG_0**
 
 **LEXICON AUX_3SG_Y** 
 
@@ -385,6 +385,7 @@ language are presented in this system in terms of the following symbols.
 The parts-of-speech are:
 * **+N +A +Adv +V**
 * **+Pron +CS +CC +Adp +Po +Pr +Interj +Pcle +Num**
+* **+C** TYÖÖÖÖ! this need depricating :-) 2023-11-08 Jaska
 
 The parts of speech are further split up into:
 * **+Prop +Pers +Dem +Interr +Refl +Recipr +Rel +Indef**
@@ -402,10 +403,11 @@ The nominals are inflected in the following Case and Number
 The possession is marked as such:
 * **+PxSg1 +PxSg2 +PxSg3 +PxDu1 +PxDu2 +PxDu3 +PxPl1 +PxPl2 +PxPl3**
 The comparative forms are:
-* **+Comp +Superl**
+* **+Pos +Comp +Superl**
 Numerals are classified under:
 * **+Attr +Card**
 * **+Ord**
+Verb voices are:
 Verb moods are:
 * **+Ind +Prs +Prt +Pot +Cond +Imprt**
 Verb personal forms are:
