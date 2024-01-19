@@ -2,7 +2,7 @@
 <hfstspeller dtdversion="1.0" hfstversion="3">
   <info>
     <locale>krl</locale>
-    <title>Giellatekno/Divvun/UiT fst-based speller for Karelian</title>
+    <title>Karelian</title>
     <description>This is an fst-based speller for Karelian. It is based
     on the normative subset of the morphological analyser for Karelian.
     The source code can be found at:
