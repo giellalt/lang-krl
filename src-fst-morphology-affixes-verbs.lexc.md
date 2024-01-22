@@ -115,7 +115,7 @@ FIXME
 
 * * *
 
-<small>This (part of) documentation was generated from [src/fst/affixes/verbs.lexc](https://github.com/giellalt/lang-krl/blob/main/src/fst/affixes/verbs.lexc)</small>
+<small>This (part of) documentation was generated from [src/fst/morphology/affixes/verbs.lexc](https://github.com/giellalt/lang-krl/blob/main/src/fst/morphology/affixes/verbs.lexc)</small>
 
 ---
 
