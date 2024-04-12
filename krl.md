@@ -1,6 +1,10 @@
-# Karelian description 
+# Karelian language model documentation
 
-All documents in one file
+All doc-comment documentation in one large file.
+
+---
+
+# src-cg3-functions.cg3.md 
 
 
 
@@ -170,7 +174,14 @@ These were the set types.
 ## HNOUN MAPPING
 
 * * *
-<small>This (part of) documentation was generated from [src/cg3/functions.cg3](https://github.com/giellalt/lang-krl/blob/main/src/cg3/functions.cg3)</small>Adjective inflection
+
+<small>This (part of) documentation was generated from [src/cg3/functions.cg3](https://github.com/giellalt/lang-krl/blob/main/src/cg3/functions.cg3)</small>
+
+---
+
+# src-fst-morphology-affixes-adjectives.lexc.md 
+
+Adjective inflection
 The Karelian language adjectives compare.
 
 * * *
@@ -178,6 +189,8 @@ The Karelian language adjectives compare.
 <small>This (part of) documentation was generated from [src/fst/morphology/affixes/adjectives.lexc](https://github.com/giellalt/lang-krl/blob/main/src/fst/morphology/affixes/adjectives.lexc)</small>
 
 ---
+
+# src-fst-morphology-affixes-nouns.lexc.md 
 
 # Noun inflection
 This file documents Karelian noun inflection.
@@ -187,6 +200,8 @@ This file documents Karelian noun inflection.
 <small>This (part of) documentation was generated from [src/fst/morphology/affixes/nouns.lexc](https://github.com/giellalt/lang-krl/blob/main/src/fst/morphology/affixes/nouns.lexc)</small>
 
 ---
+
+# src-fst-morphology-affixes-propernouns.lexc.md 
 
 Proper noun inflection
 The Karelian language proper nouns inflect in the same cases as regular
@@ -198,6 +213,8 @@ nouns, but
 
 ---
 
+# src-fst-morphology-affixes-symbols.lexc.md 
+
 
 # Symbol affixes
 
@@ -206,6 +223,8 @@ nouns, but
 <small>This (part of) documentation was generated from [src/fst/morphology/affixes/symbols.lexc](https://github.com/giellalt/lang-krl/blob/main/src/fst/morphology/affixes/symbols.lexc)</small>
 
 ---
+
+# src-fst-morphology-affixes-verbs.lexc.md 
 
 # Karelian Verb inflection
 The verb lexicon contains two groups of continuation lexica
@@ -328,6 +347,8 @@ FIXME
 
 ---
 
+# src-fst-morphology-phonology.twolc.md 
+
 # The Karelian morphophonological/twolc rules file 
 
 This file documents the [phonology.twolc file](http://github.com/giellalt/lang-krl/blob/main/src/fst/phonology.twolc) 
@@ -368,6 +389,8 @@ This file documents the [phonology.twolc file](http://github.com/giellalt/lang-k
 
 ---
 
+# src-fst-morphology-root.lexc.md 
+
 
 #         Karelian morphological analyser                      
 
@@ -395,6 +418,7 @@ The Usage extents are marked using following tags:
 * **+Use/-Spell**
 * **+Use/TTS** – **only** retained in the HFST Text-To-Speech disambiguation tokeniser
 * **+Use/-TTS** – **never** retained in the HFST Text-To-Speech disambiguation tokeniser
+* **+Use/Circ** – avoid infinite stuff in generative apps
 
 The nominals are inflected in the following Case and Number
 * **+Sg +Du +Pl**
@@ -526,6 +550,8 @@ word classes, or optionally from prefixes:
 
 ---
 
+# src-fst-morphology-stems-adjectives.lexc.md 
+
 # Karelian Adjectives
 This file documents the `stems/adjectives.lexc` file for Adjective stems 
 The files points to the `affixes/adjectives.lexc` file.
@@ -542,6 +568,8 @@ maybe like fin: eri, no infl.
 
 ---
 
+# src-fst-morphology-stems-adpositions.lexc.md 
+
 # Karelian adpositions
 
 adpositions
@@ -551,6 +579,8 @@ adpositions
 <small>This (part of) documentation was generated from [src/fst/morphology/stems/adpositions.lexc](https://github.com/giellalt/lang-krl/blob/main/src/fst/morphology/stems/adpositions.lexc)</small>
 
 ---
+
+# src-fst-morphology-stems-adverbs.lexc.md 
 
 # Karelian adverb stems
 
@@ -562,6 +592,8 @@ ADV
 
 ---
 
+# src-fst-morphology-stems-conjunctions.lexc.md 
+
 # Karelian conjunctions
 
 conjunctions
@@ -572,6 +604,8 @@ conjunctions
 
 ---
 
+# src-fst-morphology-stems-interjections.lexc.md 
+
 # Karelian interjections
 
 @LEXNAME*
@@ -581,6 +615,8 @@ conjunctions
 <small>This (part of) documentation was generated from [src/fst/morphology/stems/interjections.lexc](https://github.com/giellalt/lang-krl/blob/main/src/fst/morphology/stems/interjections.lexc)</small>
 
 ---
+
+# src-fst-morphology-stems-nouns.lexc.md 
 
 # Karelian Nouns
 This file documents the Karelian noun stem file.
@@ -620,6 +656,8 @@ These lexica point to the morphology in `affixes/nouns.lexc`
 
 ---
 
+# src-fst-morphology-stems-numerals.lexc.md 
+
 # Numerals
 The Numerals are analysed as the ones for Finnish.
 
@@ -645,6 +683,8 @@ The Numerals are analysed as the ones for Finnish.
 
 ---
 
+# src-fst-morphology-stems-particles.lexc.md 
+
 # Karelian particles
 
 **LEXICON Particles** gives the particles.
@@ -659,6 +699,8 @@ The Numerals are analysed as the ones for Finnish.
 
 ---
 
+# src-fst-morphology-stems-prefixes.lexc.md 
+
 Prefixes
 Prefixes in the Karelian language are bound to beginning of other words.
 
@@ -667,6 +709,8 @@ Prefixes in the Karelian language are bound to beginning of other words.
 <small>This (part of) documentation was generated from [src/fst/morphology/stems/prefixes.lexc](https://github.com/giellalt/lang-krl/blob/main/src/fst/morphology/stems/prefixes.lexc)</small>
 
 ---
+
+# src-fst-morphology-stems-pronouns.lexc.md 
 
 # Karelian Pronouns
 The file list pronoun stems .
@@ -725,6 +769,8 @@ The file list pronoun stems .
 
 ---
 
+# src-fst-morphology-stems-propernouns.lexc.md 
+
 # Karelian Propernouns
 
 The file `stems/propernouns.lexc` lists just that.
@@ -736,6 +782,8 @@ The file `stems/propernouns.lexc` lists just that.
 <small>This (part of) documentation was generated from [src/fst/morphology/stems/propernouns.lexc](https://github.com/giellalt/lang-krl/blob/main/src/fst/morphology/stems/propernouns.lexc)</small>
 
 ---
+
+# src-fst-morphology-stems-verbs.lexc.md 
 
 # Documenting the Karelian Verb lexicon.
 
@@ -969,6 +1017,8 @@ These lexica redirects the stem to different person-number sublexica.
 
 ---
 
+# src-fst-phonetics-txt2ipa.xfscript.md 
+
 
 
 retroflex plosive, voiceless			t`  ʈ	    0288, 648 (` = ASCII 096)
@@ -1136,6 +1186,8 @@ retracted tongue root			_q
 
 ---
 
+# src-fst-transcriptions-transcriptor-abbrevs2text.lexc.md 
+
 
 
 We describe here how abbreviations are in Karelian are read out, e.g.
@@ -1156,6 +1208,8 @@ For example:
 
 ---
 
+# src-fst-transcriptions-transcriptor-numbers-digit2text.lexc.md 
+
 
 
 % komma% :,      Root ;
@@ -1169,6 +1223,8 @@ For example:
 <small>This (part of) documentation was generated from [src/fst/transcriptions/transcriptor-numbers-digit2text.lexc](https://github.com/giellalt/lang-krl/blob/main/src/fst/transcriptions/transcriptor-numbers-digit2text.lexc)</small>
 
 ---
+
+# tools-grammarcheckers-grammarchecker.cg3.md 
 
 
 [ L A N G U A G E ]  G R A M M A R   C H E C K E R
@@ -1467,7 +1523,14 @@ expression **WORD - premodifiers**.
 ### Grammarchecker sets
 
 * * *
-<small>This (part of) documentation was generated from [tools/grammarcheckers/grammarchecker.cg3](https://github.com/giellalt/lang-krl/blob/main/tools/grammarcheckers/grammarchecker.cg3)</small># Tokeniser for krl
+
+<small>This (part of) documentation was generated from [tools/grammarcheckers/grammarchecker.cg3](https://github.com/giellalt/lang-krl/blob/main/tools/grammarcheckers/grammarchecker.cg3)</small>
+
+---
+
+# tools-tokenisers-tokeniser-disamb-gt-desc.pmscript.md 
+
+# Tokeniser for krl
 
 Usage:
 ```
@@ -1529,6 +1592,8 @@ Finally we mark as a token any sequence making up a:
 <small>This (part of) documentation was generated from [tools/tokenisers/tokeniser-disamb-gt-desc.pmscript](https://github.com/giellalt/lang-krl/blob/main/tools/tokenisers/tokeniser-disamb-gt-desc.pmscript)</small>
 
 ---
+
+# tools-tokenisers-tokeniser-gramcheck-gt-desc.pmscript.md 
 
 # Grammar checker tokenisation for krl
 
@@ -1593,6 +1658,8 @@ Finally we mark as a token any sequence making up a:
 
 ---
 
+# tools-tokenisers-tokeniser-tts-cggt-desc.pmscript.md 
+
 # TTS tokenisation for smj
 
 Requires a recent version of HFST (3.10.0 / git revision>=3aecdbc)
@@ -1654,6 +1721,3 @@ Needs hfst-tokenise to output things differently depending on the tag they get
 * * *
 
 <small>This (part of) documentation was generated from [tools/tokenisers/tokeniser-tts-cggt-desc.pmscript](https://github.com/giellalt/lang-krl/blob/main/tools/tokenisers/tokeniser-tts-cggt-desc.pmscript)</small>
-
----
-

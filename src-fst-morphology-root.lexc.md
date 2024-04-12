@@ -25,6 +25,7 @@ The Usage extents are marked using following tags:
 * **+Use/-Spell**
 * **+Use/TTS** – **only** retained in the HFST Text-To-Speech disambiguation tokeniser
 * **+Use/-TTS** – **never** retained in the HFST Text-To-Speech disambiguation tokeniser
+* **+Use/Circ** – avoid infinite stuff in generative apps
 
 The nominals are inflected in the following Case and Number
 * **+Sg +Du +Pl**
@@ -153,6 +154,3 @@ word classes, or optionally from prefixes:
 * * *
 
 <small>This (part of) documentation was generated from [src/fst/morphology/root.lexc](https://github.com/giellalt/lang-krl/blob/main/src/fst/morphology/root.lexc)</small>
-
----
-
