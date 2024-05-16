@@ -21,7 +21,7 @@ nuo+Pron+Dem:n  PRON_N/UO ;
 še+Pron+Dem:š  PRON_Š/E ;
 ne+Pron+Dem:n  PRON_N/E ;
 
-iče+Pron+Reflex:ič   PRON_IČ/E ;
+iče+Pron+Refl:ič   PRON_IČ/E ;
 kaikki+Pron+Ind:kai  PRON_KAI/KKI ;
 kumpaine+Pron+Interr:kumpa  PRON_KUMPA/INE ;
 kumpaine+Pron+Rel:kumpa  PRON_KUMPA/INE ;
@@ -133,6 +133,7 @@ LEXICON PRON_IČ/E
 0:e  PRON_SGNOM_0 ;
 0:e  PRON_CASES_SG_FRONT ;
 0:či PRON_SGPAR_E ;
+
 
 LEXICON PRON_KAI/KKI
 !! **LEXICON @LEXNAME@**
