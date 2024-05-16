@@ -277,7 +277,7 @@ LEXICON NOUN_SGPAR_TA
 
 LEXICON NOUN_COMP
 
-+Cmp:0  Nouns ;
++Cmp#:#0  Nouns ; !adding # 2024-05-16, Jaska
 
 LEXICON ACRO_SGNOM_0
 
