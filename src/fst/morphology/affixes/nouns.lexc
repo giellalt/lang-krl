@@ -294,7 +294,7 @@ LEXICON ACRO_CASES
 LEXICON CLITS_KI_OPT
 
 0 # ;
-+Clit/Ki:ki  # ;
++Clt/Ki:ki  # ;
 
 ! vim: set ft=xfst-lexc:
 
