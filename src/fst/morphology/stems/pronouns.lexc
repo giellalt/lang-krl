@@ -10,9 +10,9 @@ minä+Pron+Use/Dialect+Pers+Sg1:mi PRON_MI/NÄ ;
 mie+Pron+Pers+Sg1:mi PRON_MI/E ;
 sie+Pron+Pers+Sg2:si PRON_MI/E ;
 hiän+Pron+Pers+Sg3:h  PRON_H/IÄN ;
-myö+Pron+Pers+Pl1:m  PRON_M/YÖ ;
-työ+Pron+Pers+Pl2:t  PRON_M/YÖ ;
-hyö+Pron+Pers+Pl3:h  PRON_M/YÖ ;
+mie+Pron+Pers+Pl1:m  PRON_M/YÖ ;
+sie+Pron+Pers+Pl2:t  PRON_M/YÖ ;
+hiän+Pron+Pers+Pl3:h  PRON_M/YÖ ;
 
 tämä+Pron+Dem:tä  PRON_TÄ/MÄ ;
 nämä+Pron+Dem:nä  PRON_NÄ/MÄ ;
@@ -43,13 +43,6 @@ molompi+Pron:molom PRON_MOLOM/PI ;
 toini+Pron:toi PRON_TOI/NI ;
 
 mitänä+Pron+Ind+Sg+Nom:mitänä #  ;
-
-mie # ;
-sie # ;
-hiä # ;
-myö # ;
-työ # ;
-hyö # ;
 
 LEXICON PRON_MI/NÄ
 !! **LEXICON @LEXNAME@**
