@@ -32609,13 +32609,16 @@ LEXICON AUX_O/LLA
 
 LEXICON AUX_E/I
 !! **LEXICON @LEXNAME@** 
-%<actv%>%<p3%>%<sg%>+ja%<cnjcoo%>:ikä    # ;
-%<actv%>%<p1%>%<sg%>:n    # ;
-%<actv%>%<p2%>%<sg%>:t    # ;
-%<actv%>%<p3%>%<sg%>:i    # ;
-%<actv%>%<p1%>%<pl%>:mmä    # ;
-%<actv%>%<p2%>%<pl%>:ttä    # ;
-%<actv%>%<imp%>%<p2%>%<sg%>:lä   # ;
++Act+Sg1:n    FOC/KA_ENDLEX ;
++Act+Sg2:t    FOC/KA_ENDLEX ;
++Act+Sg3:i    FOC/KA_ENDLEX ;
++Act+Pl1:mmä    FOC/KA_ENDLEX ;
++Act+Pl2:ttä    FOC/KA_ENDLEX ;
++Act+Imprt+Sg2:lä   FOC/KA_ENDLEX ;
+
+LEXICON FOC/KA_ENDLEX
++Foc/Ka:%>kä # ;
+# ;
 
 LEXICON AUX_VO/IJA
 !! **LEXICON @LEXNAME@** 
