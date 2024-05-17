@@ -455,6 +455,8 @@ Non-dictionary words can be recognised with:
 
 Question and Focus particles:
 * **+Qst +Foc**
+* **+Foc/Ka** convert in Apertium _eikä_ "ei" V Neg Act Sg3 Foc/Ka
+to "ei" V Neg"<actv><p3><sg>+ja<cnjcoo>"
 
 Semantics are classified with
 * **+Sem/Act** Activity
