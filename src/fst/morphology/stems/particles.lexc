@@ -26,11 +26,11 @@ vot	particle ;
 
 LEXICON particle
 !! **LEXICON @LEXNAME@** gives tag
-+Part: # ;
++Pcle: # ;
 
 LEXICON particle_vahv
 !! **LEXICON @LEXNAME@** gives the same tag, actually.
-+Part: # ;
++Pcle: # ;
 
 
 ! vim: set ft=xfst-lexc:
