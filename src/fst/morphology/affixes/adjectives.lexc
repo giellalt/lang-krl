@@ -121,8 +121,8 @@ LEXICON ADJ_CASES_PL_WEAK_BACK
 
 +Pl+Par:i # ;
 +Pl+Ade:illa # ;
-+Pl+Ine:išša # ;
-+Pl+Ine:išta # ;
++Pl+Ine:išša # ;!Should this be issa, since the i is present? Jaska 2024-09-24
++Pl+Ine:išta # ;!Should this be ista, since the i is present? Jaska 2024-09-24
 +Pl+Gen:ien # ;
 
 LEXICON ADJ_CASES_PL_FRONT
@@ -138,8 +138,8 @@ LEXICON ADJ_CASES_PL_WEAK_FRONT
 
 +Pl+Par:i # ;
 +Pl+Ade:illä # ;
-+Pl+Ine:iššä # ;
-+Pl+Ine:ištä # ;
++Pl+Ine:iššä # ;!Should this be issä, since the i is present? Jaska 2024-09-24
++Pl+Ine:ištä # ;!Should this be istä, since the i is present? Jaska 2024-09-24
 +Pl+Gen:ien # ;
 
 
