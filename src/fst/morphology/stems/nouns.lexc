@@ -8,6 +8,16 @@
 
 LEXICON Nouns
 !! @LEXNAME@
+vuara+N:vuar NOUN_KAL/A ;
+šynnytyšvaiva+N:šynnytyš#vaiv NOUN_KAL/A ;
+uhrilahja+N:uhri#lahj NOUN_KAL/A ;
+henkivalta+N:henki#valt NOUN_KAL/A ;
+einuššuššana+N:einuššuš#šan NOUN_KAL/A ;
+väjenkirjutušlista+N:väjen#kirjutuš#list NOUN_KAL/A ;
+veriraha+N:veri#rah NOUN_KAL/A ;
+tiijonšana+N:tiijonšan NOUN_KAL/A ;
+sluušpa+N:sluušp NOUN_KAL/A ;
+
 afrikkalaine+N:afrikkalai NOUN_ELAVUTTAMI/NE ; !!≈ @CODE@
 aihe+N:aihe NOUN_AIH/E ; !!≈ @CODE@
 aika+N:ai NOUN_AI/KA ;
@@ -186,8 +196,7 @@ kylä+N:kyl NOUN_PEŠ/Ä ;
 kynnyš+N:kynny NOUN_KYNNY/Š ;
 kyykkä+N:kyyk NOUN_KYYK/KÄ ;
 kyykkäripolvi+N:kyykkäri#polv NOUN_LAPŠ/I ;
-lahja+N:lahj NOUN_PAKIN/A ;
-lahja+N:lahj NOUN_ŠKOL/A ;
+lahja+N:lahj NOUN_KAL/A ;
 laita+N:lai NOUN_LAI/TA ;
 laiteh+N:lait NOUN_LAIT/EH ;
 lapši+N:lapš NOUN_LAPŠ/I ;
@@ -3679,7 +3688,7 @@ julmo o_u_noun ;
 julppi noun ;
 julu noun ;
 jumahus noun ;
-jumala noun ;
+jumala+N:jumal NOUN_KAŠVATTAJ/A ;
 jumalaine noun_dem ;
 jumalattomus noun ;
 jumaltema tema_teva_noun ;
@@ -4620,7 +4629,7 @@ katumus noun ;
 katuška noun ;
 katuu(h)ha noun ;
 katuuhka noun ;
-kauha noun ;
+kauha+N:kauh NOUN_KAL/A ;
 kauhaine noun_dem ;
 kauhissus noun ;
 kauhna noun ;
@@ -5557,7 +5566,7 @@ koikka noun ;
 koiline noun ;
 koipe noun ;
 koipi noun ;
-koira noun ;
+koira+N:koir NOUN_KAŠVATTAJ/A ;
 koiraine noun_dem ;
 koiraissus noun ;
 koiraitanta noun ;
@@ -7123,7 +7132,7 @@ kuuvaksu noun ;
 kuuvennes noun ;
 kuuvikko noun ;
 kuuvitus noun ;
-kuva noun ;
+kuva+N:kuv NOUN_KAŠVATTAJ/A ;
 kuvahaine noun ;
 kuvahaine noun_dem ;
 kuvaha(i)ssus noun ;
@@ -7589,7 +7598,7 @@ lahekeh noun ;
 lahelma noun ;
 lahelmus noun ;
 laherma noun ;
-lahja noun ;
+lahja+N:lahja NOUN_KAL/A ;
 lahjaine noun_dem ;
 lahjoitanta noun ;
 lahjoites noun ;
@@ -8456,7 +8465,7 @@ ĺokosti noun ;
 ĺoĺĺo noun ;
 lollokkaine noun ;
 lolotti noun ;
-loma noun ;
+loma+N:loma NOUN_KAŠVATTAJ/A ;
 lomahus noun ;
 lomakka noun ;
 lomalauta noun ;
@@ -9152,7 +9161,7 @@ mara noun ;
 mareikko noun ;
 marhaminta noun ;
 marineh noun ;
-marja noun ;
+marja+N:marj NOUN_KAL/A ;
 marjaine noun_dem ;
 marjakus noun ;
 marjaniekka noun ;
@@ -9670,7 +9679,7 @@ mummetus noun ;
 mummoi noun ;
 mummoihut noun_dem ;
 mumu noun ;
-muna noun ;
+muna+N:mun NOUN_KAŠVATTAJ/A ;
 munaine noun_dem ;
 munamaine noun ;
 munikeh noun ;
@@ -10222,7 +10231,7 @@ natškutus noun ;
 natšoala noun ;
 nattšuri noun ;
 natuura noun ;
-nauha noun ;
+nauha+N:nauh NOUN_KAL/A ;
 ńauhti noun ;
 ńauhtine noun_dem ;
 ńaukkoi noun_vaill ;
@@ -11506,7 +11515,7 @@ pakaistumine noun ;
 pakajamine noun ;
 pakala noun ;
 pakalaine noun_dem ;
-pakana noun ;
+pakana+N:pakan NOUN_KAL/A ;
 pakanus noun ;
 pakara noun ;
 pakatšei noun ;
@@ -11555,7 +11564,7 @@ pakula noun ;
 pakunta noun ;
 pakuri noun ;
 pakurus noun ;
-pala noun ;
+pala+N:pal NOUN_KAL/A ;
 paĺa noun ;
 pala(f)fana noun ;
 palahona noun ;
@@ -14833,7 +14842,7 @@ pöytšöi noun ;
 pöyttšä noun ;
 pöytä noun ;
 pöyveh noun ;
-raha noun ;
+raha+N:rah NOUN_KAL/A ;
 rahattomus noun ;
 rahatus noun ;
 rahe noun ;
@@ -15044,7 +15053,7 @@ ratti noun ;
 ratto noun ;
 rattšu noun ;
 ratus noun ;
-rauha noun ;
+rauha+N:rauh NOUN_KAL/A ;
 rauhaine noun_dem ;
 rauhna noun ;
 rauhnaine noun_dem ;
@@ -15300,7 +15309,7 @@ riihiniekka noun ;
 riihma noun ;
 riihyt noun_dem ;
 riije noun ;
-riijenmarja noun ;
+riijenmarja+N:riijen#marj NOUN_KAL/A ;
 riika noun ;
 riikineh noun ;
 riikka noun ;
@@ -18980,7 +18989,7 @@ tattarine noun_dem ;
 tatti noun ;
 tauti noun ;
 tautta noun ;
-tavara noun ;
+tavara+N:tavar NOUN_KAL/A ;
 tavaraniekka noun ;
 tavarissa noun ;
 tavi noun ;
@@ -21231,7 +21240,7 @@ vainoa noun ;
 vainu noun ;
 vaippa noun ;
 vaippo noun ;
-vaiva noun ;
+vaiva+N:vaiv NOUN_KAL/A ;
 vaivinko noun ;
 vaivissunta noun ;
 vaivistumine noun ;
@@ -21425,7 +21434,7 @@ vanuttamine noun ;
 vapa noun ;
 vapaitus noun ;
 vapiet noun_mon ;
-vara noun ;
+vara+N:var NOUN_KAL/A ;
 varaine noun_dem ;
 varaisus noun ;
 varajanta noun ;
@@ -21876,7 +21885,7 @@ vietra noun ;
 viettömys noun ;
 vietäntä noun ;
 vietävä noun ;
-viha noun ;
+viha+N:vih NOUN_KAL/A ;
 vihahko noun_dem ;
 vihaisniekka noun ;
 vihakus noun ;
@@ -21944,6 +21953,7 @@ viimassus noun ;
 viimatšin noun ;
 viimissys noun ;
 viina noun ;
+viinamarja+N:viina#marj NOUN_KAL/A ;
 viinaniekka noun ;
 viini noun ;
 viinne noun ;
@@ -23660,6 +23670,7 @@ LEXICON NOUN_SULČČIN/A
 0:a NOUN_CASES_SG_BACK ;
 0:o NOUN_SGPAR_A ;
 0:o NOUN_CASES_PL_BACK ;
+0:o NOUN_PLPAR_JA ;!jaska 2024-09-24
 0:o NOUN_PLGEN_JEN ;
 
 LEXICON NOUN_KAL/A
@@ -23667,7 +23678,8 @@ LEXICON NOUN_KAL/A
 0:a NOUN_SGNOM_0 ;
 0:a NOUN_CASES_SG_BACK ;
 0:u NOUN_SGPAR_A ;
-0:u NOUN_CASES_PL_BACK ;
+0:o NOUN_CASES_PL_BACK ;
+0:o NOUN_PLPAR_JA ;!jaska 2024-09-24
 0:o NOUN_PLGEN_JEN ;
 
 LEXICON NOUN_ŠKOL/A
@@ -23710,7 +23722,7 @@ LEXICON NOUN_LAI/TA
 0:ja NOUN_CASES_SG_WEAK_BACK ;
 0:ta NOUN_CASES_SG_STRONG_BACK ;
 0:ta NOUN_SGILL_H ;
-0:to NOUN_PLPAR_I ;
+0:to NOUN_PLPAR_JA ;!jaska 2024-09-24
 0:jo NOUN_CASES_PL_BACK ;
 
 LEXICON NOUN_KER/TA
@@ -23720,7 +23732,7 @@ LEXICON NOUN_KER/TA
 0:ta NOUN_CASES_SG_STRONG_BACK ;
 0:ta NOUN_SGILL_H ;
 0:tu NOUN_SGPAR_A ;
-0:to NOUN_PLPAR_I ;
+0:to NOUN_PLPAR_JA ;!jaska 2024-09-24
 0:ro NOUN_CASES_PL_BACK ;
 
 LEXICON NOUN_VAL/TA
@@ -23729,7 +23741,7 @@ LEXICON NOUN_VAL/TA
 0:la NOUN_CASES_SG_WEAK_BACK ;
 0:ta NOUN_CASES_SG_STRONG_BACK ;
 0:ta NOUN_SGILL_H ;
-0:to NOUN_PLPAR_I ;
+0:to NOUN_PLPAR_JA ;!jaska 2024-09-24
 0:lo NOUN_CASES_PL_BACK ;
 
 LEXICON NOUN_ŠIÄN/TÖ
@@ -23797,6 +23809,7 @@ LEXICON NOUN_AI/KA
 0:ko NOUN_SGPAR_A ;
 0:ku NOUN_SGPAR_A ;
 0:ko NOUN_CASES_PL_BACK ;
+0:ko NOUN_PLPAR_JA ;!jaska 2024-09-24
 
 LEXICON NOUN_AIH/E
 
