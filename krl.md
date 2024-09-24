@@ -708,6 +708,7 @@ intermediate morphology.
 ## The stem list
 
 Nouns
+
 afrikkalaine+N:afrikkalai NOUN_ELAVUTTAMI/NE ;
 aihe+N:aihe NOUN_AIH/E ;
 aikakaušlehti+N:aikakaus#leh NOUN_LEH/TI ;
