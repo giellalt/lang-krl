@@ -29,6 +29,8 @@ These lexica point to the morphology in `affixes/nouns.lexc`
 
 **LEXICON NOUN_KIN/NAŠ**
 
+**LEXICON NOUN_EHOK/AŠ**
+
 **LEXICON NOUN_KYNNY/Š**
 
 * * *

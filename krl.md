@@ -415,6 +415,7 @@ The parts of speech are further split up into:
 
 The Usage extents are marked using following tags:
 * **+Err/Orth**
+* **+Use/SpellNoSugg** recognized but not suggested in speller
 * **+Use/-Spell**
 * **+Use/TTS** – **only** retained in the HFST Text-To-Speech disambiguation tokeniser
 * **+Use/-TTS** – **never** retained in the HFST Text-To-Speech disambiguation tokeniser
@@ -730,6 +731,8 @@ These lexica point to the morphology in `affixes/nouns.lexc`
 **LEXICON NOUN_MÄT/ÄŠ**
 
 **LEXICON NOUN_KIN/NAŠ**
+
+**LEXICON NOUN_EHOK/AŠ**
 
 **LEXICON NOUN_KYNNY/Š**
 
