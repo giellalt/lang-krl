@@ -53,7 +53,7 @@ Other verb forms are
 * **+ABBR +ACR** 
 * +Symbol = independent symbols in the text stream, like £, €, ©
 Special symbols are classified with:
-* **+CLB +PUNCT +LEFT +RIGHT**
+* **+CLB +PUNCT +LEFT +RIGHT +MIDDLE**
 The verbs are syntactically split according to transitivity:
 * **+TV +IV**
 Special multiword units are analysed with:
