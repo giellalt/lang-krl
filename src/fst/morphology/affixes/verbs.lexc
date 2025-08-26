@@ -199,6 +199,48 @@ LEXICON VERB_PCP_N
 +Act+PrfPrc:n # ;
 +Act+Ind+Prt+Sg+ConNeg:n # ;
 
+LEXICON VERB_PCP_UN
+!! **LEXICON @LEXNAME@** 
++Act+PrfPrc:un # ;
++Act+Ind+Prt+Sg+ConNeg:un # ;
++Act+PrfPrc+Der+V→A+A: PCP_UN ;
+
+LEXICON PCP_UN
+!! **LEXICON @LEXNAME@** verbal adjective kuollun, kuollehet
++Sg+Abl:ehelta # ;
++Sg+Ade:ehella # ;
++Sg+Ess:ehena # ;
++Sg+Gen:ehen # ;
++Sg+Nom:un # ;
++Sg+Tra:ehekši # ;
++Pl+Ade:ehilla # ;
++Pl+Ela:ehista # ;
++Pl+Ess:ehina # ;
++Pl+Gen:ehien # ;
++Pl+Nom:ehet # ;
++Pl+Par:ehie # ;
+
+LEXICON VERB_PCP_YN
+!! **LEXICON @LEXNAME@** 
++Act+PrfPrc:yn # ;
++Act+Ind+Prt+Sg+ConNeg:yn # ;
++Act+PrfPrc+Der+V→A+A: PCP_YN ;
+
+LEXICON PCP_YN
+!! **LEXICON @LEXNAME@** verbal adjective nähnyn, nähnehet
++Sg+Abl:eheltä # ;
++Sg+Ade:ehellä # ;
++Sg+Ess:ehenä # ;
++Sg+Gen:ehen # ;
++Sg+Nom:yn # ;
++Sg+Tra:ehekši # ;
++Pl+Ade:ehillä # ;
++Pl+Ela:ehistä # ;
++Pl+Ess:ehinä # ;
++Pl+Gen:ehien # ;
++Pl+Nom:ehet # ;
++Pl+Par:ehie # ;
+
 LEXICON VERB_PRES_BACK
 !! **LEXICON @LEXNAME@** 
 +Act+Ind+Prs+Sg1:n # ;
