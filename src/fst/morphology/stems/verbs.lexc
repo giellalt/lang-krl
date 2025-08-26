@@ -31898,6 +31898,7 @@ LEXICON VERB_TU/LLA
 0:ll  VERB_INF_A ;
 0:lla   VERB_PASSIVE_H ;
 0:le    VERB_PRES_BACK ;
+0:lo	VERB_3SG_U ;!verb tulla 20250826 jaska
 0:le    VERB_IMPV ;
 0:li    VERB_PAST_3SG_0 ;
 0:l    VERB_PAST_BACK ;
@@ -32615,6 +32616,7 @@ LEXICON AUX_E/I
 +Act+Pl1:mmä    FOC/KA_ENDLEX ;
 +Act+Pl2:ttä    FOC/KA_ENDLEX ;
 +Act+Imprt+Sg2:lä   FOC/KA_ENDLEX ;
++Act+Imprt+Pl2:lkyä   FOC/KA_ENDLEX ;!Bible
 
 LEXICON FOC/KA_ENDLEX
 +Foc/Ka:%>kä # ;
