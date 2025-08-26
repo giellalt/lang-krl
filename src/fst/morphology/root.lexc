@@ -337,7 +337,8 @@ Multichar_Symbols  !!≈ # Definitions for @CODE@
 !! source and target part-of-speech.
  +V→N +V→V +V→A !!≈ * **@CODE@**
  +Der/xxx !!≈ * **@CODE@**
-
+ +Der
+ 
 
 !! Morphophonology
 !  ---------------
