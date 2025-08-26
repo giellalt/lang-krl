@@ -39,6 +39,7 @@ Multichar_Symbols  !!≈ # Definitions for @CODE@
 
 !! The Usage extents are marked using following tags:
  +Err/Orth    !!≈ * **@CODE@**
+ +Use/NG      !!≈ * **@CODE@** do not generate jaska 20250826
  +Use/SpellNoSugg  !!≈ * **@CODE@** recognized but not suggested in speller
  +Use/-Spell  !!≈ * **@CODE@**
  +Use/TTS          !!≈ * **@CODE@** – **only** retained in the HFST Text-To-Speech disambiguation tokeniser
