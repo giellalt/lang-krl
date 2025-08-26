@@ -8,10 +8,13 @@ LEXICON Pronouns
 
 minä+Pron+Use/Dialect+Pers+Sg1:mi PRON_MI/NÄ ;
 mie+Pron+Pers+Sg1:mi PRON_MI/E ;
-sie+Pron+Pers+Sg2:si PRON_MI/E ;
+sie+Pron+Pers+Sg2:si PRON_MI/E ;!which one šie vs sie 20250826
+sie+Pron+Pers+Sg2+Use/NG:ši PRON_MI/E ;!Bible
 hiän+Pron+Pers+Sg3:h  PRON_H/IÄN ;
 mie+Pron+Pers+Pl1:m  PRON_M/YÖ ;
+mie+Pron+Pers+Pl1+Pl+Gen:miän  # ;
 sie+Pron+Pers+Pl2:t  PRON_M/YÖ ;
+sie+Pron+Pers+Pl2+Pl+Gen:tiän  # ;
 hiän+Pron+Pers+Pl3:h  PRON_M/YÖ ;
 
 tämä+Pron+Dem:tä  PRON_TÄ/MÄ ;
