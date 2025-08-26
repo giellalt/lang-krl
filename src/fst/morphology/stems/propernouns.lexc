@@ -11,6 +11,7 @@ Aleksandrovna+N+Prop+Sem/cog:Aleksandrovna PROPN_KARJALA ;
 Aleksejeva+N+Prop+Sem/Sur:Aleksejeva PROPN_KARJALA ;
 Anna+N+Prop+Sem/Ant-Fem:Ann PROPN_ANN/A ;
 Anuš+N+Prop+Sem/Plc:Anu PROPN_ANU/Š ;
+Aprahami+N+Prop+Sem/Ant-Mal:Aprahami PROPN_PETROSKOI ;
 Arbat+N+Prop+Sem/Plc:Arbat PROPN_KONSTANTIN ;
 Arhankeli+N+Prop+Sem/Plc:Arhankeli PROPN_PETROSKOI ;
 Art-šat’or+N+Prop+Sem/Dummytag:Art-šat’or  PROPN_PETROSKOI ;
@@ -43,12 +44,15 @@ Ilmarini+N+Prop+Sem/Ant-Mal:Ilmari  PROPN_ILMARI/NI ;
 Ilmatar+N+Prop+Sem/Ant-Fem:Ilmat  PROPN_ILMAT/AR ;
 Irina+N+Prop+Sem/Ant-Fem:Irina PROPN_KARJALA ;
 Iro+N+Prop+Sem/Ant-Fem:Iro PROPN_LUMIKELLO ;
+Iivana+N+Prop+Sem/Ant-Mal:Iivana PROPN_KARJALA ;
 Jakutija+N+Prop+Sem/Plc:Jakutij  PROPN_MORDOUVI/A ;
 Jakutija+N+Prop+Sem/Plc:Jakutij  PROPN_UDMURTIJ/A ;
 Jegor+N+Prop+Sem/Ant-Mal:Jegor PROPN_KONSTANTIN ;
 Jekaterina+N+Prop+Sem/Ant-Fem:Jekaterina PROPN_KARJALA ;
 Jelagina+N+Prop+Sem/Sur:Jelagina PROPN_KARJALA ;
 Joukahaine+N+Prop+Sem/Ant-Mal:Joukahai  PROPN_JOUKAHAI/NE ;
+Juakko+N+Prop+Sem/Ant-Mal:Juak PROPN_JOUK/KO ;
+Juuta+N+Prop+Sem/Ant-Mal:Juuta PROPN_KARJALA ;
 Jyškyjärvi+N+Prop+Sem/Plc:Jyškyjärv PROPN_JYŠKYJÄRV/I ;
 Kalevala+N+Prop+Sem/Dummytag:Kalevala PROPN_KARJALA ;
 Kaliningrad+N+Prop+Sem/Plc:Kaliningrad PROPN_KONSTANTIN ;
@@ -80,6 +84,7 @@ Mari+N+Prop+Sem/Plc:Mari PROPN_PETROSKOI ;
 Matvei+N+Prop+Sem/Ant-Mal:Matvei PROPN_PETROSKOI ;
 Melentjeva+N+Prop+Sem/Sur:Melentjeva PROPN_KARJALA ;
 Mirja+N+Prop+Sem/Ant-Fem:Mirja PROPN_KARJALA ;
+Moissei+N+Prop+Sem/Ant-Mal:Moissei PROPN_PETROSKOI ;
 Mordouvia+N+Prop+Sem/Plc:Mordouvi  PROPN_MORDOUVI/A ;
 Moškova+N+Prop+Sem/Plc:Moškova PROPN_KARJALA ;
 Mugačeva+N+Prop+Sem/Sur:Mugačeva  PROPN_KARJALA ;
@@ -100,10 +105,12 @@ Petroskoi+N+Prop+Sem/Plc:Petroskoi PROPN_PETROSKOI ;
 Petru+N+Prop+Sem/Hum:Petru PROPN_LUMIKELLO ;
 Piiteri+N+Prop+Sem/Plc:Piiteri PROPN_PETROSKOI ;
 Piiteri+N+Prop+Sem/Plc:Piiteri PROPN_PIITERI ;
+Pilatti+N+Prop+Sem/Ant-Mal:Pilatti PROPN_PETROSKOI ;
 Pohjola+N+Prop+Sem/Plc:Pohjola PROPN_KARJALA ;
 Polenov+N+Prop+Sem/Sur:Polenov PROPN_KONSTANTIN ;
 Potapovo+N+Prop+Sem/Plc:Potapovo PROPN_LUMIKELLO ;
 Puavali+N+Prop+Sem/Ant-Mal:Puavali PROPN_PETROSKOI ;
+Puavila+N+Prop+Sem/Ant-Mal:Puavila PROPN_KARJALA ;!Bible
 Raisa+N+Prop+Sem/Ant-Fem:Raisa PROPN_KARJALA ;
 Remšujeva+N+Prop+Sem/Plc:Remšujeva PROPN_KARJALA ;
 Rinkevič+N+Prop+Sem/Sur:Rinkevič  PROPN_KONSTANTIN ;
@@ -116,6 +123,7 @@ Santra+N+Prop+Sem/Ant-Fem:Santra PROPN_KARJALA ;
 Sem’onova+N+Prop+Sem/Sur:Sem’onova PROPN_KARJALA ;
 Sergei+N+Prop+Sem/Ant-Mal:Sergei PROPN_PETROSKOI ;
 Sidnei+N+Prop+Sem/Plc:Sidnei PROPN_PETROSKOI ;
+Simoni+N+Prop+Sem/Ant-Mal:Simoni PROPN_PETROSKOI ;
 Spitsina+N+Prop+Sem/Sur:Spitsina PROPN_KARJALA ;
 Stankevičus+N+Prop+Sem/Sur:Stankevičus PROPN_KONSTANTIN ;
 State+N+Prop+Sem/Plc:State PROPN_VENÄJÄ ;
@@ -126,6 +134,7 @@ Tat’t’ana+N+Prop+Sem/Ant-Fem:Tat’t’ana PROPN_KARJALA ;
 Terentjev+N+Prop+Sem/Sur:Terentjev  PROPN_KONSTANTIN ;
 Tikkanen+N+Prop+Sem/Sur:Tikkanen PROPN_KONSTANTIN ;
 Torvinen+N+Prop+Sem/Sur:Torvi PROPN_TORVI/NEN ;
+Tuavita+N+Prop+Sem/Ant-Mal:Tuavita PROPN_KARJALA ;
 Tula+N+Prop+Sem/Plc:Tula PROPN_KARJALA ;
 Tver+N+Prop+Sem/Plc:Tver PROPN_KONSTANTIN ;
 Udmurtia+N+Prop+Sem/Plc:Udmurti  PROPN_MORDOUVI/A ;
@@ -276,5 +285,15 @@ LEXICON PROPN_TELT/TA
 0:o    PROPN_CASES_PL_BACK ;
 0:to    PROPN_PLPAR_JA ;
 0:to    PROPN_PLGEN_JEN ;
+
+LEXICON PROPN_JOUK/KO
+
+0:ko  PROPN_SGNOM_0 ;
+0:o  PROPN_CASES_SG_WEAK_BACK ;
+0:ko  PROPN_CASES_SG_STRONG_BACK ;
+0:ku  PROPN_SGPAR_O ;
+0:o    PROPN_CASES_PL_BACK ;
+0:ko    PROPN_PLPAR_JA ;
+0:ko    PROPN_PLGEN_JEN ;
 
 
