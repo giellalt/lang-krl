@@ -12,6 +12,10 @@ LEXICON PROPN_SGPAR_A
 
 +Sg+Par:a # ;
 
+LEXICON PROPN_SGPAR_O
+
++Sg+Par:o # ;
+
 LEXICON PROPN_SGPAR_E
 
 +Sg+Par:e # ;
