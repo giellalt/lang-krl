@@ -12,10 +12,13 @@ sie+Pron+Pers+Sg2:si PRON_MI/E ;!which one šie vs sie 20250826
 sie+Pron+Pers+Sg2+Use/NG:ši PRON_MI/E ;!Bible
 hiän+Pron+Pers+Sg3:h  PRON_H/IÄN ;
 mie+Pron+Pers+Pl1:m  PRON_M/YÖ ;
-mie+Pron+Pers+Pl1+Pl+Gen:miän  # ;
+mie+Pron+Pers+Pl1+Pl+Gen:miän # ;
+mie+Pron+Pers+Pl1+Pl+Acc:miät # ;
 sie+Pron+Pers+Pl2:t  PRON_M/YÖ ;
-sie+Pron+Pers+Pl2+Pl+Gen:tiän  # ;
-hiän+Pron+Pers+Pl3:h  PRON_M/YÖ ;
+sie+Pron+Pers+Pl2+Pl+Gen:tiän # ;
+sie+Pron+Pers+Pl2+Pl+Acc:tiät # ;
+hiän+Pron+Pers+Pl3:h PRON_M/YÖ ;
+hiän+Pron+Pers+Pl3+Pl+Acc:hiät # ;
 
 tämä+Pron+Dem:tä  PRON_TÄ/MÄ ;
 nämä+Pron+Dem:nä  PRON_NÄ/MÄ ;
