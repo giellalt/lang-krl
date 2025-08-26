@@ -319,6 +319,14 @@ FIXME: ger or sup or some other
 
 **LEXICON VERB_PCP_N** 
 
+**LEXICON VERB_PCP_UN** 
+
+**LEXICON PCP_UN** verbal adjective kuollun, kuollehet
+
+**LEXICON VERB_PCP_YN** 
+
+**LEXICON PCP_YN** verbal adjective nähnyn, nähnehet
+
 **LEXICON VERB_PRES_BACK** 
 
 **LEXICON VERB_PRES_FRONT** 
@@ -956,9 +964,11 @@ These lexica redirects the stem to different person-number sublexica.
 
 **LEXICON VERB_TU/LLA** 
 
+**LEXICON VERB_KUOL/LA** 
+
 **LEXICON VERB_PA/ISSA** 
 
-**LEXICON VERB_NOUŠ/ŠA** 
+**LEXICON VERB_NOU/ŠŠA** 
 
 **LEXICON VERB_PAN/NA** 
 

@@ -69,9 +69,11 @@ These lexica redirects the stem to different person-number sublexica.
 
 **LEXICON VERB_TU/LLA** 
 
+**LEXICON VERB_KUOL/LA** 
+
 **LEXICON VERB_PA/ISSA** 
 
-**LEXICON VERB_NOUŠ/ŠA** 
+**LEXICON VERB_NOU/ŠŠA** 
 
 **LEXICON VERB_PAN/NA** 
 
