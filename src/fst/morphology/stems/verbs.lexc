@@ -122,7 +122,7 @@ männä+V:män  VERB_MÄN/NÄ ;
 nimetä+V:nim VERB_NIM/ETÄ ;
 noššattoa+V:noššat VERB_VALMIS/TOA ;
 noštoa+V:noš VERB_VALMIS/TOA ;
-noušša+V:nouš  VERB_NOUŠ/ŠA ;
+noušša+V:nou  VERB_NOU/ŠŠA ;
 nähä+V:n VERB_N/ÄHÄ ;
 näytteä+V:näyt VERB_PIÄT/TEÄ ;
 näyttyä+V:näyt VERB_NÄYT/TYÄ ;
@@ -9109,7 +9109,7 @@ kuoletella	verb_frekv ;
 kuolettoa	verb ;
 kuoleutuo	verb ;
 kuolevuo	verb ;
-kuolla	verb ;
+kuolla+V:kuol	VERB_KUOL/LA ;
 kuomistoakseh	verb_refl ;
 kuomita	verb ;
 kuomitšeksennella	verb_frekv ;
@@ -31903,7 +31903,21 @@ LEXICON VERB_TU/LLA
 0:li    VERB_PAST_3SG_0 ;
 0:l    VERB_PAST_BACK ;
 0:lti  VERB_PAST_PASSIVE_H ;
+0:ll  VERB_PCP_UN ;
 0:l  VERB_PCP_TU ;
+
+LEXICON VERB_KUOL/LA
+!! **LEXICON @LEXNAME@** 
+0:l  VERB_INF_A ;
+0:la   VERB_PASSIVE_H ;
+0:e    VERB_PRES_BACK ;
+0:o	VERB_3SG_U ;!verb tulla 20250826 jaska
+0:e    VERB_IMPV ;
+0:i    VERB_PAST_3SG_0 ;
+0:    VERB_PAST_BACK ;
+0:ti  VERB_PAST_PASSIVE_H ;
+0:l  VERB_PCP_UN ;
+0:  VERB_PCP_TU ;
 
 LEXICON VERB_PA/ISSA
 !! **LEXICON @LEXNAME@** 
@@ -31918,15 +31932,16 @@ LEXICON VERB_PA/ISSA
 0:kis    VERB_PAST_BACK ;
 0:isti   VERB_PAST_PASSIVE_H ;
 
-LEXICON VERB_NOUŠ/ŠA
+LEXICON VERB_NOU/ŠŠA
 !! **LEXICON @LEXNAME@** 
-0:š    VERB_INF_A ;
-0:ta   VERB_PASSIVE_H ;
-0:e    VERB_PRES_BACK ;
-0:e    VERB_IMPV ;
-0:i    VERB_PAST_3SG_0 ;
-0    VERB_PAST_BACK ;
-0:ti   VERB_PAST_PASSIVE_H ;
+0:šš    VERB_INF_A ;
+0:šta   VERB_PASSIVE_H ;
+0:še    VERB_PRES_BACK ;
+0:še    VERB_IMPV ;
+0:si    VERB_PAST_3SG_0 ;!Bible
++Use/NG:ši    VERB_PAST_3SG_0 ;!
+0:š    VERB_PAST_BACK ;
+0:šti   VERB_PAST_PASSIVE_H ;
 
 LEXICON VERB_PAN/NA
 !! **LEXICON @LEXNAME@** 
@@ -32470,6 +32485,7 @@ LEXICON VERB_N/ÄHÄ
 0:äv  VERB_PAST_FRONT ;
 0:iä VERB_PRES_FRONT ;
 0:äe  VERB_PRES_FRONT ;
+0:ähn VERB_PCP_YN ;
 0:ähti  VERB_PAST_PASSIVE_H ;
 0:ähhä VERB_PASSIVE_H ;
 
