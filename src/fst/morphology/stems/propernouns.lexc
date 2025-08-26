@@ -37,6 +37,8 @@ Hiekkaveššoš+N+Prop+Sem/Plc:Hiekkaveššo PROPN_ANU/Š ;
 Hiisi+N+Prop+Sem/Ant-Mal:Hii   PROPN_HII/SI ;
 Hotejeva+N+Prop+Sem/Sur:Hotejeva PROPN_KARJALA ;
 Hristo+N+Prop+Sem/Dummytag:Hristo PROPN_LUMIKELLO ;
+Hristossa+N+Prop+Sem/Dummytag:Hristossa PROPN_KARJALA ;
+Iisussa+N+Prop+Sem/Ant-Mal:Iisussa PROPN_KARJALA ;
 Ilmarini+N+Prop+Sem/Ant-Mal:Ilmari  PROPN_ILMARI/NI ;
 Ilmatar+N+Prop+Sem/Ant-Fem:Ilmat  PROPN_ILMAT/AR ;
 Irina+N+Prop+Sem/Ant-Fem:Irina PROPN_KARJALA ;
