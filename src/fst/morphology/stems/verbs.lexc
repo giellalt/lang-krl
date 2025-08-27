@@ -27,6 +27,7 @@ aštuo+V:ašt VERB_KUUL/UO ;
 ativoija+V:ativoi  VERB_STARINOI/JA ;
 auttoa+V:aut  VERB_SOIT/TOA ;
 auttua+V:aut VERB_VOIT/TUA ;
+auttua+V:aut VERB_AUT/TUA ;!BIBLE
 avata+V:av  VERB_AV/ATA ;
 kiušata+V:kiuš  VERB_AV/ATA ;
 eččie+V:eč  VERB_EČ/ČIE ;
@@ -128,6 +129,7 @@ näytteä+V:näyt VERB_PIÄT/TEÄ ;
 näyttyä+V:näyt VERB_NÄYT/TYÄ ;
 omistoa+V:omis VERB_VALMIS/TOA ;
 ommella+V:om  VERB_OM/MELLA ;
+opaštua+V:opaš  VERB_OPAŠ/TUA ;
 opaštuo+V:opaš  VERB_OPAŠ/TUO ;
 oppie+V:op VERB_OP/PIE ;
 ošallistuo+V:ošallis  VERB_IS/TUO ;
@@ -147,11 +149,13 @@ piteä+V:pi  VERB_PIÄT/TEÄ ;
 pityä+V:pi  VERB_PI/TYÄ ;
 piästä+V:piäs  VERB_PIÄS/TÄ ;
 piäštä+V:piäš  VERB_PIÄS/TÄ ;
+piäštyä+V:piäš  VERB_PIÄŠ/TYÄ ;
 piätteä+V:piät  VERB_PIÄT/TEÄ ;
 poimie+V:poimi VERB_POIMI/E ;
 pureškella+V:pureškel  VERB_PUREŠKEL/LA ;
 rikkuo+V:rik  VERB_RIK/KUO ;
 roikkuo+V:roik  VERB_ROIK/KUO ;
+ruatua+V:rua VERB_RUA/TUA ;!BIBLE for the most part
 ruatuo+V:rua VERB_RUA/TUO ;
 ruveta+V:ru  VERB_RU/VETA ;
 ryhtyö+V:ryh  VERB_RYH/TYÖ ;
@@ -171,7 +175,7 @@ sattuo+V:sat  VERB_SAT/TUO ;
 staraija+V:starai  VERB_STARINOI/JA ;
 starinoija+V:starinoi  VERB_STARINOI/JA ;
 suaha+V:s VERB_S/UAHA ;
-šuaha+V:š VERB_S/UAHA ;
+šuaha+V:š VERB_S/UAHA ;!BIBLE
 šuojella+V:šuojel  VERB_PUREŠKEL/LA ;
 šuorittua+V:šuorit VERB_VOIT/TUA ;
 šuovata+V:šuov  VERB_AV/ATA ;
@@ -31800,6 +31804,7 @@ LEXICON VERB_J/IÄHÄ
 0:äi   VERB_PAST_3SG_0 ;
 0:iä  VERB_PCP_TY ;
 0:iäti VERB_PAST_PASSIVE_H ;
+0:iän VERB_PCP_YN ;
 
 LEXICON VERB_V/IIJÄ
 !! **LEXICON @LEXNAME@** 
@@ -31855,6 +31860,7 @@ LEXICON VERB_KÄ/YVÄ
 LEXICON VERB_S/UAHA
 !! **LEXICON @LEXNAME@** 
 0:uah VERB_INF_A ;
+0:ua VERB_INF_MA ;
 0:uaha VERB_PASSIVE_H ;
 0:ua  VERB_PRES_BACK ;
 0:ua  VERB_3SG_U ;
@@ -31862,6 +31868,11 @@ LEXICON VERB_S/UAHA
 0:ai  VERB_PAST_3SG_0 ;
 0:a  VERB_PAST_BACK ;
 0:uati VERB_PAST_PASSIVE_H ;
+0:uan VERB_PCP_UN ;
+0:ua VERB_PCP_TU ;
+0:ua VERB_COND_PASSIVE_TAIS ;
+0:ua VERB_PCP_TAVA ;
+0:ua VERB_PCP_TU ;
 
 LEXICON VERB_MIET/TIE
 !! **LEXICON @LEXNAME@** 
@@ -32320,6 +32331,28 @@ LEXICON VERB_EL/EÄ
 0:ä  VERB_PRES_FRONT ;
 0:etä  VERB_PASSIVE_H ;
 
+LEXICON VERB_PIÄŠ/TYÄ
+!! **LEXICON @LEXNAME@** 
+0:ty  VERB_INF_Ä ;
+0:ti  VERB_PAST_3SG_0 ;
+0:tä  VERB_3SG_Y ;
+0:šetä  VERB_PASSIVE_H ;
+0:šet VERB_PCP_TY ;
+0:šet VERB_PCP_TÄVÄ ;
+0:šä  VERB_PRES_FRONT ;
+0:š VERB_PAST_FRONT ;
+
+LEXICON VERB_OPAŠ/TUA
+!! **LEXICON @LEXNAME@** 
+0:tu  VERB_INF_A ;
+0:ti  VERB_PAST_3SG_0 ;
+0:ta  VERB_3SG_U ;
+0:šeta  VERB_PASSIVE_H ;
+0:šet VERB_PCP_TU ;
+0:šet VERB_PCP_TAVA ;
+0:ša  VERB_PRES_BACK ;
+0:š VERB_PAST_BACK ;
+
 LEXICON VERB_OPAŠ/TUO
 !! **LEXICON @LEXNAME@** 
 0:tu  VERB_INF_O ;
@@ -32354,6 +32387,28 @@ LEXICON VERB_KAN/TUA
 0:tu  VERB_3SG_U ;
 0:tu  VERB_PRES_BACK ;
 0:na  VERB_CONNEG_0 ;
+
+LEXICON VERB_AUT/TUA
+!! **LEXICON @LEXNAME@**
+! BIBLE
+0:tu   VERB_INF_A ;
+0:ta   VERB_3SG_U ;
+0:to  VERB_PAST_3SG_0 ;
+0:o VERB_PAST_BACK ;
+0:a      VERB_PRES_BACK ;
+0:ta   VERB_INF_MA ;
+0  VERB_CONNEG_0 ;
+
+LEXICON VERB_RUA/TUA
+!! **LEXICON @LEXNAME@**
+! BIBLE
+0:tu   VERB_INF_A ;
+0:ta   VERB_3SG_U ;
+0:to  VERB_PAST_3SG_0 ;
+0      VERB_PRES_BACK ;
+0:va   VERB_PRES_BACK ;
+0:ta   VERB_INF_MA ;
+0  VERB_CONNEG_0 ;
 
 LEXICON VERB_RUA/TUO
 !! **LEXICON @LEXNAME@** 
