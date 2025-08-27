@@ -142,10 +142,16 @@ LEXICON VERB_INF_MA
 LEXICON VERB_INF_TA
 !! **LEXICON @LEXNAME@** 
 +Inf:ta # ;
++Inf+Tra+PxSg1:takšeni # ;
++Inf+Tra+PxSg2:takšeš # ;!to be attested
++Inf+Tra+Px3:takšeh # ;
 
 LEXICON VERB_INF_TÄ
 !! **LEXICON @LEXNAME@** 
 +Inf:tä # ;
++Inf+Tra+PxSg1:täkšeni # ;
++Inf+Tra+PxSg2:täkšeš # ;!to be attested
++Inf+Tra+Px3:täkšeh # ;
 
 !! FIXME: not sure
 LEXICON VERB_INF_AS
@@ -155,6 +161,9 @@ LEXICON VERB_INF_AS
 LEXICON VERB_INF_A
 !! **LEXICON @LEXNAME@** 
 +Inf:a # ;
++Inf+Tra+PxSg1:akšeni # ;
++Inf+Tra+PxSg2:akšeš # ;
++Inf+Tra+Px3:akšeh # ;
 
 !! FIXME: ger or sup or some other
 LEXICON VERB_INF_EN
@@ -164,6 +173,9 @@ LEXICON VERB_INF_EN
 LEXICON VERB_INF_Ä
 !! **LEXICON @LEXNAME@** 
 +Inf:ä # ;
++Inf+Tra+PxSg1:äkšeni # ;
++Inf+Tra+PxSg2:äkšeš # ;!to be attested
++Inf+Tra+Px3:äkšeh # ;
 
 LEXICON VERB_INF_Ö
 !! **LEXICON @LEXNAME@** 
@@ -190,9 +202,50 @@ LEXICON VERB_PCP_TY
 
 LEXICON VERB_PCP_TAVA
 !! **LEXICON @LEXNAME@** 
++Pss+PrfPrc+Pos+Sg+Ela:tavašta # ;!Bible 
++Pss+PrfPrc+Pos+Sg+Ess:tavana # ;
++Pss+PrfPrc+Pos+Sg+Gen:tavan # ;
 +Pss+PrfPrc+Pos+Sg+Nom:tava # ;
++Pss+PrfPrc+Pos+Sg+Par:tavua # ;!Bible 
++Pss+PrfPrc+Pos+Sg+Par+Px3:tavuah # ;!Bible 
++Pss+PrfPrc+Pos+Sg+Par+Px3:tuoh # ; ! CHECKME 20250827 jaska
 +Pss+PrfPrc+Pos+Sg+Tra:tavakši # ;
-+Pss+PrfPrc+Pos+Sg+Par+Px3:tuoh # ;
++Pss+PrfPrc+Pos+Pl+Abl:tavilta # ;
++Pss+PrfPrc+Pos+Pl+Abl+Px3:taviltah # ;
++Pss+PrfPrc+Pos+Pl+Ade:tavilla # ;
++Pss+PrfPrc+Pos+Pl+Ade+Px3:tavillah # ;
++Pss+PrfPrc+Pos+Pl+Com+Px3:tavineh # ;
++Pss+PrfPrc+Pos+Pl+Ela:tavista # ;
++Pss+PrfPrc+Pos+Pl+Gen:tavien # ;
++Pss+PrfPrc+Pos+Pl+Ill:tavih # ;! CHECKME 20250827 jaska
++Pss+PrfPrc+Pos+Pl+Ine:tavissa # ;
++Pss+PrfPrc+Pos+Pl+Nom:tavat # ;
++Pss+PrfPrc+Pos+Pl+Par:tavie # ;
++Pss+PrfPrc+Pos+Pl+Par+Px3:tavieh # ;
++Pss+PrfPrc+Pos+Pl+Tra:taviksi # ;
+
+LEXICON VERB_PCP_TÄVÄ
+!! **LEXICON @LEXNAME@** 
++Pss+PrfPrc+Pos+Sg+Ela:täväštä # ;!Bible 
++Pss+PrfPrc+Pos+Sg+Ess:tävänä # ;
++Pss+PrfPrc+Pos+Sg+Gen:tävän # ;
++Pss+PrfPrc+Pos+Sg+Nom:tävä # ;
++Pss+PrfPrc+Pos+Sg+Par:tävyä # ;!Bible 
++Pss+PrfPrc+Pos+Sg+Par+Px3:tävyäh # ;!Bible 
++Pss+PrfPrc+Pos+Sg+Tra:täväkši # ;
++Pss+PrfPrc+Pos+Pl+Abl:täviltä # ;
++Pss+PrfPrc+Pos+Pl+Abl+Px3:täviltäh # ;
++Pss+PrfPrc+Pos+Pl+Ade:tävillä # ;
++Pss+PrfPrc+Pos+Pl+Ade+Px3:tävilläh # ;
++Pss+PrfPrc+Pos+Pl+Com+Px3:tävineh # ;
++Pss+PrfPrc+Pos+Pl+Ela:tävistä # ;
++Pss+PrfPrc+Pos+Pl+Gen:tävien # ;
++Pss+PrfPrc+Pos+Pl+Ill:tävih # ;! CHECKME 20250827 jaska
++Pss+PrfPrc+Pos+Pl+Ine:tävissä # ;
++Pss+PrfPrc+Pos+Pl+Nom:tävät # ;
++Pss+PrfPrc+Pos+Pl+Par:tävie # ;
++Pss+PrfPrc+Pos+Pl+Par+Px3:tävieh # ;
++Pss+PrfPrc+Pos+Pl+Tra:täviksi # ;
 
 LEXICON VERB_PCP_N
 !! **LEXICON @LEXNAME@** 
