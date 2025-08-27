@@ -21652,7 +21652,7 @@ veljintämäkset noun_mon ;
 veljyt noun_dem ;
 velka noun ;
 velkomine noun ;
-velli noun ;
+velli+N:vell NOUN_VELL/I ;
 veloanta noun ;
 velonta noun ;
 velosipiettä noun ;
@@ -23569,6 +23569,13 @@ LEXICON NOUN_LEH/TI
 0:e NOUN_CASES_SG_WEAK_FRONT ;
 0:ti NOUN_SGPAR_E ;
 0:tilö NOUN_CASES_LÖ/I_PL_FRONT ;
+
+LEXICON NOUN_VELL/I
+
+0:i NOUN_SGNOM_0 ;
+0:e NOUN_CASES_SG_WEAK_FRONT ;
+0:i NOUN_SGPAR_E ;
+0:ilö NOUN_CASES_LÖ/I_PL_FRONT ;
 
 LEXICON NOUN_KO/TI
 
