@@ -225,6 +225,17 @@ given the proper use of these flags.
 | @U.number.eight@ | Flag used to give arabic numerals in smj different cases ;
 | @U.number.nine@ | Flag used to give arabic numerals in smj different cases ;
 | @U.number.zero@ | Flag used to give arabic numerals in smj different cases ;
+|  @P.number.one@ | Flag used to give arabic numerals in smj different cases ;
+|  @P.number.two@ | Flag used to give arabic numerals in smj different cases ;
+|  @P.number.three@ | Flag used to give arabic numerals in smj different cases ;
+|  @P.number.four@ | Flag used to give arabic numerals in smj different cases ;
+|  @P.number.five@ | Flag used to give arabic numerals in smj different cases ;
+|  @P.number.six@ | Flag used to give arabic numerals in smj different cases ;
+|  @P.number.seven@ | Flag used to give arabic numerals in smj different cases ;
+|  @P.number.eight@ | Flag used to give arabic numerals in smj different cases ;
+|  @P.number.nine@ | Flag used to give arabic numerals in smj different cases ;
+|  @P.number.ten@ | Flag used to give arabic numerals in smj different cases ;
+|  @P.number.zero@ | Flag used to give arabic numerals in smj different cases ;
 
 ## The Root and K lexica
 **LEXICON Root** is where it all begins

@@ -78,6 +78,8 @@ FIXME: ger or sup or some other
 
 **LEXICON VERB_PCP_TAVA** 
 
+**LEXICON VERB_PCP_TÄVÄ** 
+
 **LEXICON VERB_PCP_N** 
 
 **LEXICON VERB_PCP_UN** 

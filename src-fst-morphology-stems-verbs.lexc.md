@@ -153,6 +153,10 @@ These lexica redirects the stem to different person-number sublexica.
 
 **LEXICON VERB_PI/TYÄ** 
 
+**LEXICON VERB_PIÄŠ/TYÄ** 
+
+**LEXICON VERB_OPAŠ/TUA** 
+
 **LEXICON VERB_OPAŠ/TUO** 
 
 **LEXICON VERB_TOIV/UO** 
@@ -160,6 +164,10 @@ These lexica redirects the stem to different person-number sublexica.
 **LEXICON VERB_VOIT/TUA** 
 
 **LEXICON VERB_KAN/TUA** 
+
+**LEXICON VERB_AUT/TUA**
+
+**LEXICON VERB_RUA/TUA**
 
 **LEXICON VERB_RUA/TUO** 
 

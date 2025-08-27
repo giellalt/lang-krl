@@ -317,6 +317,8 @@ FIXME: ger or sup or some other
 
 **LEXICON VERB_PCP_TAVA** 
 
+**LEXICON VERB_PCP_TÄVÄ** 
+
 **LEXICON VERB_PCP_N** 
 
 **LEXICON VERB_PCP_UN** 
@@ -637,6 +639,17 @@ given the proper use of these flags.
 | @U.number.eight@ | Flag used to give arabic numerals in smj different cases ;
 | @U.number.nine@ | Flag used to give arabic numerals in smj different cases ;
 | @U.number.zero@ | Flag used to give arabic numerals in smj different cases ;
+|  @P.number.one@ | Flag used to give arabic numerals in smj different cases ;
+|  @P.number.two@ | Flag used to give arabic numerals in smj different cases ;
+|  @P.number.three@ | Flag used to give arabic numerals in smj different cases ;
+|  @P.number.four@ | Flag used to give arabic numerals in smj different cases ;
+|  @P.number.five@ | Flag used to give arabic numerals in smj different cases ;
+|  @P.number.six@ | Flag used to give arabic numerals in smj different cases ;
+|  @P.number.seven@ | Flag used to give arabic numerals in smj different cases ;
+|  @P.number.eight@ | Flag used to give arabic numerals in smj different cases ;
+|  @P.number.nine@ | Flag used to give arabic numerals in smj different cases ;
+|  @P.number.ten@ | Flag used to give arabic numerals in smj different cases ;
+|  @P.number.zero@ | Flag used to give arabic numerals in smj different cases ;
 
 ## The Root and K lexica
 **LEXICON Root** is where it all begins
@@ -1048,6 +1061,10 @@ These lexica redirects the stem to different person-number sublexica.
 
 **LEXICON VERB_PI/TYÄ** 
 
+**LEXICON VERB_PIÄŠ/TYÄ** 
+
+**LEXICON VERB_OPAŠ/TUA** 
+
 **LEXICON VERB_OPAŠ/TUO** 
 
 **LEXICON VERB_TOIV/UO** 
@@ -1055,6 +1072,10 @@ These lexica redirects the stem to different person-number sublexica.
 **LEXICON VERB_VOIT/TUA** 
 
 **LEXICON VERB_KAN/TUA** 
+
+**LEXICON VERB_AUT/TUA**
+
+**LEXICON VERB_RUA/TUA**
 
 **LEXICON VERB_RUA/TUO** 
 
