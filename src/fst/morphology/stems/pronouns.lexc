@@ -27,6 +27,7 @@ nuo+Pron+Dem:n  PRON_N/UO ;
 še+Pron+Dem:š  PRON_Š/E ;
 ne+Pron+Dem:n  PRON_N/E ;
 
+kenkänä+Pron+Ind+Sg+Nom:kenkänä # ;
 iče+Pron+Refl:ič   PRON_IČ/E ;
 kaikki+Pron+Ind:kai  PRON_KAI/KKI ;
 kumpaine+Pron+Interr:kumpa  PRON_KUMPA/INE ;
@@ -142,8 +143,15 @@ LEXICON PRON_KAI/KKI
 0:k  PRON_CASES_PL_WEAK_BACK ;
 !%<pl%>%<ins%>:kin # ;
 !%<pl%>%<com%>:kkine # ;
-+Pl+Ins:kin # ;
 +Pl+Com:kkine # ;
++Pl+Com+Px3:kkineh # ;
++Pl+Gen:kkien # ;
++Pl+Gen:kkein # ;!CHECKME 
++Pl+Ill:kkih # ;
++Pl+Ins:kin # ;
++Pl+Par:kkie # ;
++Pl+Par+Px3:kkieh # ;
++Sg+Ill:kkeh # ;
 
 LEXICON PRON_KU/DAI
 !! **LEXICON @LEXNAME@**
