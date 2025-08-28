@@ -939,7 +939,7 @@ These lexica redirects the stem to different person-number sublexica.
 * kavota verb ; 
 * kavota:katuo verb ; 
 
-**LEXICON proššai(k)koa_verb_vaill**
+**LEXICON proššai(k)koa_verb_vaill**
 
 **LEXICON sevota_verb**
 
@@ -1034,6 +1034,8 @@ These lexica redirects the stem to different person-number sublexica.
 **LEXICON VERB_KITK/IE** 
 
 **LEXICON VERB_LAŠ/KIE** 
+
+**LEXICON VERB_KÄŠ/KIE** 
 
 **LEXICON VERB_OP/PIE** 
 
