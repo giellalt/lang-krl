@@ -23,9 +23,9 @@ vain+CC:vain #  ;
 
 šentäh+CS:šentäh # ;
 
-što+CS:što # ;
-štopi+CS:štopi # ;
-štopu+CS:štopu # ;
+što+CS:što # ;
+štopi+CS:štopi # ;
+štopu+CS:štopu # ;
 
 jotta+CS:jotta # ;
 kun+CS:kun # ;
@@ -53,18 +53,18 @@ ennein+CS:ennein # ;!CHECKME 20250828
 !a	conjunction ;
 !ali	conjunction ;
 apa	conjunction ;
-ašna(ka)	conjunction ;
+ašna(ka)	conjunction ;
 !eli	conjunction ;
 eli	conjunction_paired ;
 elikkä	conjunction ;
-elämišto	conjunction ;
-elämištä	conjunction ;
+elämišto	conjunction ;
+elämištä	conjunction ;
 !hos	conjunction ;
 !hot	conjunction ;
 !hoti	conjunction ;
 !ili	conjunction ;
 ilikkö	conjunction ;
-itše	conjunction ;
+itše	conjunction ;
 !jeeseli	conjunction ;
 !jeesli	conjunction ;
 !jeiseli	conjunction ;
@@ -88,9 +88,9 @@ sekö	conjunction ;
 seku	conjunction ;
 !sekä	conjunction ;
 sini	conjunction ;
-!što	conjunction ;
-!štopi	conjunction ;
-!štopu	conjunction ;
+!što	conjunction ;
+!štopi	conjunction ;
+!štopu	conjunction ;
 !ta	conjunction_kopulat ;
 !tahi	conjunction ;
 !tahikka	conjunction ;
