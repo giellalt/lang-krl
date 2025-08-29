@@ -1849,7 +1849,6 @@ hempoine noun_dem ;
 hempukkaine noun_dem ;
 henkelline noun ;
 henkeäntä noun ;
-henki noun ;
 henkine noun_dem ;
 henkitys noun ;
 henkitäntä noun ;
@@ -16352,7 +16351,7 @@ sakleppa noun ;
 sakloata noun ;
 sako noun ;
 sakoasa noun ;
-sakona noun ;
+sakona+N:sakon NOUN_PAKIN/A ;
 sakonattomus noun ;
 sakonšiekka noun ;
 sakotofka noun ;
@@ -21873,7 +21872,7 @@ viessoamine noun ;
 viessoanta noun ;
 viessäeläjä noun ;
 viessäolija noun ;
-viesti noun ;
+viesti+N:vies NOUN_VIES/TI ;
 viestine noun_dem ;
 viestoušiekka noun ;
 viete noun ;
@@ -23253,8 +23252,9 @@ LEXICON NOUN_LAPŠ/I
 LEXICON NOUN_HENK/I
 
 0:i NOUN_SGNOM_0 ;
-0:i NOUN_CASES_SG_FRONT ;
-0  NOUN_CASES_PL_FRONT ;
+0:e NOUN_CASES_SG_FRONT ;!BIBLE
+0:i NOUN_CASES_SG_FRONT ;!CHECKME
+0:i  NOUN_CASES_PL_FRONT ;
 0:i NOUN_SGPAR_E ;
 
 LEXICON NOUN_PIIR/I
@@ -23567,6 +23567,13 @@ LEXICON NOUN_LEH/TI
 
 0:ti NOUN_SGNOM_0 ;
 0:e NOUN_CASES_SG_WEAK_FRONT ;
+0:ti NOUN_SGPAR_E ;
+0:tilö NOUN_CASES_LÖ/I_PL_FRONT ;
+
+LEXICON NOUN_VIES/TI
+
+0:ti NOUN_SGNOM_0 ;
+0:si NOUN_CASES_SG_WEAK_FRONT ;
 0:ti NOUN_SGPAR_E ;
 0:tilö NOUN_CASES_LÖ/I_PL_FRONT ;
 
