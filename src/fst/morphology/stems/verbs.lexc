@@ -16250,7 +16250,7 @@ olkoalla	verb ;
 olkoilla	verb_frekv ;
 olkuoksennella	verb_frekv ;
 olkuolla	verb ;
-olla	verb ;
+olla+V:o	VERB_O/LLA ;
 ollottoa	verb ;
 olostuo	verb ;
 olota	verb ;
@@ -22884,6 +22884,7 @@ sanastoa	verb ;
 sanautuo	verb_pass ;
 sanavuo	verb_inkoat ;
 sanavuttoa	verb_kaus ;
+sanella+V:sanel	VERB_TU/LLA ;
 sanella	verb_frekv ;
 sanellakseh	verb_refl ;
 sanelsuo	verb_pass ;
@@ -31863,7 +31864,7 @@ LEXICON VERB_KÄ/YVÄ
 0   VERB_3SG_Y ;
 0:vi  VERB_PAST_3SG_0 ;
 0:v  VERB_PAST_FRONT ;
-0:yny  VERB_PCP_N ;
+0:yn  VERB_PCP_YN ;
 0:y  VERB_PCP_TY/TÄVÄ/TÄIS/TIH ;
 
 LEXICON VERB_S/UAHA
@@ -31917,6 +31918,7 @@ LEXICON VERB_TU/LLA
 0:le    VERB_IMPV ;
 0:li    VERB_PAST_3SG_0 ;
 0:l    VERB_PAST_BACK ;
+0:ll  VERB_INF2_INE_BACK ;
 0:ll  VERB_PCP_UN ;
 0:l  VERB_PCP_TU/TAVA/TAIS/TIH ;
 
@@ -32662,7 +32664,7 @@ LEXICON VERB_AJAT/ELLA
 0:tele VERB_PASSIVE_H ;
 0:el  VERB_IMPV_KAH/KA/KUA ;
 0:el  VERB_PCP_TU/TAVA/TAIS/TIH ;
-0:ellu  VERB_PCP_N ;
+0:ell  VERB_PCP_UN ;
 0:telo  VERB_INF_MA ;
 
 LEXICON VERB_LEVÄHEL/LÄ
@@ -32674,7 +32676,7 @@ LEXICON VERB_LEVÄHEL/LÄ
 0:e VERB_PASSIVE_H ;
 0  VERB_IMPV_KÄH/KÄ/KYÄ ;
 0  VERB_PCP_TY/TÄVÄ/TÄIS/TIH ;
-0:ly VERB_PCP_N ;
+0:l VERB_PCP_YN ;
 
 LEXICON VERB_OM/MELLA
 !! **LEXICON @LEXNAME@** 
@@ -32685,8 +32687,26 @@ LEXICON VERB_OM/MELLA
 0:pele VERB_PASSIVE_H ;
 0:mel  VERB_IMPV_KAH/KA/KUA ;
 0:mel  VERB_PCP_TU/TAVA/TAIS/TIH ;
-0:mellu  VERB_PCP_N ;
+0:mell  VERB_PCP_UN ;
 
+LEXICON VERB_O/LLA
+!! **LEXICON @LEXNAME@** 
+0:ll    VERB_INF_A ;
+0:ll    VERB_PCP_UN ;
+0:lla   VERB_PASSIVE_H ;
+0:le    VERB_CONNEG_0 ;
+0:le    VERB_PRES_BACK ;
+0:ll    VERB_INF_E ;
+0:lo    VERB_INF_MA ;
+0:l    VERB_PAST_BACK ;
+0:li    VERB_PAST_3SG_0 ;
+0:lti   VERB_PAST_PASSIVE_H ;
+0:n     VERB_3SG_0_BACK ;
+0       VERB_COND ;
+0:l       VERB_COND ;
+0:l     VERB_IMPV_KAH/KA/KUA ;
+0:ll VERB_POT_BACK ;
+0:ll VERB_INF2_INE_BACK ;
 LEXICON AUX_O/LLA
 !! **LEXICON @LEXNAME@** 
 0:ll    AUX_INF_A ;
@@ -32703,6 +32723,7 @@ LEXICON AUX_O/LLA
 0       AUX_COND ;
 0:l       AUX_COND ;
 0:l     AUX_IMPV_KAH/KA/KUA ;
+0:ll AUX_POT_BACK ;
 
 LEXICON AUX_E/I
 !! **LEXICON @LEXNAME@** 

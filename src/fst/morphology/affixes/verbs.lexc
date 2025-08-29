@@ -96,6 +96,11 @@ LEXICON VERB_PAST_3SG_0
 !! **LEXICON @LEXNAME@** 
 +Act+Ind+Prt+Sg3:0 # ;
 
+LEXICON VERB_3SG_0_BACK
+!! **LEXICON @LEXNAME@** 
++Act+Ind+Prs+Sg3: # ;
++Act+Ind+Prs+Sg3+Qst:ko # ;
+
 LEXICON VERB_3SG_U
 !! **LEXICON @LEXNAME@** 
 +Act+Ind+Prs+Sg3:u # ;
@@ -391,6 +396,16 @@ LEXICON VERB_COND_PASSIVE_TÄIS
 !! **LEXICON @LEXNAME@** 
 +Pss+Cond+Pe4:täis # ;
 
+LEXICON VERB_POT_BACK
++Act+Pot+Sg2:et # ;
++Act+Pot+Sg3:ou # ;
++Act+Pot+ConNeg:e # ;
+
+LEXICON VERB_INF2_INE_BACK
++Inf+Ine:ešša # ;!CHECKME/BIBLE
++Inf+Ine+PxSg1:eššani # ;!CHECKME/BIBLE
++Inf+Ine+Px3:eššah # ;!CHECKME/BIBLE
+
 LEXICON AUX_IMPV_KAH/KA/KUA
  AUX_IMPVSP3_KAH ;
  AUX_IMPVPL1_KA ;
@@ -509,6 +524,11 @@ LEXICON AUX_COND
 +Act+Cond+Sg2:isin # ;
 +Act+Cond+Sg3:is # ;
 +Act+Cond+Sg3+Qst:isko # ;
+
+LEXICON AUX_POT_BACK
++Act+Pot+Sg2:et # ;
++Act+Pot+Sg3:ou # ;
++Act+Pot+ConNeg:e # ;
 
 LEXICON AUX_INF_A
 
