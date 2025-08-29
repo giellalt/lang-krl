@@ -283,7 +283,21 @@ harmony as twolc processes.
 
 **LEXICON VERB_PAST_PASSIVE_H** 
 
-**LEXICON VERB_IMPVPL_BACK** 
+**LEXICON VERB_PAST_PASSIVE_TIH_BACK** 
+
+**LEXICON VERB_PAST_PASSIVE_TIH_FRONT** 
+
+**LEXICON VERB_IMPV_KAH**
+
+**LEXICON VERB_IMPVPL1_KA**
+
+**LEXICON VERB_IMPVPL2_KUA** 
+
+**LEXICON VERB_IMPV_KÄH**
+
+**LEXICON VERB_IMPVPL1_KÄ** 
+
+**LEXICON VERB_IMPVPL2_KYÄ** 
 
 **LEXICON VERB_IMPV** 
 
@@ -342,6 +356,12 @@ FIXME: ger or sup or some other
 **LEXICON VERB_COND_PASSIVE_TAIS** 
 
 **LEXICON VERB_COND_PASSIVE_TÄIS** 
+
+**LEXICON AUX_IMPVSP3_KAH** 
+
+**LEXICON AUX_IMPVPL1_KA** 
+
+**LEXICON AUX_IMPVPL2_KUA** 
 
 **LEXICON AUX_PCP** 
 FIXME
@@ -961,7 +981,9 @@ These lexica redirects the stem to different person-number sublexica.
 
 **LEXICON VERB_L/UUVVA** 
 
-**LEXICON VERB_ŠY/YVÄ** 
+**LEXICON VERB_Š/YYVÄ** 
+
+**LEXICON VERB_J/UUVA** 
 
 **LEXICON VERB_PIÄS/TÄ** 
 
@@ -1048,6 +1070,8 @@ These lexica redirects the stem to different person-number sublexica.
 **LEXICON VERB_TI/ETEÄ** 
 
 **LEXICON VERB_TÄYT/TYÄ** 
+
+**LEXICON VERB_TYÖN/TYÄ** 
 
 **LEXICON VERB_NÄYT/TYÄ** 
 
