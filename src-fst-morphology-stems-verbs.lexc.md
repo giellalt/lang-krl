@@ -232,6 +232,7 @@ These lexica redirects the stem to different person-number sublexica.
 
 **LEXICON VERB_OM/MELLA** 
 
+**LEXICON VERB_O/LLA** 
 **LEXICON AUX_O/LLA** 
 
 **LEXICON AUX_E/I** 

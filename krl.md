@@ -275,6 +275,8 @@ harmony as twolc processes.
 
 **LEXICON VERB_PAST_3SG_0** 
 
+**LEXICON VERB_3SG_0_BACK** 
+
 **LEXICON VERB_3SG_U** 
 
 **LEXICON VERB_3SG_Y** 
@@ -1160,6 +1162,7 @@ These lexica redirects the stem to different person-number sublexica.
 
 **LEXICON VERB_OM/MELLA** 
 
+**LEXICON VERB_O/LLA** 
 **LEXICON AUX_O/LLA** 
 
 **LEXICON AUX_E/I** 
