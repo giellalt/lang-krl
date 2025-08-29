@@ -100,6 +100,7 @@ isäntä+N:isän NOUN_EMÄN/TÄ ;
 istorie+N:istori NOUN_ISTORI/E ;
 istorija+N:istorij NOUN_KAŠVATTAJ/A ;
 jalka+N:jal NOUN_PAIK/KA ;
+jevrei+N:jevrei NOUN_JEVREI ;
 järještäjä+N:järještäj NOUN_JÄRJEŠTÄJ/Ä ;
 järještö+N:järještö NOUN_ÄMMÖ ;
 jäšen+N:jäsen NOUN_JÄŠEN ;
@@ -421,7 +422,7 @@ tapa+N:ta NOUN_TA/PA ;
 tapa+N:tap NOUN_PAKIN/A ;
 taphtuma+N:tapahtum NOUN_TAPAHTUM/A ;
 tappo+N:tap NOUN_TAP/PO ;
-tarha+N NOUN_PAKIN/A ;
+tarha+N:tarh NOUN_PAKIN/A ;
 tarkotuš+N:tarkotu NOUN_MIELIKUVITU/Š ;
 tašavalta+N:taša#val NOUN_VAL/TA ;
 tašo+N:tašo NOUN_NUMERO ;
@@ -439,6 +440,7 @@ tila+N:til NOUN_ŠKOL/A ;
 toimehpito+N:toimeh#pi NOUN_RUA/TO ;
 toimittaja+N:toimittaj NOUN_KAŠVATTAJ/A ;
 torni+N:torn NOUN_LAPŠ/I ;
+tosi+N:to NOUN_TO/SI ;
 tuatto+N:tuat NOUN_VOIT/TO ;
 tuiskukuu+N:tuisku#ku NOUN_KU/U ;
 tulija+N:tulij NOUN_KAŠVATTAJ/A ;
@@ -23169,6 +23171,15 @@ LEXICON NOUN_PEL/I
 0:i NOUN_PLPAR_JÄ ;
 0:ilö NOUN_CASES_LÖ/I_PL_FRONT ;
 
+LEXICON NOUN_JEVREI
+
+0: NOUN_SGNOM_0 ;
+0: NOUN_CASES_SG_FRONT ;
+0: NOUN_SGPAR_E ;
+0: NOUN_PLPAR_JÄ ;
+0: NOUN_PLGEN_JEN ;
+0:lö NOUN_CASES_LÖ/I_PL_FRONT ;
+
 LEXICON NOUN_ŠKUAP/PI
 
 0:pi NOUN_SGNOM_0 ;
@@ -23230,6 +23241,15 @@ LEXICON NOUN_KÄ/SI
 0:si NOUN_SGPAR_E ;
 0:s  NOUN_CASES_PL_FRONT ;
 0:si NOUN_PLPAR_JÄ ;
+
+LEXICON NOUN_TO/SI
+
+0:si NOUN_SGNOM_0 ;
+0:ve NOUN_CASES_SG_BACK ;
+0:si NOUN_SGPAR_E ;
+0:t NOUN_SGPAR_TA ;
+0:s  NOUN_CASES_PL_BACK ;
+0:si NOUN_PLPAR_JA ;!CHECKME
 
 LEXICON NOUN_FOLKLORIST/I
 
