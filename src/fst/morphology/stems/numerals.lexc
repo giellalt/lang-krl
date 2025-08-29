@@ -13,6 +13,7 @@ n’el’l’ä+Num+Card:n’el’ NUM_NEL/LÄ ;
 viisi+Num+Card:vii  NUM_VII/SI ;
 kuuši+Num+Card:kuu  NUM_KUU/ŠI ;
 seiččemen+Num+Card:seičče  NUM_SEIČČE/MEN ;
+seiččemen+Num+Card:šeičče  NUM_SEIČČE/MEN ;!Bible
 kahekšan+Num+Card:kahekša  NUM_KAHEKŠA/N ;
 yhekšän+Num+Card:yhekšä    NUM_YHEKŠÄ/N ;
 kymmenen+Num+Card:kymmene  NUM_KYMMENE/N ;

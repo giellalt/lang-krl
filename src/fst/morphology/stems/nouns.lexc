@@ -5180,7 +5180,7 @@ kirjo(i)korja noun ;
 kirjo(i)miehyt noun_dem ;
 kirjutanta noun ;
 kirjutes noun ;
-kirjutus noun ;
+kirjutuš+N:kirjutu NOUN_MIELIKUVITU/Š ;
 kirki noun ;
 kirkka noun ;
 kirkko noun ;
@@ -18802,7 +18802,7 @@ taitos noun ;
 taival noun ;
 taivallus noun ;
 taivarikko noun ;
-taivas noun ;
+taivas+N:taiva NOUN_TAIVA/S ;
 taivo noun ;
 taivointelenta noun ;
 taivointelus noun ;
@@ -23823,6 +23823,13 @@ LEXICON NOUN_P/IÄ
 0:iä NOUN_SGPAR_TÄ ;
 0:ä NOUN_PLPAR_ITÄ ;
 0:ä NOUN_CASES_PL_FRONT ;
+
+LEXICON NOUN_TAIVA/S
+
+0:s  NOUN_SGNOM_0 ;
+0:aha NOUN_CASES_SG_BACK ;
+0:ah  NOUN_CASES_PL_BACK ;
+0:ah  NOUN_PLPAR_IE ;
 
 LEXICON NOUN_LAIT/EH
 

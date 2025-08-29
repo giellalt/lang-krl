@@ -32,6 +32,7 @@ avata+V:av  VERB_AV/ATA ;
 kiušata+V:kiuš  VERB_AV/ATA ;
 eččie+V:eč  VERB_EČ/ČIE ;
 eleä+V:el   VERB_EL/EÄ ;
+elyä+V:el   VERB_EL/YÄ ;
 erottoa+V:erot  VERB_SOIT/TOA ;
 esitteä+V:esit VERB_PIÄT/TEÄ ;
 esittyä+V:esit VERB_NÄYT/TYÄ ;
@@ -32346,6 +32347,15 @@ LEXICON VERB_PI/TYÄ
 LEXICON VERB_EL/EÄ
 
 0:e  VERB_INF_Ä ;
+0:ä  VERB_3SG_Y ;
+0:ä  VERB_PRES_FRONT ;
+0:etä  VERB_PASSIVE_H ;
+0:et  VERB_PCP_TY/TÄVÄ/TÄIS/TIH ;
+
+LEXICON VERB_EL/YÄ
+
+0:y  VERB_INF_Ä ;
+0:ä  VERB_INF_MÄ ;
 0:ä  VERB_3SG_Y ;
 0:ä  VERB_PRES_FRONT ;
 0:etä  VERB_PASSIVE_H ;

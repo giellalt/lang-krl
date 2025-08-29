@@ -33,6 +33,7 @@ kaikki+Pron+Ind:kai  PRON_KAI/KKI ;
 kumpaine+Pron+Interr:kumpa  PRON_KUMPA/INE ;
 kumpaine+Pron+Rel:kumpa  PRON_KUMPA/INE ;
 kumpaine+Pron+Ind:kumpa  PRON_KUMPA/INE ;
+kumpani+Pron+Rel:kumpa  PRON_JOKAHI/NI ;!Bible
 jokahini+Pron+Ind:jokahi  PRON_JOKAHI/NI ;
 moni+Pron+Ind:mon  PRON_MON/I ;
 muu+Pron+Ind:mu  PRON_MU/U ;
@@ -189,6 +190,7 @@ LEXICON PRON_KE/N
 0:n PRON_SGNOM_0 ;
 0:ne PRON_CASES_SG_FRONT ;
 0 PRON_CASES_SG_FRONT ;
+0  PRON_SGPAR_TÄ ;
 
 LEXICON PRON_MI
 !! **LEXICON @LEXNAME@**
