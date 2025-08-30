@@ -62,6 +62,7 @@ etnotjuttora+N:etno#tjuttor NOUN_KAŠVATTAJ/A ;
 etnotjuttora+N:etno#tjuttor NOUN_ŠKOL/A ;
 etuštaja+N:etuštaj NOUN_KAŠVATTAJ/A ;
 eväš+N:evä NOUN_EVÄ/Š ;
+farissei+N:farissei N_FARISSEI ;
 festivali+N:festival NOUN_FOLKLORIST/I ;
 flashmob+N:flashmob NOUN_ALOVEH ;
 folkloriteatteri+N:folklori#teatter NOUN_FOLKLORIST/I ;
@@ -280,6 +281,7 @@ olka-piä+N:olka-p NOUN_P/IÄ ;
 olkapiä+N:olka#p NOUN_P/IÄ ;
 omaperäisys+N:omaperäisy NOUN_OMAPERÄISY/Š ;
 oopperatalo+N:ooppera#talo NOUN_NUMERO ;
+opaštaja+N:opaštaj NOUN_KAŠVATTAJ/A ;
 opaštuja+N:opaštuj NOUN_KAŠVATTAJ/A ;
 opastusala+N:opastus##al NOUN_PAKIN/A ;
 oppikirja+N:oppi#kirj NOUN_PAKIN/A ;
@@ -16355,6 +16357,7 @@ sakloata noun ;
 sako noun ;
 sakoasa noun ;
 sakona+N:sakon NOUN_PAKIN/A ;
+sakonanopaštaja+N:sakonan#opaštaj NOUN_KAŠVATTAJ/A ;
 sakonattomus noun ;
 sakonšiekka noun ;
 sakotofka noun ;
@@ -20394,7 +20397,7 @@ tuohi noun ;
 tuohuksut noun_dem ;
 tuohus noun ;
 tuohut noun_dem ;
-tuoja noun ;
+tuoja+N:tuoj NOUN_KAŠVATTAJ/A ;
 tuojaine noun_dem ;
 tuomahaine noun_dem ;
 tuomaine noun ;
@@ -21871,6 +21874,7 @@ vieru noun ;
 vieruinta noun ;
 vieruitšus noun ;
 viessa noun ;
+viessintuoja+N:viessin#tuoj NOUN_KAŠVATTAJ/A ;
 viessoamine noun ;
 viessoanta noun ;
 viessäeläjä noun ;
@@ -23180,6 +23184,15 @@ LEXICON NOUN_JEVREI
 0: NOUN_PLPAR_JÄ ;
 0: NOUN_PLGEN_JEN ;
 0:lö NOUN_CASES_LÖ/I_PL_FRONT ;
+
+LEXICON NOUN_FARISSEI
+
+0: NOUN_SGNOM_0 ;
+0: NOUN_CASES_SG_BACK ;
+0: NOUN_SGPAR_E ;
+0: NOUN_PLPAR_JA ;
+0: NOUN_PLGEN_JEN ;
+0:lo NOUN_CASES_LO/I_PL_BACK ;
 
 LEXICON NOUN_ŠKUAP/PI
 
