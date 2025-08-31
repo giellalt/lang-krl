@@ -8,6 +8,7 @@
 
 LEXICON Nouns
 !! @LEXNAME@
+vuate+N:vuat NOUN_VUAT/E ;
 vuara+N:vuar NOUN_KAL/A ;
 šynnytyšvaiva+N:šynnytyš#vaiv NOUN_KAL/A ;
 uhrilahja+N:uhri#lahj NOUN_KAL/A ;
@@ -97,6 +98,7 @@ ilmašto+N:ilmašto NOUN_NUMERO ;
 ilta+N:ilt NOUN_PAKIN/A ;
 internettišivu+N:internetti#šivu NOUN_ŠIVU ;
 invalidi+N:invalid NOUN_LAPŠ/I ;
+ikä+N:i NOUN_I/KÄ ;
 isäntä+N:isän NOUN_EMÄN/TÄ ;
 istorie+N:istori NOUN_ISTORI/E ;
 istorija+N:istorij NOUN_KAŠVATTAJ/A ;
@@ -212,6 +214,7 @@ laulu+N:laulu NOUN_NUMERO ;
 laušeh+N:laušeh NOUN_ALOVEH ;
 lava+N:lav NOUN_KAŠVATTAJ/A ;
 lehti+N:leh NOUN_LEH/TI ;
+leipä+N:lei NOUN_LEI/PÄ ;
 liitto+N:liit NOUN_VOIT/TO ;
 liittymine+N:liittymi NOUN_KEHITTÄMI/NE ;
 linna+N:linn NOUN_PAKIN/A ;
@@ -306,6 +309,7 @@ pankka+N:pank NOUN_PAIK/KA ;
 partn’ori+N:partn’or NOUN_FOLKLORIST/I ;
 passipo+N:passipo NOUN_NUMERO ;
 patriotismi+N:patriotism NOUN_FOLKLORIST/I ;
+peitto+N:peit NOUN_VOIT/TO ;
 pelaštaja+N:pelaštaj NOUN_KAŠVATTAJ/A ;
 peli+N:pel NOUN_PEL/I ;
 peluaja+N:peluaj NOUN_KAŠVATTAJ/A ;
@@ -352,6 +356,7 @@ raja+N:raj NOUN_PAKIN/A ;
 rakennuš+N:rakennu NOUN_MIELIKUVITU/Š ;
 rekonstruointi+N:rekonstruoin NOUN_SOIN/TI ;
 rikkaruoho+N:rikka#ruoh NOUN_HILL/O ;
+riähkä+N:riäh NOUN_KYYK/KÄ ;
 rooli+N:rool NOUN_ROOL/I ;
 ropehelline+N:ropehelli NOUN_ELAVUTTAMI/NE ;
 roveh+N:ro NOUN_RO/VEH ;
@@ -463,6 +468,7 @@ ulkovaihe+N:ulko#vaih NOUN_VAIH/E ;
 unkarilaine+N:unkarilai NOUN_ELAVUTTAMI/NE ;
 urheilu+N:urheilu NOUN_NUMERO ;
 uško+N:uš NOUN_JOUK/KO ;
+uškojakunta+N:uškojakun NOUN_KOS’S’ON/TA ;
 uusivuosi+N:uu NOUN_UU/SIVUOSI ;
 vähembistökieli+N:vähembistö#kiel NOUN_KIEL/I ;
 vaihe+N:vaih NOUN_VAIH/E ;
@@ -1027,6 +1033,7 @@ avuttamine noun ;
 avuttelus noun ;
 avuttomus noun ;
 avutus noun ;
+čuari+N:čuar NOUN_ROOL/I ;
 ehoitanta noun ;
 ehoitus noun ;
 ehtimine noun ;
@@ -6770,7 +6777,7 @@ kuokkaine noun_dem ;
 kuokkija noun ;
 kuokkijaiset noun_mon ;
 kuokos noun ;
-kuolema noun ;
+kuoloma+N:kuolom NOUN_KUOLOM/A ;
 kuolemine noun ;
 kuolenta noun ;
 kuolentaine noun_dem ;
@@ -15459,7 +15466,7 @@ rissä noun ;
 rista noun ;
 rista(v)us noun ;
 risteys noun ;
-risti noun ;
+risti+N:rist NOUN_PEL/I ;
 ristieset noun_mon ;
 ristiet noun_mon ;
 ristimine noun ;
@@ -15881,7 +15888,7 @@ rumppu noun ;
 rumpu noun ;
 runka noun ;
 runkku noun ;
-runko noun ;
+runko+N:runko NOUN_NUMERO ;
 runnakko noun ;
 runnukko noun ;
 runo noun ;
@@ -23459,8 +23466,28 @@ LEXICON NOUN_KYYK/KÄ
 
 0:kä NOUN_SGNOM_0 ;
 0:ä NOUN_CASES_SG_WEAK_FRONT ;
+0:ky NOUN_SGPAR_Ä ;
 0  NOUN_CASES_PL_FRONT ;
+0:k NOUN_PLGEN_IEN ;
 0:k NOUN_PLPAR_IE ;
+
+LEXICON NOUN_I/KÄ
+
+0:kä NOUN_SGNOM_0 ;
+0:jä NOUN_CASES_SG_WEAK_FRONT ;
+0:ky NOUN_SGPAR_Ä ;
+0:j  NOUN_CASES_PL_FRONT ;
+0:k NOUN_PLGEN_IEN ;
+0:k NOUN_PLPAR_IE ;
+
+LEXICON NOUN_LEI/PÄ
+
+0:pä NOUN_SGNOM_0 ;
+0:vä NOUN_CASES_SG_WEAK_FRONT ;
+0:py NOUN_SGPAR_Ä ;
+0:v  NOUN_CASES_PL_FRONT ;
+0:p NOUN_PLPAR_IE ;
+0:p NOUN_PLGEN_IEN ;
 
 LEXICON NOUN_VIČ/ČA
 
@@ -23764,6 +23791,15 @@ LEXICON NOUN_TAPAHTUM/A
 0:o NOUN_SGPAR_A ;
 0  NOUN_PLPAR_IE ;
 
+LEXICON NOUN_KUOLOM/A
+
+0:a NOUN_SGNOM_0 ;
+0:a NOUN_CASES_SG_BACK ;
+0:u NOUN_SGPAR_A ;
+0  NOUN_PLPAR_IE ;
+0  NOUN_PLGEN_IEN ;
+0  NOUN_CASES_PL_BACK ;
+
 LEXICON NOUN_PEŠ/Ä
 
 0:ä NOUN_SGNOM_0 ;
@@ -23841,9 +23877,9 @@ LEXICON NOUN_P/IÄ
 LEXICON NOUN_TAIVA/S
 
 0:s  NOUN_SGNOM_0 ;
-0:aha NOUN_CASES_SG_BACK ;
-0:ah  NOUN_CASES_PL_BACK ;
-0:ah  NOUN_PLPAR_IE ;
+0:ha NOUN_CASES_SG_BACK ;
+0:h  NOUN_CASES_PL_BACK ;
+0:h  NOUN_PLPAR_IE ;
 
 LEXICON NOUN_LAIT/EH
 
@@ -23898,6 +23934,13 @@ LEXICON NOUN_VAIH/E
 0:e NOUN_SGNOM_0 ;
 0:ie NOUN_CASES_SG_BACK ;
 0:et NOUN_SGPAR_TA ;
+
+LEXICON NOUN_VUAT/E
+
+0:e NOUN_SGNOM_0 ;
+0:tie NOUN_CASES_SG_BACK ;
+0:et NOUN_SGPAR_TA ;
+0:te NOUN_CASES_PL_BACK ;
 
 LEXICON NOUN_MUR/RE
 
