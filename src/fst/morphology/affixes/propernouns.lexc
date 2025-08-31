@@ -89,15 +89,16 @@ LEXICON PROPN_CASES_SG_STRONG_BACK
 
 LEXICON PROPN_CASES_SG_WEAK_BACK
 
++Sg+Abl:lta # ;
++Sg+Ade:lla # ;
++Sg+All:le # ;
++Sg+Ela:šta # ;
 +Sg+Gen:n # ;
 +Sg+Ine:s # ;
 +Sg+Ine:šša # ;
 +Sg+Ine:ssa # ;
 +Sg+Ine+Clt/Ki:ssaki # ;
-+Sg+Ela:šta # ;
-+Sg+Ade:lla # ;
 +Pl+Nom:t # ;
-+Sg+All:le # ;
 
 LEXICON PROPN_CASES_SG_FRONT
 
@@ -109,13 +110,13 @@ LEXICON PROPN_CASES_SG_STRONG_FRONT
 +Sg+Ill:h # ;
 
 LEXICON PROPN_CASES_SG_WEAK_FRONT
-
++Sg+Abl:ltä # ;
++Sg+Ade:llä # ;
++Sg+All:le # ;
++Sg+Ela:štä # ;
 +Sg+Gen:n # ;
 +Sg+Ine:s # ;
 +Sg+Ine:ššä # ;
-+Sg+Ela:štä # ;
-+Sg+Ade:llä # ;
 +Pl+Nom:t # ;
-+Sg+All:le # ;
 
 ! vim: set ft=xfst-lexc:
