@@ -247,11 +247,13 @@ LEXICON VERB_PCP_TY/TÄVÄ/TÄIS/TIH
 LEXICON VERB_PCP_TU
 !! **LEXICON @LEXNAME@** 
 +Pss+PrfPrc+Pos+Sg+Nom:tu # ;
++Pss+PrfPrc+Pos+Sg+Par:tuo # ;
 +Pss+PrfPrc+Pos+Sg+Par+Px3:tuoh # ;
 
 LEXICON VERB_PCP_TY
 !! **LEXICON @LEXNAME@** 
 +Pss+PrfPrc+Pos+Sg+Nom:ty # ;
++Pss+PrfPrc+Pos+Sg+Par:työ # ;
 +Pss+PrfPrc+Pos+Sg+Par+Px3:työh # ;
 
 LEXICON VERB_PCP_TAVA
@@ -372,6 +374,7 @@ LEXICON VERB_PAST_BACK
 +Act+Ind+Prt+Pl1:ima # ;
 +Act+Ind+Prt+Pl1:imma # ;
 +Act+Ind+Prt+Pl2:itta # ;
++Act+Ind+Prt+Pl2:ija # ;!BIBLE
 
 LEXICON VERB_PAST_FRONT
 !! **LEXICON @LEXNAME@** 
@@ -379,14 +382,31 @@ LEXICON VERB_PAST_FRONT
 +Act+Ind+Prt+Sg2:it # ;
 +Act+Ind+Prt+Pl1:immä # ;
 +Act+Ind+Prt+Pl2:ittä # ;
++Act+Ind+Prt+Pl2:ijä # ;!BIBLE tykkäsijä
 
 
 LEXICON VERB_COND
 !! **LEXICON @LEXNAME@** 
 +Act+Cond+Sg1:isin # ;
-+Act+Cond+Sg2:isin # ;
++Act+Cond+Sg2:isit # ;
 +Act+Cond+Sg3:is # ;
 +Act+Cond+Sg3+Qst:isko # ;
+
+LEXICON VERB_COND_FRONT
+!! **LEXICON @LEXNAME@** 
++Act+Cond+Sg1:isin VERB_CLITS_FRONT_OPT ;
++Act+Cond+Sg2:isit VERB_CLITS_FRONT_OPT ;
++Act+Cond+Sg3:is VERB_CLITS_FRONT_OPT ;
++Act+Cond+Pl1:isimä VERB_CLITS_FRONT_OPT ;
++Act+Cond+Pl2:isijä VERB_CLITS_FRONT_OPT ;
+
+LEXICON VERB_COND_BACK
+!! **LEXICON @LEXNAME@** 
++Act+Cond+Sg1:isin VERB_CLITS_BACK_OPT ;
++Act+Cond+Sg2:isit VERB_CLITS_BACK_OPT ;
++Act+Cond+Sg3:is VERB_CLITS_BACK_OPT ;
++Act+Cond+Pl1:isima VERB_CLITS_FRONT_OPT ;
++Act+Cond+Pl2:isija VERB_CLITS_FRONT_OPT ;
 
 LEXICON VERB_COND_PASSIVE_TAIS
 !! **LEXICON @LEXNAME@** 
@@ -399,6 +419,15 @@ LEXICON VERB_COND_PASSIVE_TÄIS
 LEXICON VERB_POT_BACK
 +Act+Pot+Sg2:et # ;
 +Act+Pot+Sg3:ou # ;
++Act+Pot+Pl1:emma # ;
++Act+Pot+Pl2:etta # ;
++Act+Pot+ConNeg:e # ;
+
+LEXICON VERB_POT_FRONT
++Act+Pot+Sg2:et # ;
++Act+Pot+Sg3:öy # ;
++Act+Pot+Pl1:emmä # ;
++Act+Pot+Pl2:että # ;
 +Act+Pot+ConNeg:e # ;
 
 LEXICON VERB_INF2_INE_BACK
@@ -514,6 +543,12 @@ LEXICON AUX_PAST_PASSIVE_H
 +Act+Ind+Prt+Pl3:h # ;
 +Pss+Ind+Prt:h # ;
 
+LEXICON AUX_PCP_UN
+!! **LEXICON @LEXNAME@**
++Act+PrfPrc:un # ;
++Act+Ind+Prt+Sg+ConNeg:un # ;
+!+Act+PrfPrc+Der+V→A+A: PCP_UN ;
+
 LEXICON AUX_COND
 
 !+Act%<cni%>%<p1%>+Sg:isin # ;
@@ -579,14 +614,24 @@ LEXICON AUX_PCP_N
 LEXICON VERB_CLITS_BACK_OPT
 +Clt/Ki:ki # ;
 +Clt/Han:han # ;
++Clt/Pa:pa # ;
 +Qst:ko # ;
 0   # ;
 
 LEXICON VERB_CLITS_FRONT_OPT
 +Clt/Ki:ki # ;
 +Clt/Han:hän # ;
++Clt/Pa:pä # ;
 +Qst:kö # ;
 0   # ;
+
+LEXICON AUX_CLITS_FRONT_OPT
++Clt/Ki:ki # ;
++Clt/Han:hän # ;
++Clt/Pa:pä # ;
++Qst:kö # ;
+0   # ;
+
 
 ! vim: set ft=xfst-lexc:
 
