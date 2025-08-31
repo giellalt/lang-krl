@@ -91,7 +91,8 @@ rušappo+A:rušappo ADJ_MAINIJO ;
 šamanmielini+A:šaman#mieli ADJ_EEPPI/NI ;
 šamanmoini+A:šaman#moi ADJ_KARJALAI/NI ;
 šelvä+A:šelv ADJ_HYV/Ä ;
-semmoni+A:semmo  ADJ_KARJALAI/NI ;
+semmoni+A:semmo  ADJ_KARJALAI/NI ;!CHECK SGPAR, is it semmoista
+šemmoni+A:šemmo	ADJ_ŠEMMO/NI ;!BIBLE
 šeuruava+A:šeuruav ADJ_OM/A ;
 šilie+A:šilie ADJ_OIKIE ;
 suomelane+A:suomela ADJ_KARJALAI/NI ;
@@ -4334,7 +4335,6 @@ ńešnoi	adjective ;
 ńesrašiimoi	adjective ;
 ńetoroška	adjective ;
 netšelline	adjective ;
-šemmone	ADJ_ŠEMMO/NI ;!BIBLE
 netšemmoine	adjective ;
 netšikäläine	adjective ;
 netšimpäine	adjective_komp ;
