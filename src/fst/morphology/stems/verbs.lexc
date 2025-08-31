@@ -17702,7 +17702,7 @@ pisytteä	verb_kaus ;
 pisytteäkseh	verb_refl ;
 pisytteättšie	verb_refl ;
 pisyttyö	verb_refl ;
-pisyö	verb ;
+pisyö+V:pisy	VERB_PISY/Ö ;
 pisähelläkseh	verb_frekv ;
 pisähteäkseh	verb_mom.-refl.mom ;
 pisähytteä	verb_kaus ;
@@ -25580,7 +25580,7 @@ tahotuttoa	verb_yksipers ;
 tahtoinnellakseh	verb_frekv.-refl ;
 tahtoitellakseh	verb_frekv.-refl ;
 tahtovuo	verb_inkoat ;
-tahtuo	verb ;
+tahtuo+V:tah	VERB_TAH/TUO ;
 taihuo	verb ;
 taijahtoa	verb ;
 taijahtoakseh	verb_refl ;
@@ -32490,6 +32490,7 @@ LEXICON VERB_RUA/TUA
 0      VERB_PRES_BACK ;
 0:va   VERB_PRES_BACK ;
 0:tak  VERB_IMPV_KAH/KA/KUA ; 
+0:ta  VERB_PASSIVE_H ;
 0:ta  VERB_PCP_N ;
 0  VERB_CONNEG_0 ;
 
@@ -32500,6 +32501,13 @@ LEXICON VERB_RUA/TUO
 0      VERB_PRES_BACK ;
 0:va   VERB_PRES_BACK ;
 0:ta   VERB_INF_MA ;
+
+LEXICON VERB_TAH/TUO
+!! **LEXICON @LEXNAME@** 
+0:tu   VERB_INF_O ;
+0:to   VERB_INF_MA ;
+0:to   VERB_3SG_U ;
+0:o      VERB_PRES_BACK ;
 
 LEXICON VERB_KUUL/UO
 !! **LEXICON @LEXNAME@** 
@@ -32521,15 +32529,23 @@ LEXICON VERB_RYH/TYÖ
 0:ty  VERB_INF_Ö ;
 0:ty  VERB_PAST_3SG_0 ;
 0:ty  VERB_3SG_Y ;
-0:ty  VERB_PRES_BACK ;
+0:ty  VERB_PRES_FRONT ;
 0:yt  VERB_PCP_TY/TÄVÄ/TÄIS/TIH ;
+
+LEXICON VERB_PISY/Ö
+!! **LEXICON @LEXNAME@** 
+0  VERB_INF_Ö ;
+0  VERB_PAST_3SG_0 ;
+0  VERB_3SG_Y ;
+0  VERB_PRES_FRONT ;
+0:t  VERB_PCP_TY/TÄVÄ/TÄIS/TIH ;
 
 LEXICON VERB_ILMEŠ/TYÖ
 !! **LEXICON @LEXNAME@** 
 0:ty  VERB_INF_Ö ;
 0:ty  VERB_PAST_3SG_0 ;
 0:ty  VERB_3SG_Y ;
-0:ty  VERB_PRES_BACK ;
+0:ty  VERB_PRES_FRONT ;
 
 LEXICON VERB_IS/TUO
 !! **LEXICON @LEXNAME@** 
@@ -32546,6 +32562,7 @@ LEXICON VERB_RIK/KUO
 0:ku  VERB_INF_O ;
 0:ko  VERB_PAST_3SG_0 ;
 0:ko  VERB_3SG_U ;
+0:o    VERB_CONNEG_0 ;
 0:o  VERB_PRES_BACK ;
 0:ot  VERB_PCP_TU/TAVA/TAIS/TIH ;
 
