@@ -75,14 +75,15 @@ LEXICON PRON_CASES_SG_WEAK_BACK
 
 LEXICON PRON_CASES_SG_WEAK_BACK_S
 
++Sg+Abl:lta # ;
++Sg+Ade:lla # ;
++Sg+Ade:la # ;
++Sg+All:le # ;
 +Sg+Gen:n # ;
 +Sg+Ine:s # ;
 +Sg+Ine:ssa # ;
 +Sg+Ela:sta # ;
 +Sg+Ill:h # ;
-+Sg+Ade:lla # ;
-+Sg+Ade:la # ;
-+Sg+All:le # ;
 +Pl+Nom:t # ;
 
 LEXICON PRON_CASES_SG_STRONG_FRONT
@@ -90,15 +91,15 @@ LEXICON PRON_CASES_SG_STRONG_FRONT
 +Sg+Ess:nä # ;
 
 LEXICON PRON_CASES_SG_WEAK_FRONT
-
++Sg+Abl:ltä # ;
++Sg+Ade:llä # ;
++Sg+Ade+Px3:lläh # ;
++Sg+All:le # ;
 +Sg+Gen:n # ;
 +Sg+Ine:s # ;
 +Sg+Ine:ššä # ;
 +Sg+Ine:štä # ;
 +Sg+Ill:h # ;
-+Sg+Ade:llä # ;
-+Sg+Ade+Px3:lläh # ;
-+Sg+All:le # ;
 +Pl+Nom:t # ;
 
 LEXICON PRON_CASES_SG_WEAK_FRONT_S
