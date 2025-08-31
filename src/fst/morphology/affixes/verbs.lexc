@@ -98,17 +98,17 @@ LEXICON VERB_PAST_3SG_0
 
 LEXICON VERB_3SG_0_BACK
 !! **LEXICON @LEXNAME@** 
-+Act+Ind+Prs+Sg3: # ;
-+Act+Ind+Prs+Sg3+Qst:ko # ;
++Act+Ind+Prs+Sg3: VERB_CLITS_BACK_OPT ;
+!+Act+Ind+Prs+Sg3+Qst:ko # ;
 
 LEXICON VERB_3SG_U
 !! **LEXICON @LEXNAME@** 
-+Act+Ind+Prs+Sg3:u # ;
++Act+Ind+Prs+Sg3:u VERB_CLITS_BACK_OPT ;
 +Act+Ind+Prs+Sg3+Qst:uko # ;
 
 LEXICON VERB_3SG_Y
 !! **LEXICON @LEXNAME@** 
-+Act+Ind+Prs+Sg3:y # ;
++Act+Ind+Prs+Sg3:y VERB_CLITS_FRONT_OPT ;
 
 LEXICON VERB_PASSIVE_H
 !! **LEXICON @LEXNAME@** 
@@ -575,6 +575,18 @@ LEXICON AUX_PCP_N
 !+Act%<past%>+Sg%<conneg%>:n # ;
 +Act+PrfPrc:n # ;
 +Act+Ind+Prt+Sg+ConNeg:n # ;
+
+LEXICON VERB_CLITS_BACK_OPT
++Clt/Ki:ki # ;
++Clt/Han:han # ;
++Qst:ko # ;
+0   # ;
+
+LEXICON VERB_CLITS_FRONT_OPT
++Clt/Ki:ki # ;
++Clt/Han:hän # ;
++Qst:kö # ;
+0   # ;
 
 ! vim: set ft=xfst-lexc:
 
