@@ -5621,7 +5621,7 @@ karjennella	verb_frekv ;
 karjentoa	verb_kaus ;
 karjeta	verb_transl ;
 karjeutuo	verb_inkoat ;
-karjuo	verb ;
+karjuo+V:karj	VERB_KARJ/UO ;
 karkailla	verb_frekv ;
 karkaittoa	verb_kaus ;
 karkastuo	verb ;
@@ -32003,11 +32003,12 @@ LEXICON VERB_MÄN/NÄ
 0:n    VERB_INF_Ä ;
 0:nä   VERB_PASSIVE_H ;
 0:ö    VERB_3SG_Y ;
-0:e    VERB_PRES_BACK ;
+0:e    VERB_PRES_FRONT ;
 0:e    VERB_IMPV ;
 0:i    VERB_PAST_3SG_0 ;
-0    VERB_PAST_BACK ;
-0:  VERB_PCP_TU/TAVA/TAIS/TIH ;
+0    VERB_PAST_FRONT ;
+0:  VERB_IMPV_KÄH/KÄ/KYÄ ;
+0:  VERB_PCP_TY/TÄVÄ/TÄIS/TIH ;
 
 LEXICON VERB_TARVI/TA
 !! **LEXICON @LEXNAME@** 
@@ -32156,6 +32157,18 @@ LEXICON VERB_TAH/TOA
 0:ota VERB_PASSIVE_H ;
 0:ot VERB_PCP_TU/TAVA/TAIS/TIH ;
 0:to VERB_PCP_N ;
+
+LEXICON VERB_KARJ/UO
+!! **LEXICON @LEXNAME@** 
+0:u  VERB_INF_O ;
+0:u  VERB_INF_MA ;
+0:u  VERB_PRES_BACK ;
+0:u  VERB_3SG_U ;
+0:u  VERB_PAST_3SG_0 ;
+0:uta VERB_PASSIVE_H ;
+0:uk VERB_IMPV_KAH/KA/KUA ;
+0:ut VERB_PCP_TU/TAVA/TAIS/TIH ;
+0:u VERB_PCP_N ;
 
 LEXICON VERB_TAP/PUA
 !! **LEXICON @LEXNAME@** 
