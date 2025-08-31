@@ -1049,6 +1049,8 @@ These lexica redirects the stem to different person-number sublexica.
 
 **LEXICON VERB_TAH/TOA** 
 
+**LEXICON VERB_KARJ/UO** 
+
 **LEXICON VERB_TAP/PUA** 
 
 **LEXICON VERB_TAP/POA** 
