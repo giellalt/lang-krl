@@ -181,11 +181,15 @@ These lexica redirects the stem to different person-number sublexica.
 
 **LEXICON VERB_RUA/TUO** 
 
+**LEXICON VERB_TAH/TUO** 
+
 **LEXICON VERB_KUUL/UO** 
 
 **LEXICON VERB_LOP/PUO** 
 
 **LEXICON VERB_RYH/TYÖ** 
+
+**LEXICON VERB_PISY/Ö** 
 
 **LEXICON VERB_ILMEŠ/TYÖ** 
 
