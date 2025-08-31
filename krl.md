@@ -355,6 +355,10 @@ FIXME: ger or sup or some other
 
 **LEXICON VERB_COND** 
 
+**LEXICON VERB_COND_FRONT** 
+
+**LEXICON VERB_COND_BACK** 
+
 **LEXICON VERB_COND_PASSIVE_TAIS** 
 
 **LEXICON VERB_COND_PASSIVE_TÄIS** 
@@ -383,6 +387,8 @@ FIXME
 **LEXICON AUX_PAST_WEAK_BACK** 
 
 **LEXICON AUX_PAST_3SG_0** 
+
+**LEXICON AUX_PCP_UN**
 
 * * *
 
@@ -981,6 +987,8 @@ These lexica redirects the stem to different person-number sublexica.
 
 **LEXICON VERB_V/IIJÄ** 
 
+**LEXICON VERB_Š/YYVVÄ** 
+
 **LEXICON VERB_L/UUVVA** 
 
 **LEXICON VERB_Š/YYVÄ** 
@@ -1040,6 +1048,8 @@ These lexica redirects the stem to different person-number sublexica.
 **LEXICON VERB_VALMIS/TOA** 
 
 **LEXICON VERB_TAH/TOA** 
+
+**LEXICON VERB_TAP/PUA** 
 
 **LEXICON VERB_TAP/POA** 
 
@@ -1150,7 +1160,9 @@ These lexica redirects the stem to different person-number sublexica.
 
 **LEXICON VERB_NIM/ETÄ** 
 
-**LEXICON VERB_TYK/YTÄ** 
+**LEXICON VERB_TYK/YTÄ** CHECKME 20250831
+
+**LEXICON VERB_TYK/ÄTÄ** 
 
 **LEXICON VERB_HYREYTY/Ä** 
 

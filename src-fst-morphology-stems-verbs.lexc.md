@@ -51,6 +51,8 @@ These lexica redirects the stem to different person-number sublexica.
 
 **LEXICON VERB_V/IIJÄ** 
 
+**LEXICON VERB_Š/YYVVÄ** 
+
 **LEXICON VERB_L/UUVVA** 
 
 **LEXICON VERB_Š/YYVÄ** 
@@ -110,6 +112,8 @@ These lexica redirects the stem to different person-number sublexica.
 **LEXICON VERB_VALMIS/TOA** 
 
 **LEXICON VERB_TAH/TOA** 
+
+**LEXICON VERB_TAP/PUA** 
 
 **LEXICON VERB_TAP/POA** 
 
@@ -220,7 +224,9 @@ These lexica redirects the stem to different person-number sublexica.
 
 **LEXICON VERB_NIM/ETÄ** 
 
-**LEXICON VERB_TYK/YTÄ** 
+**LEXICON VERB_TYK/YTÄ** CHECKME 20250831
+
+**LEXICON VERB_TYK/ÄTÄ** 
 
 **LEXICON VERB_HYREYTY/Ä** 
 
