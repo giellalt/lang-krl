@@ -59,6 +59,10 @@ LEXICON NUM_SGPAR_TÄ
 
 +Sg+Par:tä # ;
 
+LEXICON NUM_PLGEN_IEN
+
++Pl+Gen:ien  # ;
+
 LEXICON NUM_PLPAR_IE
 
 +Pl+Par:ie  # ;
