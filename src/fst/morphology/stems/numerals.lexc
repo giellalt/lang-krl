@@ -90,7 +90,7 @@ LEXICON cardinal_vaill
 
 LEXICON ordinal
 !! **LEXICON @LEXNAME@**
-+A+Ord # ;
++A+Ord: # ;
 
 
 LEXICON NUM_Y/KSI
