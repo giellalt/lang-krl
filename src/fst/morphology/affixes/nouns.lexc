@@ -93,13 +93,13 @@ LEXICON NOUN_CASES_SG_WEAK_BACK
 
 LEXICON NOUN_CASES_SG_WEAK_FRONT
 
-+Sg+Ine:ššä # ;
-+Sg+Ela:štä # ;
-+Sg+Gen:n # ;
-+Sg+Ade:llä # ;
-+Sg+All:llä # ;
-+Sg+Abl:ltä # ;
-+Pl+Nom:t # ;
++Sg+Ine:ššä NOUN_CLITS_FRONT_OPT ;
++Sg+Ela:štä NOUN_CLITS_FRONT_OPT ;
++Sg+Gen:n NOUN_CLITS_FRONT_OPT ;
++Sg+Ade:llä NOUN_CLITS_FRONT_OPT ;
++Sg+All:llä NOUN_CLITS_FRONT_OPT ;
++Sg+Abl:ltä NOUN_CLITS_FRONT_OPT ;
++Pl+Nom:t NOUN_CLITS_FRONT_OPT ;
 
 LEXICON NOUN_CASES_SG_STRONG_BACK
 
@@ -109,8 +109,8 @@ LEXICON NOUN_CASES_SG_STRONG_BACK
 
 LEXICON NOUN_CASES_SG_STRONG_FRONT
 
-+Sg+Ess:nä # ;
-+Sg+Ill:h # ;
++Sg+Ess:nä NOUN_CLITS_FRONT_OPT ;
++Sg+Ill:h NOUN_CLITS_FRONT_OPT ;
 +Sg+Ill+PxSg2:häš # ;
 
 LEXICON NOUN_CASES_PL_FRONT
@@ -167,10 +167,11 @@ LEXICON NOUN_CASES_LO/I_PL_BACK
 LEXICON NOUN_CASES_LÖ/I_PL_FRONT
 
 +Pl+Ine:is # ;
-+Pl+Ine:issä # ;
-+Pl+Ela:istä # ;
++Pl+Ine:issä NOUN_CLITS_FRONT_OPT ;
++Pl+Ela:istä NOUN_CLITS_FRONT_OPT ;
 +Pl+Ill:ih # ;
-+Pl+Ade:illä # ;
++Pl+Abl:iltä NOUN_CLITS_FRONT_OPT ;
++Pl+Ade:illä NOUN_CLITS_FRONT_OPT ;
 
 LEXICON NOUN_SGNOM_0
 
@@ -185,11 +186,11 @@ LEXICON NOUN_SGGEN_N
 
 LEXICON NOUN_SGPAR_TÄ
 
-+Sg+Par:tä # ;
++Sg+Par:tä NOUN_CLITS_FRONT_OPT ;
 
 LEXICON NOUN_SGPAR_Ä
 
-+Sg+Par:ä # ;
++Sg+Par:ä NOUN_CLITS_FRONT_OPT ;
 
 LEXICON NOUN_SGPAR_E
 
@@ -268,6 +269,15 @@ LEXICON NOUN_POSS_BACK_OPT
 LEXICON NOUN_CLITS_BACK_OPT
 
 +Clt/Ki:ki # ;
++Clt/Han:han # ;
++Qst:ko # ;
+0   # ;
+
+LEXICON NOUN_CLITS_FRONT_OPT
+
++Clt/Ki:ki # ;
++Clt/Han:hän # ;
++Qst:kö # ;
 0   # ;
 
 LEXICON NOUN_SGPAR_TA

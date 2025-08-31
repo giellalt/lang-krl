@@ -86,6 +86,7 @@ Multichar_Symbols  !!≈ # Definitions for @CODE@
  +Cmp
 
 +Clt/Ki
++Clt/Han
 !! Question and Focus particles:
  +Qst +Foc !!≈ * **@CODE@**
 +Foc/Ka !!≈ * **@CODE@** convert in Apertium _eikä_ "ei" V Neg Act Sg3 Foc/Ka
