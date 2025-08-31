@@ -1256,6 +1256,7 @@ ilkietöin	adjective_kar ;
 illaistamatoin	adjective_kielt ;
 illalline	adjective ;
 illo	adjective ;
+ilmane+A:ilma ADJ_ŠEMMO/NI ;!BIBLE,
 ilmahine	adjective ;
 ilmalline	adjective ;
 ilmatoin	adjective ;
@@ -4333,6 +4334,7 @@ ńešnoi	adjective ;
 ńesrašiimoi	adjective ;
 ńetoroška	adjective ;
 netšelline	adjective ;
+šemmone	ADJ_ŠEMMO/NI ;!BIBLE
 netšemmoine	adjective ;
 netšikäläine	adjective ;
 netšimpäine	adjective_komp ;
@@ -7315,6 +7317,7 @@ tohakk	a_o_adjective ;
 tohie	adjective ;
 toimekas	adjective ;
 toimikas	adjective ;
+toini+A:toi ADJ_TOI/NI ;!BIBLE
 toisenmoine	adjective ;
 toissa	adjective_taipum ;
 toissi	adjective ;
@@ -9167,6 +9170,24 @@ LEXICON ADJ_KARJALAI/NI
 +Pos:se ADJ_CASES_SG_BACK ;
 +Pos:s  ADJ_CASES_PL_BACK ;
 +Pos:s  ADJ_SGPAR_TA ;
++Pos:s  ADJ_PLPAR_IE ;
+
+LEXICON ADJ_ŠEMMO/NI
+
++Pos:ni ADJ_SGNOM_0 ;
++Pos:se ADJ_CASES_SG_BACK ;
++Pos:s  ADJ_CASES_PL_BACK ;
++Pos:is  ADJ_SGPAR_TA ;
++Pos:s  ADJ_PLGEN_IEN ;
++Pos:s  ADJ_PLPAR_IE ;
+
+LEXICON ADJ_TOI/NI
+
++Pos:ni ADJ_SGNOM_0 ;
++Pos:se ADJ_CASES_SG_BACK ;
++Pos:s  ADJ_CASES_PL_BACK ;
++Pos:s  ADJ_SGPAR_TA ;
++Pos:s  ADJ_PLGEN_IEN ;
 +Pos:s  ADJ_PLPAR_IE ;
 
 LEXICON ADJ_EEPPI/NI
