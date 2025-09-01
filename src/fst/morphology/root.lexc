@@ -340,7 +340,8 @@ Multichar_Symbols  !!≈ # Definitions for @CODE@
  +V→N +V→V +V→A !!≈ * **@CODE@**
  +Der/xxx !!≈ * **@CODE@**
  +Der
- 
+ +Der/NomAg
+ +Der/NomAct
 
 !! Morphophonology
 !  ---------------

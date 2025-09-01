@@ -2943,7 +2943,7 @@ hyönišköine noun_dem ;
 hyöpsy noun ;
 hyöpäleh noun ;
 hyöšmärö noun ;
-hyöty noun ;
+hyöty+N:hyö NOUN_HYÖ/TY ;
 hyötymine noun ;
 hyövykki noun ;
 hyövyntä noun ;
@@ -3050,6 +3050,7 @@ hätä(v)ys noun ;
 hätä(v)ytäntä noun ;
 hätävö noun ;
 hävelö noun ;
+häviemini+N:häviemi NOUN_HÄVIEMI/NI ;!BIBLE
 hävientä noun ;
 hävikki noun ;
 hävittäjä noun ;
@@ -23241,6 +23242,16 @@ LEXICON NOUN_LIN/TU
 0:nu NOUN_CASES_PL_BACK ;
 0:tu NOUN_PLPAR_JA ;
 
+LEXICON NOUN_HYÖ/TY
+
+0:ty NOUN_SGNOM_0 ;
+0:vy NOUN_CASES_SG_FRONT ;
+0:ty NOUN_SGPAR_Ö ;
+0:ylö NOUN_CASES_LÖ/I_PL_FRONT ;
+0:ty NOUN_CASES_PL_FRONT ;
+0:ty NOUN_PLGEN_JEN ;
+0:ty NOUN_PLPAR_JÄ ;
+
 LEXICON NOUN_TUN/TI
 
 0:ti NOUN_SGNOM_0 ;
@@ -23661,6 +23672,13 @@ LEXICON NOUN_ŠIJAHI/NI
 0:se NOUN_CASES_SG_BACK ;
 0:s NOUN_SGPAR_TU ;
 0:s NOUN_CASES_PL_BACK ;
+
+LEXICON NOUN_HÄVIEMI/NI
+
+0:ni NOUN_SGNOM_0 ;
+0:se NOUN_CASES_SG_FRONT ;
+0:s NOUN_SGPAR_TA ;
+0:s NOUN_CASES_PL_FRONT ;
 
 LEXICON NOUN_KEHITTÄMI/NE
 
