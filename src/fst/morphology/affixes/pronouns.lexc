@@ -102,13 +102,14 @@ LEXICON PRON_CASES_SG_WEAK_FRONT
 +Sg+Ill:h # ;
 +Pl+Nom:t # ;
 
-LEXICON PRON_CASES_SG_WEAK_FRONT_S
+LEXICON PRON_CASES_SG_WEAK_FRONT_S !Perhaps change to no-px
 
 +Sg+Gen:n # ;
 +Sg+Ine:s # ;
 +Sg+Ine:ssä # ;
 +Sg+Ine:stä # ;
 +Sg+Ill:h # ;
++Sg+Ade:llä # ;
 +Sg+All:le # ;
 +Pl+Nom:t # ;
 
