@@ -28,6 +28,7 @@ nuo+Pron+Dem:n  PRON_N/UO ;
 ne+Pron+Dem:n  PRON_N/E ;
 
 kenkänä+Pron+Ind+Sg+Nom:kenkänä # ;
+kenkänä+Pron+Ind+Sg+Par:ketänä # ;
 iče+Pron+Refl:ič   PRON_IČ/E ;
 kaikki+Pron+Ind:kai  PRON_KAI/KKI ;
 kumpaine+Pron+Interr:kumpa  PRON_KUMPA/INE ;
