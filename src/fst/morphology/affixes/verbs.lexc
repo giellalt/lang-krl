@@ -116,6 +116,18 @@ LEXICON VERB_PASSIVE_H
 +Pss+Prs:h # ;
 +Pss+Prs+ConNeg:0 # ;
 
+LEXICON VERB_PASSIVE_H_BACK
+!! **LEXICON @LEXNAME@** 
++Act+Ind+Prs+Pl3:ah # ;
++Pss+Prs:ah # ;
++Pss+Prs+ConNeg:a # ;
+
+LEXICON VERB_PASSIVE_H_FRONT
+!! **LEXICON @LEXNAME@** 
++Act+Ind+Prs+Pl3:äh # ;
++Pss+Prs:äh # ;
++Pss+Prs+ConNeg:ä # ;
+
 LEXICON VERB_PAST_PASSIVE_H
 !! **LEXICON @LEXNAME@** 
 +Act+Ind+Prt+Pl3:h CLITS_KI_OPT ;
@@ -176,6 +188,7 @@ LEXICON VERB_INF_MÄ
 +Inf+Ine:mäššä # ;
 +Inf+Ade:mällä # ;
 +Inf+Abe:mättä # ;
++Der+Der/NomAct+N:mi NOUN_HÄVIEMI/NI ;
 
 LEXICON VERB_INF_MA
 !! **LEXICON @LEXNAME@** 
@@ -183,6 +196,7 @@ LEXICON VERB_INF_MA
 +Inf+Ine:mašša # ;
 +Inf+Abe:matta # ;
 +Inf+Ade:malla # ;
++Der+Der/NomAct+N:mi NOUN_ŠIJAHI/NI ;
 
 LEXICON VERB_INF_TA
 !! **LEXICON @LEXNAME@** 
@@ -239,11 +253,13 @@ LEXICON VERB_PCP_TU/TAVA/TAIS/TIH
  VERB_PCP_TAVA ;
  VERB_COND_PASSIVE_TAIS ;
  VERB_PAST_PASSIVE_TIH_BACK ;
+ VERB_PASSIVE_H_BACK ;
 LEXICON VERB_PCP_TY/TÄVÄ/TÄIS/TIH
  VERB_PCP_TY ;
  VERB_PCP_TÄVÄ ;
  VERB_COND_PASSIVE_TÄIS ;
  VERB_PAST_PASSIVE_TIH_FRONT ;
+ VERB_PASSIVE_H_FRONT ;
 LEXICON VERB_PCP_TU
 !! **LEXICON @LEXNAME@** 
 +Pss+PrfPrc+Pos+Sg+Nom:tu # ;
@@ -307,6 +323,16 @@ LEXICON VERB_PCP_N
 !! **LEXICON @LEXNAME@** 
 +Act+PrfPrc:n # ;
 +Act+Ind+Prt+Sg+ConNeg:n # ;
+
+LEXICON VERB_PCP_N_BACK
+!! **LEXICON @LEXNAME@** 
++Act+PrfPrc:n VERB_CLITS_BACK_OPT ;
++Act+Ind+Prt+Sg+ConNeg:n VERB_CLITS_BACK_OPT ;
+
+LEXICON VERB_PCP_N_FRONT
+!! **LEXICON @LEXNAME@** 
++Act+PrfPrc:n VERB_CLITS_FRONT_OPT ;
++Act+Ind+Prt+Sg+ConNeg:n VERB_CLITS_FRONT_OPT ;
 
 LEXICON VERB_PCP_UN
 !! **LEXICON @LEXNAME@** 
