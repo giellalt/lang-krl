@@ -20,6 +20,16 @@ kymmenen+Num+Card:kymmene  NUM_KYMMENE/N ;
 šata+Num+Card:š       NUM_Š/ATA ;
 miljon+Num+Card:miljon NUM_MILJON/A ;
 miljardi+Num+Card:miljard NUM_MILJARD/I ;
+yksitoista+Num+Card+Sg+Nom:yksitoista # ;
+kakšitoista+Num+Card+Sg+Nom:kakšitoista # ;
+kolmetoista+Num+Card+Sg+Nom:kolmetoista # ;
+n’el’l’ätoista+Num+Card+Sg+Nom:n’el’ätoista # ;
+viisitoista+Num+Card+Sg+Nom:viisitoista  # ;
+kuušitoista+Num+Card+Sg+Nom:kuušitoista  # ;
+seiččementoista+Num+Card+Sg+Nom:seiččementoista  # ;
+kahekšantoista+Num+Card+Sg+Nom:kahekšantoista  # ;
+yhekšäntoista+Num+Card+Sg+Nom:yhekšäntoista   # ;
+
 
 enšimäini+A+Ord:enšimäi  NUM_ENŠIMMÄI/NI ;
 enšimmäini+A+Ord:enšimmäi  NUM_ENŠIMMÄI/NI ;
