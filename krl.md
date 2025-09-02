@@ -1170,6 +1170,7 @@ These lexica redirects the stem to different person-number sublexica.
 **LEXICON VERB_LEIK/ATA** 
 
 **LEXICON VERB_ŠAL/VATA** 
+
 **LEXICON VERB_ŠAL/VATA** 
 
 **LEXICON VERB_NIM/ETÄ** 
@@ -1189,6 +1190,7 @@ These lexica redirects the stem to different person-number sublexica.
 **LEXICON VERB_OM/MELLA** 
 
 **LEXICON VERB_O/LLA** 
+
 **LEXICON AUX_O/LLA** 
 
 **LEXICON AUX_E/I** 
