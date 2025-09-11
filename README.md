@@ -1,4 +1,4 @@
-The Karelian morphology and tools
+The Viena Karelian morphology and tools
 =================================
 
 [![Maturity](https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fgiellalt%2Flang-krl%2Fgh-pages%2Fmaturity.json)](https://giellalt.github.io/MaturityClassification.html)
@@ -16,7 +16,7 @@ Download nightly / CI/CD installation packages for testing (contains the core zh
 
 __NB!!__ Note that the nightly / CI/CD installation packages are not tested for language quality, and might contain regressions and errors.
 
-This directory contains source files for the Karelian language
+This directory contains source files for the Viena Karelian language
 morphology and dictionary. The data and implementation are licenced
 under GNU GPLv3 licence also detailed in the
 [LICENSE](https://github.com/giellalt/lang-krl/blob/main/LICENSE). The
@@ -24,7 +24,7 @@ authors named in the AUTHORS file are available to grant
 other licencing choices.
 
 Install proofing tools and [keyboards](https://github.com/giellalt/keyboard-krl)
-for the Karelian language by using the [Divvun Installer](http://divvun.no)
+for the Viena Karelian language by using the [Divvun Installer](http://divvun.no)
 
 Download and test speller files
 -------------------------------
@@ -64,7 +64,7 @@ Lexical data was taken from:
 Core dependencies
 -----------------
 
-In order to compile and use the Karelian language morphology and
+In order to compile and use the Viena Karelian language morphology and
 dictionaries, you need:
 
 - an FST compiler: [HFST](https://github.com/hfst/hfst), [Foma](https://github.com/mhulden/foma) or [Xerox Xfst](https://web.stanford.edu/~laurik/fsmbook/home.html)

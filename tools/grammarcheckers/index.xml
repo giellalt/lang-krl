@@ -2,7 +2,7 @@
 <hfstspeller dtdversion="1.0" hfstversion="3">
   <info>
     <locale>krl</locale>
-    <title>Karelian Speller</title>
+    <title>Viena Karelian Speller</title>
     <description>This speller is used in conjunction with the grammar checker,
     and is only used as part of the development cycle. The main feature is that
     the acceptor is a full analyser, to feed into the CG stream.</description>
@@ -12,7 +12,7 @@
     <contact email="feedback@divvun.no" website="http://divvun.no"/>
   </info>
   <acceptor type="general" id="acceptor.default.hfst">
-    <title>Karelian analysing speller</title>
+    <title>Viena Karelian analysing speller</title>
     <description>Speller lexicon with analysis output.</description>
   </acceptor>
   <errmodel id="errmodel.default.hfst">
