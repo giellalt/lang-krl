@@ -1,5 +1,5 @@
 Prefixes
-Prefixes in the Karelian language are bound to beginning of other words.
+Prefixes in the Viena Karelian language are bound to beginning of other words.
 
 * * *
 

@@ -1,4 +1,4 @@
-# Karelian documentation
+# Viena Karelian documentation
 
 [![Maturity](https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fgiellalt%2Flang-krl%2Fgh-pages%2Fmaturity.json)](https://giellalt.github.io/MaturityClassification.html)
 ![Lemma count](https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fgiellalt%2Flang-krl%2Fgh-pages%2Flemmacount.json)
@@ -6,7 +6,7 @@
 [![Issues](https://img.shields.io/github/issues/giellalt/lang-krl)](https://github.com/giellalt/lang-krl/issues)
 [![Build Status](https://divvun-tc.giellalt.org/api/github/v1/repository/giellalt/lang-krl/main/badge.svg)](https://github.com/giellalt/lang-krl/actions)
 
-These pages document the work on the [Karelian language model](https://github.com/giellalt/lang-krl). 
+These pages document the work on the [Viena Karelian language model](https://github.com/giellalt/lang-krl). 
 
 The analyser contains appr. 64000 stems, but there still are some
 grammatical issues to solve before the coverage is good.

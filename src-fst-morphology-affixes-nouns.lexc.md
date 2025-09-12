@@ -1,5 +1,5 @@
 # Noun inflection
-This file documents Karelian noun inflection.
+This file documents Viena Karelian noun inflection.
 
 * * *
 

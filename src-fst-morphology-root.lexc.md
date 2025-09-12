@@ -1,14 +1,14 @@
 
-#         Karelian morphological analyser                      
+#         Viena Karelian morphological analyser                      
 
-This file documents the Karelian [fst/root.lexc file](https://github.com/giellalt/lang-krl/blob/main/src/fst/root.lexc)
+This file documents the Viena Karelian [fst/root.lexc file](https://github.com/giellalt/lang-krl/blob/main/src/fst/root.lexc)
 
 ## Tags and other multicharacter symbols
 
 # Definitions for Multichar_Symbols
 
 ## Analysis symbols
-The morphological analyses of wordforms for the Karelian
+The morphological analyses of wordforms for the Viena Karelian
 language are presented in this system in terms of the following symbols.
 (It is highly suggested to follow existing standards when adding new tags).
 
@@ -239,7 +239,7 @@ given the proper use of these flags.
 
 ## The Root and K lexica
 **LEXICON Root** is where it all begins
-The word forms in Karelian language start from the lexeme roots of basic
+The word forms in Viena Karelian language start from the lexeme roots of basic
 word classes, or optionally from prefixes:
 * Nouns ;
 * Verbs ;

@@ -1,4 +1,4 @@
-# Karelian particles
+# Viena Karelian particles
 
 **LEXICON Particles** gives the particles.
 

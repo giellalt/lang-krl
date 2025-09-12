@@ -1,4 +1,4 @@
-# The Karelian morphophonological/twolc rules file 
+# The Viena Karelian morphophonological/twolc rules file 
 
 This file documents the [phonology.twolc file](http://github.com/giellalt/lang-krl/blob/main/src/fst/phonology.twolc) 
 

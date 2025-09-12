@@ -1,6 +1,6 @@
 
 
-We describe here how abbreviations are in Karelian are read out, e.g.
+We describe here how abbreviations are in Viena Karelian are read out, e.g.
 for text-to-speech systems.
 
 For example:

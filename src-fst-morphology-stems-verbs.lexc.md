@@ -1,4 +1,4 @@
-# Documenting the Karelian Verb lexicon.
+# Documenting the Viena Karelian Verb lexicon.
 
 The verb lexicon contains two groups of continuation lexica
 One, with names like VERB_KUUL/UO (in capital letters and indicating stem)

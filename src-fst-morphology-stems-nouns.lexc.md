@@ -1,5 +1,5 @@
-# Karelian Nouns
-This file documents the Karelian noun stem file.
+# Viena Karelian Nouns
+This file documents the Viena Karelian noun stem file.
 The first part of the file contains stems, the second contains the 
 intermediate morphology.
 

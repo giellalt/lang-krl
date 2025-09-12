@@ -1,10 +1,10 @@
-# Karelian language model documentation
+# Viena Karelian language model documentation
 
 All doc-comment documentation in one large file.
 
 ---
 
-# src-cg3-functions.cg3.md 
+## src-cg3-functions.cg3.md 
 
 
 
@@ -43,7 +43,7 @@ part of the noun phrase of that noun (i.e., "scan to the next NP head")
 
 These were the set types.
 
-## HABITIVE MAPPING
+### HABITIVE MAPPING
 
 * **hab1** 
 
@@ -162,16 +162,16 @@ These were the set types.
 
 * **<opredAAcc** (@<OPRED) for A Acc; if an other accusative to the left, and a transtive verb to the left of it. OR: if a transitive verb to the left, and an accusative to the left of it.
 
-### sma object
+#### sma object
 
 * **<advlEss** (@<ADVL) for ESS-ADVL if; FMAINV to the left
 * **<spredEss** (@<SPRED) for N Ess if; FMAINV to the left is intransitive or bargat
 
-## SUBJ MAPPING - leftovers
+### SUBJ MAPPING - leftovers
 
-## OBJ MAPPING - leftovers
+### OBJ MAPPING - leftovers
 
-## HNOUN MAPPING
+### HNOUN MAPPING
 
 * * *
 
@@ -179,10 +179,10 @@ These were the set types.
 
 ---
 
-# src-fst-morphology-affixes-adjectives.lexc.md 
+## src-fst-morphology-affixes-adjectives.lexc.md 
 
 Adjective inflection
-The Karelian language adjectives compare.
+The Viena Karelian language adjectives compare.
 
 * * *
 
@@ -190,10 +190,10 @@ The Karelian language adjectives compare.
 
 ---
 
-# src-fst-morphology-affixes-nouns.lexc.md 
+## src-fst-morphology-affixes-nouns.lexc.md 
 
-# Noun inflection
-This file documents Karelian noun inflection.
+## Noun inflection
+This file documents Viena Karelian noun inflection.
 
 * * *
 
@@ -201,10 +201,10 @@ This file documents Karelian noun inflection.
 
 ---
 
-# src-fst-morphology-affixes-prefixes.lexc.md 
+## src-fst-morphology-affixes-prefixes.lexc.md 
 
 Prefixes
-Prefixes in the Karelian language are bound to beginning of other words.
+Prefixes in the Viena Karelian language are bound to beginning of other words.
 
 * * *
 
@@ -212,10 +212,10 @@ Prefixes in the Karelian language are bound to beginning of other words.
 
 ---
 
-# src-fst-morphology-affixes-propernouns.lexc.md 
+## src-fst-morphology-affixes-propernouns.lexc.md 
 
 Proper noun inflection
-The Karelian language proper nouns inflect in the same cases as regular
+The Viena Karelian language proper nouns inflect in the same cases as regular
 nouns, but 
 
 * * *
@@ -224,10 +224,10 @@ nouns, but
 
 ---
 
-# src-fst-morphology-affixes-symbols.lexc.md 
+## src-fst-morphology-affixes-symbols.lexc.md 
 
 
-# Symbol affixes
+## Symbol affixes
 
 * * *
 
@@ -235,9 +235,9 @@ nouns, but
 
 ---
 
-# src-fst-morphology-affixes-verbs.lexc.md 
+## src-fst-morphology-affixes-verbs.lexc.md 
 
-# Karelian Verb inflection
+## Viena Karelian Verb inflection
 The verb lexicon contains two groups of continuation lexica
 One, with names like VERB_KUUL/UO (in capital letters and indicating stem)
 have analyses like the Finnish fst (without twolc). The other group has
@@ -247,7 +247,7 @@ harmony as twolc processes.
 
 **TODO:** Clean up this and go for one of the two.
 
-## Intermediate lexica, for now pointing to present tense only.
+### Intermediate lexica, for now pointing to present tense only.
 
 **LEXICON verb**
 **LEXICON verb_deskr**
@@ -255,15 +255,15 @@ harmony as twolc processes.
 **LEXICON verb_fakt.kaus**
 ... etc. some 20 similar lexica.
 
-## Morphological lexica
+### Morphological lexica
 
-### Lexica pointing to final lexica
+#### Lexica pointing to final lexica
 
 **LEXICON vinfl** going to strong (no trigger)  and weak (^WG trigger)
 +Act+Ind:^WG verb_weak_pres ;
 +Act+Ind: verb_strong_pres ;
 
-### Final lexica (only pointing to K)
+#### Final lexica (only pointing to K)
 
 **LEXICON verb_weak_pres**
 
@@ -404,15 +404,15 @@ FIXME
 
 ---
 
-# src-fst-morphology-phonology.twolc.md 
+## src-fst-morphology-phonology.twolc.md 
 
-# The Karelian morphophonological/twolc rules file 
+## The Viena Karelian morphophonological/twolc rules file 
 
 This file documents the [phonology.twolc file](http://github.com/giellalt/lang-krl/blob/main/src/fst/phonology.twolc) 
 
-## Alphabets and sets
+### Alphabets and sets
 
-### Alpahbet
+#### Alpahbet
 - **a b c č d e f g h i j k l m n o p q r s š t u v w x y z ž**
 - **á é ó ú í à è ò ù ì ä ë ö ü ï â ê ô û î ã**
 - **A B C Č D E F G H I J K L M N O P Q R S Š T U V W X Y Z Ž**
@@ -422,7 +422,7 @@ This file documents the [phonology.twolc file](http://github.com/giellalt/lang-k
 - **%{uy%}:u %{uy%}:y**
 - **%>:0 ;**
 
-### Sets
+#### Sets
 
 - **Vow = a e i o u y**
   **á é ó ú í à è ò ù ì ä ë ö ü ï â ê ô û î ã ý ;**
@@ -430,7 +430,7 @@ This file documents the [phonology.twolc file](http://github.com/giellalt/lang-k
 - **Front = ä ö y ;**
 - **Back = a o u ;**
 
-## Rules
+### Rules
 
 **Rule: Vowel harmony basic** 
 
@@ -446,19 +446,19 @@ This file documents the [phonology.twolc file](http://github.com/giellalt/lang-k
 
 ---
 
-# src-fst-morphology-root.lexc.md 
+## src-fst-morphology-root.lexc.md 
 
 
-#         Karelian morphological analyser                      
+##         Viena Karelian morphological analyser                      
 
-This file documents the Karelian [fst/root.lexc file](https://github.com/giellalt/lang-krl/blob/main/src/fst/root.lexc)
+This file documents the Viena Karelian [fst/root.lexc file](https://github.com/giellalt/lang-krl/blob/main/src/fst/root.lexc)
 
-## Tags and other multicharacter symbols
+### Tags and other multicharacter symbols
 
-# Definitions for Multichar_Symbols
+## Definitions for Multichar_Symbols
 
-## Analysis symbols
-The morphological analyses of wordforms for the Karelian
+### Analysis symbols
+The morphological analyses of wordforms for the Viena Karelian
 language are presented in this system in terms of the following symbols.
 (It is highly suggested to follow existing standards when adding new tags).
 
@@ -626,7 +626,7 @@ symbols in the lexicon files:
 And following triggers to control variation
 * **{front} {back}**
 
-## Flag diacritics
+### Flag diacritics
 We have manually optimised the structure of our lexicon using following
 flag diacritics to restrict morhpological combinatorics - only allow compounds
 with verbs if the verb is further derived into a noun again:
@@ -687,9 +687,9 @@ given the proper use of these flags.
 |  @P.number.ten@ | Flag used to give arabic numerals in smj different cases ;
 |  @P.number.zero@ | Flag used to give arabic numerals in smj different cases ;
 
-## The Root and K lexica
+### The Root and K lexica
 **LEXICON Root** is where it all begins
-The word forms in Karelian language start from the lexeme roots of basic
+The word forms in Viena Karelian language start from the lexeme roots of basic
 word classes, or optionally from prefixes:
 * Nouns ;
 * Verbs ;
@@ -715,9 +715,9 @@ word classes, or optionally from prefixes:
 
 ---
 
-# src-fst-morphology-stems-adjectives.lexc.md 
+## src-fst-morphology-stems-adjectives.lexc.md 
 
-# Karelian Adjectives
+## Viena Karelian Adjectives
 This file documents the `stems/adjectives.lexc` file for Adjective stems 
 The files points to the `affixes/adjectives.lexc` file.
 
@@ -733,9 +733,9 @@ maybe like fin: eri, no infl.
 
 ---
 
-# src-fst-morphology-stems-adpositions.lexc.md 
+## src-fst-morphology-stems-adpositions.lexc.md 
 
-# Karelian adpositions
+## Viena Karelian adpositions
 
 adpositions
 
@@ -745,9 +745,9 @@ adpositions
 
 ---
 
-# src-fst-morphology-stems-adverbs.lexc.md 
+## src-fst-morphology-stems-adverbs.lexc.md 
 
-# Karelian adverb stems
+## Viena Karelian adverb stems
 
 ADV
 
@@ -757,9 +757,9 @@ ADV
 
 ---
 
-# src-fst-morphology-stems-conjunctions.lexc.md 
+## src-fst-morphology-stems-conjunctions.lexc.md 
 
-# Karelian conjunctions
+## Viena Karelian conjunctions
 
 conjunctions
 
@@ -769,9 +769,9 @@ conjunctions
 
 ---
 
-# src-fst-morphology-stems-interjections.lexc.md 
+## src-fst-morphology-stems-interjections.lexc.md 
 
-# Karelian interjections
+## Viena Karelian interjections
 
 @LEXNAME*
 
@@ -781,14 +781,14 @@ conjunctions
 
 ---
 
-# src-fst-morphology-stems-nouns.lexc.md 
+## src-fst-morphology-stems-nouns.lexc.md 
 
-# Karelian Nouns
-This file documents the Karelian noun stem file.
+## Viena Karelian Nouns
+This file documents the Viena Karelian noun stem file.
 The first part of the file contains stems, the second contains the 
 intermediate morphology.
 
-## The stem list
+### The stem list
 
 Nouns
 
@@ -796,7 +796,7 @@ afrikkalaine+N:afrikkalai NOUN_ELAVUTTAMI/NE ;
 aihe+N:aihe NOUN_AIH/E ;
 aikakaušlehti+N:aikakaus#leh NOUN_LEH/TI ;
 
-## The list of intermediate lexica
+### The list of intermediate lexica
 
 These lexica point to the morphology in `affixes/nouns.lexc`
 
@@ -806,7 +806,7 @@ These lexica point to the morphology in `affixes/nouns.lexc`
 
 **LEXICON a_i_ä_noun**
 
-### Intermediate lexicon, approach 2 (todo: unify)
+#### Intermediate lexicon, approach 2 (todo: unify)
 
 **LEXICON rihm/a__noun**
 
@@ -824,9 +824,9 @@ These lexica point to the morphology in `affixes/nouns.lexc`
 
 ---
 
-# src-fst-morphology-stems-numerals.lexc.md 
+## src-fst-morphology-stems-numerals.lexc.md 
 
-# Numerals
+## Numerals
 The Numerals are analysed as the ones for Finnish.
 
 **LEXICON Numerals**
@@ -851,9 +851,9 @@ The Numerals are analysed as the ones for Finnish.
 
 ---
 
-# src-fst-morphology-stems-particles.lexc.md 
+## src-fst-morphology-stems-particles.lexc.md 
 
-# Karelian particles
+## Viena Karelian particles
 
 **LEXICON Particles** gives the particles.
 
@@ -867,9 +867,9 @@ The Numerals are analysed as the ones for Finnish.
 
 ---
 
-# src-fst-morphology-stems-pronouns.lexc.md 
+## src-fst-morphology-stems-pronouns.lexc.md 
 
-# Karelian Pronouns
+## Viena Karelian Pronouns
 The file list pronoun stems .
 
 **LEXICON Pronouns**
@@ -926,9 +926,9 @@ The file list pronoun stems .
 
 ---
 
-# src-fst-morphology-stems-propernouns.lexc.md 
+## src-fst-morphology-stems-propernouns.lexc.md 
 
-# Karelian Propernouns
+## Viena Karelian Propernouns
 
 The file `stems/propernouns.lexc` lists just that.
 
@@ -940,9 +940,9 @@ The file `stems/propernouns.lexc` lists just that.
 
 ---
 
-# src-fst-morphology-stems-verbs.lexc.md 
+## src-fst-morphology-stems-verbs.lexc.md 
 
-# Documenting the Karelian Verb lexicon.
+## Documenting the Viena Karelian Verb lexicon.
 
 The verb lexicon contains two groups of continuation lexica
 One, with names like VERB_KUUL/UO (in capital letters and indicating stem)
@@ -960,7 +960,7 @@ harmony as twolc processes.
 * piteä+V:pi AUX_PI/TEÄ ;
 ... some 200 more verbs
 
-### The second list of verbs
+#### The second list of verbs
 This contains just the infinitive and points to defect paradigms for now.
 
 * aakkoa verb ;
@@ -968,7 +968,7 @@ This contains just the infinitive and points to defect paradigms for now.
 * ahavakoittuo verb ; 
 * ahavastuo verb ;
 
-## The intermediate lexica
+### The intermediate lexica
 These lexica redirects the stem to different person-number sublexica.
 
 **LEXICON kavota_katuo_verb** ... This lexicon does not work, as both stems go to the same contlex.
@@ -1205,7 +1205,7 @@ These lexica redirects the stem to different person-number sublexica.
 
 ---
 
-# src-fst-phonetics-txt2ipa.xfscript.md 
+## src-fst-phonetics-txt2ipa.xfscript.md 
 
 
 
@@ -1374,11 +1374,11 @@ retracted tongue root			_q
 
 ---
 
-# src-fst-transcriptions-transcriptor-abbrevs2text.lexc.md 
+## src-fst-transcriptions-transcriptor-abbrevs2text.lexc.md 
 
 
 
-We describe here how abbreviations are in Karelian are read out, e.g.
+We describe here how abbreviations are in Viena Karelian are read out, e.g.
 for text-to-speech systems.
 
 For example:
@@ -1396,7 +1396,7 @@ For example:
 
 ---
 
-# src-fst-transcriptions-transcriptor-numbers-digit2text.lexc.md 
+## src-fst-transcriptions-transcriptor-numbers-digit2text.lexc.md 
 
 
 
@@ -1412,26 +1412,26 @@ For example:
 
 ---
 
-# tools-grammarcheckers-grammarchecker.cg3.md 
+## tools-grammarcheckers-grammarchecker.cg3.md 
 
 
 [ L A N G U A G E ]  G R A M M A R   C H E C K E R
 
-# DELIMITERS
+## DELIMITERS
 
-# TAGS AND SETS
+## TAGS AND SETS
 
-## Tags
+### Tags
 
 This section lists all the tags inherited from the fst, and used as tags
 in the syntactic analysis. The next section, **Sets**, contains sets defined
 on the basis of the tags listed here, those set names are not visible in the output.
 
-### Beginning and end of sentence
+#### Beginning and end of sentence
 BOS
 EOS
 
-### Parts of speech tags
+#### Parts of speech tags
 
 N
 A
@@ -1458,7 +1458,7 @@ PUNCT
 COMMA
 ¶
 
-### Tags for POS sub-categories
+#### Tags for POS sub-categories
 
 Pers
 Dem
@@ -1474,7 +1474,7 @@ Allegro
 Arab
 Romertall
 
-### Tags for morphosyntactic properties
+#### Tags for morphosyntactic properties
 
 Nom
 Acc
@@ -1537,7 +1537,7 @@ VAbess
 
 Err/Orth
 
-### Semantic tags
+#### Semantic tags
 
 Sem/Act
 Sem/Ani
@@ -1570,7 +1570,7 @@ PROP-SUR
 
 TIME-N-SET
 
-###  Syntactic tags
+####  Syntactic tags
 
 @+FAUXV
 @+FMAINV
@@ -1640,22 +1640,22 @@ OBJ>-OTHERS
 SYN-V
 @X
 
-## Sets containing sets of lists and tags
+### Sets containing sets of lists and tags
 
 This part of the file lists a large number of sets based partly upon the tags defined above, and
 partly upon lexemes drawn from the lexicon.
 See the sourcefile itself to inspect the sets, what follows here is an overview of the set types.
 
-### Sets for Single-word sets
+#### Sets for Single-word sets
 
 INITIAL
 
-### Sets for word or not
+#### Sets for word or not
 
 WORD
 NOT-COMMA
 
-### Case sets
+#### Case sets
 
 ADLVCASE
 
@@ -1666,11 +1666,11 @@ NOT-NOM
 NOT-GEN
 NOT-ACC
 
-### Verb sets
+#### Verb sets
 
 NOT-V
 
-### Sets for finiteness and mood
+#### Sets for finiteness and mood
 
 REAL-NEG
 
@@ -1678,7 +1678,7 @@ MOOD-V
 
 NOT-PRFPRC
 
-### Sets for person
+#### Sets for person
 
 SG1-V
 SG2-V
@@ -1690,25 +1690,25 @@ PL1-V
 PL2-V
 PL3-V
 
-### Pronoun sets
+#### Pronoun sets
 
-### Adjectival sets and their complements
+#### Adjectival sets and their complements
 
-### Adverbial sets and their complements
+#### Adverbial sets and their complements
 
-### Sets of elements with common syntactic behaviour
+#### Sets of elements with common syntactic behaviour
 
-### NP sets defined according to their morphosyntactic features
+#### NP sets defined according to their morphosyntactic features
 
-### The PRE-NP-HEAD family of sets
+#### The PRE-NP-HEAD family of sets
 
 These sets model noun phrases (NPs). The idea is to first define whatever can
 occur in front of the head of the NP, and thereafter negate that with the
 expression **WORD - premodifiers**.
 
-### Border sets and their complements
+#### Border sets and their complements
 
-### Grammarchecker sets
+#### Grammarchecker sets
 
 * * *
 
@@ -1716,9 +1716,9 @@ expression **WORD - premodifiers**.
 
 ---
 
-# tools-tokenisers-tokeniser-disamb-gt-desc.pmscript.md 
+## tools-tokenisers-tokeniser-disamb-gt-desc.pmscript.md 
 
-# Tokeniser for krl
+## Tokeniser for krl
 
 Usage:
 ```
@@ -1762,7 +1762,7 @@ ASCII digits
 so far:
 * U+F0B7 for "x in box"
 
-## Unknown handling
+### Unknown handling
 Unknowns are tagged ?? and treated specially with `hfst-tokenise`
 hfst-tokenise --giella-cg will treat such empty analyses as unknowns, and
 remove empty analyses from other readings. Empty readings are also
@@ -1781,9 +1781,9 @@ Finally we mark as a token any sequence making up a:
 
 ---
 
-# tools-tokenisers-tokeniser-gramcheck-gt-desc.pmscript.md 
+## tools-tokenisers-tokeniser-gramcheck-gt-desc.pmscript.md 
 
-# Grammar checker tokenisation for krl
+## Grammar checker tokenisation for krl
 
 Requires a recent version of HFST (3.10.0 / git revision>=3aecdbc)
 Then just:
@@ -1846,9 +1846,9 @@ Finally we mark as a token any sequence making up a:
 
 ---
 
-# tools-tokenisers-tokeniser-tts-cggt-desc.pmscript.md 
+## tools-tokenisers-tokeniser-tts-cggt-desc.pmscript.md 
 
-# TTS tokenisation for smj
+## TTS tokenisation for smj
 
 Requires a recent version of HFST (3.10.0 / git revision>=3aecdbc)
 Then just:

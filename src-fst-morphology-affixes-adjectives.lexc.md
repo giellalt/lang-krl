@@ -1,5 +1,5 @@
 Adjective inflection
-The Karelian language adjectives compare.
+The Viena Karelian language adjectives compare.
 
 * * *
 

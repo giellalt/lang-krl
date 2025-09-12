@@ -1,4 +1,4 @@
-# Karelian adpositions
+# Viena Karelian adpositions
 
 adpositions
 
