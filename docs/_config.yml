@@ -3,6 +3,7 @@ title: Viena Karelian NLP Grammar
 description: Finite state and Constraint Grammar based analysers, proofing tools and language resources for the Viena Karelian language
 plugins:
   - jemoji
+  - jekyll-include-cache
 
 markdown: kramdown
 kramdown:
