@@ -5,5 +5,5 @@ template_sha = "4712e7cbb43166fccf1100b5e6791c0f3de2f261"
 [replacements]
 __REPO__ = "lang-krl"
 __UND2C__ = "krl"
-__UNDEFINED__ = "Karelian"
+__UNDEFINED__ = "Viena Karelian"
 __UND__ = "krl"

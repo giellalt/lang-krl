@@ -6,6 +6,6 @@ dir=${datadir}/giella/${gtlang}
 srcdir=${datadir}/giella/${gtlang}
 
 Name: giella-krl
-Description: Finite-state language processing tools for Karelian
+Description: Finite-state language processing tools for Viena Karelian
 URL: https://giellalt.uit.no/index.html
 Version: @VERSION@
