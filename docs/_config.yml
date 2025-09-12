@@ -1,6 +1,6 @@
 theme: jekyll-theme-minimal
 title: Viena Karelian NLP Grammar
-description: Finite state and Constraint Grammar based analysers, proofing tools and other resources
+description: Finite state and Constraint Grammar based analysers, proofing tools and language resources for the Viena Karelian language
 plugins:
   - jemoji
 
