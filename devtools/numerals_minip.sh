@@ -10,7 +10,7 @@
 # sh devtools/numeral_minip.sh '^pää[ :+]' 
 
 
-LOOKUP=$(echo $LOOKUP)
+LOOKUP=$(echo $HLOOKUP)
 GTLANGS=$(echo $GTLANGS)
 
 
@@ -19,14 +19,13 @@ L_FILE="in.txt"
 cut -d '!' -f1 src/fst/morphology/stems/numerals.lexc | egrep $PATTERN | sed 's/% /%/g' | tr ' +' ':' | cut -d ':' -f1 | sed 's/%/% /g' | tr -d '%'>$L_FILE
 
 
-P_FILE="src/fst/morphology/test/testnumeralpradigm.txt"
+P_FILE="src/fst/morphology/test/testnumeralparadigm.txt"
 
 for lemma in $(cat $L_FILE);
 do
  for form in $(cat $P_FILE);
  do
-  echo "${lemma}${form}" | $LOOKUP $GTHOME/startup-langs/krl/src/generator-gt-norm.xfst
-  # echo "${lemma}${form}" | $LOOKUP $GTHOME/startup-langs/krl/src/generator-gt-norm.xfst
+  echo "${lemma}${form}" | $HLOOKUP $GTHOME/startup-langs/krl/src/generator-gt-norm.hfstol
  done
  rm -f $L_FILE
 done
