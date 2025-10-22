@@ -5,6 +5,7 @@
 [![License](https://img.shields.io/github/license/giellalt/lang-krl)](https://github.com/giellalt/lang-krl/blob/main/LICENSE)
 [![Issues](https://img.shields.io/github/issues/giellalt/lang-krl)](https://github.com/giellalt/lang-krl/issues)
 [![Build Status](https://builds.giellalt.org/api/badge/lang-krl?label=CI)](https://builds.giellalt.org/pipelines/lang-krl/builds/latest)
+[![Glottolog](https://img.shields.io/badge/Glottolog-green)](https://glottolog.org/resource/languoid/id/__GLOTTOLOG_ID__)
 
 These pages document the work on the [Viena Karelian language model](https://github.com/giellalt/lang-krl). 
 
