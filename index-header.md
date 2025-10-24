@@ -4,7 +4,8 @@
 ![Lemma count](https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fgiellalt%2Flang-krl%2Fgh-pages%2Flemmacount.json)
 [![License](https://img.shields.io/github/license/giellalt/lang-krl)](https://github.com/giellalt/lang-krl/blob/main/LICENSE)
 [![Issues](https://img.shields.io/github/issues/giellalt/lang-krl)](https://github.com/giellalt/lang-krl/issues)
-[![Build Status](https://divvun-tc.giellalt.org/api/github/v1/repository/giellalt/lang-krl/main/badge.svg)](https://github.com/giellalt/lang-krl/actions)
+[![Build Status](https://builds.giellalt.org/api/badge/lang-krl?label=CI)](https://builds.giellalt.org/pipelines/lang-krl/builds/latest)
+[![Glottolog](https://img.shields.io/badge/Glottolog-green)](https://glottolog.org/resource/languoid/id/kare1335)
 
 These pages document the work on the [Viena Karelian language model](https://github.com/giellalt/lang-krl). 
 
