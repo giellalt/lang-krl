@@ -1,9 +1,17 @@
-theme: jekyll-theme-minimal
+remote_theme: giellalt/jekyll-theme-giellalt@main
 title: Viena Karelian NLP Grammar
 description: Finite state and Constraint Grammar based analysers, proofing tools and language resources for the Viena Karelian language
 plugins:
-  - jemoji
+  - jekyll-remote-theme
+  - jekyll-seo-tag
+  - jekyll-github-metadata
   - jekyll-include-cache
+  - jemoji
+
+defaults:
+  - scope: { path: "" }
+    values:
+      layout: default
 
 markdown: kramdown
 kramdown:
